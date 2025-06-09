@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-const ContactUs = () => {
+const ContactUsFrom = () => {
   const [Catergory, setCategory] = useState("");
   const [errorCategory, setErrorCategory] = useState("");
 
@@ -80,8 +80,8 @@ const ContactUs = () => {
 
   return (
     <div className="py-4 my-5">
-      <div className="row py-lg-5 gy-4">
-        <h4 className="text-center fw-bold">Contact Us</h4>
+      <div className="row py-lg-5 gy-4 mx-auto">
+        <h4 className="text-center">Contact Us</h4>
         <div className="col-11 col-lg-6 col-xl-6 mx-auto">
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
@@ -173,4 +173,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default ContactUsFrom;
