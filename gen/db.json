@@ -394,7 +394,7 @@
             "id": 1, "name": "Home", "path": "/", "icon": "bi-house"
         },
         { 
-            "id": 2, "name": "Shop", "path": "/shop", "icon": "bi-bag"
+            "id": 2, "name": "Shop", "path": "/admin", "icon": "bi-bag"
         },
         { 
             "id": 3, "name": "About", "path": "/about", "icon": "bi-info-circle" 
