@@ -1,0 +1,27 @@
+.testimony-section {
+  background-color: #f8f9fa;
+}
+
+.review-column {
+  position: relative;
+  height: 250vh; /* enough scroll space to trigger stacking */
+  overflow: visible;
+}
+
+/* Sticky stacking cards */
+.stacked-review {
+  position: sticky;
+  top: 120px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+/* Optional icon circle styling */
+.icon-circle {
+  background: #e9f1ff;
+  padding: 0.6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
