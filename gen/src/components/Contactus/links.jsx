@@ -15,15 +15,18 @@ const LinksSocialMedia = () => {
 
     return (
         <div className="py-4 my-4">
-            <div className="row">
+            <div className="row justify-content-center">
+                <p className="text-center">we are also on the following</p>
                 <div className="col-11 col-md-10 col-lg-10 col-xl-10">
-                    <div className="row gy-2 py-3 justify-content-evenly">
+                    <div className="row gy-2 py-3 justify-content-evenly ">
                         {socialLinks.map((item, index) => (
-                            <a key={index} href={item.link} className="btn">
-                                <span>
-                                    <i className={item.icon}></i>
-                                </span>
-                            </a>
+                            <div className="col-auto">
+                                <a key={index} href={item.link} className="btn">
+                                    <span>
+                                        <i className={item.icon}></i>
+                                    </span>
+                                </a>
+                            </div>
                         ))}
                     </div>
                 </div>

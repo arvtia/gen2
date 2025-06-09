@@ -10,6 +10,7 @@ import AdminHome from "../src/AdminPanel/Admin";
 import AboutUs from "./pages/About";
 import ContactUs from "./pages/contactus";
 import ErrorPage from "./pages/Error";
+import AdminNavbar from "./AdminPanel/components/Navbar";
 
 
 
@@ -22,6 +23,7 @@ function AppLayout() {
     <>
       {/* Show client navbar/footer only on non-admin routes */}
       {!isAdminRoute && <Navbar />}
+      {isAdminRoute && <AdminNavbar />}
       
       <Routes>
        
