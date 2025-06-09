@@ -388,9 +388,21 @@
             "comment": "Crystal clear and ultra-protective! My phone screen feels brand new with this tempered glass. No bubbles, easy application, and strong durability!",
             "icons": "ph-cell-signal-high"
         }
+    ],
+    "navLinks": [
+        { 
+            "id": 1, "name": "Home", "path": "/", "icon": "bi-house"
+        },
+        { 
+            "id": 2, "name": "Shop", "path": "/shop", "icon": "bi-bag"
+        },
+        { 
+            "id": 3, "name": "About", "path": "/about", "icon": "bi-info-circle" 
+        },
+        { 
+            "id": 4, "name": "Contact", "path": "/contactus", "icon": "bi-telephone" 
+        }
     ]
-
-
 
     
 }

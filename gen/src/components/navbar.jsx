@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import BrandNavbar from "./animated";
+import { useEffect, useState } from "react";
 
 const imgUser = [
   {
@@ -9,14 +10,21 @@ const imgUser = [
 ];
 
 // Dynamic nav links
-const navLinks = [
-  { id: 1, name: "Home", path: "/", icon: "bi-house" },
-  { id: 2, name: "Shop", path: "/shop", icon: "bi-bag" },
-  { id: 3, name: "About", path: "/about", icon: "bi-info-circle" },
-  { id: 4, name: "Contact", path: "/contact", icon: "bi-telephone" },
-];
 
 const Navbar = () => {
+
+    const [ navLinks, setNavLinks] = useState ([]);
+
+    useEffect(() => {
+    fetch('http://localhost:5000/navLinks')
+        .then((res) => res.json())
+        .then((data) => setNavLinks(data))
+        .catch((err) => {
+        console.error("Error occurred while fetching data:", err);
+        });
+    }, []);
+
+
   return (
     <>
       {/* Top Navbar */}

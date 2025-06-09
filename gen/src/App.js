@@ -8,6 +8,8 @@ import Navbar from "./components/navbar";
 import AdminFooter from "./AdminPanel/components/footer";
 import AdminHome from "../src/AdminPanel/Admin";
 import AboutUs from "./pages/About";
+import ContactUs from "./pages/contactus";
+import ErrorPage from "./pages/Error";
 
 
 
@@ -27,6 +29,9 @@ function AppLayout() {
         <Route path="/about" element={< AboutUs/>} />
     
         <Route path="/admin" element={<AdminHome/>} />
+        <Route path="/contactus" element ={<ContactUs />} />
+        {/* <Route path="/shop" element={<Shop />} /> */}
+        <Route path="*" element={<ErrorPage />} />
 
       </Routes>
 
