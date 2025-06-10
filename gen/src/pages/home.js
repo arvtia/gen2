@@ -13,6 +13,7 @@ const Home = () =>{
         <>
         <Slider />
         <WrapperProducts />
+        
         {/* <Carousel/> */}
         <CarouselLast />
         <FindMore />

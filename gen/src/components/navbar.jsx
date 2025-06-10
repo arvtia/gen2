@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import BrandNavbar from "./animated";
 import { useEffect, useState } from "react";
 
@@ -35,7 +35,7 @@ const Navbar = () => {
             className="navbar-brand overflow-hidden d-flex align-items-center"
           >
             <BrandNavbar />
-            <p className="fs-4 fw-bold font-monospace mt-2 ms-1">GEN-nGY</p>
+            <p className="fs-4 fw-bold font-monospace mt-2 ms-1">Zen-gy</p>
           </Link>
 
           <div className="d-flex align-items-center ms-auto">

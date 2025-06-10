@@ -397,9 +397,6 @@
             "id": 2, "name": "Shop", "path": "/admin", "icon": "bi-bag"
         },
         { 
-            "id": 3, "name": "About", "path": "/about", "icon": "bi-info-circle" 
-        },
-        { 
             "id": 4, "name": "Contact", "path": "/contactus", "icon": "bi-telephone" 
         }
     ],

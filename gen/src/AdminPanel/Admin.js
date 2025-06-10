@@ -1,11 +1,11 @@
-import Admin from "./components/app"
-import AdminNavbar from "./components/Navbar";
+import MainDIv from "./components/mainDiv";
+
 
 
 const AdminHome =() =>{
     return(
         <>
-            
+          <MainDIv />
         </>
     )
 }

@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router";
+import { BrowserRouter, Routes, Route, useLocation, useParams } from "react-router-dom";
+
 
 import Footer from "./components/footer";
 import Home from "./pages/home";
@@ -31,9 +32,13 @@ function AppLayout() {
         <Route path="/about" element={< AboutUs/>} />
     
         <Route path="/admin" element={<AdminHome/>} />
+
+
+
         <Route path="/contactus" element ={<ContactUs />} />
         {/* <Route path="/shop" element={<Shop />} /> */}
         <Route path="*" element={<ErrorPage />} />
+
 
       </Routes>
 

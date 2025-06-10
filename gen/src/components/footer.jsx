@@ -1,4 +1,4 @@
-import { Link } from "react-router"; // use 'react-router-dom' if using React Router v6+
+import { Link } from "react-router-dom"; // use 'react-router-dom' if using React Router v6+
 
 const Footer = () => {
   return (

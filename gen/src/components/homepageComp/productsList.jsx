@@ -1,6 +1,7 @@
-import { Link } from "react-router";
-import './productsJson'
+import { Link } from "react-router-dom";
+
 import { useState, useEffect } from "react";
+import CategoryMenu from "./categorymenu";
 
 
 
@@ -14,6 +15,9 @@ const navItems = [
     { name: "Sub Category", id: "sub-category", subItems: ["Gen-gy verified", "Smart Pick", "Top Sellers", "Trending"] },
     { name: "Sort", id: "sort", subItems: [] }
 ];
+
+
+
 
 
 const WrapperProducts =() =>{
@@ -80,56 +84,56 @@ const SecondSection =() =>{
         </>
     )
 }
-const CategoryMenu = () => {
+// const CategoryMenu = () => {
 
-    const [Category, setCategory] = useState([]);
+//     const [Category, setCategory] = useState([]);
 
-    useEffect(()=>{
-        fetch('http://localhost:5000/NavList')
-        .then((res) => res.json())
-        .then((data)=> setCategory(data))
-        .catch((err) => {
-        console.error('Failed to fetch products:', err);
-      });
+//     useEffect(()=>{
+//         fetch('http://localhost:5000/NavList')
+//         .then((res) => res.json())
+//         .then((data)=> setCategory(data))
+//         .catch((err) => {
+//         console.error('Failed to fetch products:', err);
+//       });
         
-    }, []);
+//     }, []);
 
-    return (
-        <div className="col-12 col-xl-12 col-lg-12  px-2">
-            <div className="col-auto">
-                <p className="fs-4 fw-bolder text-dark">Category</p>
-                <div className="d-flex flex-column align-items-start px-3 pt-2 text-white">
-                    <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
-                        {Category.map((item, index) => (
-                            <li key={index} className="nav-item">
-                                <Link
-                                    to="#"
-                                    data-bs-toggle={item.subItems.length > 0 ? "collapse" : ""}
-                                    data-bs-target={`#${item.id}`}
-                                    className="nav-link px-0 text-dark fs-5"
-                                >
-                                    {item.name}
-                                </Link>
-                                {item.subItems.length > 0 && (
-                                    <ul className="collapse nav flex-column ms-1 custom-dropdown" id={item.id}>
-                                        {item.subItems.map((subItem, subIndex) => (
-                                            <li key={subIndex} className="custom-dropdown-item">
-                                                <Link to="#" className="nav-link ps-2 text-dark">
-                                                    {subItem}
-                                                </Link>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                )}
-                            </li>
-                        ))}
-                    </ul>
+//     return (
+//         <div className="col-12 col-xl-12 col-lg-12  px-2">
+//             <div className="col-auto">
+//                 <p className="fs-4 fw-bolder text-dark">Category</p>
+//                 <div className="d-flex flex-column align-items-start px-3 pt-2 text-white">
+//                     <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
+//                         {Category.map((item, index) => (
+//                             <li key={index} className="nav-item">
+//                                 <Link
+//                                     to="#"
+//                                     data-bs-toggle={item.subItems.length > 0 ? "collapse" : ""}
+//                                     data-bs-target={`#${item.id}`}
+//                                     className="nav-link px-0 text-dark fs-5"
+//                                 >
+//                                     {item.name}
+//                                 </Link>
+//                                 {item.subItems.length > 0 && (
+//                                     <ul className="collapse nav flex-column ms-1 custom-dropdown" id={item.id}>
+//                                         {item.subItems.map((subItem, subIndex) => (
+//                                             <li key={subIndex} className="custom-dropdown-item">
+//                                                 <Link to="#" className="nav-link ps-2 text-dark">
+//                                                     {subItem}
+//                                                 </Link>
+//                                             </li>
+//                                         ))}
+//                                     </ul>
+//                                 )}
+//                             </li>
+//                         ))}
+//                     </ul>
 
-                </div>
-            </div>
-        </div>
-    );
-};
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// };
 
 
 const ProductsList =() =>{
