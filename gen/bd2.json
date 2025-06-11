@@ -187,6 +187,32 @@
       ],
       "description": "anytihg can be description for testing \nanytihg can be description for testing anytihg can be description for testing anytihg can be description for testing anytihg can be description for testing ",
       "stock": "121"
+    },
+    {
+      "id": 1749646594441,
+      "productName": "speakers bass boosted",
+      "price": "21",
+      "color": "black ",
+      "discount": "16",
+      "size": "",
+      "inStock": "",
+      "category": "electronic",
+      "categoryImg": "",
+      "subcategory": "sound",
+      "brand": "boat",
+      "specifications": [],
+      "tags": [
+        "Zen-Gy Verified"
+      ],
+      "imagesCollection": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "description": "bass boosted speakers in the marker for the sake of shareholders and investors ",
+      "stock": "101"
     }
   ]
 }

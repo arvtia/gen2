@@ -277,35 +277,44 @@ const AdminProductList = () => {
                 </button>
             </div>
 
-            {/* Images Upload */}
+            {/* uploading images */}
             <div className="mb-3">
                 <label className="form-label">Upload Images</label>
                 <input
-                type="file"
-                className="form-control"
-                multiple
-                accept="image/*"
-                onChange={(e) =>
-                    setNewProduct({ ...newProduct, imagesCollection: Array.from(e.target.files) })
-                }
+                    type="file"
+                    className="form-control"
+                    multiple
+                    accept="image/*"
+                    onChange={(e) => {
+                    const selectedFiles = Array.from(e.target.files);
+                    setNewProduct({
+                        ...newProduct,
+                        imagesCollection: selectedFiles, // Replaces previous selection
+                    });
+                    }}
                 />
-                <div className="mt-2">
-                {newProduct.imagesCollection.map((img, i) => (
-                    <div key={i} className="badge bg-secondary text-wrap me-1">
-                    {img.name}
-                    <button
-                        type="button"
-                        className="btn-close btn-close-white btn-sm ms-2"
-                        aria-label="Remove"
-                        onClick={() => {
-                        const imgs = newProduct.imagesCollection.filter((_, idx) => idx !== i);
-                        setNewProduct({ ...newProduct, imagesCollection: imgs });
-                        }}
-                    ></button>
+                {newProduct.imagesCollection.length > 0 && (
+                    <div className="mt-2">
+                    <h6>Selected Images:</h6>
+                    <div className="d-flex flex-wrap gap-2">
+                        {newProduct.imagesCollection.map((img, i) => (
+                        <div key={i} className="badge bg-secondary text-wrap p-2 d-flex align-items-center">
+                            {img.name}
+                            <button
+                            type="button"
+                            className="btn-close btn-close-white btn-sm ms-2"
+                            aria-label="Remove"
+                            onClick={() => {
+                                const updatedImages = newProduct.imagesCollection.filter((_, idx) => idx !== i);
+                                setNewProduct({ ...newProduct, imagesCollection: updatedImages });
+                            }}
+                            ></button>
+                        </div>
+                        ))}
                     </div>
-                ))}
+                    </div>
+                )}
                 </div>
-            </div>
 
             <button type="submit" className="btn btn-success w-100">
                 Add Product
