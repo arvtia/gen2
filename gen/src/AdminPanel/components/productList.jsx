@@ -4,7 +4,7 @@ const AdminProductList = () => {
   const [productList, setProductList] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/Products")
+    fetch("http://localhost:3002/products")
       .then((res) => res.json())
       .then((data) => setProductList(data))
       .catch((err) => {
@@ -13,52 +13,55 @@ const AdminProductList = () => {
   }, []);
 
   return (
-    <div className="container py-4">
-      <h3 className="mb-4 text-center fw-bold">Product List</h3>
-      <div className="table-responsive shadow-sm rounded">
-        <table className="table table-hover table-striped align-middle">
-          <thead className="table-dark">
-            <tr>
-              <th>#</th>
-              <th>Image</th>
-              <th>Brand</th>
-              <th>Name</th>
-              <th>Price</th>
-              <th>Category</th>
-              <th>Specs</th>
-              <th>Review</th>
-            </tr>
-          </thead>
-          <tbody>
-            {productList.map((item, index) => (
-              <tr key={item.product_id}>
-                <td>{index + 1}</td>
-                <td>
-                  <img
-                    src={item.image}
-                    alt={item.product_name}
-                    width="60"
-                    height="60"
-                    className="rounded border"
-                    style={{ objectFit: "cover" }}
-                  />
-                </td>
-                <td>{item.brand_name}</td>
-                <td>{item.product_name}</td>
-                <td>{item.price}</td>
-                <td>{item.catergory}</td>
-                <td>
-                  <ul className="mb-0 ps-3">
-                    {item.specifications?.map((spec, idx) => (
-                      <li key={idx}>{spec}</li>
-                    ))}
-                  </ul>
-                </td>
-                <td>{item.review}</td>
+    <div className="py-5 my-5">
+      <p className="display-2">Product List</p>
+      <div className="mt-2">
+        <div className="col-12 col-lg-12 col-xl-12 overflow-x-scroll">
+          <table className="table table-bordered table-striped">
+            <thead className="thead-dark">
+              <tr>
+                <th>Category</th>
+                <th>Subcategory</th>
+                <th>Brand</th>
+                <th>Product Name</th>
+                <th>Color</th>
+                <th>Price</th>
+                <th>Discount</th>
+                <th>Stock</th>
+                <th>Specifications</th>
+                <th>Tags</th>
+                <th>Images</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {productList.map((category) =>
+                category.subcategories.map((subcategory) =>
+                  subcategory.brands.map((brand) =>
+                    brand.products.map((product, index) => (
+                      <tr key={index}>
+                        <td>{category.categoryName}</td>
+                        <td>{subcategory.subcategoryName}</td>
+                        <td>{brand.brandName}</td>
+                        <td>{product.productName}</td>
+                        <td>{product.color}</td>
+                        <td>${product.price}</td>
+                        <td>{product.discount}</td>
+                        <td>{product.inStock === "y" ? "Available" : "Out of Stock"}</td>
+                        <td>{product.specifications.join(", ")}</td>
+                        <td>{product.tags.join(", ")}</td>
+                        <td>
+                          {product.imagesCollection.map((img, imgIndex) => (
+                            <img key={imgIndex} src={img} alt="Product" style={{ width: "50px", marginRight: "5px" }} />
+                          ))}
+                        </td>
+                      </tr>
+                    ))
+                  )
+                )
+              )}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );

@@ -10,8 +10,9 @@ import ErrorPage from "./pages/Error";
 import AdminNavbar from "./AdminPanel/components/Navbar";
 import AdminFooter from "./AdminPanel/components/footer";
 import AdminHome from "./AdminPanel/Admin";
-import {ProductsTable, Settings, Users } from "./AdminPanel/components/sample";
+import { Settings, Users } from "./AdminPanel/components/sample";
 import ShopNow from "./pages/shop";
+import AdminProductList from "./AdminPanel/components/productList";
 
 function AppLayout() {
   const location = useLocation();
@@ -34,7 +35,7 @@ function AppLayout() {
 
         {/* Admin Routes */}
         <Route path="/admin" element={<AdminHome />}>
-            <Route path="products" element={<ProductsTable />} />
+            <Route path="products" element={<AdminProductList />} />
             <Route path="users" element={<Users />} />
             <Route path="settings" element={<Settings />} />
         </Route>
