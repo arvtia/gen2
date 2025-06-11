@@ -12,7 +12,8 @@ import AdminFooter from "./AdminPanel/components/footer";
 import AdminHome from "./AdminPanel/Admin";
 import { Settings, Users } from "./AdminPanel/components/sample";
 import ShopNow from "./pages/shop";
-import AdminProductList from "./AdminPanel/components/productList";
+import AdminProductList from "./AdminPanel/crud";
+
 
 function AppLayout() {
   const location = useLocation();

@@ -7,9 +7,6 @@ const AdminNavbar =()=> {
             <Link className="navbar-brand fw-bold" to="/admin">
             🛠 Admin Panel
             </Link>
-
-            
-
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2">
                 <li className="nav-item">
                     <Link className="nav-link" to="/admin/:id">
