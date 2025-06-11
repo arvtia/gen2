@@ -1,55 +1,382 @@
 {
     "products": [
         {
-            "category": "earbuds",
-            "subcategory": "Wireless Earbuds",
-            "brands": [
+            "categoryName": "earbuds",
+            "img":"https://tinyurl.com/hsabev84",
+            "subcategories": [
                 {
-                    "brandName": "EarWave",
-                    "products": [
+                    "subcategoryName": "Wireless Earbuds",
+                    "img":"https://tinyurl.com/2phdymkt",
+                    "brands": [
                         {
-                            "color": "Black",
-                            "size": "Standard",
-                            "discount": "10%",
-                            "productId": "EW101",
-                            "productName": "EarWave Bass Boost",
-                            "inStock": "y",
-                            "price": 39.99,
-                            "images": "earwave_main.jpg",
-                            "specifications": ["Bluetooth 5.0", "Noise Cancellation", "10-hour battery life"],
-                            "tags": ["smart pick", "trending"],
-                            "imagesCollection": [
-                                "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
-                                "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
-                                "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
-                                "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"
-
+                            "brandName": "Zebronics",
+                            "img":"https://tinyurl.com/3rdm77m9",
+                            "products": [
+                                {
+                                    "color": "Black",
+                                    "size": "Standard",
+                                    "discount": "10%",
+                                    "productId": "EW101",
+                                    "productName": "EarWave Bass Boost",
+                                    "inStock": "y",
+                                    "price": 39.99,
+                                    "images": "earwave_main.jpg",
+                                    "specifications": [
+                                        "Bluetooth 5.0",
+                                        "Noise Cancellation",
+                                        "10-hour battery life"
+                                    ],
+                                    "tags": ["smart pick", "trending"],
+                                    "imagesCollection": [
+                                        "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
+                                        "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"
+                                    ]
+                                }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "brandName": "Earlocal",
-                    "products": [
+                        },
                         {
-                            "color": "Black",
-                            "size": "Standard",
-                            "discount": "10%",
-                            "productId": "EW102",
-                            "productName": "EarWave Bass Boost XL",
-                            "inStock": "y",
-                            "price": 49.99,
-                            "images": "earlocal_main.jpg",
-                            "specifications": ["Bluetooth 5.0", "Noise Cancellation", "12-hour battery life"],
-                            "tags": ["top pick", "new arrival"],
-                            "imagesCollection": [
-                                "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL",
-                                "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL"
+                            "brandName": "Boat",
+                            "img":"https://tinyurl.com/53zy4sty",
+                            "products": [
+                                {
+                                    "color": "Black",
+                                    "size": "Standard",
+                                    "discount": "10%",
+                                    "productId": "EW102",
+                                    "productName": "EarWave Bass Boost XL",
+                                    "inStock": "y",
+                                    "price": 49.99,
+                                    "images": "earlocal_main.jpg",
+                                    "specifications": [
+                                        "Bluetooth 5.0",
+                                        "Noise Cancellation",
+                                        "12-hour battery life"
+                                    ],
+                                    "tags": ["top pick", "new arrival"],
+                                    "imagesCollection": [
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL",
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "brandName": "iphone",
+                            "img":"https://tinyurl.com/mt3b5ccc",
+                            "products": [
+                                {
+                                    "color": "Black",
+                                    "size": "Standard",
+                                    "discount": "10%",
+                                    "productId": "EW102",
+                                    "productName": "EarWave Bass Boost XL",
+                                    "inStock": "y",
+                                    "price": 49.99,
+                                    "images": "earlocal_main.jpg",
+                                    "specifications": [
+                                        "Bluetooth 5.0",
+                                        "Noise Cancellation",
+                                        "12-hour battery life"
+                                    ],
+                                    "tags": ["top pick", "new arrival"],
+                                    "imagesCollection": [
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL",
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL"
+                                    ]
+                                }
                             ]
                         }
                     ]
                 }
             ]
+        },
+        {
+            "categoryName": "Speaker",
+            "img":"src",
+            "subcategories": [
+                {
+                    "subcategoryName": "Home Theater",
+                    "img":"src",
+                    "brands": [
+                        {
+                            "brandName": "zumangi",
+                            "img":"src",
+                            "products": [
+                                {
+                                    "color": "Black",
+                                    "size": "Standard",
+                                    "discount": "10%",
+                                    "productId": "EW101",
+                                    "productName": "Home theatre extra bassed",
+                                    "inStock": "y",
+                                    "price": 2299,
+                                    "images": "earwave_main.jpg",
+                                    "specifications": [
+                                        "Bluetooth 5.0",
+                                        "Noise Cancellation",
+                                        "10-hour battery life"
+                                    ],
+                                    "tags": ["smart pick", "trending"],
+                                    "imagesCollection": [
+                                        "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
+                                        "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "brandName": "Zebronics",
+                            "products": [
+                                {
+                                    "color": "Black",
+                                    "size": "Standard",
+                                    "discount": "10%",
+                                    "productId": "EW102",
+                                    "productName": "4 sided 4d home theatre",
+                                    "inStock": "y",
+                                    "price": 23999,
+                                    "images": "earlocal_main.jpg",
+                                    "specifications": [
+                                        "Bluetooth 5.0",
+                                        "Noise Cancellation",
+                                        "12-hour battery life"
+                                    ],
+                                    "tags": ["top pick", "new arrival"],
+                                    "imagesCollection": [
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL",
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "brandName": "Kingfisher",
+                            "products": [
+                                {
+                                    "color": "Black",
+                                    "size": "Standard",
+                                    "discount": "10%",
+                                    "productId": "EW102",
+                                    "productName": "EarWave Bass Boost XL",
+                                    "inStock": "y",
+                                    "price": 5899,
+                                    "images": "earlocal_main.jpg",
+                                    "specifications": [
+                                        "Bluetooth 5.0",
+                                        "Noise Cancellation",
+                                        "12-hour battery life"
+                                    ],
+                                    "tags": ["top pick", "new arrival"],
+                                    "imagesCollection": [
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL",
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subcategoryName": "Party Speakers",
+                    "img":"src",
+                    "brands": [
+                        {
+                            "brandName": "Mega chucks",
+                            "img":"src",
+                            "products": [
+                                {
+                                    "color": "Black",
+                                    "size": "Standard",
+                                    "discount": "10%",
+                                    "productId": "EW101",
+                                    "productName": "Party Speakers 1000 DRI",
+                                    "inStock": "y",
+                                    "price": 48990,
+                                    "images": "earwave_main.jpg",
+                                    "specifications": [
+                                        "Bluetooth 5.0",
+                                        "Noise Cancellation",
+                                        "10-hour battery life"
+                                    ],
+                                    "tags": ["trending"],
+                                    "imagesCollection": [
+                                        "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
+                                        "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "brandName": "Zebronics",
+                            "products": [
+                                {
+                                    "color": "Black",
+                                    "size": "Standard",
+                                    "discount": "10%",
+                                    "productId": "EW102",
+                                    "productName": "bhagi Speakers",
+                                    "inStock": "y",
+                                    "price": 49.99,
+                                    "images": "earlocal_main.jpg",
+                                    "specifications": [
+                                        "Bluetooth 5.0",
+                                        "Noise Cancellation",
+                                        "12-hour battery life"
+                                    ],
+                                    "tags": ["top pick", "new arrival"],
+                                    "imagesCollection": [
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL",
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "brandName": "Zebronics",
+                            "products": [
+                                {
+                                    "color": "Black",
+                                    "size": "Standard",
+                                    "discount": "10%",
+                                    "productId": "EW102",
+                                    "productName": "Speakers Party Bassed beast",
+                                    "inStock": "y",
+                                    "price": 49.99,
+                                    "images": "earlocal_main.jpg",
+                                    "specifications": [
+                                        "Bluetooth 5.0",
+                                        "Noise Cancellation",
+                                        "12-hour battery life"
+                                    ],
+                                    "tags": ["top pick", "new arrival"],
+                                    "imagesCollection": [
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL",
+                                        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "categoryName": "Neckbands",
+            "img": "https://dummyimage.com/200x200/000/fff&text=Neckbands",
+            "subcategories": [
+                {
+                    "subcategoryName": "Wireless Neckbands",
+                    "img": "https://dummyimage.com/200x200/111/fff&text=Wireless+Neckbands",
+                    "brands": [
+                        {
+                            "brandName": "SoundMax",
+                            "img": "https://dummyimage.com/100x50/222/fff&text=SoundMax",
+                            "products": [
+                            {
+                                "color": "Blue",
+                                "size": "Adjustable",
+                                "discount": "15%",
+                                "productId": "SM-NB1001",
+                                "productName": "SoundMax FlexTone",
+                                "inStock": "y",
+                                "price": 59.99,
+                                "images": "soundmax_flextone_main.jpg",
+                                "specifications": [
+                                "Bluetooth 5.2",
+                                "IPX5 Water Resistant",
+                                "14-hour battery life"
+                                ],
+                                "tags": [
+                                "bestseller",
+                                "durable"
+                                ],
+                                "imagesCollection": [
+                                "https://dummyimage.com/200x200/333/fff&text=FlexTone+Front",
+                                "https://dummyimage.com/200x200/333/fff&text=FlexTone+Side"
+                                ]
+                            },
+                            {
+                                "color": "Black",
+                                "size": "Standard",
+                                "discount": "10%",
+                                "productId": "SM-NB1002",
+                                "productName": "SoundMax BassLoop",
+                                "inStock": "y",
+                                "price": 49.99,
+                                "images": "soundmax_bassloop_main.jpg",
+                                "specifications": [
+                                "Bluetooth 5.0",
+                                "Noise Isolation",
+                                "12-hour battery life"
+                                ],
+                                "tags": [
+                                "top pick",
+                                "value"
+                                ],
+                                "imagesCollection": [
+                                "https://dummyimage.com/200x200/111/fff&text=BassLoop+Front",
+                                "https://dummyimage.com/200x200/111/fff&text=BassLoop+Side"
+                                ]
+                            }
+                            ]
+                        },
+                        {
+                            "brandName": "BassKing",
+                            "img": "https://dummyimage.com/100x50/444/fff&text=BassKing",
+                            "products": [
+                                {
+                                    "color": "Red",
+                                    "size": "Flexible",
+                                    "discount": "20%",
+                                    "productId": "BK-NB2001",
+                                    "productName": "BassKing ThunderBand",
+                                    "inStock": "y",
+                                    "price": 69.99,
+                                    "images": "bassking_thunderband_main.jpg",
+                                    "specifications": [
+                                    "Bluetooth 5.3",
+                                    "Deep Bass Mode",
+                                    "18-hour battery life"
+                                    ],
+                                    "tags": [
+                                    "new arrival",
+                                    "high bass"
+                                    ],
+                                    "imagesCollection": [
+                                    "https://dummyimage.com/200x200/555/fff&text=ThunderBand+1",
+                                    "https://dummyimage.com/200x200/555/fff&text=ThunderBand+2"
+                                    ]
+                                },
+                                {
+                                    "color": "Green",
+                                    "size": "Ergonomic",
+                                    "discount": "12%",
+                                    "productId": "BK-NB2002",
+                                    "productName": "BassKing LiteBand",
+                                    "inStock": "n",
+                                    "price": 39.99,
+                                    "images": "bassking_liteband_main.jpg",
+                                    "specifications": [
+                                    "Bluetooth 5.1",
+                                    "Featherlight Design",
+                                    "10-hour battery life"
+                                    ],
+                                    "tags": [
+                                    "lightweight",
+                                    "compact"
+                                    ],
+                                    "imagesCollection": [
+                                    "https://dummyimage.com/200x200/666/fff&text=LiteBand+Front",
+                                    "https://dummyimage.com/200x200/666/fff&text=LiteBand+Back"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+
+                }
+            ]
         }
+
     ]
 }
