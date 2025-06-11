@@ -15,7 +15,7 @@
             "images": "earwave_main.jpg",
             "specifications": ["Bluetooth 5.0", "Noise Cancellation", "10-hour battery life"],
             "tags": ["smart pick", "trending"],
-            "imagesCollection": ["https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSCrWD01BKO6qYq8HbcmCDcH1h4_XMheTg50ZIcC0oqNmeqpHlRF-Jo3crCkcU1eCu_LNmpW1-NmvT1k2rB8KXXR2KTllDwWNPrrRt3xzTraRD5gNoPwz2Pwg", "earwave2.jpg", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSCrWD01BKO6qYq8HbcmCDcH1h4_XMheTg50ZIcC0oqNmeqpHlRF-Jo3crCkcU1eCu_LNmpW1-NmvT1k2rB8KXXR2KTllDwWNPrrRt3xzTraRD5gNoPwz2Pwg", "earwave4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "earbuds",
@@ -32,7 +32,7 @@
             "images": "earwave_pro_main.jpg",
             "specifications": ["Bluetooth 5.1", "Touch Controls", "IPX7 Waterproof"],
             "tags": ["zen-gy verified", "top seller"],
-            "imagesCollection": ["earwavepro1.jpg", "earwavepro2.jpg", "earwavepro3.jpg", "earwavepro4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "headphone",
@@ -49,7 +49,7 @@
             "images": "soundmax_main.jpg",
             "specifications": ["Hi-Res Audio", "Multipoint Connectivity", "Active Noise Cancellation"],
             "tags": ["top seller", "trending"],
-            "imagesCollection": ["soundmax1.jpg", "soundmax2.jpg", "soundmax3.jpg", "soundmax4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "neckband",
@@ -66,7 +66,7 @@
             "images": "necktune_main.jpg",
             "specifications": ["Flexible Neckband", "Long Battery Life", "Effortless Controls"],
             "tags": ["smart pick"],
-            "imagesCollection": ["necktune1.jpg", "necktune2.jpg", "necktune3.jpg", "necktune4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "wired earphone",
@@ -83,7 +83,7 @@
             "images": "clearsound_main.jpg",
             "specifications": ["High Fidelity Sound", "Tangle-free Cable", "Universal Compatibility"],
             "tags": ["zen-gy verified"],
-            "imagesCollection": ["clearsound1.jpg", "clearsound2.jpg", "clearsound3.jpg", "clearsound4.jpg"]
+             "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "bluetooth speaker",
@@ -100,7 +100,7 @@
             "images": "boombox_main.jpg",
             "specifications": ["Deep Bass", "Water Resistant", "10-hour Playtime"],
             "tags": ["trending", "top seller"],
-            "imagesCollection": ["boombox1.jpg", "boombox2.jpg", "boombox3.jpg", "boombox4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "sound bar",
@@ -117,7 +117,7 @@
             "images": "audiopro_main.jpg",
             "specifications": ["Dolby Sound", "Wireless Subwoofer", "HDMI Input"],
             "tags": ["zen-gy verified", "smart pick"],
-            "imagesCollection": ["audiopro1.jpg", "audiopro2.jpg", "audiopro3.jpg", "audiopro4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "party speaker",
@@ -134,7 +134,7 @@
             "images": "partyboom_main.jpg",
             "specifications": ["360° Sound", "LED Lights", "Bluetooth Connectivity"],
             "tags": ["top seller", "trending"],
-            "imagesCollection": ["partyboom1.jpg", "partyboom2.jpg", "partyboom3.jpg", "partyboom4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "chargers",
@@ -151,7 +151,7 @@
             "images": "chargepro_main.jpg",
             "specifications": ["Fast Charging", "USB-C", "Overcharge Protection"],
             "tags": ["smart pick"],
-            "imagesCollection": ["chargepro1.jpg", "chargepro2.jpg", "chargepro3.jpg", "chargepro4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "data cables",
@@ -168,7 +168,7 @@
             "images": "cabletech_main.jpg",
             "specifications": ["Durable Build", "High-Speed Data Transfer", "Tangle-Free"],
             "tags": ["zen-gy verified", "trending"],
-            "imagesCollection": ["cabletech1.jpg", "cabletech2.jpg", "cabletech3.jpg", "cabletech4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "power banks",
@@ -185,7 +185,7 @@
             "images": "powerplus_main.jpg",
             "specifications": ["10000mAh Capacity", "Fast Charging", "Dual USB Ports"],
             "tags": ["top seller", "smart pick"],
-            "imagesCollection": ["powerplus1.jpg", "powerplus2.jpg", "powerplus3.jpg", "powerplus4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "wireless car play",
@@ -202,7 +202,7 @@
             "images": "carconnect_main.jpg",
             "specifications": ["Apple CarPlay & Android Auto", "Plug and Play", "Sleek Design"],
             "tags": ["zen-gy verified", "trending"],
-            "imagesCollection": ["carconnect1.jpg", "carconnect2.jpg", "carconnect3.jpg", "carconnect4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         },
         {
             "category": "other",
@@ -219,7 +219,7 @@
             "images": "electromix_main.jpg",
             "specifications": ["Multi-functional", "Innovative Design", "Energy Efficient"],
             "tags": ["smart pick"],
-            "imagesCollection": ["electromix1.jpg", "electromix2.jpg", "electromix3.jpg", "electromix4.jpg"]
+            "imagesCollection": ["https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X", "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"]
         }
     ]
 

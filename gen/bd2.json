@@ -1,0 +1,55 @@
+{
+    "products": [
+        {
+            "category": "earbuds",
+            "subcategory": "Wireless Earbuds",
+            "brands": [
+                {
+                    "brandName": "EarWave",
+                    "products": [
+                        {
+                            "color": "Black",
+                            "size": "Standard",
+                            "discount": "10%",
+                            "productId": "EW101",
+                            "productName": "EarWave Bass Boost",
+                            "inStock": "y",
+                            "price": 39.99,
+                            "images": "earwave_main.jpg",
+                            "specifications": ["Bluetooth 5.0", "Noise Cancellation", "10-hour battery life"],
+                            "tags": ["smart pick", "trending"],
+                            "imagesCollection": [
+                                "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
+                                "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
+                                "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
+                                "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X"
+
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "brandName": "Earlocal",
+                    "products": [
+                        {
+                            "color": "Black",
+                            "size": "Standard",
+                            "discount": "10%",
+                            "productId": "EW102",
+                            "productName": "EarWave Bass Boost XL",
+                            "inStock": "y",
+                            "price": 49.99,
+                            "images": "earlocal_main.jpg",
+                            "specifications": ["Bluetooth 5.0", "Noise Cancellation", "12-hour battery life"],
+                            "tags": ["top pick", "new arrival"],
+                            "imagesCollection": [
+                                "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL",
+                                "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

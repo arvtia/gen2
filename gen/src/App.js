@@ -11,6 +11,7 @@ import AdminNavbar from "./AdminPanel/components/Navbar";
 import AdminFooter from "./AdminPanel/components/footer";
 import AdminHome from "./AdminPanel/Admin";
 import {ProductsTable, Settings, Users } from "./AdminPanel/components/sample";
+import ShopNow from "./pages/shop";
 
 function AppLayout() {
   const location = useLocation();
@@ -29,6 +30,7 @@ function AppLayout() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="*" element={<ErrorPage />} />
+        <Route path="/cart" element={ <ShopNow />} />
 
         {/* Admin Routes */}
         <Route path="/admin" element={<AdminHome />}>
