@@ -6,8 +6,10 @@
       "price": "7998",
       "color": "black",
       "discount": "2",
-      "size": [],
-      "inStock": "",
+      "size": [
+        "N/A"
+      ],
+      "inStock": "209",
       "category": "TWS",
       "categoryImg": "",
       "subcategory": "Earbuds",
@@ -33,7 +35,7 @@
       "stock": "120"
     },
     {
-      "id": 1749722301253,
+      "id": "1749722301253",
       "productName": "ONEPLUS EARBUD",
       "price": "323",
       "color": "Green",
@@ -62,7 +64,7 @@
       "description": "Seamless connectivity: Instantaneous pairing with OnePlus smartphone, as soon as you open the charging case lid. It also has Google Fast Pair that helps to connect any android phones easily. To use earbuds functions, please upgrade the Wireless Earphones APP or OnePlus Buds APP to the latest version from Google Play."
     },
     {
-      "id": 1749723544039,
+      "id": "1749723544039",
       "productName": "BOAT EARBUD",
       "price": "799",
       "color": "black",
@@ -88,6 +90,35 @@
         "https://www.boat-lifestyle.com/cdn/shop/products/Beast_black_1000x.jpg?v=1702007882"
       ],
       "description": "Let the noise of the world drown as you jam to your rhythm with Airdopes 148. Equipped with 8mm drivers, these dope wireless earbuds make your playlist sound better with crystal clear audio quality and powerful bass. Experience seamless calling and be clearly heard with ENxTM Technology. That is not all, ASAPTM Charge technology empowers you with 75 minutes of playback with just 5 minutes of charging. With IPX4 Sweat and Water Resistance,"
+    },
+    {
+      "id": 1749726145811,
+      "productName": "Sony WF-1000XM5",
+      "price": "24999",
+      "color": "Black",
+      "discount": "5",
+      "size": "N/A",
+      "inStock": "233",
+      "category": "TWS",
+      "categoryImg": "",
+      "subcategory": "Earbuds",
+      "brand": "Sony",
+      "specifications": [
+        "Dimensions: Earbuds: 26.5 mm x 23.5 mm x 18.5 mm",
+        "Earbuds: 5.5g, Case: 38g",
+        "Touch controls, in-ear detection",
+        "Active Noise Cancellation, LDAC, Speak-to-Chat, Adaptive Sound Control, Precise Voice Pickup"
+      ],
+      "tags": [
+        "Top Sellers"
+      ],
+      "imagesCollection": [
+        "https://m.media-amazon.com/images/I/61GJAFdM9pL.jpg",
+        "https://sony.scene7.com/is/image/sonyglobalsolutions/feature4_M-6?$mediumstaticimagehotspot$",
+        "https://www.incredible.co.za/api/catalog/product/w/f/wf_1000xm5_bme__1_1_ecommerce_0a0b.png?width=700&height=700&store=incredibleconnection&image-type=image",
+        "https://www.soundandvision.com/images/styles/600_wide/public/072423_SV_1000XM5.jpg"
+      ],
+      "description": "Sony WF-1000XM5 earbuds feature industry-leading noise cancellation, LDAC for high-resolution audio, and a comfortable ergonomic design. They provide 24-hour battery life with fast charging and seamless Bluetooth 5.3 connectivity.\n "
     }
   ]
 }

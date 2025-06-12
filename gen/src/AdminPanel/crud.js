@@ -64,7 +64,7 @@ const AdminProductList = () => {
     <div className="py-5 my-5">
       <p className="display-2 ">Product List</p>
       <div className="table-responsive">
-        <table className="table table-bordered table-striped">
+        <table className="table table-bordered table-striped table-hover">
             <thead className="thead-dark">
             <tr>
                 <th>Product Name</th>
@@ -159,7 +159,7 @@ const AdminProductList = () => {
 
 
       {selectedProduct && (
-            <div className="mt-4 p-4 border rounded bg-light">
+            <div className="mt-4 p-4 border rounded bg-light" id="EDIT_PRODUCT_FORM">
                 <h4>Edit Product</h4>
                 <form onSubmit={handleUpdate}>
                 <div className="mb-3">
@@ -280,7 +280,7 @@ const AdminProductList = () => {
                 </div>
 
                 {/* Specifications Input List */}
-                <div className="mb-3">
+                <div className="mb-3 d-flex flex-column">
                     <label className="form-label">Specifications</label>
                     {selectedProduct.specifications.map((spec, index) => (
                     <div key={index} className="input-group mb-1">
@@ -316,7 +316,7 @@ const AdminProductList = () => {
                 </div>
 
                 {/* Image collection links */}
-                <div className="mb-3">
+                <div className="mb-3 d-flex flex-column">
                     <label className="form-label">Image Collection</label>
                     {selectedProduct.imagesCollection.map((spec, index) => (
                     <div key={index} className="input-group mb-1">
@@ -358,279 +358,290 @@ const AdminProductList = () => {
             )}
 
 
-    
+    {/* separation -  */}
 
-        <form onSubmit={handleAdd} className="p-4 mt-3 border rounded bg-light">
-            <p className="fs-2"> Add a New Product</p>
-            {/* Product Name */}
-            <div className="mb-3">
-                <label className="form-label">Product Name</label>
-                <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Enter product name"
-                    value={newProduct.productName}
-                    onChange={(e) => setNewProduct({ ...newProduct, productName: e.target.value })}
-                    required
-                />
-            </div>
+        <div>
+            <div className="row py-2 my-4">
+                <div className="col-12 col-lg-9 col-xl-9 p-lg-5 ">
+                    <form onSubmit={handleAdd} className="p-4 mt-3 border rounded bg-light" id="ADD_PRODUCT_FORM">
+                        <p className="fs-2"> Add a New Product</p>
+                        {/* Product Name */}
+                        <div className="mb-3">
+                            <label className="form-label">Product Name</label>
+                            <input
+                                type="text"
+                                className="form-control"
+                                placeholder="Enter product name"
+                                value={newProduct.productName}
+                                onChange={(e) => setNewProduct({ ...newProduct, productName: e.target.value })}
+                                required
+                            />
+                        </div>
 
-            {/* Product Color */}
-            <div className="mb-3">
-                <label className="form-label">Product Color</label>
-                <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Enter product color"
-                    value={newProduct.color}
-                    onChange={(e) => setNewProduct({ ...newProduct, color: e.target.value })}
-                    required
-                />
-            </div>
+                        {/* Product Color */}
+                        <div className="mb-3">
+                            <label className="form-label">Product Color</label>
+                            <input
+                                type="text"
+                                className="form-control"
+                                placeholder="Enter product color"
+                                value={newProduct.color}
+                                onChange={(e) => setNewProduct({ ...newProduct, color: e.target.value })}
+                                required
+                            />
+                        </div>
 
-            {/* product size- */}
-            <div className="mb-3">
-                <label className="form-label">Product Image</label>
-                <input
-                    list="size"
-                    className="form-control"
-                    type="text"
-                    placeholder="Enter product description"
-                    value={newProduct.size}
-                    onChange={(e) => setNewProduct({ ...newProduct, size: e.target.value })}
-                    required
-                />
-                <datalist id="size">
-                    <option value="Small" />
-                    <option value="Medium" />
-                    <option value="Large" />
-                    <option value="Ergonimic" />
-                </datalist>
-            </div>
+                        {/* product size- */}
+                        <div className="mb-3">
+                            <label className="form-label">Product Image</label>
+                            <input
+                                list="size"
+                                className="form-control"
+                                type="text"
+                                placeholder="Enter product description"
+                                value={newProduct.size}
+                                onChange={(e) => setNewProduct({ ...newProduct, size: e.target.value })}
+                                required
+                            />
+                            <datalist id="size">
+                                <option value="Small" />
+                                <option value="Medium" />
+                                <option value="Large" />
+                                <option value="Ergonimic" />
+                            </datalist>
+                        </div>
 
-            {/* Discount */}
-            <div className="mb-3">
-                <label className="form-label">Discount (%)</label>
-                <input
-                type="number"
-                className="form-control"
-                placeholder="Enter discount"
-                value={newProduct.discount}
-                onChange={(e) => setNewProduct({ ...newProduct, discount: e.target.value })}
-                required
-                />
-            </div>
+                        {/* Discount */}
+                        <div className="mb-3">
+                            <label className="form-label">Discount (%)</label>
+                            <input
+                            type="number"
+                            className="form-control"
+                            placeholder="Enter discount"
+                            value={newProduct.discount}
+                            onChange={(e) => setNewProduct({ ...newProduct, discount: e.target.value })}
+                            required
+                            />
+                        </div>
 
-            {/* Price */}
-            <div className="mb-3">
-                <label className="form-label">Price</label>
-                <input
-                type="number"
-                className="form-control"
-                placeholder="Enter price"
-                value={newProduct.price}
-                onChange={(e) => setNewProduct({ ...newProduct, price: e.target.value })}
-                required
-                />
-            </div>
+                        {/* Price */}
+                        <div className="mb-3">
+                            <label className="form-label">Price</label>
+                            <input
+                            type="number"
+                            className="form-control"
+                            placeholder="Enter price"
+                            value={newProduct.price}
+                            onChange={(e) => setNewProduct({ ...newProduct, price: e.target.value })}
+                            required
+                            />
+                        </div>
 
-            {/* Description */}
-            <div className="mb-3">
-                <label className="form-label">Product Description</label>
-                <textarea
-                className="form-control"
-                placeholder="Enter product description"
-                value={newProduct.description}
-                onChange={(e) => setNewProduct({ ...newProduct, description: e.target.value })}
-                required
-                />
-            </div>
+                        {/* Description */}
+                        <div className="mb-3">
+                            <label className="form-label">Product Description</label>
+                            <textarea
+                            className="form-control"
+                            placeholder="Enter product description"
+                            value={newProduct.description}
+                            onChange={(e) => setNewProduct({ ...newProduct, description: e.target.value })}
+                            required
+                            />
+                        </div>
 
-            {/* Stock Quantity */}
-            <div className="mb-3">
-                <label className="form-label">Stock Quantity</label>
-                <input
-                    type="number"
-                    className="form-control"
-                    placeholder="Enter stock quantity"
-                    value={newProduct.inStock}
-                    onChange={(e) => setNewProduct({ ...newProduct, inStock: e.target.value })}
-                    required
-                />
-            </div>
+                        {/* Stock Quantity */}
+                        <div className="mb-3">
+                            <label className="form-label">Stock Quantity</label>
+                            <input
+                                type="number"
+                                className="form-control"
+                                placeholder="Enter stock quantity"
+                                value={newProduct.inStock}
+                                onChange={(e) => setNewProduct({ ...newProduct, inStock: e.target.value })}
+                                required
+                            />
+                        </div>
 
-            {/* Category */}
-            <div className="mb-3">
-                <label className="form-label">Category</label>
-                <input
-                    list="Category"
-                    type="text"
-                    className="form-control"
-                    placeholder="Enter category"
-                    value={newProduct.category}
-                    onChange={(e) => setNewProduct({ ...newProduct, category: e.target.value })}
-                />
-                <datalist id="Category">
-                    <option value="TWS" />
-                    <option value="Neckband" />
-                    <option value="Sound Bars" />
-                    <option value="Speakers" />
-                    <option value="Headphones" />
-                    <option value="wired earphone" />
-                    <option value="bluetooth speaker" />
-                    <option value="Party Speaker" />
-                    <option value="Charger" />
-                    <option value="Data cables" />
-                    <option value="Power Bank" />
-                    <option value="Wireless car play" />
-                </datalist>
-            </div>
+                        {/* Category */}
+                        <div className="mb-3">
+                            <label className="form-label">Category</label>
+                            <input
+                                list="Category"
+                                type="text"
+                                className="form-control"
+                                placeholder="Enter category"
+                                value={newProduct.category}
+                                onChange={(e) => setNewProduct({ ...newProduct, category: e.target.value })}
+                            />
+                            <datalist id="Category">
+                                <option value="TWS" />
+                                <option value="Neckband" />
+                                <option value="Sound Bars" />
+                                <option value="Speakers" />
+                                <option value="Headphones" />
+                                <option value="wired earphone" />
+                                <option value="bluetooth speaker" />
+                                <option value="Party Speaker" />
+                                <option value="Charger" />
+                                <option value="Data cables" />
+                                <option value="Power Bank" />
+                                <option value="Wireless car play" />
+                            </datalist>
+                        </div>
 
-            {/* Subcategory */}
-            <div className="mb-3">
-                <label className="form-label">Subcategory</label>
-                <input
-                    list="Subcategory"
-                    type="text"
-                    className="form-control"
-                    placeholder="Enter subcategory"
-                    value={newProduct.subcategory}
-                    onChange={(e) => setNewProduct({ ...newProduct, subcategory: e.target.value })}
-                />
-                <datalist id="Subcategory">
-                    <option value="Party Speaker" />
-                    <option value="Neck band" />
-                    <option value="Sound Bar" />
-                    <option value="Chargers" />
-                    <option value="Wireless Earphones" />
-                    <option value="Bluetooth Speaker" />
-                </datalist>
-            </div>
+                        {/* Subcategory */}
+                        <div className="mb-3">
+                            <label className="form-label">Subcategory</label>
+                            <input
+                                list="Subcategory"
+                                type="text"
+                                className="form-control"
+                                placeholder="Enter subcategory"
+                                value={newProduct.subcategory}
+                                onChange={(e) => setNewProduct({ ...newProduct, subcategory: e.target.value })}
+                            />
+                            <datalist id="Subcategory">
+                                <option value="Party Speaker" />
+                                <option value="Neck band" />
+                                <option value="Sound Bar" />
+                                <option value="Chargers" />
+                                <option value="Wireless Earphones" />
+                                <option value="Bluetooth Speaker" />
+                            </datalist>
+                        </div>
 
-            {/* Brand Select/Input */}
-            <div className="mb-3">
-                <label className="form-label">Brand</label>
-                <input
-                list="brandOptions"
-                className="form-control"
-                placeholder="Select or enter brand"
-                value={newProduct.brand}
-                onChange={(e) => setNewProduct({ ...newProduct, brand: e.target.value })}
-                />
-                <datalist  id="brandOptions">
-                    <option value="Sony" />
-                    <option value="Bose" />
-                    <option value="JBL" />
-                    <option value="Sennheiser" />
-                    <option value="Beats" />
-                    <option value="Skullcandy" />
-                    <option value="Boat" />
-                    <option value="Zebronics" />
-                    <option value="Nothing" />
-                </datalist>
-            </div>
+                        {/* Brand Select/Input */}
+                        <div className="mb-3">
+                            <label className="form-label">Brand</label>
+                            <input
+                            list="brandOptions"
+                            className="form-control"
+                            placeholder="Select or enter brand"
+                            value={newProduct.brand}
+                            onChange={(e) => setNewProduct({ ...newProduct, brand: e.target.value })}
+                            />
+                            <datalist  id="brandOptions">
+                                <option value="Sony" />
+                                <option value="Bose" />
+                                <option value="JBL" />
+                                <option value="Sennheiser" />
+                                <option value="Beats" />
+                                <option value="Skullcandy" />
+                                <option value="Boat" />
+                                <option value="Zebronics" />
+                                <option value="Nothing" />
+                            </datalist>
+                        </div>
 
 
-            {/* Tags Multi-Select */}
-            <div className="mb-3">
-                <label className="form-label">Tags</label>
-                <select
-                    multiple
-                    className="form-select"
-                    value={newProduct.tags}
-                    onChange={(e) =>
-                    setNewProduct({
-                        ...newProduct,
-                        tags: Array.from(e.target.selectedOptions, (option) => option.value),
-                    })
-                    }
-                >
-                    <option value="Smart Pick">Smart Pick</option>
-                    <option value="Zen-Gy Verified">Zen-Gy Verified</option>
-                    <option value="Trending">Trending</option>
-                    <option value="Top Sellers">Top Sellers</option>
-                </select>
-            </div>
+                        {/* Tags Multi-Select */}
+                        <div className="mb-3">
+                            <label className="form-label">Tags</label>
+                            <select
+                                multiple
+                                className="form-select"
+                                value={newProduct.tags}
+                                onChange={(e) =>
+                                setNewProduct({
+                                    ...newProduct,
+                                    tags: Array.from(e.target.selectedOptions, (option) => option.value),
+                                })
+                                }
+                            >
+                                <option value="Smart Pick">Smart Pick</option>
+                                <option value="Zen-Gy Verified">Zen-Gy Verified</option>
+                                <option value="Trending">Trending</option>
+                                <option value="Top Sellers">Top Sellers</option>
+                            </select>
+                        </div>
 
-            {/* Specifications Input List */}
-            <div className="mb-3">
-                <label className="form-label">Specifications</label>
-                {newProduct.specifications.map((spec, index) => (
-                <div key={index} className="input-group mb-1">
-                    <input
-                    type="text"
-                    className="form-control"
-                    value={spec}
-                    placeholder={`Specification ${index + 1}`}
-                    onChange={(e) => {
-                        const specs = [...newProduct.specifications];
-                        specs[index] = e.target.value;
-                        setNewProduct({ ...newProduct, specifications: specs });
-                    }}
-                    />
-                    <button
-                    type="button"
-                    className="btn btn-outline-danger"
-                    onClick={() => {
-                        const specs = newProduct.specifications.filter((_, i) => i !== index);
-                        setNewProduct({ ...newProduct, specifications: specs });
-                    }}
-                    >
-                        <i className="bi bi-x"></i>
-                    </button>
+                        {/* Specifications Input List */}
+                        <div className="mb-3 d-flex flex-column">
+                            <label className="form-label">Specifications</label>
+                            {newProduct.specifications.map((spec, index) => (
+                            <div key={index} className="input-group mb-1">
+                                <input
+                                type="text"
+                                className="form-control"
+                                value={spec}
+                                placeholder={`Specification ${index + 1}`}
+                                onChange={(e) => {
+                                    const specs = [...newProduct.specifications];
+                                    specs[index] = e.target.value;
+                                    setNewProduct({ ...newProduct, specifications: specs });
+                                }}
+                                />
+                                <button
+                                type="button"
+                                className="btn btn-outline-success"
+                                onClick={() => {
+                                    const specs = newProduct.specifications.filter((_, i) => i !== index);
+                                    setNewProduct({ ...newProduct, specifications: specs });
+                                }}
+                                >
+                                    <i className="bi bi-x"></i>
+                                </button>
+                            </div>
+                            ))}
+                            <button
+                                type="button"
+                                className="btn btn-outline-dark btn-sm"
+                                onClick={() => setNewProduct({ ...newProduct, specifications: [...newProduct.specifications, ""] })}
+                            >
+                            Add specifications
+                            </button>
+                        </div>
+
+                        {/* image collection links recieve */}
+                        <div className="mb-3 d-flex flex-column">
+                            <label className="form-label">Image Collection</label>
+                            {newProduct.imagesCollection.map((spec, index) => (
+                            <div key={index} className="input-group mb-1">
+                                <input
+                                    type="text"
+                                    className="form-control"
+                                    value={spec}
+                                    placeholder={`Specification ${index + 1}`}
+                                    onChange={(e) => {
+                                        const specs = [...newProduct.imagesCollection];
+                                        specs[index] = e.target.value;
+                                        setNewProduct({ ...newProduct, imagesCollection: specs });
+                                    }}
+                                />
+                                <button
+                                    type="button"
+                                    className="btn"
+                                    onClick={() => {
+                                        const specs = newProduct.imagesCollection.filter((_, i) => i !== index);
+                                        setNewProduct({ ...newProduct, imagesCollection: specs });
+                                    }}
+                                >
+                                    <i className="bi bi-x"></i>
+                                </button>
+                                <small  class="form-text text-muted">paste link here</small>
+                            </div>
+                            ))}
+                            <button
+                            type="button"
+                            className="btn btn-outline-dark btn-sm"
+                            onClick={() => setNewProduct({ ...newProduct, imagesCollection: [...newProduct.imagesCollection, ""] })}
+                            >
+                            Add images
+                            </button>
+                        </div>
+
+                        <button type="submit" className="btn btn-success w-100">
+                            Add Product 
+                        </button>
+                    </form>
+                </div> 
+                <div className="col-12 col-lg-3 col-xl-3">
+                    <img src={""} className="img-fluid" />
                 </div>
-                ))}
-                <button
-                    type="button"
-                    className="btn btn-outline-primary btn-sm"
-                    onClick={() => setNewProduct({ ...newProduct, specifications: [...newProduct.specifications, ""] })}
-                >
-                Add specifications
-                </button>
             </div>
+        </div>
 
-            {/* image collection links recieve */}
-            <div className="mb-3">
-                <label className="form-label">Image Collection</label>
-                {newProduct.imagesCollection.map((spec, index) => (
-                <div key={index} className="input-group mb-1">
-                    <input
-                        type="text"
-                        className="form-control"
-                        value={spec}
-                        placeholder={`Specification ${index + 1}`}
-                        onChange={(e) => {
-                            const specs = [...newProduct.imagesCollection];
-                            specs[index] = e.target.value;
-                            setNewProduct({ ...newProduct, imagesCollection: specs });
-                        }}
-                    />
-                    <button
-                        type="button"
-                        className="btn"
-                        onClick={() => {
-                            const specs = newProduct.imagesCollection.filter((_, i) => i !== index);
-                            setNewProduct({ ...newProduct, imagesCollection: specs });
-                        }}
-                    >
-                        <i className="bi bi-x"></i>
-                    </button>
-                    <small  class="form-text text-muted">paste link here</small>
-                </div>
-                ))}
-                <button
-                type="button"
-                className="btn btn-outline-primary btn-sm"
-                onClick={() => setNewProduct({ ...newProduct, imagesCollection: [...newProduct.imagesCollection, ""] })}
-                >
-                Add images
-                </button>
-            </div>
-
-            <button type="submit" className="btn btn-success w-100">
-                Add Product 
-            </button>
-        </form>
+        
     </div>
   );
 };
