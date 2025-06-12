@@ -1,15 +1,75 @@
 {
   "products": [
     {
+      "id": "10",
+      "productId": "212122",
+      "productName": "SoundMax BassLoop",
+      "price": 49.99,
+      "color": "Black",
+      "size": "Standard",
+      "discount": "10%",
+      "inStock": "y",
+      "stockQuantity": 1,
+      "category": "Neckbands",
+      "categoryImg": "https://tinyurl.com/yusm22p3",
+      "subcategory": "Wireless Neckbands",
+      "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Wireless+Neckbands",
+      "brand": "SoundMax",
+      "brandImg": "https://dummyimage.com/100x50/222/fff&text=SoundMax",
+      "specifications": [
+        "Bluetooth 5.0",
+        "Noise Isolation",
+        "12-hour battery life"
+      ],
+      "tags": [
+        "top pick",
+        "value"
+      ],
+      "imagesCollection": [
+        "https://dummyimage.com/200x200/111/fff&text=BassLoop+Front",
+        "https://dummyimage.com/200x200/111/fff&text=BassLoop+Side",
+        "https://dummyimage.com/200x200/111/fff&text=BassLoop+Side",
+        "https://dummyimage.com/200x200/111/fff&text=BassLoop+Side"
+      ]
+    },
+    {
+      "id": "11",
+      "productId": "324231",
+      "productName": "QuickCharge TurboCable",
+      "price": 14.99,
+      "color": "Black",
+      "length": "1m",
+      "discount": "10%",
+      "inStock": "y",
+      "stockQuantity": 1,
+      "category": "Data Cables",
+      "categoryImg": "https://tinyurl.com/ys8ddey6",
+      "subcategory": "Fast Charging Cables",
+      "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Fast+Charging+Cables",
+      "brand": "QuickCharge",
+      "brandImg": "https://dummyimage.com/100x50/222/fff&text=QuickCharge",
+      "specifications": [
+        "USB-C to USB-A",
+        "Supports 18W Fast Charging",
+        "Durable Braided Cable"
+      ],
+      "tags": [
+        "fast charge",
+        "durable"
+      ],
+      "imagesCollection": [
+        "https://dummyimage.com/200x200/333/fff&text=TurboCable+Front",
+        "https://dummyimage.com/200x200/333/fff&text=TurboCable+Side"
+      ]
+    },
+    {
       "id": "1749708463758",
       "productName": "Nothing Ear",
       "price": "7998",
       "color": "black",
       "discount": "2",
-      "size": [
-        "N/A"
-      ],
-      "inStock": "209",
+      "size": [],
+      "inStock": "",
       "category": "TWS",
       "categoryImg": "",
       "subcategory": "Earbuds",
@@ -35,90 +95,86 @@
       "stock": "120"
     },
     {
-      "id": "1749722301253",
-      "productName": "ONEPLUS EARBUD",
-      "price": "323",
-      "color": "Green",
-      "discount": "2",
-      "size": "N/A",
-      "inStock": "2",
-      "category": "TWS",
-      "categoryImg": "",
-      "subcategory": "Earbuds",
-      "brand": "OnePlus",
-      "specifications": [
-        "24 hours to 36 hours battery backup",
-        "OG sound quality",
-        "Stunning Glossy and chromic look of earbuds",
-        "Colours available – Black, White, Green"
-      ],
-      "tags": [
-        "Top Sellers"
-      ],
-      "imagesCollection": [
-        "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/30978905/2024/9/25/48e79151-5467-4289-93ba-2fbc7087c9631727243482872-OnePlus-Unisex-Headphones-5391727243482688-1.jpg",
-        "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/30978905/2024/9/25/14e5cd19-da5f-4f95-98b6-1f9820c834ea1727243482776-OnePlus-Unisex-Headphones-5391727243482688-5.jpg",
-        "https://img.tatacliq.com/images/i23//437Wx649H/MP000000025831801_437Wx649H_202503271128592.jpeg",
-        "https://i.ebayimg.com/images/g/OfAAAOSwDRtnrIc~/s-l400.png"
-      ],
-      "description": "Seamless connectivity: Instantaneous pairing with OnePlus smartphone, as soon as you open the charging case lid. It also has Google Fast Pair that helps to connect any android phones easily. To use earbuds functions, please upgrade the Wireless Earphones APP or OnePlus Buds APP to the latest version from Google Play."
-    },
-    {
-      "id": "1749723544039",
-      "productName": "BOAT EARBUD",
-      "price": "799",
-      "color": "black",
-      "discount": "2",
-      "size": "N/A",
-      "inStock": "17",
-      "category": "TWS",
-      "categoryImg": "",
-      "subcategory": "Earbuds  ",
-      "brand": "Boat",
-      "specifications": [
-        "Wireless Earbuds with 8mm Drivers. ",
-        "IWP & ENxTM Technology",
-        "ASAP Fast Charge, Upto 42 hours Playback",
-        "IPX4 Sweat & Water Resistance"
-      ],
-      "tags": [
-        "Top Sellers"
-      ],
-      "imagesCollection": [
-        "https://www.boat-lifestyle.com/cdn/shop/files/ACCGNFV3VGRBUHTQ_0_1000x.jpg?v=1727670252",
-        "https://www.boat-lifestyle.com/cdn/shop/products/NirvanaION-FI_Black02-a_1000x.png?v=1678780574",
-        "https://www.boat-lifestyle.com/cdn/shop/products/Beast_black_1000x.jpg?v=1702007882"
-      ],
-      "description": "Let the noise of the world drown as you jam to your rhythm with Airdopes 148. Equipped with 8mm drivers, these dope wireless earbuds make your playlist sound better with crystal clear audio quality and powerful bass. Experience seamless calling and be clearly heard with ENxTM Technology. That is not all, ASAPTM Charge technology empowers you with 75 minutes of playback with just 5 minutes of charging. With IPX4 Sweat and Water Resistance,"
-    },
-    {
-      "id": 1749726145811,
-      "productName": "Sony WF-1000XM5",
+      "id": 1749731637507,
+      "productName": "Sony WX-11000",
       "price": "24999",
       "color": "Black",
-      "discount": "5",
+      "discount": "2",
       "size": "N/A",
-      "inStock": "233",
+      "inStock": "1231",
       "category": "TWS",
       "categoryImg": "",
       "subcategory": "Earbuds",
       "brand": "Sony",
       "specifications": [
-        "Dimensions: Earbuds: 26.5 mm x 23.5 mm x 18.5 mm",
-        "Earbuds: 5.5g, Case: 38g",
-        "Touch controls, in-ear detection",
-        "Active Noise Cancellation, LDAC, Speak-to-Chat, Adaptive Sound Control, Precise Voice Pickup"
+        "Bluetooth version: 5.3",
+        "Wireless range: 10 m",
+        "Battery life: 22 hr | Charging time: 3 hr",
+        "LONG BATTERY LIFE & QUICK CHARGING: Up to 11 hours of battery life (up to 22hrs with case) with quick charging (5 min charge for up to 1 hour of playback",
+        "MULTIPOINT CONNECTION: Quickly switch between two devices at once"
       ],
       "tags": [
-        "Top Sellers"
+        "Smart Pick"
       ],
       "imagesCollection": [
-        "https://m.media-amazon.com/images/I/61GJAFdM9pL.jpg",
-        "https://sony.scene7.com/is/image/sonyglobalsolutions/feature4_M-6?$mediumstaticimagehotspot$",
-        "https://www.incredible.co.za/api/catalog/product/w/f/wf_1000xm5_bme__1_1_ecommerce_0a0b.png?width=700&height=700&store=incredibleconnection&image-type=image",
-        "https://www.soundandvision.com/images/styles/600_wide/public/072423_SV_1000XM5.jpg"
+        "https://m.media-amazon.com/images/I/613c7O5giSL._AC_UF350,350_QL80_.jpg",
+        "https://shopatsc.com/cdn/shop/files/5_dd2273e2-244f-4e45-9692-96efb36ad23f.jpg?v=1737011353",
+        "https://shopatsc.com/cdn/shop/files/2_2d532606-aa2c-4d5b-8760-df891a023273.jpg?v=1726814733",
+        "https://shopatsc.com/cdn/shop/files/7_6b79916d-1d26-4504-9a49-da9346b3fa76.jpg?v=1737011353"
       ],
-      "description": "Sony WF-1000XM5 earbuds feature industry-leading noise cancellation, LDAC for high-resolution audio, and a comfortable ergonomic design. They provide 24-hour battery life with fast charging and seamless Bluetooth 5.3 connectivity.\n "
+      "description": "ALL DAY COMFORT: Light and compact to give you all-day comfort and designed for the ideal fit, for an exceptional all-round listening experience"
+    }
+  ],
+  "MainCatgory": [
+    {
+      "id": "1",
+      "name": "TWS",
+      "imgMain": "src"
+    },
+    {
+      "id": "2",
+      "name": "PowerBank",
+      "imgMain": "src"
+    },
+    {
+      "id": "3",
+      "name": "Headphone",
+      "imgMain": "src"
+    },
+    {
+      "id": "4",
+      "name": "Neckband",
+      "imgMain": "src"
+    },
+    {
+      "id": "5",
+      "name": "Powerbank",
+      "imgMain": "src"
+    },
+    {
+      "id": "6",
+      "name": "Wired earphone",
+      "imgMain": "src"
+    },
+    {
+      "id": "7",
+      "name": "Data cable",
+      "imgMain": "src"
+    },
+    {
+      "id": "8",
+      "name": "Sound bar",
+      "imgMain": "src"
+    },
+    {
+      "id": "9",
+      "name": "Charger",
+      "imgMain": "src"
+    },
+    {
+      "id": "10",
+      "name": "Wireless Car Play",
+      "imgMain": "src"
     }
   ]
 }
