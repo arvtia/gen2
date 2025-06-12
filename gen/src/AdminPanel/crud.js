@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
+import './Table.css'
 
 const AdminProductList = () => {
   const [productList, setProductList] = useState([]);
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const [newProduct, setNewProduct] = useState({ productName: "", price: 0, color: "", discount: 0, size: "", inStock: "", category: "", categoryImg:"" , subcategory: "", brand:"", specifications:[], tags:[],  imagesCollection:[] });
+  const [newProduct, setNewProduct] = useState({ productName: "", price: 0, color: "", discount: 0, size: [], inStock: "", category: "", categoryImg:"" , subcategory: "", brand:"", specifications:[], tags:[],  imagesCollection:[] });
 
   // Fetch Products from API
   useEffect(() => {
@@ -24,11 +25,12 @@ const AdminProductList = () => {
   };
 
   // Handle Update
-  const handleUpdate = () => {
+  const handleUpdate = (id) => {
     fetch(`http://localhost:3002/products/${selectedProduct.id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(selectedProduct),
+      
     })
       .then(() => {
         setProductList((prevList) =>
@@ -60,53 +62,311 @@ const AdminProductList = () => {
 
   return (
     <div className="py-5 my-5">
-      <p className="display-2">Product List</p>
-      <table className="table table-bordered table-striped">
-        <thead className="thead-dark">
-          <tr>
-            <th>Product Name</th>
-            <th>Color</th>
-            <th>Price</th>
-            <th>Discount</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          {productList.map((product) => (
-            <tr key={product.id}>
-              <td>{product.productName}</td>
-              <td>{product.color}</td>
-              <td>${product.price}</td>
-              <td>{product.discount}</td>
-              <td>
-                <button className="btn btn-primary mx-2" onClick={() => setSelectedProduct(product)}>Edit</button>
-                <button className="btn btn-danger" onClick={() => handleDelete(product.id)}>Delete</button>
-              </td>
+      <p className="display-2 ">Product List</p>
+      <div className="table-responsive">
+        <table className="table table-bordered table-striped">
+            <thead className="thead-dark">
+            <tr>
+                <th>Product Name</th>
+                <th>Color</th>
+                <th>Price</th>
+                <th>Discount</th>
+                <th>Size</th>
+                <th>In Stock</th>
+                <th>Category</th>
+                <th>Category Image</th>
+                <th>Subcategory</th>
+                <th>Brand</th>
+                <th className="w-50">Specifications</th>
+                <th>Tags</th>
+                <th className="w-25">Images Collection</th>
+                <th>Actions</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+            </thead>
+            <tbody>
+            {productList.map((product) => (
+                <tr key={product.id}>
+                <td>{product.productName}</td>
+                <td>{product.color}</td>
+                <td>${product.price}</td>
+                <td>{product.discount}</td>
+                <td>
+                    {Array.isArray(product.size) ? product.size.join(", ") : product.size || "N/A"}
+                </td>
+                <td>{product.inStock}</td>
+                <td>{product.category}</td>
+                <td>
+                    <img
+                    src={product.categoryImg}
+                    alt="category"
+                    style={{ width: "50px", height: "50px", objectFit: "cover" }}
+                    />
+                </td>
+                <td>{product.subcategory}</td>
+                <td>{product.brand}</td>
+                <td className="p-1" style={{minWidth:"200px", minHeight:"80px", overflow:"scroll"}}>
+                    <ul>
+                    {product.specifications.map((spec, i) => (
+                        <li key={i}>{spec}</li>
+                    ))}
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                    {product.tags.map((tag, i) => (
+                        <li key={i}>{tag}</li>
+                    ))}
+                    </ul>
+                </td>
+                <td>
+                    <div className="d-flex flex-wrap gap-2">
+                    {product.imagesCollection.map((img, i) =>
+                        typeof img === "string" && img ? (
+                        <img
+                            key={i}
+                            src={img}
+                            alt={`product-img-${i}`}
+                            style={{ width: "50px", height: "50px", objectFit: "cover" }}
+                        />
+                        ) : null
+                    )}
+                    </div>
+                </td>
+                <td>
+                    <button
+                    className="btn bg-secondary text-white me-2"
+                    onClick={() => setSelectedProduct(product)}
+                    >
+                    Edit
+                    </button>
+                    <button
+                    className="btn text-dark bg-secondary"
+                    onClick={() => handleDelete(product.id)}
+                    >
+                    Delete
+                    </button>
+                </td>
+                </tr>
+            ))}
+            </tbody>
+        </table>
+    </div>
+
 
       {selectedProduct && (
-        <div>
-          <h3>Edit Product</h3>
-          <input type="text" value={selectedProduct.productName} onChange={(e) => setSelectedProduct({ ...selectedProduct, productName: e.target.value })} />
-          <input type="number" value={selectedProduct.price} onChange={(e) => setSelectedProduct({ ...selectedProduct, price: e.target.value })} />
-          <button className="btn btn-success mt-2" onClick={handleUpdate}>Update</button>
-        </div>
-      )}
+            <div className="mt-4 p-4 border rounded bg-light">
+                <h4>Edit Product</h4>
+                <form onSubmit={handleUpdate}>
+                <div className="mb-3">
+                    <label className="form-label">Product Name</label>
+                    <input
+                    type="text"
+                    className="form-control"
+                    value={selectedProduct.productName}
+                    onChange={(e) => setSelectedProduct({ ...selectedProduct, productName: e.target.value })}
+                    />
+                </div>
 
-        <form onSubmit={handleAdd} className="p-4 border rounded bg-light">
+                <div className="mb-3">
+                    <label className="form-label">Price</label>
+                    <input
+                    type="number"
+                    className="form-control"
+                    value={selectedProduct.price}
+                    onChange={(e) => setSelectedProduct({ ...selectedProduct, price: parseFloat(e.target.value) })}
+                    />
+                </div>
+
+                <div className="mb-3">
+                    <label className="form-label">Color</label>
+                    <input
+                    type="text"
+                    className="form-control"
+                    value={selectedProduct.color}
+                    onChange={(e) => setSelectedProduct({ ...selectedProduct, color: e.target.value })}
+                    />
+                </div>
+
+                <div className="mb-3">
+                    <label className="form-label">Discount (%)</label>
+                    <input
+                    type="number"
+                    className="form-control"
+                    value={selectedProduct.discount}
+                    onChange={(e) => setSelectedProduct({ ...selectedProduct, discount: parseFloat(e.target.value) })}
+                    />
+                </div>
+
+                <div className="mb-3">
+                    <label className="form-label">Size</label>
+                    <input
+                    list="size"
+                    type="text"
+                    className="form-control"
+                    value={selectedProduct.size}
+                    onChange={(e) => setSelectedProduct({ ...selectedProduct, size: e.target.value.split(",") })}
+                    />
+                    <datalist id="size">
+                    <option value="Small" />
+                    <option value="Medium" />
+                    <option value="Large" />
+                    <option value="Ergonomic" />
+                    </datalist>
+                </div>
+
+                <div className="mb-3">
+                    <label className="form-label">Stock Quantity</label>
+                    <input
+                    type="number"
+                    className="form-control"
+                    value={selectedProduct.inStock}
+                    onChange={(e) => setSelectedProduct({ ...selectedProduct, inStock: e.target.value })}
+                    />
+                </div>
+
+                <div className="mb-3">
+                    <label className="form-label">Category</label>
+                    <input
+                    type="text"
+                    className="form-control"
+                    value={selectedProduct.category}
+                    onChange={(e) => setSelectedProduct({ ...selectedProduct, category: e.target.value })}
+                    />
+                </div>
+
+                <div className="mb-3">
+                    <label className="form-label">Subcategory</label>
+                    <input
+                    type="text"
+                    className="form-control"
+                    value={selectedProduct.subcategory}
+                    onChange={(e) => setSelectedProduct({ ...selectedProduct, subcategory: e.target.value })}
+                    />
+                </div>
+
+                <div className="mb-3">
+                    <label className="form-label">Brand</label>
+                    <input
+                    type="text"
+                    className="form-control"
+                    value={selectedProduct.brand}
+                    onChange={(e) => setSelectedProduct({ ...selectedProduct, brand: e.target.value })}
+                    />
+                </div>
+
+                <div className="mb-3">
+                    <label className="form-label">Tags</label>
+                    <select
+                    multiple
+                    className="form-select"
+                    value={selectedProduct.tags}
+                    onChange={(e) =>
+                        setSelectedProduct({
+                        ...selectedProduct,
+                        tags: Array.from(e.target.selectedOptions, (option) => option.value),
+                        })
+                    }
+                    >
+                    <option value="Smart Pick">Smart Pick</option>
+                    <option value="Zen-Gy Verified">Zen-Gy Verified</option>
+                    <option value="Trending">Trending</option>
+                    <option value="Top Sellers">Top Sellers</option>
+                    </select>
+                </div>
+
+                {/* Specifications Input List */}
+                <div className="mb-3">
+                    <label className="form-label">Specifications</label>
+                    {selectedProduct.specifications.map((spec, index) => (
+                    <div key={index} className="input-group mb-1">
+                        <input
+                        type="text"
+                        className="form-control"
+                        value={spec}
+                        onChange={(e) => {
+                            const specs = [...selectedProduct.specifications];
+                            specs[index] = e.target.value;
+                            setSelectedProduct({ ...selectedProduct, specifications: specs });
+                        }}
+                        />
+                        <button
+                        type="button"
+                        className="btn btn-outline-danger"
+                        onClick={() => {
+                            const specs = selectedProduct.specifications.filter((_, i) => i !== index);
+                            setSelectedProduct({ ...selectedProduct, specifications: specs });
+                        }}
+                        >
+                        <i className="bi bi-x"></i>
+                        </button>
+                    </div>
+                    ))}
+                    <button
+                    type="button"
+                    className="btn btn-outline-primary btn-sm"
+                    onClick={() => setSelectedProduct({ ...selectedProduct, specifications: [...selectedProduct.specifications, ""] })}
+                    >
+                    Add specifications
+                    </button>
+                </div>
+
+                {/* Image collection links */}
+                <div className="mb-3">
+                    <label className="form-label">Image Collection</label>
+                    {selectedProduct.imagesCollection.map((spec, index) => (
+                    <div key={index} className="input-group mb-1">
+                        <input
+                        type="text"
+                        className="form-control"
+                        value={spec}
+                        onChange={(e) => {
+                            const specs = [...selectedProduct.imagesCollection];
+                            specs[index] = e.target.value;
+                            setSelectedProduct({ ...selectedProduct, imagesCollection: specs });
+                        }}
+                        />
+                        <button
+                        type="button"
+                        className="btn"
+                        onClick={() => {
+                            const specs = selectedProduct.imagesCollection.filter((_, i) => i !== index);
+                            setSelectedProduct({ ...selectedProduct, imagesCollection: specs });
+                        }}
+                        >
+                        <i className="bi bi-x"></i>
+                        </button>
+                        <small className="form-text text-muted">paste link here</small>
+                    </div>
+                    ))}
+                    <button
+                    type="button"
+                    className="btn btn-outline-primary btn-sm"
+                    onClick={() => setSelectedProduct({ ...selectedProduct, imagesCollection: [...selectedProduct.imagesCollection, ""] })}
+                    >
+                    Add images
+                    </button>
+                </div>
+
+                <button type="submit" className="btn btn-success w-100">Save Changes</button>
+                </form>
+            </div>
+            )}
+
+
+    
+
+        <form onSubmit={handleAdd} className="p-4 mt-3 border rounded bg-light">
+            <p className="fs-2"> Add a New Product</p>
             {/* Product Name */}
             <div className="mb-3">
                 <label className="form-label">Product Name</label>
                 <input
-                type="text"
-                className="form-control"
-                placeholder="Enter product name"
-                value={newProduct.productName}
-                onChange={(e) => setNewProduct({ ...newProduct, productName: e.target.value })}
-                required
+                    type="text"
+                    className="form-control"
+                    placeholder="Enter product name"
+                    value={newProduct.productName}
+                    onChange={(e) => setNewProduct({ ...newProduct, productName: e.target.value })}
+                    required
                 />
             </div>
 
@@ -114,13 +374,33 @@ const AdminProductList = () => {
             <div className="mb-3">
                 <label className="form-label">Product Color</label>
                 <input
-                type="text"
-                className="form-control"
-                placeholder="Enter product color"
-                value={newProduct.color}
-                onChange={(e) => setNewProduct({ ...newProduct, color: e.target.value })}
-                required
+                    type="text"
+                    className="form-control"
+                    placeholder="Enter product color"
+                    value={newProduct.color}
+                    onChange={(e) => setNewProduct({ ...newProduct, color: e.target.value })}
+                    required
                 />
+            </div>
+
+            {/* product size- */}
+            <div className="mb-3">
+                <label className="form-label">Product Image</label>
+                <input
+                    list="size"
+                    className="form-control"
+                    type="text"
+                    placeholder="Enter product description"
+                    value={newProduct.size}
+                    onChange={(e) => setNewProduct({ ...newProduct, size: e.target.value })}
+                    required
+                />
+                <datalist id="size">
+                    <option value="Small" />
+                    <option value="Medium" />
+                    <option value="Large" />
+                    <option value="Ergonimic" />
+                </datalist>
             </div>
 
             {/* Discount */}
@@ -165,12 +445,12 @@ const AdminProductList = () => {
             <div className="mb-3">
                 <label className="form-label">Stock Quantity</label>
                 <input
-                type="number"
-                className="form-control"
-                placeholder="Enter stock quantity"
-                value={newProduct.stock}
-                onChange={(e) => setNewProduct({ ...newProduct, stock: e.target.value })}
-                required
+                    type="number"
+                    className="form-control"
+                    placeholder="Enter stock quantity"
+                    value={newProduct.inStock}
+                    onChange={(e) => setNewProduct({ ...newProduct, inStock: e.target.value })}
+                    required
                 />
             </div>
 
@@ -178,24 +458,48 @@ const AdminProductList = () => {
             <div className="mb-3">
                 <label className="form-label">Category</label>
                 <input
-                type="text"
-                className="form-control"
-                placeholder="Enter category"
-                value={newProduct.category}
-                onChange={(e) => setNewProduct({ ...newProduct, category: e.target.value })}
+                    list="Category"
+                    type="text"
+                    className="form-control"
+                    placeholder="Enter category"
+                    value={newProduct.category}
+                    onChange={(e) => setNewProduct({ ...newProduct, category: e.target.value })}
                 />
+                <datalist id="Category">
+                    <option value="TWS" />
+                    <option value="Neckband" />
+                    <option value="Sound Bars" />
+                    <option value="Speakers" />
+                    <option value="Headphones" />
+                    <option value="wired earphone" />
+                    <option value="bluetooth speaker" />
+                    <option value="Party Speaker" />
+                    <option value="Charger" />
+                    <option value="Data cables" />
+                    <option value="Power Bank" />
+                    <option value="Wireless car play" />
+                </datalist>
             </div>
 
             {/* Subcategory */}
             <div className="mb-3">
                 <label className="form-label">Subcategory</label>
                 <input
-                type="text"
-                className="form-control"
-                placeholder="Enter subcategory"
-                value={newProduct.subcategory}
-                onChange={(e) => setNewProduct({ ...newProduct, subcategory: e.target.value })}
+                    list="Subcategory"
+                    type="text"
+                    className="form-control"
+                    placeholder="Enter subcategory"
+                    value={newProduct.subcategory}
+                    onChange={(e) => setNewProduct({ ...newProduct, subcategory: e.target.value })}
                 />
+                <datalist id="Subcategory">
+                    <option value="Party Speaker" />
+                    <option value="Neck band" />
+                    <option value="Sound Bar" />
+                    <option value="Chargers" />
+                    <option value="Wireless Earphones" />
+                    <option value="Bluetooth Speaker" />
+                </datalist>
             </div>
 
             {/* Brand Select/Input */}
@@ -208,35 +512,38 @@ const AdminProductList = () => {
                 value={newProduct.brand}
                 onChange={(e) => setNewProduct({ ...newProduct, brand: e.target.value })}
                 />
-                <datalist id="brandOptions">
-                <option value="Sony" />
-                <option value="Bose" />
-                <option value="JBL" />
-                <option value="Sennheiser" />
-                <option value="Beats" />
-                <option value="Skullcandy" />
-                <option value="Boat" />
+                <datalist  id="brandOptions">
+                    <option value="Sony" />
+                    <option value="Bose" />
+                    <option value="JBL" />
+                    <option value="Sennheiser" />
+                    <option value="Beats" />
+                    <option value="Skullcandy" />
+                    <option value="Boat" />
+                    <option value="Zebronics" />
+                    <option value="Nothing" />
                 </datalist>
             </div>
+
 
             {/* Tags Multi-Select */}
             <div className="mb-3">
                 <label className="form-label">Tags</label>
                 <select
-                multiple
-                className="form-control"
-                value={newProduct.tags}
-                onChange={(e) =>
+                    multiple
+                    className="form-select"
+                    value={newProduct.tags}
+                    onChange={(e) =>
                     setNewProduct({
-                    ...newProduct,
-                    tags: Array.from(e.target.selectedOptions, (option) => option.value),
+                        ...newProduct,
+                        tags: Array.from(e.target.selectedOptions, (option) => option.value),
                     })
-                }
+                    }
                 >
-                <option value="Smart Pick">Smart Pick</option>
-                <option value="Zen-Gy Verified">Zen-Gy Verified</option>
-                <option value="Trending">Trending</option>
-                <option value="Top Sellers">Top Sellers</option>
+                    <option value="Smart Pick">Smart Pick</option>
+                    <option value="Zen-Gy Verified">Zen-Gy Verified</option>
+                    <option value="Trending">Trending</option>
+                    <option value="Top Sellers">Top Sellers</option>
                 </select>
             </div>
 
@@ -264,98 +571,59 @@ const AdminProductList = () => {
                         setNewProduct({ ...newProduct, specifications: specs });
                     }}
                     >
-                    ×
+                        <i className="bi bi-x"></i>
                     </button>
                 </div>
                 ))}
                 <button
-                type="button"
-                className="btn btn-outline-primary btn-sm"
-                onClick={() => setNewProduct({ ...newProduct, specifications: [...newProduct.specifications, ""] })}
+                    type="button"
+                    className="btn btn-outline-primary btn-sm"
+                    onClick={() => setNewProduct({ ...newProduct, specifications: [...newProduct.specifications, ""] })}
                 >
-                Add Specification
+                Add specifications
                 </button>
             </div>
 
             {/* image collection links recieve */}
             <div className="mb-3">
-                <label className="form-label">Specifications</label>
-                {newProduct.imagesCollection.map((item, index) => (
+                <label className="form-label">Image Collection</label>
+                {newProduct.imagesCollection.map((spec, index) => (
                 <div key={index} className="input-group mb-1">
                     <input
-                    type="text"
-                    className="form-control"
-                    value={spec}
-                    placeholder={`Specification ${index + 1}`}
-                    onChange={(e) => {
-                        const specs = [...newProduct.specifications];
-                        specs[index] = e.target.value;
-                        setNewProduct({ ...newProduct, specifications: specs });
-                    }}
+                        type="text"
+                        className="form-control"
+                        value={spec}
+                        placeholder={`Specification ${index + 1}`}
+                        onChange={(e) => {
+                            const specs = [...newProduct.imagesCollection];
+                            specs[index] = e.target.value;
+                            setNewProduct({ ...newProduct, imagesCollection: specs });
+                        }}
                     />
                     <button
-                    type="button"
-                    className="btn btn-outline-danger"
-                    onClick={() => {
-                        const specs = newProduct.specifications.filter((_, i) => i !== index);
-                        setNewProduct({ ...newProduct, specifications: specs });
-                    }}
+                        type="button"
+                        className="btn"
+                        onClick={() => {
+                            const specs = newProduct.imagesCollection.filter((_, i) => i !== index);
+                            setNewProduct({ ...newProduct, imagesCollection: specs });
+                        }}
                     >
-                    ×
+                        <i className="bi bi-x"></i>
                     </button>
+                    <small  class="form-text text-muted">paste link here</small>
                 </div>
                 ))}
                 <button
                 type="button"
                 className="btn btn-outline-primary btn-sm"
-                onClick={() => setNewProduct({ ...newProduct, specifications: [...newProduct.specifications, ""] })}
+                onClick={() => setNewProduct({ ...newProduct, imagesCollection: [...newProduct.imagesCollection, ""] })}
                 >
-                Add Specification
+                Add images
                 </button>
             </div>
 
-
-            {/* uploading images */}
-            <div className="mb-3">
-                <label className="form-label">Upload Images</label>
-                <input
-                    type="file"
-                    className="form-control"
-                    multiple
-                    accept="image/*"
-                    onChange={(e) => {
-                    const selectedFiles = Array.from(e.target.files);
-                    setNewProduct({
-                        ...newProduct,
-                        imagesCollection: selectedFiles, // Replaces previous selection
-                    });
-                    }}
-                />
-                {newProduct.imagesCollection.length > 0 && (
-                    <div className="mt-2">
-                    <h6>Selected Images:</h6>
-                    <div className="d-flex flex-wrap gap-2">
-                        {newProduct.imagesCollection.map((img, i) => (
-                        <div key={i} className="badge bg-secondary text-wrap p-2 d-flex align-items-center">
-                            {img.name}
-                            <button
-                            type="button"
-                            className="btn-close btn-close-white btn-sm ms-2"
-                            aria-label="Remove"
-                            onClick={() => {
-                                const updatedImages = newProduct.imagesCollection.filter((_, idx) => idx !== i);
-                                setNewProduct({ ...newProduct, imagesCollection: updatedImages });
-                            }}
-                            ></button>
-                        </div>
-                        ))}
-                    </div>
-                    </div>
-                )}
-                </div>
-
             <button type="submit" className="btn btn-success w-100">
-                Add Product
+                Add Product 
             </button>
         </form>
     </div>

@@ -1,116 +1,89 @@
 {
   "products": [
     {
-      "id": "6",
-      "productId": 786876,
-      "productName": "4 Sided 4D Home Theatre",
-      "price": 23999,
-      "color": "Black",
-      "size": "Standard",
-      "discount": "10%",
-      "inStock": "y",
-      "stockQuantity": 1,
-      "category": "Speaker",
-      "categoryImg": "https://tinyurl.com/3j9maf8y",
-      "subcategory": "Home Theater",
-      "subcategoryImg": "src",
-      "brand": "Zebronics",
-      "brandImg": "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
-      "specifications": [
-        "Bluetooth 5.0",
-        "Noise Cancellation",
-        "12-hour battery life"
+      "id": "1749703488055",
+      "productName": "white lable",
+      "price": 2000,
+      "color": "green",
+      "discount": 0,
+      "size": [
+        "Small"
       ],
-      "tags": [
-        "top pick",
-        "new arrival"
-      ],
-      "imagesCollection": [
-        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL",
-        "https://dummyimage.com/200x200/222/fff&text=BassBoost+XL"
-      ]
-    },
-    {
-      "id": "10",
-      "productId": "212122",
-      "productName": "SoundMax BassLoop",
-      "price": 49.99,
-      "color": "Black",
-      "size": "Standard",
-      "discount": "10%",
-      "inStock": "y",
-      "stockQuantity": 1,
-      "category": "Neckbands",
-      "categoryImg": "https://tinyurl.com/yusm22p3",
-      "subcategory": "Wireless Neckbands",
-      "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Wireless+Neckbands",
-      "brand": "SoundMax",
-      "brandImg": "https://dummyimage.com/100x50/222/fff&text=SoundMax",
-      "specifications": [
-        "Bluetooth 5.0",
-        "Noise Isolation",
-        "12-hour battery life"
-      ],
-      "tags": [
-        "top pick",
-        "value"
-      ],
-      "imagesCollection": [
-        "https://dummyimage.com/200x200/111/fff&text=BassLoop+Front",
-        "https://dummyimage.com/200x200/111/fff&text=BassLoop+Side"
-      ]
-    },
-    {
-      "id": "11",
-      "productId": "324231",
-      "productName": "QuickCharge TurboCable",
-      "price": 14.99,
-      "color": "Black",
-      "length": "1m",
-      "discount": "10%",
-      "inStock": "y",
-      "stockQuantity": 1,
-      "category": "Data Cables",
-      "categoryImg": "https://tinyurl.com/ys8ddey6",
-      "subcategory": "Fast Charging Cables",
-      "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Fast+Charging+Cables",
-      "brand": "QuickCharge",
-      "brandImg": "https://dummyimage.com/100x50/222/fff&text=QuickCharge",
-      "specifications": [
-        "USB-C to USB-A",
-        "Supports 18W Fast Charging",
-        "Durable Braided Cable"
-      ],
-      "tags": [
-        "fast charge",
-        "durable"
-      ],
-      "imagesCollection": [
-        "https://dummyimage.com/200x200/333/fff&text=TurboCable+Front",
-        "https://dummyimage.com/200x200/333/fff&text=TurboCable+Side"
-      ]
-    },
-    {
-      "id": 1749703488055,
-      "productName": "earphone ",
-      "price": "9999",
-      "color": "black",
-      "discount": "10",
-      "size": "",
-      "inStock": "",
+      "inStock": "12312",
       "category": "sounds",
       "categoryImg": "",
-      "subcategory": "localproduct",
+      "subcategory": "mechanical",
       "brand": "local brand",
-      "specifications": [],
+      "specifications": [
+        "optimum uses only",
+        "uses are mild and validation",
+        "local deseases are very strange",
+        "local services"
+      ],
       "tags": [
-        "Zen-Gy Verified"
+        "Trending"
       ],
       "imagesCollection": [
-        {}
+        "https://kitchenmart.co.in/cdn/shop/products/prestige-popular-aluminium-pressure-cooker-1-5-litre-8901365100386-prestige-popular-1-5l-1065-4620932251738.jpg?v=1607126319",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlbyJbRhjZvHG0aM6najAi6xOF55lVtYwrDA&s",
+        "https://media.istockphoto.com/id/489696189/photo/pressure-cooker.jpg?s=612x612&w=0&k=20&c=m6ofPZiHlFnXUDv8uhYOZDqhh0RrMdGSxoq2M-0iLRE="
       ],
       "stock": "2",
       "description": "sound audio device mechanical"
+    },
+    {
+      "id": "1749707850854",
+      "productName": "Nothing Ear ",
+      "price": "7995",
+      "color": "black",
+      "discount": "9",
+      "size": "",
+      "inStock": "",
+      "category": "TWS",
+      "categoryImg": "",
+      "subcategory": "Earbuds",
+      "brand": "Nothing",
+      "specifications": [],
+      "tags": [
+        "Trending"
+      ],
+      "imagesCollection": [
+        ""
+      ],
+      "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3. ",
+      "stock": "789"
+    },
+    {
+      "id": "1749708463758",
+      "productName": "Nothing Ear",
+      "price": "7998",
+      "color": "black",
+      "discount": "2",
+      "size": [],
+      "inStock": "",
+      "category": "TWS",
+      "categoryImg": "",
+      "subcategory": "Earbuds",
+      "brand": "Nothing",
+      "specifications": [
+        "Dimensions: Earbuds: 30.9 mm x 21.7 mm x 24.3 mm",
+        "Weight: Earbuds: 4.8g, Case: 39.6g",
+        "Water and Dust Resistance: IP54 earbuds, IPX2 case",
+        "Controls: Pinch controls, in-ear detection",
+        "Other Features: Google Fast Pair, Microsoft Swift Pair, Dual Connection, Clear Voice Technology, LED charging status, Low Lag Mode "
+      ],
+      "tags": [
+        "Trending"
+      ],
+      "imagesCollection": [
+        "https://cdn.shopifycdn.net/s/files/1/0692/5988/6904/files/ELEV_AZU_BL_040_230630_v001_1060.png?v=1688527589",
+        "https://rukminim1.flixcart.com/image/900/900/xif0q/headphone/j/e/y/-original-imahfqhnanzmxsfy.jpeg?q=90",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTLEUyOdEO9XoVuBjOyx_c1zmNKyllKBDhZzz4OEZSGTcKhmDweWBFXo-6C-OawNVad5o&usqp=CAU",
+        "https://www.tmt.my/data/editor/sc-product/4412/nothing_ear_2_black.jpg",
+        "https://cdn.shopifycdn.net/s/files/1/0692/5988/6904/files/ELEV_AZU_BL_050_230703_V001_1008.png?v=1688527646"
+      ],
+      "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3",
+      "stock": "120"
     }
   ]
 }

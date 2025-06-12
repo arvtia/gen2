@@ -1,0 +1,17 @@
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table td, .table th {
+  text-align: center; /* Center text if needed */
+  word-wrap: break-word; /* Ensures text wrapping */
+  max-width: 150px; /* Adjust to make columns more compact if needed */
+}
+
+.table td ul {
+  padding-left: 15px;
+}
+
+.table td img {
+  max-width: 100%; /* Ensures images fit their column size */
+}
