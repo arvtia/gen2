@@ -1,28 +1,6 @@
 {
   "products": [
     {
-      "id": "1749707850854",
-      "productName": "Nothing Ear ",
-      "price": "7995",
-      "color": "black",
-      "discount": "9",
-      "size": "",
-      "inStock": "",
-      "category": "TWS",
-      "categoryImg": "",
-      "subcategory": "Earbuds",
-      "brand": "Nothing",
-      "specifications": [],
-      "tags": [
-        "Trending"
-      ],
-      "imagesCollection": [
-        ""
-      ],
-      "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3. ",
-      "stock": "789"
-    },
-    {
       "id": "1749708463758",
       "productName": "Nothing Ear",
       "price": "7998",
@@ -53,6 +31,63 @@
       ],
       "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3",
       "stock": "120"
+    },
+    {
+      "id": 1749722301253,
+      "productName": "ONEPLUS EARBUD",
+      "price": "323",
+      "color": "Green",
+      "discount": "2",
+      "size": "N/A",
+      "inStock": "2",
+      "category": "TWS",
+      "categoryImg": "",
+      "subcategory": "Earbuds",
+      "brand": "OnePlus",
+      "specifications": [
+        "24 hours to 36 hours battery backup",
+        "OG sound quality",
+        "Stunning Glossy and chromic look of earbuds",
+        "Colours available – Black, White, Green"
+      ],
+      "tags": [
+        "Top Sellers"
+      ],
+      "imagesCollection": [
+        "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/30978905/2024/9/25/48e79151-5467-4289-93ba-2fbc7087c9631727243482872-OnePlus-Unisex-Headphones-5391727243482688-1.jpg",
+        "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/30978905/2024/9/25/14e5cd19-da5f-4f95-98b6-1f9820c834ea1727243482776-OnePlus-Unisex-Headphones-5391727243482688-5.jpg",
+        "https://img.tatacliq.com/images/i23//437Wx649H/MP000000025831801_437Wx649H_202503271128592.jpeg",
+        "https://i.ebayimg.com/images/g/OfAAAOSwDRtnrIc~/s-l400.png"
+      ],
+      "description": "Seamless connectivity: Instantaneous pairing with OnePlus smartphone, as soon as you open the charging case lid. It also has Google Fast Pair that helps to connect any android phones easily. To use earbuds functions, please upgrade the Wireless Earphones APP or OnePlus Buds APP to the latest version from Google Play."
+    },
+    {
+      "id": 1749723544039,
+      "productName": "BOAT EARBUD",
+      "price": "799",
+      "color": "black",
+      "discount": "2",
+      "size": "N/A",
+      "inStock": "17",
+      "category": "TWS",
+      "categoryImg": "",
+      "subcategory": "Earbuds  ",
+      "brand": "Boat",
+      "specifications": [
+        "Wireless Earbuds with 8mm Drivers. ",
+        "IWP & ENxTM Technology",
+        "ASAP Fast Charge, Upto 42 hours Playback",
+        "IPX4 Sweat & Water Resistance"
+      ],
+      "tags": [
+        "Top Sellers"
+      ],
+      "imagesCollection": [
+        "https://www.boat-lifestyle.com/cdn/shop/files/ACCGNFV3VGRBUHTQ_0_1000x.jpg?v=1727670252",
+        "https://www.boat-lifestyle.com/cdn/shop/products/NirvanaION-FI_Black02-a_1000x.png?v=1678780574",
+        "https://www.boat-lifestyle.com/cdn/shop/products/Beast_black_1000x.jpg?v=1702007882"
+      ],
+      "description": "Let the noise of the world drown as you jam to your rhythm with Airdopes 148. Equipped with 8mm drivers, these dope wireless earbuds make your playlist sound better with crystal clear audio quality and powerful bass. Experience seamless calling and be clearly heard with ENxTM Technology. That is not all, ASAPTM Charge technology empowers you with 75 minutes of playback with just 5 minutes of charging. With IPX4 Sweat and Water Resistance,"
     }
   ]
 }

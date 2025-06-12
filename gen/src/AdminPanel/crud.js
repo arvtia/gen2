@@ -137,16 +137,16 @@ const AdminProductList = () => {
                     )}
                     </div>
                 </td>
-                <td>
+                <td className="cupid-case d-flex align-items-center">
                     <button
-                    className="btn bg-secondary text-white me-2"
-                    onClick={() => setSelectedProduct(product)}
+                        className="btn bg-secondary text-white me-2"
+                        onClick={() => setSelectedProduct(product)}
                     >
                     Edit
                     </button>
                     <button
-                    className="btn text-dark bg-secondary"
-                    onClick={() => handleDelete(product.id)}
+                        className="btn text-white bg-secondary"
+                        onClick={() => handleDelete(product.id)}
                     >
                     Delete
                     </button>
@@ -165,51 +165,51 @@ const AdminProductList = () => {
                 <div className="mb-3">
                     <label className="form-label">Product Name</label>
                     <input
-                    type="text"
-                    className="form-control"
-                    value={selectedProduct.productName}
-                    onChange={(e) => setSelectedProduct({ ...selectedProduct, productName: e.target.value })}
+                        type="text"
+                        className="form-control"
+                        value={selectedProduct.productName}
+                        onChange={(e) => setSelectedProduct({ ...selectedProduct, productName: e.target.value })}
                     />
                 </div>
 
                 <div className="mb-3">
                     <label className="form-label">Price</label>
                     <input
-                    type="number"
-                    className="form-control"
-                    value={selectedProduct.price}
-                    onChange={(e) => setSelectedProduct({ ...selectedProduct, price: parseFloat(e.target.value) })}
+                        type="number"
+                        className="form-control"
+                        value={selectedProduct.price}
+                        onChange={(e) => setSelectedProduct({ ...selectedProduct, price: parseFloat(e.target.value) })}
                     />
                 </div>
 
                 <div className="mb-3">
                     <label className="form-label">Color</label>
                     <input
-                    type="text"
-                    className="form-control"
-                    value={selectedProduct.color}
-                    onChange={(e) => setSelectedProduct({ ...selectedProduct, color: e.target.value })}
+                        type="text"
+                        className="form-control"
+                        value={selectedProduct.color}
+                        onChange={(e) => setSelectedProduct({ ...selectedProduct, color: e.target.value })}
                     />
                 </div>
 
                 <div className="mb-3">
                     <label className="form-label">Discount (%)</label>
                     <input
-                    type="number"
-                    className="form-control"
-                    value={selectedProduct.discount}
-                    onChange={(e) => setSelectedProduct({ ...selectedProduct, discount: parseFloat(e.target.value) })}
+                        type="number"
+                        className="form-control"
+                        value={selectedProduct.discount}
+                        onChange={(e) => setSelectedProduct({ ...selectedProduct, discount: parseFloat(e.target.value) })}
                     />
                 </div>
 
                 <div className="mb-3">
                     <label className="form-label">Size</label>
                     <input
-                    list="size"
-                    type="text"
-                    className="form-control"
-                    value={selectedProduct.size}
-                    onChange={(e) => setSelectedProduct({ ...selectedProduct, size: e.target.value.split(",") })}
+                        list="size"
+                        type="text"
+                        className="form-control"
+                        value={selectedProduct.size}
+                        onChange={(e) => setSelectedProduct({ ...selectedProduct, size: e.target.value.split(",") })}
                     />
                     <datalist id="size">
                     <option value="Small" />
@@ -222,30 +222,30 @@ const AdminProductList = () => {
                 <div className="mb-3">
                     <label className="form-label">Stock Quantity</label>
                     <input
-                    type="number"
-                    className="form-control"
-                    value={selectedProduct.inStock}
-                    onChange={(e) => setSelectedProduct({ ...selectedProduct, inStock: e.target.value })}
+                        type="number"
+                        className="form-control"
+                        value={selectedProduct.inStock}
+                        onChange={(e) => setSelectedProduct({ ...selectedProduct, inStock: e.target.value })}
                     />
                 </div>
 
                 <div className="mb-3">
                     <label className="form-label">Category</label>
                     <input
-                    type="text"
-                    className="form-control"
-                    value={selectedProduct.category}
-                    onChange={(e) => setSelectedProduct({ ...selectedProduct, category: e.target.value })}
+                        type="text"
+                        className="form-control"
+                        value={selectedProduct.category}
+                        onChange={(e) => setSelectedProduct({ ...selectedProduct, category: e.target.value })}
                     />
                 </div>
 
                 <div className="mb-3">
                     <label className="form-label">Subcategory</label>
                     <input
-                    type="text"
-                    className="form-control"
-                    value={selectedProduct.subcategory}
-                    onChange={(e) => setSelectedProduct({ ...selectedProduct, subcategory: e.target.value })}
+                        type="text"
+                        className="form-control"
+                        value={selectedProduct.subcategory}
+                        onChange={(e) => setSelectedProduct({ ...selectedProduct, subcategory: e.target.value })}
                     />
                 </div>
 

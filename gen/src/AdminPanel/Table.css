@@ -1,36 +1,47 @@
 .table-responsive {
-  overflow-x: auto;
+    overflow-x: auto;
 }
 
 .table td, .table th {
-  text-align: center; /* Center text if needed */
-  word-wrap: break-word; /* Ensures text wrapping */
-  max-width: 150px; /* Adjust to make columns more compact if needed */
+    text-align: center; /* Center text if needed */
+    word-wrap: break-word; /* Ensures text wrapping */
+    max-width: 150px; /* Adjust to make columns more compact if needed */
+    min-height: 85px;
 }
 
 .table td ul {
-  padding-left: 15px;
+    padding-left: 15px;
 }
 
 .table td img {
-  max-width: 100%; /* Ensures images fit their column size */
+    max-width: 100%; /* Ensures images fit their column size */
 }
 
-
 .tooltip-container {
-  position: relative;
-  cursor: pointer;
+    position: relative;
+    cursor: pointer;
+    
 }
 
 .tooltip-content {
-  position: absolute;
-  background: white;
-  border: 1px solid #ccc;
-  padding: 8px;
-  display: none;
-  min-width: 200px;
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    display: none;
+    min-width: 200px;
+    z-index: 5;
 }
 
 .tooltip-container:hover .tooltip-content {
-  display: block;
+    display: block;
+    z-index: 5;
+}
+
+.cupid-case{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    height: 68px;
 }
