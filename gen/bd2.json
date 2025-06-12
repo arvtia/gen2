@@ -91,128 +91,26 @@
       ]
     },
     {
-      "id": 1749643007178,
-      "productName": "charger",
-      "price": "599",
-      "color": "white",
-      "discount": "5%"
-    },
-    {
-      "id": 1749644285266,
-      "productName": "keyboard",
-      "price": "1499",
+      "id": 1749703488055,
+      "productName": "earphone ",
+      "price": "9999",
       "color": "black",
-      "discount": "6",
+      "discount": "10",
       "size": "",
       "inStock": "",
-      "category": "",
+      "category": "sounds",
       "categoryImg": "",
-      "subcategory": "",
-      "brand": "",
+      "subcategory": "localproduct",
+      "brand": "local brand",
       "specifications": [],
-      "tags": [],
-      "imagesCollection": [],
-      "stock": "12",
-      "description": "Entry level wired keyboard & mouse combo extended from COA to fill the gap of RoW input portfolio with excellent cost-performance product, target market RoW emerging countries."
-    },
-    {
-      "id": 1749645499823,
-      "productName": "cooker",
-      "price": "2900",
-      "color": "silver",
-      "discount": "2",
-      "size": "",
-      "inStock": "",
-      "category": "kitchen",
-      "categoryImg": "",
-      "subcategory": "cooking",
-      "brand": "toshiba",
-      "specifications": [],
-      "tags": [
-        "Zen-Gy Verified"
-      ],
-      "imagesCollection": [],
-      "description": "cooker is a day to day used cooking item",
-      "stock": "42"
-    },
-    {
-      "id": 1749645615357,
-      "productName": "arvaz",
-      "price": "10",
-      "color": "silver",
-      "discount": "1",
-      "size": "",
-      "inStock": "",
-      "category": "kiooad",
-      "categoryImg": "",
-      "subcategory": "kjla",
-      "brand": "tohsi",
-      "specifications": [
-        "italic finish",
-        "long elastic ",
-        "are u serious ",
-        ""
-      ],
       "tags": [
         "Zen-Gy Verified"
       ],
       "imagesCollection": [
         {}
       ],
-      "description": "royal",
-      "stock": "234"
-    },
-    {
-      "id": 1749645792507,
-      "productName": "cooking utensils",
-      "price": "2899",
-      "color": "silver",
-      "discount": "19",
-      "size": "",
-      "inStock": "",
-      "category": "kitchen",
-      "categoryImg": "",
-      "subcategory": "appliance",
-      "brand": "sony",
-      "specifications": [
-        "high tech ",
-        "super speciality silver",
-        "3 year warrenty"
-      ],
-      "tags": [
-        "Smart Pick"
-      ],
-      "imagesCollection": [
-        {}
-      ],
-      "description": "anytihg can be description for testing \nanytihg can be description for testing anytihg can be description for testing anytihg can be description for testing anytihg can be description for testing ",
-      "stock": "121"
-    },
-    {
-      "id": 1749646594441,
-      "productName": "speakers bass boosted",
-      "price": "21",
-      "color": "black ",
-      "discount": "16",
-      "size": "",
-      "inStock": "",
-      "category": "electronic",
-      "categoryImg": "",
-      "subcategory": "sound",
-      "brand": "boat",
-      "specifications": [],
-      "tags": [
-        "Zen-Gy Verified"
-      ],
-      "imagesCollection": [
-        {},
-        {},
-        {},
-        {},
-        {}
-      ],
-      "description": "bass boosted speakers in the marker for the sake of shareholders and investors ",
-      "stock": "101"
+      "stock": "2",
+      "description": "sound audio device mechanical"
     }
   ]
 }

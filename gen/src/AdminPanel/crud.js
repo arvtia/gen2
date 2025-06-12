@@ -277,6 +277,44 @@ const AdminProductList = () => {
                 </button>
             </div>
 
+            {/* image collection links recieve */}
+            <div className="mb-3">
+                <label className="form-label">Specifications</label>
+                {newProduct.imagesCollection.map((item, index) => (
+                <div key={index} className="input-group mb-1">
+                    <input
+                    type="text"
+                    className="form-control"
+                    value={spec}
+                    placeholder={`Specification ${index + 1}`}
+                    onChange={(e) => {
+                        const specs = [...newProduct.specifications];
+                        specs[index] = e.target.value;
+                        setNewProduct({ ...newProduct, specifications: specs });
+                    }}
+                    />
+                    <button
+                    type="button"
+                    className="btn btn-outline-danger"
+                    onClick={() => {
+                        const specs = newProduct.specifications.filter((_, i) => i !== index);
+                        setNewProduct({ ...newProduct, specifications: specs });
+                    }}
+                    >
+                    ×
+                    </button>
+                </div>
+                ))}
+                <button
+                type="button"
+                className="btn btn-outline-primary btn-sm"
+                onClick={() => setNewProduct({ ...newProduct, specifications: [...newProduct.specifications, ""] })}
+                >
+                Add Specification
+                </button>
+            </div>
+
+
             {/* uploading images */}
             <div className="mb-3">
                 <label className="form-label">Upload Images</label>
