@@ -1,37 +1,6 @@
 {
   "products": [
     {
-      "id": "1749703488055",
-      "productName": "white lable",
-      "price": 2000,
-      "color": "green",
-      "discount": 0,
-      "size": [
-        "Small"
-      ],
-      "inStock": "12312",
-      "category": "sounds",
-      "categoryImg": "",
-      "subcategory": "mechanical",
-      "brand": "local brand",
-      "specifications": [
-        "optimum uses only",
-        "uses are mild and validation",
-        "local deseases are very strange",
-        "local services"
-      ],
-      "tags": [
-        "Trending"
-      ],
-      "imagesCollection": [
-        "https://kitchenmart.co.in/cdn/shop/products/prestige-popular-aluminium-pressure-cooker-1-5-litre-8901365100386-prestige-popular-1-5l-1065-4620932251738.jpg?v=1607126319",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlbyJbRhjZvHG0aM6najAi6xOF55lVtYwrDA&s",
-        "https://media.istockphoto.com/id/489696189/photo/pressure-cooker.jpg?s=612x612&w=0&k=20&c=m6ofPZiHlFnXUDv8uhYOZDqhh0RrMdGSxoq2M-0iLRE="
-      ],
-      "stock": "2",
-      "description": "sound audio device mechanical"
-    },
-    {
       "id": "1749707850854",
       "productName": "Nothing Ear ",
       "price": "7995",

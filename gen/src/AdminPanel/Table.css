@@ -15,3 +15,22 @@
 .table td img {
   max-width: 100%; /* Ensures images fit their column size */
 }
+
+
+.tooltip-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip-content {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  display: none;
+  min-width: 200px;
+}
+
+.tooltip-container:hover .tooltip-content {
+  display: block;
+}

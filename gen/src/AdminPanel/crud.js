@@ -104,13 +104,18 @@ const AdminProductList = () => {
                 </td>
                 <td>{product.subcategory}</td>
                 <td>{product.brand}</td>
-                <td className="p-1" style={{minWidth:"200px", minHeight:"80px", overflow:"scroll"}}>
-                    <ul>
-                    {product.specifications.map((spec, i) => (
-                        <li key={i}>{spec}</li>
-                    ))}
-                    </ul>
+                
+                <td className="p-1 tooltip-container">
+                    Hover me
+                    <div className="tooltip-content">
+                        <ul>
+                        {product.specifications.map((spec, i) => (
+                            <li key={i} className="text-start">{spec}</li>
+                        ))}
+                        </ul>
+                    </div>
                 </td>
+
                 <td>
                     <ul>
                     {product.tags.map((tag, i) => (
@@ -119,7 +124,7 @@ const AdminProductList = () => {
                     </ul>
                 </td>
                 <td>
-                    <div className="d-flex flex-wrap gap-2">
+                    <div className="d-flex overflow-x-scroll gap-2">
                     {product.imagesCollection.map((img, i) =>
                         typeof img === "string" && img ? (
                         <img
