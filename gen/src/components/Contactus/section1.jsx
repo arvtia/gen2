@@ -5,7 +5,7 @@ const Section1 = () => {
   const [sectionData, setSectionData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/ContactUs")
+    fetch("http://localhost:3002/ContactUs")
       .then((res) => res.json())
       .then((data) => {
         if (data.length > 0 && data[0].section1) {

@@ -29,7 +29,8 @@ const FilterProducts = () => {
                 {uniqueCategories.map((category) => {
                     const categoryItem = products.find(item => item.category === category); // Find the first matching item
                     return (
-                    <Link to={""} className="col-12 col-sm-6 col-md-4 col-lg-3   " key={category}>
+                    <Link to={`/category/${encodeURIComponent(category)}`} className="col-12 col-sm-6 col-md-4 col-lg-3" key={category}>
+
                         <div className="p-2 soft-blur">
                             <div className="position-relative bg-white rounded">
                                 {categoryItem && (

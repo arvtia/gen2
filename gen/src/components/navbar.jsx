@@ -16,7 +16,7 @@ const Navbar = () => {
     const [ navLinks, setNavLinks] = useState ([]);
 
     useEffect(() => {
-    fetch('http://localhost:5000/navLinks')
+    fetch('http://localhost:3002/navLinks')
         .then((res) => res.json())
         .then((data) => setNavLinks(data))
         .catch((err) => {

@@ -13,6 +13,7 @@ import AdminHome from "./AdminPanel/Admin";
 import { Settings, Users } from "./AdminPanel/components/sample";
 import ShopNow from "./pages/shop";
 import AdminProductList from "./AdminPanel/crud";
+import CategoryPage from "./components/shop/CategoryPage";
 
 
 function AppLayout() {
@@ -33,6 +34,8 @@ function AppLayout() {
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="*" element={<ErrorPage />} />
         <Route path="/cart" element={ <ShopNow />} />
+        <Route path="/category/:name" element={<CategoryPage />} />
+
 
         {/* Admin Routes */}
         <Route path="/admin" element={<AdminHome />}>

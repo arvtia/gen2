@@ -222,58 +222,53 @@
       "description": "800WATT RMS POWERFUL JBL PRO SOUND: Create an instant musical connection with 800 powerful watts of high-performance JBL Original Pro Sound from Partybox 710. The Dual 2.75\" tweeters and 8\" woofers paired with its tuned bass reflex port deliver detailed audio perfection for music so loud you can literally feel the beat."
     }
   ],
-  "MainCatgory": [
-    {
-      "id": "1",
-      "name": "TWS",
-      "imgMain": "src"
-    },
-    {
-      "id": "2",
-      "name": "PowerBank",
-      "imgMain": "src"
-    },
-    {
-      "id": "3",
-      "name": "Headphone",
-      "imgMain": "src"
-    },
-    {
-      "id": "4",
-      "name": "Neckband",
-      "imgMain": "src"
-    },
-    {
-      "id": "5",
-      "name": "Powerbank",
-      "imgMain": "src"
-    },
-    {
-      "id": "6",
-      "name": "Wired earphone",
-      "imgMain": "src"
-    },
-    {
-      "id": "7",
-      "name": "Data cable",
-      "imgMain": "src"
-    },
-    {
-      "id": "8",
-      "name": "Sound bar",
-      "imgMain": "src"
-    },
-    {
-      "id": "9",
-      "name": "Charger",
-      "imgMain": "src"
-    },
-    {
-      "id": "10",
-      "name": "Wireless Car Play",
-      "imgMain": "src"
-    }
-  ],
+    "MainCatgory": [
+        {
+        "id": 17,
+        "name": "TWS",
+        "imgMain": "src"
+        },
+        {
+        "id": 16,
+        "name": "Headphone",
+        "imgMain": "src"
+        },
+        {
+        "id": 15,
+        "name": "Neckband",
+        "imgMain": "src"
+        },
+        {
+        "id": 14,
+        "name": "Powerbank",
+        "imgMain": "src"
+        },
+        {
+        "id": 13,
+        "name": "WiredEarphone",
+        "imgMain": "src"
+        },
+        {
+        "id": 12,
+        "name": "DataCable",
+        "imgMain": "src"
+        },
+        {
+        "id": 11,
+        "name": "Soundbar",
+        "imgMain": "src"
+        },
+        {
+        "id": 10,
+        "name": "Charger",
+        "imgMain": "src"
+        },
+        {
+        "id": 9,
+        "name": "Wireless-car-play",
+        "imgMain": "src"
+        }
+    ],
   "AboutUsPage": [
     {
       "id": "12122131231",
@@ -357,70 +352,126 @@
           ]
         }
       ],
-      "ourClient": [
-        {
-          "id": "1",
-          "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
-        },
-        {
-          "id": "2",
-          "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
-        },
-        {
-          "id": "3",
-          "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
-        },
-        {
-          "id": "4",
-          "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
-        },
-        {
-          "id": "5",
-          "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+        "ourClient": [
+            {
+            "id": "1",
+            "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+            },
+            {
+            "id": "2",
+            "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+            },
+            {
+            "id": "3",
+            "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+            },
+            {
+            "id": "4",
+            "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+            },
+            {
+            "id": "5",
+            "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+            }
+        ]
         }
-      ]
-    }
-  ],
-  "testimonials": [
-    {
-      "id": "1",
-      "stars": 5,
-      "name": "Sophia Patel",
-      "product": "Smart Watch",
-      "comment": "Absolutely love this smartwatch! The battery life is impressive, and the fitness tracking features keep me motivated. A must-have for staying active!",
-      "icons": "ph-watch"
-    },
-    {
-      "id": "2",
-      "stars": 4,
-      "name": "Daniel Thompson",
-      "product": "Sound Bar",
-      "comment": "Great sound quality with deep bass! It transformed my home theater experience. Only wish the remote had a few more control options.",
-      "icons": "ph-speaker-simple-high"
-    },
-    {
-      "id": "3",
-      "stars": 5,
-      "name": "Aisha Reddy",
-      "product": "Tripod and Lights",
-      "comment": "Perfect for my photography setup! Sturdy tripod and the adjustable lights make capturing professional shots easy. Definitely worth it!",
-      "icons": "ph-camera"
-    },
-    {
-      "id": "4",
-      "stars": 4,
-      "name": "Marcus Evans",
-      "product": "SSD",
-      "comment": "Super fast performance! My laptop runs much smoother, and file transfers are instant. Just wish it came with installation instructions.",
-      "icons": "ph-hard-drive"
-    },
-    {
-      "id": "5",
-      "stars": 5,
-      "name": "Priya Sharma",
-      "product": "Tempered Glass",
-      "comment": "Crystal clear and ultra-protective! My phone screen feels brand new with this tempered glass. No bubbles, easy application, and strong durability!",
-      "icons": "ph-cell-signal-high"
-    }
-  ]
+    ],
+    "testimonials": [
+        {
+        "id": "1",
+        "stars": 5,
+        "name": "Sophia Patel",
+        "product": "Smart Watch",
+        "comment": "Absolutely love this smartwatch! The battery life is impressive, and the fitness tracking features keep me motivated. A must-have for staying active!",
+        "icons": "ph-watch"
+        },
+        {
+        "id": "2",
+        "stars": 4,
+        "name": "Daniel Thompson",
+        "product": "Sound Bar",
+        "comment": "Great sound quality with deep bass! It transformed my home theater experience. Only wish the remote had a few more control options.",
+        "icons": "ph-speaker-simple-high"
+        },
+        {
+        "id": "3",
+        "stars": 5,
+        "name": "Aisha Reddy",
+        "product": "Tripod and Lights",
+        "comment": "Perfect for my photography setup! Sturdy tripod and the adjustable lights make capturing professional shots easy. Definitely worth it!",
+        "icons": "ph-camera"
+        },
+        {
+        "id": "4",
+        "stars": 4,
+        "name": "Marcus Evans",
+        "product": "SSD",
+        "comment": "Super fast performance! My laptop runs much smoother, and file transfers are instant. Just wish it came with installation instructions.",
+        "icons": "ph-hard-drive"
+        },
+        {
+        "id": "5",
+        "stars": 5,
+        "name": "Priya Sharma",
+        "product": "Tempered Glass",
+        "comment": "Crystal clear and ultra-protective! My phone screen feels brand new with this tempered glass. No bubbles, easy application, and strong durability!",
+        "icons": "ph-cell-signal-high"
+        }
+    ],
+  "navLinks": [
+        { 
+            "id": 1, "name": "Home", "path": "/", "icon": "bi-house"
+        },
+        { 
+            "id": 2, "name": "Shop", "path": "/admin", "icon": "bi-bag"
+        },
+        { 
+            "id": 4, "name": "Contact", "path": "/contactus", "icon": "bi-telephone" 
+        }
+    ],
+    "ContactUs":[
+        {
+            "section1":[
+                {
+                    "img":"https://images.unsplash.com/photo-1517598024396-46c53fb391a1?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "text":"Get In Touch With Us!",
+                    "smallText":"Have any question in your mind? feel free to talk with us with just one mail"
+                }
+
+            ]
+        }
+    ],
+
+    "SocialLinks": [
+        {
+            "id": "",
+            "link": "https://facebook.com",
+            "name": "facebook",
+            "icon": "bi bi-facebook"
+        },
+        {
+            "id": "",
+            "link": "https://instagram.com",
+            "name": "Instagram",
+            "icon": "bi bi-instagram"
+        },
+        {
+            "id": "",
+            "link": "https://shopify.com",
+            "name": "Shopify",
+            "icon": "bi bi-shop"
+        },
+        {
+            "id": "",
+            "link": "https://email.com",
+            "name": "Email",
+            "icon": "bi bi-envelope"
+        },
+        {
+            "id": "",
+            "link": "https://x.com",
+            "name": "Twitter-X",
+            "icon": "bi bi-twitter-x"
+        }
+    ]
 }
