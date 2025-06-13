@@ -20,8 +20,8 @@ const FilterProducts = () => {
 
   return (
     <div className="pb-4 mt-2 bg-body-tertiary rounded-4">
-      <div className="mb-3 ps- py-3 mt-5 fs-5 fw-bold soft-blur text-dark ps-2 pe-3 lh-1">
-        Categories <em><span className='font-1 text-secondary px-3 lh-1'> search for anything you need at  the most affordable prize</span></em>
+      <div className="mb-3 ps- py-3 mt-5 fs-5 fw-bold soft-blur text-dark ps-lg-5 ps-md-4 ps-4 pe-3 ">
+            Shop by Categories 
       </div>
       <div className="py-2">
         <div className="container-fluid">

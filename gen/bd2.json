@@ -35,7 +35,7 @@
     {
       "id": "11",
       "productId": "324231",
-      "productName": "QuickCharge TurboCable",
+      "productName": "Turbo Cable",
       "price": 14.99,
       "color": "Black",
       "length": "1m",
@@ -190,6 +190,36 @@
         "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-300w-home-theater-soundbar-blaupunkt-india-6.jpg?v=1743490814"
       ],
       "description": "Surround Soundbar with Rear Satellites I 300W RMS with 20.32cm Subwoofer I HDMI (ARC) I Optical I BT I AUX I USB I Remote Control"
+    },
+    {
+      "id": 1749811961183,
+      "productName": "JBL Party Speaker 800W",
+      "price": "23999",
+      "color": "Black",
+      "discount": "11",
+      "size": "Large",
+      "inStock": "11",
+      "category": "Speakers",
+      "categoryImg": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/712D910fO-L._SX569_.jpg",
+      "subcategory": "Party Speaker",
+      "brand": "JBL",
+      "specifications": [
+        "800WATT RMS POWERFUL JBL PRO SOUND ",
+        "DYNAMIC CUSTOMIZABLE LIGHT SHOW:",
+        "CONTROL WITH JBL PARTYBOX APP: The JBL PartyBox app makes it easier than ever to control your music",
+        "IPX4 SPLASHPROOF: Whether you are partying with friends in your backyard or sipping drinks by the pool"
+      ],
+      "tags": [
+        "Trending"
+      ],
+      "imagesCollection": [
+        "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oc8tB6S3L._SX569_.jpg",
+        "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/61OQwaqoKhL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71Q05OWQSvL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71IyXC6IHpL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oZ9cBSe4L._SL1500_.jpg"
+      ],
+      "description": "800WATT RMS POWERFUL JBL PRO SOUND: Create an instant musical connection with 800 powerful watts of high-performance JBL Original Pro Sound from Partybox 710. The Dual 2.75\" tweeters and 8\" woofers paired with its tuned bass reflex port deliver detailed audio perfection for music so loud you can literally feel the beat."
     }
   ],
   "MainCatgory": [

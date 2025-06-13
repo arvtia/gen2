@@ -232,7 +232,7 @@ const ProductSection = () => {
                 <div className="d-flex justify-content-between mx-auto">
                   <div>
                     <button className="btn px-2 py-0 bg-body-tertiary soft-box" style={{ borderRadius: '30px' }}>
-                      <p className="font-2 my-auto py-2 px-1">Add to Cart</p>
+                      <p className="font-2 my-auto py-2 px-1"><i className="bi bi-bag"></i></p>
                     </button>
                   </div>
                   <div className="align-items-center">
