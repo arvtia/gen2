@@ -262,6 +262,21 @@ const AdminProductList = () => {
                         onChange={(e) => setSelectedProduct({ ...selectedProduct, category: e.target.value })}
                     />
                 </div>
+                {/* Category Image /Input - duplicated - in a similar way */}
+                <div className="mb-3">
+                    <label className="form-label">update category image</label>
+                    <input
+                        type="text"
+                        list="CatImg"
+                        className="form-control"
+                        placeholder="Insert image of category"
+                        value={selectedProduct.categoryImg}
+                        onChange={(e) => setNewProduct({ ...newProduct, categoryImg: e.target.value })}
+                    />
+                    <datalist  id="CatImg">
+                        <option value="N/A" />
+                    </datalist>
+                </div>
 
                 <div className="mb-3">
                     <label className="form-label">Subcategory</label>
@@ -382,7 +397,7 @@ const AdminProductList = () => {
             )}
 
 
-    {/* separation -  */}
+    {/* separation -  add product in the field */}
 
         <div>
             <div className="row py-2 my-4">
@@ -417,7 +432,7 @@ const AdminProductList = () => {
 
                         {/* product size- */}
                         <div className="mb-3">
-                            <label className="form-label">Product Image</label>
+                            <label className="form-label">Size</label>
                             <input
                                 list="size"
                                 className="form-control"
@@ -513,6 +528,22 @@ const AdminProductList = () => {
                             </datalist>
                         </div>
 
+                        {/* Category Image /Input - duplicated - in a similar way */}
+                        <div className="mb-3">
+                            <label className="form-label">Category Image</label>
+                            <input
+                                type="text"
+                                list="CatImg"
+                                className="form-control"
+                                placeholder="insert category image link"
+                                value={newProduct.categoryImg}
+                                onChange={(e) => setNewProduct({ ...newProduct, categoryImg: e.target.value })}
+                            />
+                            <datalist  id="CatImg">
+                                <option value="N/A" />
+                            </datalist>
+                        </div>
+
                         {/* Subcategory */}
                         <div className="mb-3">
                             <label className="form-label">Subcategory</label>
@@ -520,7 +551,7 @@ const AdminProductList = () => {
                                 list="Subcategory"
                                 type="text"
                                 className="form-control"
-                                placeholder="Enter subcategory"
+                                placeholder="Category Image paste your link here"
                                 value={newProduct.subcategory}
                                 onChange={(e) => setNewProduct({ ...newProduct, subcategory: e.target.value })}
                             />

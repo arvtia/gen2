@@ -21,7 +21,7 @@ const ProductListing =() =>{
                 {
                     products.map((item, index) =>(
                         <div key={index} className="card" style={{width:"290px"}}>
-                            <img src={item.imagesCollection[0]} alt="" />
+                            <img src={item.imagesCollection[0]} alt="" style={{}}/>
                         </div>
                     ))
                 }
