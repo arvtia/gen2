@@ -8,7 +8,7 @@ const TeamsCarousel = () => {
 
   // Fetch team data
   useEffect(() => {
-    fetch("http://localhost:5000/AboutUsPage")
+    fetch("http://localhost:3002/AboutUsPage")
       .then((res) => res.json())
       .then((data) => {
         const teamData = data[0]?.ourTeams || []; // Adjusting API structure

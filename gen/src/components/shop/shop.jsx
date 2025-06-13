@@ -19,19 +19,36 @@ const FilterProducts = () => {
   const uniqueCategories = [...new Set(products.map(item => item.category))];
 
   return (
-    <div className="py-4 mt-5">
-      <div className="mb-3 px-2 ms-2 mt-5">Categories</div>
+    <div className="pb-4 mt-2 bg-body-tertiary rounded-4">
+      <div className="mb-3 ps- py-3 mt-5 fs-5 fw-bold soft-blur text-dark ps-2 pe-3 lh-1">
+        Categories <em><span className='font-1 text-secondary px-3 lh-1'> search for anything you need at  the most affordable prize</span></em>
+      </div>
       <div className="py-2">
         <div className="container-fluid">
-          <div className="row gy-2 d-flex flex-wrap px-4">
-            {uniqueCategories.map((category) => (
-              <Link to={""} className="col-12 col-md-6 col-lg-3 col-xl-3 card" key={category}>
-                <div className="card-body">
-                  <p className='fs-5 fw-bold'>{category}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
+          <div className="row gy-2 d-flex flex-wrap px-lg-4 px-md-2">
+                {uniqueCategories.map((category) => {
+                    const categoryItem = products.find(item => item.category === category); // Find the first matching item
+                    return (
+                    <Link to={""} className="col-12 col-sm-6 col-md-4 col-lg-3   " key={category}>
+                        <div className="p-2 soft-blur">
+                            <div className="position-relative bg-white rounded">
+                                {categoryItem && (
+                                    <img 
+                                    src={categoryItem.categoryImg} 
+                                    alt={`Image for ${category}`} 
+                                    className="img-fluid w-100 rounded p-3"
+                                    style={{ height: "300px", objectFit: "contain" }}
+                                    />
+                                )}
+                                <div className="position-absolute bottom-0 start-50 translate-middle-x soft-blur text-dark p-2 text-center w-100">
+                                    <p className="fs-5 fw-bold mb-0">{category}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                    );
+                })}
+            </div>
         </div>
       </div>
     </div>

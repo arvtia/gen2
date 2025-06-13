@@ -163,13 +163,13 @@ const AdminProductList = () => {
                 </td>
                 <td className="cupid-case d-flex align-items-center">
                     <button
-                        className="btn bg-secondary text-white me-2"
+                        className="btn bg-primary text-white me-2"
                         onClick={() => setSelectedProduct(product)}
                     >
                     Edit
                     </button>
                     <button
-                        className="btn text-white bg-secondary"
+                        className="btn text-white bg-danger bg-hover-dark"
                         onClick={() => handleDelete(product.id)}
                     >
                     Delete
@@ -183,7 +183,7 @@ const AdminProductList = () => {
 
 
       {selectedProduct && (
-            <div className="mt-4 p-4 border rounded bg-light" id="EDIT_PRODUCT_FORM">
+            <div className="mt-4 col-12 col-lg-9 col-xl-10 mx-auto p-4 border rounded bg-light" id="EDIT_PRODUCT_FORM">
                 <h4>Edit Product</h4>
                 <form onSubmit={handleUpdate}>
                 <div className="mb-3">
@@ -263,20 +263,14 @@ const AdminProductList = () => {
                     />
                 </div>
                 {/* Category Image /Input - duplicated - in a similar way */}
-                <div className="mb-3">
-                    <label className="form-label">update category image</label>
-                    <input
-                        type="text"
-                        list="CatImg"
-                        className="form-control"
-                        placeholder="Insert image of category"
-                        value={selectedProduct.categoryImg}
-                        onChange={(e) => setNewProduct({ ...newProduct, categoryImg: e.target.value })}
-                    />
-                    <datalist  id="CatImg">
-                        <option value="N/A" />
-                    </datalist>
-                </div>
+               <input
+                    type="text"
+                    className="form-control"
+                    placeholder="Insert image of category"
+                    value={selectedProduct.categoryImg}
+                    onChange={(e) => setSelectedProduct({ ...selectedProduct, categoryImg: e.target.value })}
+                />
+
 
                 <div className="mb-3">
                     <label className="form-label">Subcategory</label>
@@ -301,10 +295,10 @@ const AdminProductList = () => {
                 <div className="mb-3">
                     <label className="form-label">Tags</label>
                     <select
-                    multiple
-                    className="form-select"
-                    value={selectedProduct.tags}
-                    onChange={(e) =>
+                        multiple
+                        className="form-select"
+                        value={selectedProduct.tags}
+                        onChange={(e) =>
                         setSelectedProduct({
                         ...selectedProduct,
                         tags: Array.from(e.target.selectedOptions, (option) => option.value),
@@ -324,13 +318,13 @@ const AdminProductList = () => {
                     {selectedProduct.specifications.map((spec, index) => (
                     <div key={index} className="input-group mb-1">
                         <input
-                        type="text"
-                        className="form-control"
-                        value={spec}
-                        onChange={(e) => {
-                            const specs = [...selectedProduct.specifications];
-                            specs[index] = e.target.value;
-                            setSelectedProduct({ ...selectedProduct, specifications: specs });
+                            type="text"
+                            className="form-control"
+                            value={spec}
+                            onChange={(e) => {
+                                const specs = [...selectedProduct.specifications];
+                                specs[index] = e.target.value;
+                                setSelectedProduct({ ...selectedProduct, specifications: specs });
                         }}
                         />
                         <button
@@ -346,9 +340,9 @@ const AdminProductList = () => {
                     </div>
                     ))}
                     <button
-                    type="button"
-                    className="btn btn-outline-primary btn-sm"
-                    onClick={() => setSelectedProduct({ ...selectedProduct, specifications: [...selectedProduct.specifications, ""] })}
+                        type="button"
+                        className="btn btn-outline-primary btn-sm"
+                        onClick={() => setSelectedProduct({ ...selectedProduct, specifications: [...selectedProduct.specifications, ""] })}
                     >
                     Add specifications
                     </button>
@@ -400,8 +394,8 @@ const AdminProductList = () => {
     {/* separation -  add product in the field */}
 
         <div>
-            <div className="row py-2 my-4">
-                <div className="col-12 col-lg-9 col-xl-9 p-lg-5 ">
+            <div className="row py-2 mt-4 mx-auto">
+                <div className="col-12 col-lg-9 col-xl-9 p-lg-5 mx-auto mt-3 ">
                     <form onSubmit={handleAdd} className="p-4 mt-3 border rounded bg-light" id="ADD_PRODUCT_FORM">
                         <p className="fs-2"> Add a New Product</p>
                         {/* Product Name */}

@@ -4,7 +4,7 @@ const OurStory = () => {
   const [storyData, setStoryData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/AboutUsPage")
+    fetch("http://localhost:3002/AboutUsPage")
       .then((res) => res.json())
       .then((data) => setStoryData(data))
       .catch((err) => {

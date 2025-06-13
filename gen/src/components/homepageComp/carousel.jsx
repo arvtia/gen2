@@ -8,7 +8,7 @@ const CarouselLast = () => {
 
   // Fetch data
   useEffect(() => {
-    fetch('http://localhost:5000/Products')
+    fetch('http://localhost:3002/products')
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => {
@@ -74,13 +74,13 @@ const CarouselLast = () => {
             <div key={product.id || index} className="product-card card">
               <div className="card-content card-body">
                 <img
-                  src={product.image}
-                  alt={product.product_name}
+                  src={product.imagesCollection[0]}
+                  alt={product.productName}
                   className="product-image img-fluid rounded-3"
                   style={{ width: "100%", height: "280px", objectFit: "cover" }}
                 />
                 <div className="d-flex justify-content-between mt-2">
-                  <h5 className="product-title fw-bold text-start ps-2">{product.product_name}</h5>
+                  <h5 className="product-title fw-bold text-start ps-2">{product.productName}</h5>
                   <p className="fs-6 fw-bold">{product.price}</p>
                 </div>
               </div>

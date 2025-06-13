@@ -5,7 +5,7 @@ const Testimony = () => {
   const [testimonials, setTestimonials] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/testimonials")
+    fetch("http://localhost:3002/testimonials")
       .then((res) => res.json())
       .then((data) => setTestimonials(data))
       .catch((err) => console.error("Error:", err));

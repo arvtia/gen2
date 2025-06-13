@@ -15,20 +15,8 @@ const ProductListing =() =>{
 
 
     return(
-        
-        <div className="py-4 my-2">
-            <div className="mb-2 px-2 d-flex flex-wrap">
-                {
-                    products.map((item, index) =>(
-                        <div key={index} className="card" style={{width:"290px"}}>
-                            <img src={item.imagesCollection[0]} alt="" style={{}}/>
-                        </div>
-                    ))
-                }
-            </div>
-        </div>
-
-
+        <>
+        </>
     )
 }
 

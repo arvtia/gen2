@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import { useState, useEffect } from "react";
 import CategoryMenu from "./categorymenu";
+import ShopNow from "../../pages/shop";
 
 
 
@@ -58,7 +59,7 @@ const BtnInside = () =>{
                 <input
                     type="text"
                     className="form-control box-shd"
-                    placeholder="Recipient's username"
+                    placeholder="Recipient's Email"
                     aria-label="Recipient's username"
                     style={{borderRadius:"25px"}}
                    />
@@ -148,6 +149,9 @@ const ProductsList =() =>{
         }}>
             <div className="row">
                 <FirstSection />
+                <div className="p-2">
+                    <ShopNow/>
+                </div>
                 <SecondSection />
             </div>
         </div>
@@ -164,7 +168,7 @@ const ProductSection = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
-    fetch('http://localhost:5000/Products')
+    fetch('http://localhost:3002/products')
       .then((res) => res.json())
       .then((data) => {
         setProductList(data);
@@ -205,7 +209,7 @@ const ProductSection = () => {
             className="col-6 col-md-4 col-lg-4 col-xl-4 position-relative justify-content-center text-center px-2"
           >
             <img
-              src={item.image}
+              src={item.imagesCollection[0]}
               alt="Product"
               className="img-fluid bg-secondary phone-view-product rounded"
               style={{
@@ -214,13 +218,13 @@ const ProductSection = () => {
                 height: '290px',
               }}
             />
-            <div className="text-dark fw-bold text-start">{item.brand_name}</div>
+            <div className="text-dark fw-bold text-start">{item.productName}</div>
             <div className="col-11 mx-auto">
               <div className="justify-content-between d-flex mx-auto align-items-center">
                 <p className="text-secondary font-1">
-                  <i className="bi bi-star-fill text-warning"></i> {item.review}
+                  <i className="bi bi-star-fill text-warning"></i> 2.1k reviews
                 </p>
-                <p className="fs-5 fw-bold">{item.price}</p>
+                <p className="fs-5 fw-bold">₹{item.price}</p>
               </div>
             </div>
             <div className="row mb-3">

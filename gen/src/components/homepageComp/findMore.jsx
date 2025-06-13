@@ -3,7 +3,7 @@ import { BtnInside } from "./productsList"
 
 const FindMore =() =>{
     return(
-        <div className="py-3 px-3 px-5">
+        <div className="py-3 px-2 px-lg-5 px-xl-5">
             <div className="container-fluid dark-gradient rounded-4 py-4">
                 <div className="row d-flex justify-content-between flex-wrap px-4">
                     <div className="col-12 col-md-6 col-lg-4 col-xl-4">

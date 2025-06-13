@@ -4,7 +4,7 @@ const Intro = () => {
   const [introData, setIntroData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/AboutUsPage")
+    fetch("http://localhost:3002/AboutUsPage")
       .then((res) => res.json())
       .then((data) => setIntroData(data))
       .catch((err) => {
