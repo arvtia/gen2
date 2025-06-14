@@ -6,19 +6,6 @@ import ShopNow from "../../pages/shop";
 
 
 
-const navItems = [
-    { name: "Products", id: "products", subItems: [
-        "TWS", "Collar / Neck Band", "Smart Watch", "Feature Phones",
-        "Sound Phones", "Speakers", "Sound Bars", "Mouse",
-        "Keyboards", "USB and Connectors", "RAM", "SSD",
-        "Chargers", "Tripod and Lights", "Phone Case", "Tempered Glass"
-    ]},
-    { name: "Sub Category", id: "sub-category", subItems: ["Gen-gy verified", "Smart Pick", "Top Sellers", "Trending"] },
-    { name: "Sort", id: "sort", subItems: [] }
-];
-
-
-
 
 
 const WrapperProducts =() =>{
@@ -76,7 +63,7 @@ const SecondSection =() =>{
         <>
             <div className="col-12 col-lg-3 col-xl-3">
                 {/* category selection bar */}
-                <CategoryMenu/>
+                {/* <CategoryMenu/> */}
             </div>
             <div className="col-12 col-lg-9 col-xl-9">
                 {/* products details and cols */}

@@ -7,7 +7,7 @@ const CategoryMenu = () => {
   const [filterTag, setFilterTag] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3001/categories")
+    fetch("http://localhost:3002/products")
       .then((res) => res.json())
       .then((data) => setCategories(data))
       .catch((err) => console.error("Failed to fetch products:", err));

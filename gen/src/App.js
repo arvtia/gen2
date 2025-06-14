@@ -33,7 +33,7 @@ function AppLayout() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="*" element={<ErrorPage />} />
-        <Route path="/cart" element={ <ShopNow />} />
+        <Route path="/shop" element={ <ShopNow />} />
         <Route path="/category/:name" element={<CategoryPage />} />
 
 

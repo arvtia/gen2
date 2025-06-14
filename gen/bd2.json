@@ -235,27 +235,27 @@
         },
         {
         "id": 15,
-        "name": "Neckband",
+        "name": "Neckbands",
         "imgMain": "src"
         },
         {
         "id": 14,
-        "name": "Powerbank",
+        "name": "Power Bank",
         "imgMain": "src"
         },
         {
         "id": 13,
-        "name": "WiredEarphone",
+        "name": "Wired Earphone",
         "imgMain": "src"
         },
         {
         "id": 12,
-        "name": "DataCable",
+        "name": "Data Cable",
         "imgMain": "src"
         },
         {
         "id": 11,
-        "name": "Soundbar",
+        "name": "Sound Bar",
         "imgMain": "src"
         },
         {
@@ -265,7 +265,7 @@
         },
         {
         "id": 9,
-        "name": "Wireless-car-play",
+        "name": "Wireless Car Play",
         "imgMain": "src"
         }
     ],
@@ -418,17 +418,17 @@
         "icons": "ph-cell-signal-high"
         }
     ],
-  "navLinks": [
-        { 
-            "id": 1, "name": "Home", "path": "/", "icon": "bi-house"
-        },
-        { 
-            "id": 2, "name": "Shop", "path": "/admin", "icon": "bi-bag"
-        },
-        { 
-            "id": 4, "name": "Contact", "path": "/contactus", "icon": "bi-telephone" 
-        }
-    ],
+    "navLinks": [
+            { 
+                "id": 1, "name": "Home", "path": "/", "icon": "bi-house"
+            },
+            { 
+                "id": 2, "name": "Shop", "path": "/shop", "icon": "bi-bag"
+            },
+            { 
+                "id": 4, "name": "Contact", "path": "/contactus", "icon": "bi-telephone" 
+            }
+        ],
     "ContactUs":[
         {
             "section1":[

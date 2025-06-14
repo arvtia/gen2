@@ -1,4 +1,5 @@
-import ProductListing from "../components/shop/productsListing";
+
+import EmptySpace from "../components/AboutUs/emptySpace";
 import FilterProducts from "../components/shop/shop";
 
 
@@ -8,7 +9,7 @@ const ShopNow = () =>{
     return(
         <>
         <FilterProducts />
-        <ProductListing />
+        
         </>
     )
 }
