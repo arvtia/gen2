@@ -6,19 +6,22 @@ import OurStory from "../components/AboutUs/ourStory";
 import TeamsCarousel from "../components/AboutUs/team";
 import Testimony from "../components/AboutUs/testimony";
 
+import ReactbitsImageT from "../components/reactbit-components/Trialpage";
+
+
+
 
 
 const AboutUs = () =>{
     return(
         <>
         <Intro/>
+        <ReactbitsImageT />
+        <EmptySpace />
         <OurStory />
         <TeamsCarousel />
-        <EmptySpace />
         <PartnerMarquee />
-        <EmptySpace />
         <Testimony />
-        <EmptySpace />
         </>
     )
 }

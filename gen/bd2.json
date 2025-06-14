@@ -26,10 +26,10 @@
         "value"
       ],
       "imagesCollection": [
-        "https://dummyimage.com/200x200/111/fff&text=BassLoop+Front",
-        "https://dummyimage.com/200x200/111/fff&text=BassLoop+Side",
-        "https://dummyimage.com/200x200/111/fff&text=BassLoop+Side",
-        "https://dummyimage.com/200x200/111/fff&text=BassLoop+Side"
+        "data:image/png;base64,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",
+        "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701705180/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/275521_py92zk.png",
+        "https://blaupunktaudio.in/cdn/shop/files/be100-xtreme-neckband-with-ultra-long-playtime-blue-blaupunkt-india-1.jpg?v=1710497123",
+        "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
       ]
     },
     {
@@ -163,7 +163,7 @@
       "description": " Power-packed 10000mAh - Lithium Polymer 10000mAh capacity allows you to efficiently charge your devices multiple times. Suitable for Smartphones, tablets, Earbuds, and other electronic devices. The charger wirelessly charges your phone while the practical foldable stand props up your phone for easy viewing."
     },
     {
-      "id": 1749810970438,
+      "id": "1749810970438",
       "productName": "Sony WXXX-1 Soundbar",
       "price": "10003",
       "color": "black",
@@ -192,7 +192,7 @@
       "description": "Surround Soundbar with Rear Satellites I 300W RMS with 20.32cm Subwoofer I HDMI (ARC) I Optical I BT I AUX I USB I Remote Control"
     },
     {
-      "id": 1749811961183,
+      "id": "1749811961183",
       "productName": "JBL Party Speaker 800W",
       "price": "23999",
       "color": "Black",
@@ -222,53 +222,53 @@
       "description": "800WATT RMS POWERFUL JBL PRO SOUND: Create an instant musical connection with 800 powerful watts of high-performance JBL Original Pro Sound from Partybox 710. The Dual 2.75\" tweeters and 8\" woofers paired with its tuned bass reflex port deliver detailed audio perfection for music so loud you can literally feel the beat."
     }
   ],
-    "MainCatgory": [
-        {
-        "id": 17,
-        "name": "TWS",
-        "imgMain": "src"
-        },
-        {
-        "id": 16,
-        "name": "Headphone",
-        "imgMain": "src"
-        },
-        {
-        "id": 15,
-        "name": "Neckbands",
-        "imgMain": "src"
-        },
-        {
-        "id": 14,
-        "name": "Power Bank",
-        "imgMain": "src"
-        },
-        {
-        "id": 13,
-        "name": "Wired Earphone",
-        "imgMain": "src"
-        },
-        {
-        "id": 12,
-        "name": "Data Cable",
-        "imgMain": "src"
-        },
-        {
-        "id": 11,
-        "name": "Sound Bar",
-        "imgMain": "src"
-        },
-        {
-        "id": 10,
-        "name": "Charger",
-        "imgMain": "src"
-        },
-        {
-        "id": 9,
-        "name": "Wireless Car Play",
-        "imgMain": "src"
-        }
-    ],
+  "MainCatgory": [
+    {
+      "id": "17",
+      "name": "TWS",
+      "imgMain": "src"
+    },
+    {
+      "id": "16",
+      "name": "Headphone",
+      "imgMain": "src"
+    },
+    {
+      "id": "15",
+      "name": "Neckbands",
+      "imgMain": "src"
+    },
+    {
+      "id": "14",
+      "name": "Power Bank",
+      "imgMain": "src"
+    },
+    {
+      "id": "13",
+      "name": "Wired Earphone",
+      "imgMain": "src"
+    },
+    {
+      "id": "12",
+      "name": "Data Cable",
+      "imgMain": "src"
+    },
+    {
+      "id": "11",
+      "name": "Sound Bar",
+      "imgMain": "src"
+    },
+    {
+      "id": "10",
+      "name": "Charger",
+      "imgMain": "src"
+    },
+    {
+      "id": "9",
+      "name": "Wireless Car Play",
+      "imgMain": "src"
+    }
+  ],
   "AboutUsPage": [
     {
       "id": "12122131231",
@@ -352,126 +352,134 @@
           ]
         }
       ],
-        "ourClient": [
-            {
-            "id": "1",
-            "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
-            },
-            {
-            "id": "2",
-            "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
-            },
-            {
-            "id": "3",
-            "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
-            },
-            {
-            "id": "4",
-            "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
-            },
-            {
-            "id": "5",
-            "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
-            }
-        ]
+      "ourClient": [
+        {
+          "id": "1",
+          "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+        },
+        {
+          "id": "2",
+          "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+        },
+        {
+          "id": "3",
+          "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+        },
+        {
+          "id": "4",
+          "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+        },
+        {
+          "id": "5",
+          "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
         }
-    ],
-    "testimonials": [
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "stars": 5,
+      "name": "Sophia Patel",
+      "product": "Smart Watch",
+      "comment": "Absolutely love this smartwatch! The battery life is impressive, and the fitness tracking features keep me motivated. A must-have for staying active!",
+      "icons": "ph-watch"
+    },
+    {
+      "id": "2",
+      "stars": 4,
+      "name": "Daniel Thompson",
+      "product": "Sound Bar",
+      "comment": "Great sound quality with deep bass! It transformed my home theater experience. Only wish the remote had a few more control options.",
+      "icons": "ph-speaker-simple-high"
+    },
+    {
+      "id": "3",
+      "stars": 5,
+      "name": "Aisha Reddy",
+      "product": "Tripod and Lights",
+      "comment": "Perfect for my photography setup! Sturdy tripod and the adjustable lights make capturing professional shots easy. Definitely worth it!",
+      "icons": "ph-camera"
+    },
+    {
+      "id": "4",
+      "stars": 4,
+      "name": "Marcus Evans",
+      "product": "SSD",
+      "comment": "Super fast performance! My laptop runs much smoother, and file transfers are instant. Just wish it came with installation instructions.",
+      "icons": "ph-hard-drive"
+    },
+    {
+      "id": "5",
+      "stars": 5,
+      "name": "Priya Sharma",
+      "product": "Tempered Glass",
+      "comment": "Crystal clear and ultra-protective! My phone screen feels brand new with this tempered glass. No bubbles, easy application, and strong durability!",
+      "icons": "ph-cell-signal-high"
+    }
+  ],
+  "navLinks": [
+    {
+      "id": "1",
+      "name": "Home",
+      "path": "/",
+      "icon": "bi-house"
+    },
+    {
+      "id": "2",
+      "name": "Shop",
+      "path": "/shop",
+      "icon": "bi-bag"
+    },
+    {
+      "id": "4",
+      "name": "Contact",
+      "path": "/contactus",
+      "icon": "bi-telephone"
+    }
+  ],
+  "ContactUs": [
+    {
+      "section1": [
         {
-        "id": "1",
-        "stars": 5,
-        "name": "Sophia Patel",
-        "product": "Smart Watch",
-        "comment": "Absolutely love this smartwatch! The battery life is impressive, and the fitness tracking features keep me motivated. A must-have for staying active!",
-        "icons": "ph-watch"
-        },
-        {
-        "id": "2",
-        "stars": 4,
-        "name": "Daniel Thompson",
-        "product": "Sound Bar",
-        "comment": "Great sound quality with deep bass! It transformed my home theater experience. Only wish the remote had a few more control options.",
-        "icons": "ph-speaker-simple-high"
-        },
-        {
-        "id": "3",
-        "stars": 5,
-        "name": "Aisha Reddy",
-        "product": "Tripod and Lights",
-        "comment": "Perfect for my photography setup! Sturdy tripod and the adjustable lights make capturing professional shots easy. Definitely worth it!",
-        "icons": "ph-camera"
-        },
-        {
-        "id": "4",
-        "stars": 4,
-        "name": "Marcus Evans",
-        "product": "SSD",
-        "comment": "Super fast performance! My laptop runs much smoother, and file transfers are instant. Just wish it came with installation instructions.",
-        "icons": "ph-hard-drive"
-        },
-        {
-        "id": "5",
-        "stars": 5,
-        "name": "Priya Sharma",
-        "product": "Tempered Glass",
-        "comment": "Crystal clear and ultra-protective! My phone screen feels brand new with this tempered glass. No bubbles, easy application, and strong durability!",
-        "icons": "ph-cell-signal-high"
+          "img": "https://images.unsplash.com/photo-1517598024396-46c53fb391a1?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "text": "Get In Touch With Us!",
+          "smallText": "Have any question in your mind? feel free to talk with us with just one mail"
         }
-    ],
-    "navLinks": [
-            { 
-                "id": 1, "name": "Home", "path": "/", "icon": "bi-house"
-            },
-            { 
-                "id": 2, "name": "Shop", "path": "/shop", "icon": "bi-bag"
-            },
-            { 
-                "id": 4, "name": "Contact", "path": "/contactus", "icon": "bi-telephone" 
-            }
-        ],
-    "ContactUs":[
-        {
-            "section1":[
-                {
-                    "img":"https://images.unsplash.com/photo-1517598024396-46c53fb391a1?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    "text":"Get In Touch With Us!",
-                    "smallText":"Have any question in your mind? feel free to talk with us with just one mail"
-                }
-
-            ]
-        }
-    ],
-
-    "SocialLinks": [
-        {
-            "id": "",
-            "link": "https://facebook.com",
-            "name": "facebook",
-            "icon": "bi bi-facebook"
-        },
-        {
-            "id": "",
-            "link": "https://instagram.com",
-            "name": "Instagram",
-            "icon": "bi bi-instagram"
-        },
-        {
-            "id": "",
-            "link": "https://shopify.com",
-            "name": "Shopify",
-            "icon": "bi bi-shop"
-        },
-        {
-            "id": "",
-            "link": "https://email.com",
-            "name": "Email",
-            "icon": "bi bi-envelope"
-        },
-        {
-            "id": "",
-            "link": "https://x.com",
-            "name": "Twitter-X",
-            "icon": "bi bi-twitter-x"
-        }
-    ]
+      ],
+      "id": "96ba"
+    }
+  ],
+  "SocialLinks": [
+    {
+      "id": "",
+      "link": "https://facebook.com",
+      "name": "facebook",
+      "icon": "bi bi-facebook"
+    },
+    {
+      "id": "",
+      "link": "https://instagram.com",
+      "name": "Instagram",
+      "icon": "bi bi-instagram"
+    },
+    {
+      "id": "",
+      "link": "https://shopify.com",
+      "name": "Shopify",
+      "icon": "bi bi-shop"
+    },
+    {
+      "id": "",
+      "link": "https://email.com",
+      "name": "Email",
+      "icon": "bi bi-envelope"
+    },
+    {
+      "id": "",
+      "link": "https://x.com",
+      "name": "Twitter-X",
+      "icon": "bi bi-twitter-x"
+    }
+  ]
 }

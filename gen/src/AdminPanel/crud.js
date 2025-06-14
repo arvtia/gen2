@@ -416,12 +416,29 @@ const AdminProductList = () => {
                             <label className="form-label">Product Color</label>
                             <input
                                 type="text"
+                                list="colors"
                                 className="form-control"
                                 placeholder="Enter product color"
                                 value={newProduct.color}
                                 onChange={(e) => setNewProduct({ ...newProduct, color: e.target.value })}
                                 required
                             />
+                            <datalist id="colors">
+                                <option value="Black" />
+                                <option value="White" />
+                                <option value="Gray" />
+                                <option value="Silver" />
+                                <option value="Blue" />
+                                <option value="Red" />
+                                <option value="Green" />
+                                <option value="Yellow" />
+                                <option value="Gold" />
+                                <option value="Purple" />
+                                <option value="Pink" />
+                                <option value="Orange" />
+                                <option value="Transparent" />
+                                <option value="RGB / Multicolor" />
+                            </datalist>
                         </div>
 
                         {/* product size- */}

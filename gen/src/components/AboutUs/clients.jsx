@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./style.css";
 
-const API_URL = "http://localhost:5000/AboutUsPage";
+const API_URL = "http://localhost:3002/AboutUsPage";
 
 const PartnerMarquee = () => {
   const [clients, setClients] = useState([]);
