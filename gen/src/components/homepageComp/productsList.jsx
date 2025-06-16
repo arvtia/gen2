@@ -5,9 +5,6 @@ import CategoryMenu from "./categorymenu";
 import ShopNow from "../../pages/shop";
 
 
-
-
-
 const WrapperProducts =() =>{
     return(
         <div className="py-4  mb-3">
@@ -61,11 +58,10 @@ const BtnInside = () =>{
 const SecondSection =() =>{
     return(
         <>
-            <div className="col-12 col-lg-3 col-xl-3">
-                {/* category selection bar */}
-                {/* <CategoryMenu/> */}
-            </div>
-            <div className="col-12 col-lg-9 col-xl-9">
+            {/* <div className="col-12 col-lg-3 col-xl-3">
+               if needed this can act as a side bar ------ Left side 
+            </div> */}
+            <div className="col-12 col-lg-12 col-xl-12">
                 {/* products details and cols */}
                 <ProductSection />
             </div>
@@ -193,7 +189,7 @@ const ProductSection = () => {
         {currentProducts.map((item, index) => (
           <div
             key={index}
-            className="col-6 col-md-4 col-lg-4 col-xl-4 position-relative justify-content-center text-center px-2"
+            className="col-6 col-md-3 col-lg-3 col-xl-3 position-relative justify-content-center text-center px-2"
           >
             <img
               src={item.imagesCollection[0]}
@@ -205,28 +201,44 @@ const ProductSection = () => {
                 height: '290px',
               }}
             />
-            <div className="text-dark fw-bold text-start">{item.productName}</div>
+            <div className="py-1">
+                <Link to={""} className="text-decoration-none" ><div className="text-dark fw-bold text-start">{item.productName}</div></Link>                
+            </div>
             <div className="col-11 mx-auto">
               <div className="justify-content-between d-flex mx-auto align-items-center">
                 <p className="text-secondary font-1">
                   <i className="bi bi-star-fill text-warning"></i> 2.1k reviews
                 </p>
-                <p className="fs-5 fw-bold">₹{item.price}</p>
+                <div className="d-flex">
+                    <p className="font-1 fw-bold">₹<del>{item.price}</del></p>
+                    <p className="fs-5 fw-bold font-monospace">
+                        ₹{Math.floor(item.price * (1 - item.discount / 100))}
+                    </p>
+                </div>
               </div>
             </div>
             <div className="row mb-3">
-              <div className="col-11 mx-auto">
+              <div className="col-12 mx-auto">
                 <div className="d-flex justify-content-between mx-auto">
-                  <div>
-                    <button className="btn px-2 py-0 bg-body-tertiary soft-box" style={{ borderRadius: '30px' }}>
-                      <p className="font-2 my-auto py-2 px-1"><i className="bi bi-bag"></i></p>
-                    </button>
-                  </div>
-                  <div className="align-items-center">
-                    <button className="btn bg-dark text-white px-2 py-0" style={{ borderRadius: '30px' }}>
-                      <p className="font-2 my-auto py-2 px-1">Buy Now</p>
-                    </button>
-                  </div>
+
+                    <div className=" w-100 ">
+                        <button className="btn bg-dark text-white font-monospace btn-outline-dark w-100 gx-2">
+                            <span>
+                                <i className="bi bi-bag me-2"></i>
+                            </span>
+                                 Add to Cart
+                        </button>
+                    </div>
+                    {/* <div className="align-items-center">
+                        <button className="btn px-2 py-0 bg-body-tertiary soft-box" style={{ borderRadius: '30px' }}>
+                            <p className="font-2 my-auto py-2 px-1"><i className="bi bi-bag"></i></p>
+                        </button>
+                    </div>
+                    <div className="align-items-center">
+                        <button className="btn bg-dark text-white px-2 py-0" style={{ borderRadius: '30px' }}>
+                            <p className="font-2 my-auto py-2 px-1">Buy Now</p>
+                        </button>
+                    </div> */}
                 </div>
               </div>
             </div>

@@ -7,8 +7,8 @@
       "price": 49.99,
       "color": "Black",
       "size": "Standard",
-      "discount": "10%",
-      "inStock": "y",
+      "discount": 8,
+      "inStock": "12340",
       "stockQuantity": 1,
       "category": "Neckbands",
       "categoryImg": "https://tinyurl.com/yusm22p3",
@@ -26,7 +26,7 @@
         "value"
       ],
       "imagesCollection": [
-        "data:image/png;base64,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",
+        "https://wallpapers.com/images/high/wireless-neckband-headphones-black-vj9dnkxkidzjgs9z-vj9dnkxkidzjgs9z.png",
         "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701705180/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/275521_py92zk.png",
         "https://blaupunktaudio.in/cdn/shop/files/be100-xtreme-neckband-with-ultra-long-playtime-blue-blaupunkt-india-1.jpg?v=1710497123",
         "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
@@ -57,7 +57,7 @@
         "Top Sellers"
       ],
       "imagesCollection": [
-        "https://4.imimg.com/data4/BL/JO/FUSIONI-42392227/prod-image-500x500.jpg",
+        "https://wallpapers.com/images/high/pink-u-s-b-lightning-cable-m7hxr6vdcxoj573x-m7hxr6vdcxoj573x.png",
         "https://n4.sdlcdn.com/imgs/e/g/s/OnePlus-Type-C-Cable-Red-SDL235728691-1-bf130.jpg",
         "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/o/n/oneplus-warp-charge-type-c-to-type-c-data-cable-1m3.jpg",
         "https://th.bing.com/th/id/OIP.J1qYo9Tj_RNL0349w2WHpAHaHa?w=800&h=800&rs=1&pid=ImgDetMain"
@@ -123,7 +123,7 @@
         "Smart Pick"
       ],
       "imagesCollection": [
-        "https://m.media-amazon.com/images/I/613c7O5giSL._AC_UF350,350_QL80_.jpg",
+        "https://wallpapers.com/images/high/wireless-earbuds-png-05252024-kc9avyod3gajdgoh.png",
         "https://shopatsc.com/cdn/shop/files/5_dd2273e2-244f-4e45-9692-96efb36ad23f.jpg?v=1737011353",
         "https://shopatsc.com/cdn/shop/files/2_2d532606-aa2c-4d5b-8760-df891a023273.jpg?v=1726814733",
         "https://shopatsc.com/cdn/shop/files/7_6b79916d-1d26-4504-9a49-da9346b3fa76.jpg?v=1737011353"
@@ -153,7 +153,7 @@
         "Trending"
       ],
       "imagesCollection": [
-        "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_N4XEMabH4-4tkrIfD__9sxH06iJX9PLTWjlbEXS4aR_YYoZ459qVKM_Esl9EGIYojM0OaFadlRM3uhEiAd9B9etgUat9smRxfBMoa-jhYTot6tRfinIy",
+        "https://wallpapers.com/images/high/usb-power-bank-png-06122024-odwy9qoh5abunxem.png",
         "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcToixaRgYp64Z8bfoh9MxTQnwnEm8aFJwFsG6MaxSjbIC1laNjPxGmyH8IljGokJxaJJqKBBtJalEvsd2jo1j_vT5_PhA-ojtQN3ZNGUKb8dQdPIzU3cbxa",
         "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTUdNll1mKDPVBzXqqQOtFdDWDtimBrhrwpU5vGIbOHNgPpz-RqoYoC5bLSDmZ1IjAimRPdhceOuHMow3J-uM2RhRwyAzzOziIDjJ2o6oj7",
         "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSyIxiOqNuf2t42Hi9eHIZX21J_22UjDEMir6TEXIuF8reovTJXoEhwAxZTiTCZZq0LJuQrFccprUG2v791Glhj7SKEsaagmvpOi3RAC-Ze",
@@ -182,12 +182,15 @@
         "Remote Control",
         "HDMI ARC"
       ],
-      "tags": [],
+      "tags": [
+        "Zen-Gy Verified"
+      ],
       "imagesCollection": [
-        "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-home-theater-soundbar-.0.1.jpg?v=1743490814",
-        "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-home-theater-soundbar-.0.2.jpg?v=1743490814",
+        "https://wallpapers.com/images/high/sound-bar-equipment-png-yrv-h347q37bc6yy9gpe.png",
         "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-300w-home-theater-soundbar-blaupunkt-india-4.jpg?v=1743490814",
-        "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-300w-home-theater-soundbar-blaupunkt-india-6.jpg?v=1743490814"
+        "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-300w-home-theater-soundbar-blaupunkt-india-6.jpg?v=1743490814",
+        "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-home-theater-soundbar-.0.1.jpg?v=1743490814",
+        "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-home-theater-soundbar-.0.2.jpg?v=1743490814"
       ],
       "description": "Surround Soundbar with Rear Satellites I 300W RMS with 20.32cm Subwoofer I HDMI (ARC) I Optical I BT I AUX I USB I Remote Control"
     },
@@ -213,13 +216,43 @@
         "Trending"
       ],
       "imagesCollection": [
-        "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oc8tB6S3L._SX569_.jpg",
+        "https://wallpapers.com/images/high/party-speaker-with-led-lights-png-05242024-v2jkvss0f8fkq9tu.png",
         "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/61OQwaqoKhL._SL1500_.jpg",
         "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71Q05OWQSvL._SL1500_.jpg",
         "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71IyXC6IHpL._SL1500_.jpg",
-        "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oZ9cBSe4L._SL1500_.jpg"
+        "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oZ9cBSe4L._SL1500_.jpg",
+        "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oc8tB6S3L._SX569_.jpg"
       ],
       "description": "800WATT RMS POWERFUL JBL PRO SOUND: Create an instant musical connection with 800 powerful watts of high-performance JBL Original Pro Sound from Partybox 710. The Dual 2.75\" tweeters and 8\" woofers paired with its tuned bass reflex port deliver detailed audio perfection for music so loud you can literally feel the beat."
+    },
+    {
+      "id": 1750066498917,
+      "productName": "Wireless CarPlay",
+      "price": "4999",
+      "color": "Black",
+      "discount": "9",
+      "size": "Small",
+      "inStock": "1233",
+      "category": "Wireless car play",
+      "categoryImg": "https://omo-oss-image.thefastimg.com/portal-saas/new2022022514431712318/cms/image/e1e91d2e-5b81-4e9d-98df-2d9e2618abdf.png",
+      "subcategory": "Wireless CarPlay",
+      "brand": "CarlinkKit",
+      "specifications": [
+        " Compatible Devices - iPhone, Android devices",
+        "Comprehensive Device Compatibility: Compatible with iPhones (iOS 10+ from 6th generation)",
+        "Effortless Installation and Mobility: Compact and lightweight, Carlinkit 5.0 features plug-and-play functionality for quick, hassle-free installation and easy portability across different vehicles, making it an ideal wireless CarPlay adapter",
+        "Future-Proofing and Guarantee Assurance: Supports Over-The-Air (OTA) updates for future compatibility with new technologies."
+      ],
+      "tags": [
+        "Trending"
+      ],
+      "imagesCollection": [
+        "https://omo-oss-image.thefastimg.com/portal-saas/new2022022514431712318/cms/image/e1e91d2e-5b81-4e9d-98df-2d9e2618abdf.png",
+        "https://m.media-amazon.com/images/I/71rK2n-ZwbL._SX569_.jpg",
+        "https://m.media-amazon.com/images/I/713YkUbSECL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71m2G1HzQmL._SL1500_.jpg"
+      ],
+      "description": "Carlinkit 5.0 Wireless CarPlay Adapter seamlessly integrates with both Wireless CarPlay and Wireless Android Auto, eliminating the need for physical cables and enhancing user convenience. Note: it does not support video streaming apps like YouTube, Netflix, or Disney+. Not for Tesla and BMW."
     }
   ],
   "MainCatgory": [

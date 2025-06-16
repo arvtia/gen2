@@ -53,6 +53,24 @@ const CategoryPage = () => {
     startIndex + itemsPerPage
   );
 
+//   tags color on based on tags names 
+
+const getTagColor = (tag) => {
+  switch (tag) {
+    case "Top Sellers":
+      return "text-info";
+    case "Trending":
+      return "text-danger";
+    case "Smart Pick":
+      return "text-success";
+    default:
+      return "text-dark";
+  }
+};
+const tagColor = getTagColor(paginatedProducts.map((product) =>(product.tags)) )
+
+ 
+
   return (
     <div className="container mt-5 py-5">
       <h2 className="mb-4">
@@ -75,13 +93,13 @@ const CategoryPage = () => {
 
       {/* Sorting + Pagination Controls */}
     <div className="d-flex justify-content-between align-items-center mb-3">
-            <div className="d-flex w-full">
-                <div>
-                    <label className="me-2">Sort by price:</label>
+            <div className="d-md-flex justify-content-md-evenly w-100">
+                <div className="d-md-flex justify-content-lg-evenly  justify-content-start my-2">
+                    <label className="me-2 ">Price</label>
                     <select
                         value={sortOption}
                         onChange={(e) => setSortOption(e.target.value)}
-                        className="form-select d-inline-block w-auto"
+                        className="form-select-sm d-inline-block w-auto "
                     >
                         <option value="">Default</option>
                         <option value="asc">Low to High</option>
@@ -89,16 +107,16 @@ const CategoryPage = () => {
                     </select>
                 </div>
 
-                <div className="d-flex justify-content-evenly mt-2">
+                <div className="d-flex justify-content-start my-2">
                     {/* Color Filter */}
-                    <label className="me-2">Filter by color:</label>
+                    <label className="me-2">Color</label>
                     <select
                         value={selectedColor}
                         onChange={(e) => {
                             setSelectedColor(e.target.value);
                             setCurrentPage(1);
                         }}
-                        className="form-select d-inline-block w-auto"
+                        className="form-select-sm d-inline-block w-auto"
                     >
                         <option value="">All Colors</option>
                         <option value="Black">Black</option>
@@ -164,19 +182,38 @@ const CategoryPage = () => {
           ))
         ) : paginatedProducts.length > 0 ? (
           paginatedProducts.map((product) => (
-            <div className="col-md-4 mb-3" key={product.id}>
-              <div className="card h-100">
-                <img
-                  src={product.imagesCollection?.[0]}
-                  alt={product.productName}
-                  className="card-img-top"
-                  style={{ height: "250px", objectFit: "contain" }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title">{product.productName}</h5>
-                  <p className="card-text fw-semibold">₹{product.price}</p>
+            <div className="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" key={product.id}>
+                <div className="p-1 soft-blur">
+                    <div className="card border-0 rounded-3 simple-box">
+                        <div className="p-1 position-relative soft-blur">
+                            <img
+                                src={product.imagesCollection?.[0]}
+                                alt={product.productName}
+                                className="card-img-top img-fluid rounded-3 "
+                                style={{ height: "autopx", objectFit: "cover" }}
+                            />
+                           <div className={`badge soft-blur position-absolute top-0 start-50 ms-3 mt-2 ${tagColor}`}>
+                                {product.tags}
+                            </div>
+
+                        </div>
+                        <div className="card-body p-2">
+                            <Link to={""} className="card-title">{product.productName}</Link>
+                            <p className="card-text fw-semibold m-0">₹{product.price}</p>
+                            <div className="py-1">
+                                <div className="badge text-bg-secondary text-white">{product.color}</div>
+                            </div>
+                            <div className=" w-100 ">
+                                <button className="btn bg-dark text-white font-monospace btn-outline-dark w-100 gx-2">
+                                    <span>
+                                        <i className="bi bi-bag me-2"></i>
+                                    </span>
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
           ))
         ) : (

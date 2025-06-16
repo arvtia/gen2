@@ -52,11 +52,22 @@ const Navbar = () => {
 
             {/* Search and Bag icons */}
             <form className="d-flex align-items-center" role="search">
-              <div className="btn simple-shadow" style={{ borderRadius: "50%" }}>
+              
+                <button
+                    type="button"
+                    className="btn zn-3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                    style={{ borderRadius: "50%" }}
+                >
                 <span>
                   <i className="bi bi-search"></i>
                 </span>
-              </div>
+                    
+                </button>
+
+
+
               <div className="btn">
                 <span>
                   <i className="bi bi-bag"></i>
@@ -99,6 +110,58 @@ const Navbar = () => {
           ))}
         </div>
       </nav>
+        <>
+        {/* modal view */}
+        <>
+  {/* Modal */}
+        <div
+            className="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabIndex={-1}
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+        >
+            <div className="modal-dialog">
+                <div className="modal-content">
+                    
+                    <div className="modal-header d-flex align-items-center justify-content-between">
+                        <div className="input-group w-100">
+                            <input
+                                type="text"
+                                className="form-control"
+                                placeholder="Search..."
+                                aria-label="Search"
+                            />
+                            <button className="btn btn-outline-dark" type="button">
+                                <i className="bi bi-search"></i>
+                            </button>
+                        </div>
+                        <button
+                            type="button"
+                            className="btn-close ms-2"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+
+                    <div className="modal-body">
+                    <div className="py-1">
+                        {
+                            //search result must appear here - after integreating - backend 
+                        }
+                    </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </>
+
+        </>
+
     </>
   );
 };
