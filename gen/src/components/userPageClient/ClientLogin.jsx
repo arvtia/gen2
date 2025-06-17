@@ -8,7 +8,6 @@ const LoginFrom =() =>{
     const [ emailError, setEmailError] = useState("");
     const [ passwordError, setPasswordError] = useState("");
     const [ formData, setFormData] = useState([])
-
     const [ user , setUser] = useState([]);
 
     useEffect(()=>(
@@ -19,9 +18,7 @@ const LoginFrom =() =>{
     ),[])
 
 
-    console.log(user);
-
-
+   
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const passwordRegex= /.{8,}/;
     const handleEmailChange = (e) => {
@@ -29,23 +26,22 @@ const LoginFrom =() =>{
     setEmail(value);
 
     if (!emailRegex.test(value)) {
-      setEmailError("Invalid email format");
-    } else {
-      setEmailError("");
-    }
-  };
+        setEmailError("Invalid email format");
+        } else {
+        setEmailError("");
+        }
+    };
 
+    const handlePasswordChange = (e) => {
+        const value = e.target.value;
+        setPassword(value);
 
-  const handlePasswordChange = (e) => {
-    const value = e.target.value;
-    setPassword(value);
-
-    if(!passwordRegex.test(value)){
-        setPasswordError("password must be atleast 8 digits long ")
-    } else {
-        setPasswordError("");
-    }
-  };
+        if(!passwordRegex.test(value)){
+            setPasswordError("password must be atleast 8 digits long ")
+        } else {
+            setPasswordError("");
+        }
+    };
 
  const handleSubmit = (e) => {
   e.preventDefault();

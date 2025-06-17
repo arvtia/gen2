@@ -8,9 +8,13 @@ const UserPage =()=>{
             <div className="container-fluid">
                 <div className="row">
                     {/* div left side */}
-                    <div className="col-4"></div>
+                    <div className="col-4">
+                        
+                    </div>
                     {/* another div right side */}
-                    <div className="col-8"></div>
+                    <div className="col-8">
+                        
+                    </div>
                 </div>
             </div>
         </div>

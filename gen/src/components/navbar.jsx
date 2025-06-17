@@ -78,18 +78,20 @@ const Navbar = () => {
             {/* User Image */}
             <div className="ms-3">
               {imgUser.map((item) => (
-                <span key={item.id}>
-                  <img
-                    src={item.img}
-                    alt="user"
-                    className="img-fluid img-user-phone"
-                    style={{
-                      height: "40px",
-                      width: "40px",
-                      borderRadius: "50%",
-                    }}
-                  />
-                </span>
+                <Link to="/user/signIn">
+                    <span key={item.id}>
+                    <img
+                        src={item.img}
+                        alt="user"
+                        className="img-fluid img-user-phone"
+                        style={{
+                        height: "40px",
+                        width: "40px",
+                        borderRadius: "50%",
+                        }}
+                    />
+                    </span>
+                </Link>
               ))}
             </div>
           </div>
@@ -106,6 +108,7 @@ const Navbar = () => {
               className="text-center text-dark text-decoration-none"
             >
               <i className={`bi ${link.icon} fs-4`}></i>
+              
             </Link>
           ))}
         </div>

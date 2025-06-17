@@ -36,7 +36,9 @@ function AppLayout() {
         <Route path="*" element={<ErrorPage />} />
         <Route path="/shop" element={ <ShopNow />} />
         <Route path="/category/:name" element={<CategoryPage />} />
-        <Route path="/user" element = {<UserPanel />}/>
+        <Route path="/user" element = {<UserPanel />} />
+     
+       
 
 
         {/* Admin Routes */}
