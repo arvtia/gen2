@@ -59,8 +59,6 @@ const LoginFrom =() =>{
   console.log("Updated formData:", formData);
 };
 
-
-
     return(
         <div className="py-4 py-xl-4 mt-lx-3">
             <div className="row gy-lg-3 gy-xl-4">
