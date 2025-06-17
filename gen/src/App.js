@@ -15,6 +15,8 @@ import ShopNow from "./pages/shop";
 import AdminProductList from "./AdminPanel/crud";
 import CategoryPage from "./components/shop/CategoryPage";
 import UserPanel from "./pages/user";
+import LoginPage from "./pages/login";
+import RegisterNew from "./components/userPageClient/RegisterNew";
 
 
 function AppLayout() {
@@ -37,6 +39,9 @@ function AppLayout() {
         <Route path="/shop" element={ <ShopNow />} />
         <Route path="/category/:name" element={<CategoryPage />} />
         <Route path="/user" element = {<UserPanel />} />
+        <Route path="/login" element={ <LoginPage />} />
+        <Route path="/register" element={ <RegisterNew />} />
+
      
        
 

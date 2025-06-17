@@ -1,11 +1,13 @@
 import { useState } from "react";
 import './style.css';
+import LogoutView from "./logout";
 
 const navItems = [
     { name: "Home", icon: "bi-house", key: "home" },
     { name: "Dashboard", icon: "bi-speedometer2", key: "dashboard" },
     { name: "Settings", icon: "bi-gear", key: "settings" },
-    { name: "Profile", icon: "bi-person", key: "profile" }
+    { name: "Profile", icon: "bi-person", key: "profile" },
+    { name: "Log out", icon: "bi bi-box-arrow-right", key:"Logout"}
 ];
 
 const UserDashboard = () => {
@@ -24,6 +26,8 @@ const UserDashboard = () => {
                 return <div><h4>Settings</h4><p>Adjust your preferences here.</p></div>;
             case "profile":
                 return <div><h4>Profile</h4><p>View and edit your profile.</p></div>;
+            case "Logout":
+                return <div> <LogoutView /></div>
             default:
                 return <div><p>Select a tab to get started.</p></div>;
         }
