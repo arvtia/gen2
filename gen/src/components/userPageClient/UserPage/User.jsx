@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './style.css';
 import LogoutView from "./logout";
+import UserHome from "./home";
 
 const navItems = [
     { name: "Home", icon: "bi-house", key: "home" },
@@ -19,7 +20,9 @@ const UserDashboard = () => {
     const renderContent = () => {
         switch (activeTab) {
             case "home":
-                return <div>Home </div>;
+                return <div> 
+                        <UserHome />
+                    </div>;
             case "dashboard":
                 return <div><h4>Dashboard</h4><p>This is your dashboard.</p></div>;
             case "settings":
