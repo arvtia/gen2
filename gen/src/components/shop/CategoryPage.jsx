@@ -1,5 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../redux/cartSlice";
 
 const CategoryPage = () => {
   const { name } = useParams();
@@ -10,6 +12,8 @@ const CategoryPage = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(true);
   const itemsPerPage = 6;
+
+  const dispatch = useDispatch();
 
   useEffect(() => {
     setLoading(true);
@@ -206,7 +210,7 @@ const tagColor = getTagColor(paginatedProducts.map((product) =>(product.tags)) )
                                 <div className="badge text-bg-warning text-dark ms-1">{product.size}</div>
                             </div>
                             <div className=" w-100 ">
-                                <button className="btn bg-dark text-white font-monospace btn-outline-dark w-100 gx-2">
+                                <button onClick={()=> dispatch(addToCart(product))} className="btn bg-dark text-white font-monospace btn-outline-dark w-100 gx-2">
                                     <span>
                                         <i className="bi bi-bag me-2"></i>
                                     </span>

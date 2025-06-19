@@ -1,6 +1,9 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import BrandNavbar from "./animated";
+import { useSelector } from 'react-redux'
+import SidebarCart from "./cart/SidebarCart";
+
 
 const imgUser = [
   {
@@ -10,8 +13,11 @@ const imgUser = [
 ];
 
 const Navbar = () => {
-  const [navLinks, setNavLinks] = useState([]);
-  const navigate = useNavigate();
+
+    const cartItems = useSelector(state => state.cart.items)
+    const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0)
+    const [navLinks, setNavLinks] = useState([]);
+    const navigate = useNavigate();
 
   useEffect(() => {
     fetch("http://localhost:3002/navLinks")
@@ -78,7 +84,7 @@ const Navbar = () => {
             </ul>
 
             {/* Search and Bag */}
-            <form className="d-flex align-items-center" role="search">
+            <div className="d-flex align-items-center" role="search">
               <button
                 type="button"
                 className="btn zn-3"
@@ -88,10 +94,24 @@ const Navbar = () => {
               >
                 <i className="bi bi-search"></i>
               </button>
-              <div className="btn">
-                <i className="bi bi-bag"></i>
-              </div>
-            </form>
+                <div className="position-relative">
+                    <button
+                        type="button"
+                        className="btn position-relative border-0"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#cartSidebar"
+                        aria-controls="cartSidebar"
+                        >
+                        <i className="bi bi-bag"></i>
+                        {cartCount > 0 && (
+                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            {cartCount}
+                            </span>
+                        )}
+                        </button>
+
+                </div>
+            </div>
 
             {/* User Avatar */}
             <div className="ms-3">
@@ -170,6 +190,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <SidebarCart />
     </>
   );
 };

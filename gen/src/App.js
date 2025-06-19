@@ -17,6 +17,9 @@ import CategoryPage from "./components/shop/CategoryPage";
 import UserPanel from "./pages/user";
 import LoginPage from "./pages/login";
 import RegisterNew from "./components/userPageClient/RegisterNew";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+import { loadCart } from "./redux/cartActions";
 
 
 function AppLayout() {
@@ -63,9 +66,14 @@ function AppLayout() {
 
 // Wrap AppLayout with BrowserRouter
 export default function App() {
+
+    const dispatch = useDispatch();
+        useEffect(() => {
+            dispatch(loadCart());
+        }, [dispatch]);
   return (
     <BrowserRouter>
-      <AppLayout />
+        <AppLayout />
     </BrowserRouter>
   );
 }

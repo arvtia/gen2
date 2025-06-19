@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import CategoryMenu from "./categorymenu";
 import ShopNow from "../../pages/shop";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../redux/cartSlice";
 
 
 const WrapperProducts =() =>{
@@ -149,7 +151,8 @@ const ProductSection = () => {
   const [productList, setProductList] = useState([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-
+    const dispatch = useDispatch();
+  
   useEffect(() => {
     fetch('http://localhost:3002/products')
       .then((res) => res.json())
@@ -222,7 +225,7 @@ const ProductSection = () => {
                 <div className="d-flex justify-content-between mx-auto">
 
                     <div className=" w-100 ">
-                        <button className="btn bg-dark text-white font-monospace btn-outline-dark w-100 gx-2">
+                        <button onClick={() => dispatch(addToCart(item))} className="btn bg-dark text-white font-monospace btn-outline-dark w-100 gx-2">
                             <span>
                                 <i className="bi bi-bag me-2"></i>
                             </span>
