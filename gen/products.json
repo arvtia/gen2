@@ -40,42 +40,7 @@
             "https://shopatsc.com/cdn/shop/files/7_6b79916d-1d26-4504-9a49-da9346b3fa76.jpg?v=1737011353"
           ],
           "description": "ALL DAY COMFORT: Light and compact to give you all-day comfort and designed for the ideal fit, for an exceptional all-round listening experience",
-          "quantity": 1
-        },
-        {
-          "id": "1749708463758",
-          "productName": "Nothing Ear",
-          "price": "7998",
-          "color": "black",
-          "discount": "2",
-          "size": [
-            "Small"
-          ],
-          "inStock": "67686",
-          "category": "TWS",
-          "categoryImg": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/30348913/2025/4/28/25f137b8-0adb-44c2-801c-d5052c6a09d31745818182754-BOULT-AUDIO-Octave-TWS-Earbuds-with-60H-PlaytimeZen--ENC-Mic-1.jpg",
-          "subcategory": "Earbuds",
-          "brand": "Nothing",
-          "specifications": [
-            "Dimensions: Earbuds: 30.9 mm x 21.7 mm x 24.3 mm",
-            "Weight: Earbuds: 4.8g, Case: 39.6g",
-            "Water and Dust Resistance: IP54 earbuds, IPX2 case",
-            "Controls: Pinch controls, in-ear detection",
-            "Other Features: Google Fast Pair, Microsoft Swift Pair, Dual Connection, Clear Voice Technology, LED charging status, Low Lag Mode "
-          ],
-          "tags": [
-            "Trending"
-          ],
-          "imagesCollection": [
-            "https://cdn.shopifycdn.net/s/files/1/0692/5988/6904/files/ELEV_AZU_BL_040_230630_v001_1060.png?v=1688527589",
-            "https://rukminim1.flixcart.com/image/900/900/xif0q/headphone/j/e/y/-original-imahfqhnanzmxsfy.jpeg?q=90",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTLEUyOdEO9XoVuBjOyx_c1zmNKyllKBDhZzz4OEZSGTcKhmDweWBFXo-6C-OawNVad5o&usqp=CAU",
-            "https://www.tmt.my/data/editor/sc-product/4412/nothing_ear_2_black.jpg",
-            "https://cdn.shopifycdn.net/s/files/1/0692/5988/6904/files/ELEV_AZU_BL_050_230703_V001_1008.png?v=1688527646"
-          ],
-          "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3",
-          "stock": "120",
-          "quantity": 1
+          "quantity": 2
         },
         {
           "id": "1749810970438",
@@ -111,102 +76,39 @@
           "quantity": 1
         },
         {
-          "id": "1749793222373",
-          "productName": "ChargeMate",
-          "price": "2499",
-          "color": "Purple",
-          "discount": "11",
-          "size": "Small",
-          "inStock": "2128",
-          "category": "Power Bank",
-          "categoryImg": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_N4XEMabH4-4tkrIfD__9sxH06iJX9PLTWjlbEXS4aR_YYoZ459qVKM_Esl9EGIYojM0OaFadlRM3uhEiAd9B9etgUat9smRxfBMoa-jhYTot6tRfinIy",
-          "subcategory": "Power Bank",
-          "brand": "Lifelong",
-          "specifications": [
-            "Connector Type – USB Type C, Micro USB, USB Type A",
-            "Quick Charge 3.0 & Power Delivery Technology – 22.5W Fast Charging Input",
-            "Sleek, Stylish & Compact - Supremely modish and handy design",
-            "Safe and Secure – The resilient outer body and 12 layers of advanced chipset protection offer a reliable charging experience.",
-            "High-Speed Charging - Advanced technology delivers fast and efficient charging for your devices"
-          ],
-          "tags": [
-            "Trending"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/usb-power-bank-png-06122024-odwy9qoh5abunxem.png",
-            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcToixaRgYp64Z8bfoh9MxTQnwnEm8aFJwFsG6MaxSjbIC1laNjPxGmyH8IljGokJxaJJqKBBtJalEvsd2jo1j_vT5_PhA-ojtQN3ZNGUKb8dQdPIzU3cbxa",
-            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTUdNll1mKDPVBzXqqQOtFdDWDtimBrhrwpU5vGIbOHNgPpz-RqoYoC5bLSDmZ1IjAimRPdhceOuHMow3J-uM2RhRwyAzzOziIDjJ2o6oj7",
-            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSyIxiOqNuf2t42Hi9eHIZX21J_22UjDEMir6TEXIuF8reovTJXoEhwAxZTiTCZZq0LJuQrFccprUG2v791Glhj7SKEsaagmvpOi3RAC-Ze",
-            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQOosESe-PrUhXcKmlZRKIf7N3alZVVhaxrN9bj5gTpc55sYgJtkVAc06ymX17W39y40MmTxvxEJFUeyTSBbzgu98aJmrzz9z8SO1j9wpDgx6vgXwA4dnmq2A",
-            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQeBz-24ocDxuxOc1amR_6lwuKNVYsZSdBJ204Yb1huvuiTEctHEre1Z6tYkqiW8RLI8_VPVj64s3rrKXAIxGw3PSenSYa68R3n7KC6ke_Godc6OdH9oIRcsA"
-          ],
-          "description": " Power-packed 10000mAh - Lithium Polymer 10000mAh capacity allows you to efficiently charge your devices multiple times. Suitable for Smartphones, tablets, Earbuds, and other electronic devices. The charger wirelessly charges your phone while the practical foldable stand props up your phone for easy viewing.",
-          "quantity": 1
-        },
-        {
-          "id": "1749811961183",
-          "productName": "JBL Party Speaker 800W",
-          "price": "23999",
+          "id": "1750136688334",
+          "productName": "Quad Play- Wireless CarPlay",
+          "price": "9000",
           "color": "Black",
-          "discount": "11",
-          "size": "Large",
-          "inStock": "11",
-          "category": "Speakers",
-          "categoryImg": "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/712D910fO-L._SX569_.jpg",
-          "subcategory": "Party Speaker",
-          "brand": "JBL",
-          "specifications": [
-            "800WATT RMS POWERFUL JBL PRO SOUND ",
-            "DYNAMIC CUSTOMIZABLE LIGHT SHOW:",
-            "CONTROL WITH JBL PARTYBOX APP: The JBL PartyBox app makes it easier than ever to control your music",
-            "IPX4 SPLASHPROOF: Whether you are partying with friends in your backyard or sipping drinks by the pool"
-          ],
-          "tags": [
-            "Trending"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/party-speaker-with-led-lights-png-05242024-v2jkvss0f8fkq9tu.png",
-            "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/61OQwaqoKhL._SL1500_.jpg",
-            "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71Q05OWQSvL._SL1500_.jpg",
-            "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71IyXC6IHpL._SL1500_.jpg",
-            "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oZ9cBSe4L._SL1500_.jpg",
-            "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oc8tB6S3L._SX569_.jpg"
-          ],
-          "description": "800WATT RMS POWERFUL JBL PRO SOUND: Create an instant musical connection with 800 powerful watts of high-performance JBL Original Pro Sound from Partybox 710. The Dual 2.75\" tweeters and 8\" woofers paired with its tuned bass reflex port deliver detailed audio perfection for music so loud you can literally feel the beat.",
-          "quantity": 3
-        },
-        {
-          "id": "1750066498917",
-          "productName": "Wireless CarPlay",
-          "price": "4999",
-          "color": "Black",
-          "discount": "9",
+          "discount": "16",
           "size": "Small",
-          "inStock": "1233",
+          "inStock": "1214",
           "category": "Wireless car play",
-          "categoryImg": "https://omo-oss-image.thefastimg.com/portal-saas/new2022022514431712318/cms/image/e1e91d2e-5b81-4e9d-98df-2d9e2618abdf.png",
-          "subcategory": "Wireless CarPlay",
-          "brand": "CarlinkKit",
+          "categoryImg": "N/A",
+          "subcategory": "Wireless Car play",
+          "brand": "Quad Lock",
           "specifications": [
-            " Compatible Devices - iPhone, Android devices",
-            "Comprehensive Device Compatibility: Compatible with iPhones (iOS 10+ from 6th generation)",
-            "Effortless Installation and Mobility: Compact and lightweight, Carlinkit 5.0 features plug-and-play functionality for quick, hassle-free installation and easy portability across different vehicles, making it an ideal wireless CarPlay adapter",
-            "Future-Proofing and Guarantee Assurance: Supports Over-The-Air (OTA) updates for future compatibility with new technologies."
+            "Input: 5V 1A (USB-C)",
+            "Output: 5V 1A (USB-A)",
+            "Power Consumption: 0.75W",
+            "Vehicle Display Resolution: Adaptive",
+            "Compatible with vehicles manufactured from 2016 with built-in wired Apple CarPlay.",
+            "Compatible with cars with aftermarket infotainment systems supporting wired Apple CarPlay."
           ],
           "tags": [
-            "Trending"
+            "Top Sellers"
           ],
           "imagesCollection": [
-            "https://omo-oss-image.thefastimg.com/portal-saas/new2022022514431712318/cms/image/e1e91d2e-5b81-4e9d-98df-2d9e2618abdf.png",
-            "https://m.media-amazon.com/images/I/71rK2n-ZwbL._SX569_.jpg",
-            "https://m.media-amazon.com/images/I/713YkUbSECL._SL1500_.jpg",
-            "https://m.media-amazon.com/images/I/71m2G1HzQmL._SL1500_.jpg"
+            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799",
+            "https://cdn.shopify.com/s/files/1/2576/2754/files/2209-277_Car-Play-Adaptor_Tech_Specs_900x1200_2504c623-5a0b-44e6-a22b-fa58b95d152b.png?v=1664512537?auto=format",
+            "https://cdn.sanity.io/images/3azemr64/production/5c2916ffbb2559d2959f0a59068635ada93a9429-1024x768.jpg?auto=format&w=873&h=655&crop=center&fit=crop&q=90",
+            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799"
           ],
-          "description": "Carlinkit 5.0 Wireless CarPlay Adapter seamlessly integrates with both Wireless CarPlay and Wireless Android Auto, eliminating the need for physical cables and enhancing user convenience. Note: it does not support video streaming apps like YouTube, Netflix, or Disney+. Not for Tesla and BMW.",
+          "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go.",
           "quantity": 1
         }
       ],
-      "totalPrice": 122495
+      "totalPrice": 69001
     }
   ]
 }

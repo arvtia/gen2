@@ -91,7 +91,7 @@
         "Trending"
       ],
       "imagesCollection": [
-        "https://cdn.shopifycdn.net/s/files/1/0692/5988/6904/files/ELEV_AZU_BL_040_230630_v001_1060.png?v=1688527589",
+        "https://cdn.shopify.com/s/files/1/0586/3270/0077/files/BA_360_ENTEI_030_blackBud_rgb_00_4fdaba7c-5568-4db0-aaa5-5129d524d8bd.png?v=1713169144&width=600&height=600&crop=center",
         "https://rukminim1.flixcart.com/image/900/900/xif0q/headphone/j/e/y/-original-imahfqhnanzmxsfy.jpeg?q=90",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTLEUyOdEO9XoVuBjOyx_c1zmNKyllKBDhZzz4OEZSGTcKhmDweWBFXo-6C-OawNVad5o&usqp=CAU",
         "https://www.tmt.my/data/editor/sc-product/4412/nothing_ear_2_black.jpg",
@@ -500,6 +500,12 @@
       "name": "Contact",
       "path": "/contactus",
       "icon": "bi-telephone"
+    },
+    {
+        "id":343,
+        "name": "User",
+        "path":"/user",
+        "icon":"bi bi-person"
     }
   ],
   "ContactUs": [

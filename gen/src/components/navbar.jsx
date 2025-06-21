@@ -15,7 +15,7 @@ const imgUser = [
 const Navbar = () => {
 
     const cartItems = useSelector(state => state.cart.items)
-    const cartCount = cartItems.reduce((total, item) => total + item.quantity, 0)
+    const cartCount =  cartItems.length;
     const [navLinks, setNavLinks] = useState([]);
     const navigate = useNavigate();
 

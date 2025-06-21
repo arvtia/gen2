@@ -1,11 +1,11 @@
 import axios from 'axios';
-import { addToCart, removeFromCart } from './cartSlice';
+import { addToCart, removeFromCart , deleteFromCart} from './cartSlice';
 import { getUserId } from './user';
 
 const cartSyncMiddlewareRR = store => next => async action => {
   const result = next(action);
 
-  const actionsToSync = [addToCart.type, removeFromCart.type];
+  const actionsToSync = [addToCart.type, removeFromCart.type, deleteFromCart.type];
   if (!actionsToSync.includes(action.type)) return result;
 
   const state = store.getState();

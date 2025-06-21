@@ -1,3 +1,5 @@
+import Cart from "./cartData";
+
 // SidebarCart.js
 const SidebarCart = () => {
   return (
@@ -8,7 +10,9 @@ const SidebarCart = () => {
       aria-labelledby="cartSidebarLabel"
     >
       <div className="offcanvas-header">
-        <h5 id="cartSidebarLabel">Your Cart</h5>
+        <h5 id="cartSidebarLabel">
+            <i className="bi bi-bag me-2"></i> Your Order
+        </h5>
         <div className="ms-auto d-flex align-items-center">
             
             <button
@@ -21,7 +25,7 @@ const SidebarCart = () => {
       </div>
       <div className="offcanvas-body">
         {/* Cart contents go here */}
-
+            <Cart/>
       </div>
     </div>
   );
