@@ -20,6 +20,7 @@ import RegisterNew from "./components/userPageClient/RegisterNew";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { loadCart } from "./redux/cartActions";
+import MainProducts from "./pages/products";
 
 
 function AppLayout() {
@@ -44,6 +45,7 @@ function AppLayout() {
         <Route path="/user" element = {<UserPanel />} />
         <Route path="/login" element={ <LoginPage />} />
         <Route path="/register" element={ <RegisterNew />} />
+        <Route path="/products/:id" element ={<MainProducts /> } />
 
      
        
