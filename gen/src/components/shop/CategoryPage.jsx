@@ -202,7 +202,7 @@ const tagColor = getTagColor(paginatedProducts.map((product) =>(product.tags)) )
 
                         </div>
                         <div className="card-body p-2">
-                            <Link to={""} className="card-title">{product.productName}</Link>
+                            <Link to={"/product/:id"} className="card-title">{product.productName}</Link>
                             <p className="card-text fw-semibold m-0">₹{product.price}</p>
                             <div className="py-1 d-flex flex-wrap gx-2">
                                 <div className="badge text-bg-secondary text-white ">{product.color}</div>

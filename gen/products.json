@@ -40,75 +40,80 @@
             "https://shopatsc.com/cdn/shop/files/7_6b79916d-1d26-4504-9a49-da9346b3fa76.jpg?v=1737011353"
           ],
           "description": "ALL DAY COMFORT: Light and compact to give you all-day comfort and designed for the ideal fit, for an exceptional all-round listening experience",
-          "quantity": 2
-        },
-        {
-          "id": "1749810970438",
-          "productName": "Sony WXXX-1 Soundbar",
-          "price": "10003",
-          "color": "black",
-          "discount": "0",
-          "size": "Ergonimic",
-          "inStock": "1240",
-          "category": "Sound Bars",
-          "categoryImg": "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-300w-home-theater-soundbar-blaupunkt-india-1.png?v=1710496861",
-          "subcategory": "Sound Bar",
-          "brand": "Sony",
-          "specifications": [
-            "5.1 Surround Sound",
-            "8Inch Big Woofer",
-            "RMS 300W",
-            "360 Degree Sourround Sound",
-            "Remote Control",
-            "HDMI ARC"
-          ],
-          "tags": [
-            "Zen-Gy Verified"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/sound-bar-equipment-png-yrv-h347q37bc6yy9gpe.png",
-            "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-300w-home-theater-soundbar-blaupunkt-india-4.jpg?v=1743490814",
-            "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-300w-home-theater-soundbar-blaupunkt-india-6.jpg?v=1743490814",
-            "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-home-theater-soundbar-.0.1.jpg?v=1743490814",
-            "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-home-theater-soundbar-.0.2.jpg?v=1743490814"
-          ],
-          "description": "Surround Soundbar with Rear Satellites I 300W RMS with 20.32cm Subwoofer I HDMI (ARC) I Optical I BT I AUX I USB I Remote Control",
           "quantity": 1
         },
         {
-          "id": "1750136688334",
-          "productName": "Quad Play- Wireless CarPlay",
-          "price": "9000",
+          "id": "11",
+          "productId": "324231",
+          "productName": "Turbo Cable",
+          "price": 14.99,
           "color": "Black",
-          "discount": "16",
-          "size": "Small",
-          "inStock": "1214",
-          "category": "Wireless car play",
-          "categoryImg": "N/A",
-          "subcategory": "Wireless Car play",
-          "brand": "Quad Lock",
+          "length": "1m",
+          "discount": 12,
+          "inStock": "1231",
+          "stockQuantity": 1,
+          "category": "Data Cables",
+          "categoryImg": "https://bestor.in/cdn/shop/products/charging-cable1-removebg-preview.png",
+          "subcategory": "Fast Charging Cables",
+          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Fast+Charging+Cables",
+          "brand": "QuickCharge",
+          "brandImg": "https://dummyimage.com/100x50/222/fff&text=QuickCharge",
           "specifications": [
-            "Input: 5V 1A (USB-C)",
-            "Output: 5V 1A (USB-A)",
-            "Power Consumption: 0.75W",
-            "Vehicle Display Resolution: Adaptive",
-            "Compatible with vehicles manufactured from 2016 with built-in wired Apple CarPlay.",
-            "Compatible with cars with aftermarket infotainment systems supporting wired Apple CarPlay."
+            "USB-C to USB-A",
+            "Supports 18W Fast Charging",
+            "Durable Braided Cable"
           ],
           "tags": [
             "Top Sellers"
           ],
           "imagesCollection": [
-            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799",
-            "https://cdn.shopify.com/s/files/1/2576/2754/files/2209-277_Car-Play-Adaptor_Tech_Specs_900x1200_2504c623-5a0b-44e6-a22b-fa58b95d152b.png?v=1664512537?auto=format",
-            "https://cdn.sanity.io/images/3azemr64/production/5c2916ffbb2559d2959f0a59068635ada93a9429-1024x768.jpg?auto=format&w=873&h=655&crop=center&fit=crop&q=90",
-            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799"
+            "https://wallpapers.com/images/high/pink-u-s-b-lightning-cable-m7hxr6vdcxoj573x-m7hxr6vdcxoj573x.png",
+            "https://n4.sdlcdn.com/imgs/e/g/s/OnePlus-Type-C-Cable-Red-SDL235728691-1-bf130.jpg",
+            "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/o/n/oneplus-warp-charge-type-c-to-type-c-data-cable-1m3.jpg",
+            "https://th.bing.com/th/id/OIP.J1qYo9Tj_RNL0349w2WHpAHaHa?w=800&h=800&rs=1&pid=ImgDetMain"
           ],
-          "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go.",
-          "quantity": 2
+          "size": [
+            "Medium"
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "1749708463758",
+          "productName": "Nothing Ear",
+          "price": "7998",
+          "color": "black",
+          "discount": "2",
+          "size": [
+            "Small"
+          ],
+          "inStock": "67686",
+          "category": "TWS",
+          "categoryImg": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/30348913/2025/4/28/25f137b8-0adb-44c2-801c-d5052c6a09d31745818182754-BOULT-AUDIO-Octave-TWS-Earbuds-with-60H-PlaytimeZen--ENC-Mic-1.jpg",
+          "subcategory": "Earbuds",
+          "brand": "Nothing",
+          "specifications": [
+            "Dimensions: Earbuds: 30.9 mm x 21.7 mm x 24.3 mm",
+            "Weight: Earbuds: 4.8g, Case: 39.6g",
+            "Water and Dust Resistance: IP54 earbuds, IPX2 case",
+            "Controls: Pinch controls, in-ear detection",
+            "Other Features: Google Fast Pair, Microsoft Swift Pair, Dual Connection, Clear Voice Technology, LED charging status, Low Lag Mode "
+          ],
+          "tags": [
+            "Trending"
+          ],
+          "imagesCollection": [
+            "https://cdn.shopify.com/s/files/1/0586/3270/0077/files/BA_360_ENTEI_030_blackBud_rgb_00_4fdaba7c-5568-4db0-aaa5-5129d524d8bd.png?v=1713169144&width=600&height=600&crop=center",
+            "https://rukminim1.flixcart.com/image/900/900/xif0q/headphone/j/e/y/-original-imahfqhnanzmxsfy.jpeg?q=90",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTLEUyOdEO9XoVuBjOyx_c1zmNKyllKBDhZzz4OEZSGTcKhmDweWBFXo-6C-OawNVad5o&usqp=CAU",
+            "https://www.tmt.my/data/editor/sc-product/4412/nothing_ear_2_black.jpg",
+            "https://cdn.shopifycdn.net/s/files/1/0692/5988/6904/files/ELEV_AZU_BL_050_230703_V001_1008.png?v=1688527646"
+          ],
+          "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3",
+          "stock": "120",
+          "quantity": 1
         }
       ],
-      "totalPrice": 78001
+      "totalPrice": 33011.990000000005
     }
   ]
 }

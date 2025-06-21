@@ -22,60 +22,47 @@ const Cart = () => {
       {cartItems.length === 0 ? (
         <p className="text-muted">Your cart is empty.</p>
       ) : (
-        <div className="d-flex flex-column gap-3">
-          {cartItems.map(item => (
-            <div key={item.id} className="d-flex align-items-center gap-3 cart-body-bg pb-2 rounded px-2">
-              <img
-                src={item.imagesCollection[0]}
-                alt={item.product_name}
-                width={60}
-                height={60}
-                style={{ objectFit: 'cover', borderRadius: '6px' }}
-              />
-              <div className="flex-grow-1">
-                <p className="mb-1 fw-semibold">{item.brand_name}</p>
-                <p className="mb-1 text-muted small">{item.product_name}</p>
-                <div className="d-flex align-items-center justify-content-between">
-                  <div className="btn-group btn-group-sm" role="group">
-                    <button
-                      className="btn btn-outline-secondary"
-                      onClick={() => dispatch(removeFromCart(item))}
-                    >
-                      -
-                    </button>
-                    <button className="btn disabled">
-                      {item.quantity}
-                    </button>
-                    <button
-                      className="btn btn-outline-secondary"
-                      onClick={() => dispatch(addToCart(item))}
-                    >
-                      +
-                    </button>
-                  </div>
-                  <p className="mb-0 fw-medium">
-                    ₹{(parseFloat(item.price) * item.quantity).toFixed(2)}
-                  </p>
-                  <button onClick={()=> dispatch(deleteFromCart(item))} className='btn border-0'>
-                        <i className="bi bi-trash"></i>
-                  </button>
+        <div className="d-flex flex-column gap-3 custom-height">
+            {cartItems.map(item => (
+                <div key={item.id} className="d-flex align-items-center gap-3 cart-body-bg pb-2 rounded px-2">
+                    <img
+                        src={item.imagesCollection[0]}
+                        alt={item.product_name}
+                        width={60}
+                        height={60}
+                        style={{ objectFit: 'cover', borderRadius: '6px' }}
+                    />
+                    <div className="flex-grow-1">
+                        <p className="mb-1 fw-semibold">{item.brand_name}</p>
+                        <p className="mb-1 text-muted small">{item.product_name}</p>
+                        <div className="d-flex align-items-center justify-content-between">
+                            <div className="btn-group btn-group-sm" role="group">
+                                <button
+                                className="btn btn-outline-secondary"
+                                onClick={() => dispatch(removeFromCart(item))}
+                                >
+                                -
+                                </button>
+                                <button className="btn disabled">
+                                {item.quantity}
+                                </button>
+                                <button
+                                className="btn btn-outline-secondary"
+                                onClick={() => dispatch(addToCart(item))}
+                                >
+                                +
+                                </button>
+                            </div>
+                            <p className="mb-0 fw-medium">
+                                ₹{(parseFloat(item.price) * item.quantity).toFixed(2)}
+                            </p>
+                            <button onClick={()=> dispatch(deleteFromCart(item))} className='btn border-0'>
+                                    <i className="bi bi-trash"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          ))}
-
-          <div className="mt-4">
-            <h6 className="fw-bold d-flex justify-content-between">
-              <span>Total:</span>
-              <span>
-                {calculateTotal().toLocaleString('en-IN', {
-                  style: 'currency',
-                  currency: 'INR',
-                })}
-              </span>
-            </h6>
-            <button className="btn btn-dark w-100 mt-2">Proceed to Checkout</button>
-          </div>
+            ))}
         </div>
       )}
     </div>
