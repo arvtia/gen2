@@ -206,7 +206,7 @@ const ProductSection = () => {
               }}
             />
             <div className="py-1">
-                <Link to={`${category}/${id}`} className="text-decoration-none" ><div className="text-dark fw-bold text-start">{item.productName}</div></Link>                
+                <Link to={`product/${item.id}`} className="text-decoration-none" ><div className="text-dark fw-bold text-start">{item.productName}</div></Link>                
             </div>
             <div className="col-11 mx-auto">
               <div className="justify-content-between d-flex mx-auto align-items-center">

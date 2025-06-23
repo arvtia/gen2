@@ -21,6 +21,7 @@ import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { loadCart } from "./redux/cartActions";
 import MainProducts from "./pages/products";
+import MainProducts2 from "./components/productPage/mainProduct";
 
 
 function AppLayout() {
@@ -46,6 +47,7 @@ function AppLayout() {
         <Route path="/login" element={ <LoginPage />} />
         <Route path="/register" element={ <RegisterNew />} />
         <Route path="/category/:id/product/:id" element ={<MainProducts /> } />
+        <Route path="/product/:id" element={<MainProducts /> } />
 
     
 

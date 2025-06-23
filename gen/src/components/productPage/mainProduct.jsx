@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom"
 import axios from "axios";
 import ProductImageSlider from "./SliderProdImages";
+import ProductCard from "./productsSec";
 
 const MainProducts2 = () =>{
 
@@ -40,11 +41,7 @@ const MainProducts2 = () =>{
                             <div className="py-4 px-3">
                                 {
                                     product ? (
-                                        <>
-                                        <div className="py-3">
-                                            <h4 className="underline-expand">{product.price}</h4>
-                                        </div>
-                                        </>
+                                        <ProductCard product={product} />
                                     ) : (
                                         <p>loading</p>
                                     )

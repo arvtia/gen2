@@ -177,9 +177,40 @@
           ],
           "description": " Power-packed 10000mAh - Lithium Polymer 10000mAh capacity allows you to efficiently charge your devices multiple times. Suitable for Smartphones, tablets, Earbuds, and other electronic devices. The charger wirelessly charges your phone while the practical foldable stand props up your phone for easy viewing.",
           "quantity": 1
+        },
+        {
+          "id": "1750671993299",
+          "productName": "Buds VS102 Elite",
+          "price": "1299",
+          "color": "Green",
+          "discount": "12",
+          "size": "Small",
+          "inStock": "1227",
+          "category": "TWS",
+          "categoryImg": "N/A",
+          "subcategory": "Earbuds",
+          "brand": "Noise",
+          "specifications": [
+            "Upto 50 hours playtime",
+            "Water resistant",
+            "Quad mic ENC",
+            "BT version"
+          ],
+          "tags": [
+            "Trending"
+          ],
+          "imagesCollection": [
+            "https://www.gonoise.com/cdn/shop/files/1_0ba0fb4c-05d2-487e-a62e-3553b3998174.webp?v=1722313476",
+            "https://www.gonoise.com/cdn/shop/files/2_a9f7929b-deb7-4e9c-8d37-d7880cc23aaa.webp?v=1722313476",
+            "https://www.gonoise.com/cdn/shop/files/3_78da8955-36ed-4112-b44d-69a51da8468c.webp?v=1722313476",
+            "https://www.gonoise.com/cdn/shop/files/4_d488454f-9a9e-46c1-950e-48753739e845.webp?v=1722313476",
+            "https://www.gonoise.com/cdn/shop/files/5_18683ded-7530-46d8-9105-b2d3195251fe.webp?v=1722313476"
+          ],
+          "description": "Noise earbuds, offered by the brand Noise, are a line of wireless earphones known for their variety of features and competitive pricing. They typically offer features like Bluetooth connectivity, long battery life (ranging from 20 to 120 hours depending on the model)",
+          "quantity": 1
         }
       ],
-      "totalPrice": 35560.98
+      "totalPrice": 36859.98
     }
   ]
 }

@@ -4,7 +4,7 @@
       "id": "10",
       "productId": "212122",
       "productName": "SoundMax BassLoop",
-      "price": 49.99,
+      "price": 899,
       "color": "Black",
       "size": "Standard",
       "discount": 8,
@@ -36,7 +36,7 @@
       "id": "11",
       "productId": "324231",
       "productName": "Turbo Cable",
-      "price": 14.99,
+      "price": 1499,
       "color": "Black",
       "length": "1m",
       "discount": 12,
@@ -259,7 +259,7 @@
       "productName": "Quad Play- Wireless CarPlay",
       "price": "9000",
       "color": "Black",
-      "discount": "16",
+      "discount": 23,
       "size": "Small",
       "inStock": "1214",
       "category": "Wireless car play",
@@ -284,6 +284,68 @@
         "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799"
       ],
       "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go."
+    },
+    {
+      "id": "1750671993299",
+      "productName": "Buds VS102 Elite",
+      "price": "1299",
+      "color": "Green",
+      "discount": "12",
+      "size": "Small",
+      "inStock": "1227",
+      "category": "TWS",
+      "categoryImg": "N/A",
+      "subcategory": "Earbuds",
+      "brand": "Noise",
+      "specifications": [
+        "Upto 50 hours playtime",
+        "Water resistant",
+        "Quad mic ENC",
+        "BT version"
+      ],
+      "tags": [
+        "Trending"
+      ],
+      "imagesCollection": [
+        "https://www.gonoise.com/cdn/shop/files/1_0ba0fb4c-05d2-487e-a62e-3553b3998174.webp?v=1722313476",
+        "https://www.gonoise.com/cdn/shop/files/2_a9f7929b-deb7-4e9c-8d37-d7880cc23aaa.webp?v=1722313476",
+        "https://www.gonoise.com/cdn/shop/files/3_78da8955-36ed-4112-b44d-69a51da8468c.webp?v=1722313476",
+        "https://www.gonoise.com/cdn/shop/files/4_d488454f-9a9e-46c1-950e-48753739e845.webp?v=1722313476",
+        "https://www.gonoise.com/cdn/shop/files/5_18683ded-7530-46d8-9105-b2d3195251fe.webp?v=1722313476"
+      ],
+      "description": "Noise earbuds, offered by the brand Noise, are a line of wireless earphones known for their variety of features and competitive pricing. They typically offer features like Bluetooth connectivity, long battery life (ranging from 20 to 120 hours depending on the model)"
+    },
+    {
+      "id": 1750675938843,
+      "productName": "Airwave Max 5",
+      "price": 12998,
+      "color": "Black",
+      "discount": 12,
+      "size": "Small",
+      "inStock": 214,
+      "category": "Headphones",
+      "categoryImg": "https://file.aiquickdraw.com/imgcompressed/img/compressed_898b69eec1f87b3333417334a9a40b28.webp",
+      "subcategory": "Wired Headphone",
+      "brand": "Noise",
+      "specifications": [
+        "Upto 80 hours playtime",
+        "Dual pairing",
+        "Quad mic ENC",
+        "ANC",
+        "Spatial Audio",
+        "Low Latency"
+      ],
+      "tags": [
+        "Top Sellers"
+      ],
+      "imagesCollection": [
+        "https://www.gonoise.com/cdn/shop/files/Artboard_8_Am5.webp?v=1737632340",
+        "https://www.gonoise.com/cdn/shop/files/Artboard_7_Am5.webp?v=1737633813",
+        "https://www.gonoise.com/cdn/shop/files/Artboard_10_Am5.webp?v=1737633813",
+        "https://www.gonoise.com/cdn/shop/files/Artboard_11_Am5.webp?v=1737633813",
+        "https://www.gonoise.com/cdn/shop/files/Artboard_12_Am5.webp?v=1737633813",
+        "https://www.gonoise.com/cdn/shop/files/Artboard_9_Am5.webp?v=1737633813"
+      ]
     }
   ],
   "MainCatgory": [
@@ -502,10 +564,10 @@
       "icon": "bi-telephone"
     },
     {
-        "id":343,
-        "name": "User",
-        "path":"/user",
-        "icon":"bi bi-person"
+      "id": "343",
+      "name": "User",
+      "path": "/user",
+      "icon": "bi bi-person"
     }
   ],
   "ContactUs": [
