@@ -15,23 +15,23 @@ const CategoryPage = () => {
 
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    setLoading(true);
-    fetch("http://localhost:3002/products")
-      .then((res) => res.json())
-      .then((data) => {
-        const result = data.filter(
-          (item) => item.category === decodeURIComponent(name)
-        );
-        setAllProducts(result);
-        setCurrentPage(1);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error("Error fetching category data:", err);
-        setLoading(false);
-      });
-  }, [name]);
+    useEffect(() => {
+        setLoading(true);
+        fetch("http://localhost:3002/products")
+        .then((res) => res.json())
+        .then((data) => {
+            const result = data.filter(
+            (item) => item.category === decodeURIComponent(name)
+            );
+            setAllProducts(result);
+            setCurrentPage(1);
+            setLoading(false);
+        })
+        .catch((err) => {
+            console.error("Error fetching category data:", err);
+            setLoading(false);
+        });
+    }, [name]);
 
   // Apply color filter
   useEffect(() => {
@@ -189,20 +189,21 @@ const tagColor = getTagColor(paginatedProducts.map((product) =>(product.tags)) )
             <div className="col-sm-6 col-md-4 col-lg-3 col-xl-3 mb-3" key={product.id}>
                 <div className="p-1 soft-blur">
                     <div className="card border-0 rounded-3 simple-box">
-                        <div className="p-1 position-relative soft-blur">
-                            <img
-                                src={product.imagesCollection?.[0]}
-                                alt={product.productName}
-                                className="card-img-top img-fluid rounded-3 "
-                                style={{ height: "autopx", objectFit: "cover" }}
-                            />
-                           <div className={`badge soft-blur position-absolute top-0 start-50 ms-3 mt-2 ${tagColor}`}>
-                                {product.tags}
+                        <Link to={`product/${product.id}`} >
+                            <div className="p-1 position-relative soft-blur">
+                                <img
+                                    src={product.imagesCollection?.[0]}
+                                    alt={product.productName}
+                                    className="card-img-top img-fluid rounded-3 "
+                                    style={{ height: "autopx", objectFit: "cover" }}
+                                />
+                                <div className={`badge soft-blur position-absolute top-0 start-50 ms-3 mt-2 ${tagColor}`}>
+                                    {product.tags}
+                                </div>
                             </div>
-
-                        </div>
+                        </Link>
                         <div className="card-body p-2">
-                            <Link to={"/product/:id"} className="card-title">{product.productName}</Link>
+                            <Link to={`product/${product.id}`} className="text-decoration-none fw-bold text-dark " ><p className="card-title underline-expand">{product.productName}</p></Link>
                             <p className="card-text fw-semibold m-0">₹{product.price}</p>
                             <div className="py-1 d-flex flex-wrap gx-2">
                                 <div className="badge text-bg-secondary text-white ">{product.color}</div>

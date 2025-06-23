@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 import { useState, useEffect } from "react";
 import CategoryMenu from "./categorymenu";
@@ -148,6 +148,7 @@ const ProductsList =() =>{
 const cardsPerPage = 12;
 
 const ProductSection = () => {
+    const { id , category} = useParams();
   const [productList, setProductList] = useState([]);
   const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
@@ -205,7 +206,7 @@ const ProductSection = () => {
               }}
             />
             <div className="py-1">
-                <Link to={""} className="text-decoration-none" ><div className="text-dark fw-bold text-start">{item.productName}</div></Link>                
+                <Link to={`${category}/${id}`} className="text-decoration-none" ><div className="text-dark fw-bold text-start">{item.productName}</div></Link>                
             </div>
             <div className="col-11 mx-auto">
               <div className="justify-content-between d-flex mx-auto align-items-center">

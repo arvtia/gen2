@@ -76,7 +76,7 @@ const Navbar = () => {
             <ul className="navbar-nav flex-row me-3 d-none d-lg-flex">
               {navLinks.map((link) => (
                 <li key={link.id} className="nav-item px-2">
-                  <Link className="nav-link fw-semibold text-dark" to={link.path}>
+                  <Link className="nav-link fw-semibold text-dark underline-expand " to={link.path}>
                     {link.name}
                   </Link>
                 </li>

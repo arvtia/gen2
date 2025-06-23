@@ -111,9 +111,75 @@
           "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3",
           "stock": "120",
           "quantity": 1
+        },
+        {
+          "id": "10",
+          "productId": "212122",
+          "productName": "SoundMax BassLoop",
+          "price": 49.99,
+          "color": "Black",
+          "size": "Standard",
+          "discount": 8,
+          "inStock": "12340",
+          "stockQuantity": 1,
+          "category": "Neckbands",
+          "categoryImg": "https://tinyurl.com/yusm22p3",
+          "subcategory": "Wireless Neckbands",
+          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Wireless+Neckbands",
+          "brand": "SoundMax",
+          "brandImg": "https://dummyimage.com/100x50/222/fff&text=SoundMax",
+          "specifications": [
+            "Bluetooth 5.0",
+            "Noise Isolation",
+            "12-hour battery life"
+          ],
+          "tags": [
+            "top pick",
+            "value"
+          ],
+          "imagesCollection": [
+            "https://wallpapers.com/images/high/wireless-neckband-headphones-black-vj9dnkxkidzjgs9z-vj9dnkxkidzjgs9z.png",
+            "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701705180/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/275521_py92zk.png",
+            "https://blaupunktaudio.in/cdn/shop/files/be100-xtreme-neckband-with-ultra-long-playtime-blue-blaupunkt-india-1.jpg?v=1710497123",
+            "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
+          ],
+          "quantity": 1
+        },
+        {
+          "id": "1749793222373",
+          "productName": "ChargeMate",
+          "price": "2499",
+          "color": "Purple",
+          "discount": "11",
+          "size": "Small",
+          "inStock": "2128",
+          "category": "Power Bank",
+          "categoryImg": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_N4XEMabH4-4tkrIfD__9sxH06iJX9PLTWjlbEXS4aR_YYoZ459qVKM_Esl9EGIYojM0OaFadlRM3uhEiAd9B9etgUat9smRxfBMoa-jhYTot6tRfinIy",
+          "subcategory": "Power Bank",
+          "brand": "Lifelong",
+          "specifications": [
+            "Connector Type – USB Type C, Micro USB, USB Type A",
+            "Quick Charge 3.0 & Power Delivery Technology – 22.5W Fast Charging Input",
+            "Sleek, Stylish & Compact - Supremely modish and handy design",
+            "Safe and Secure – The resilient outer body and 12 layers of advanced chipset protection offer a reliable charging experience.",
+            "High-Speed Charging - Advanced technology delivers fast and efficient charging for your devices"
+          ],
+          "tags": [
+            "Trending"
+          ],
+          "imagesCollection": [
+            "https://wallpapers.com/images/high/usb-power-bank-png-06122024-odwy9qoh5abunxem.png",
+            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcToixaRgYp64Z8bfoh9MxTQnwnEm8aFJwFsG6MaxSjbIC1laNjPxGmyH8IljGokJxaJJqKBBtJalEvsd2jo1j_vT5_PhA-ojtQN3ZNGUKb8dQdPIzU3cbxa",
+            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTUdNll1mKDPVBzXqqQOtFdDWDtimBrhrwpU5vGIbOHNgPpz-RqoYoC5bLSDmZ1IjAimRPdhceOuHMow3J-uM2RhRwyAzzOziIDjJ2o6oj7",
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSyIxiOqNuf2t42Hi9eHIZX21J_22UjDEMir6TEXIuF8reovTJXoEhwAxZTiTCZZq0LJuQrFccprUG2v791Glhj7SKEsaagmvpOi3RAC-Ze",
+            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQOosESe-PrUhXcKmlZRKIf7N3alZVVhaxrN9bj5gTpc55sYgJtkVAc06ymX17W39y40MmTxvxEJFUeyTSBbzgu98aJmrzz9z8SO1j9wpDgx6vgXwA4dnmq2A",
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQeBz-24ocDxuxOc1amR_6lwuKNVYsZSdBJ204Yb1huvuiTEctHEre1Z6tYkqiW8RLI8_VPVj64s3rrKXAIxGw3PSenSYa68R3n7KC6ke_Godc6OdH9oIRcsA"
+          ],
+          "description": " Power-packed 10000mAh - Lithium Polymer 10000mAh capacity allows you to efficiently charge your devices multiple times. Suitable for Smartphones, tablets, Earbuds, and other electronic devices. The charger wirelessly charges your phone while the practical foldable stand props up your phone for easy viewing.",
+          "quantity": 1
         }
       ],
-      "totalPrice": 33011.990000000005
+      "totalPrice": 35560.98
     }
   ]
 }

@@ -45,11 +45,9 @@ function AppLayout() {
         <Route path="/user" element = {<UserPanel />} />
         <Route path="/login" element={ <LoginPage />} />
         <Route path="/register" element={ <RegisterNew />} />
-        <Route path="/products/:id" element ={<MainProducts /> } />
+        <Route path="/category/:id/product/:id" element ={<MainProducts /> } />
 
-     
-       
-
+    
 
         {/* Admin Routes */}
         <Route path="/admin" element={<AdminHome />}>

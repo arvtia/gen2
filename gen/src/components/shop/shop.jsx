@@ -42,7 +42,7 @@ const FilterProducts = () => {
                                     />
                                 )}
                                 <div className="position-absolute bottom-0 start-50 translate-middle-x soft-blur text-dark p-2 text-center w-100">
-                                    <p className="fs-5 fw-bold mb-0">{category}</p>
+                                    <p className="fs-5 fw-bold mb-0 underline-expand">{category}</p>
                                 </div>
                             </div>
                         </div>

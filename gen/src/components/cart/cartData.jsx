@@ -6,12 +6,12 @@ const Cart = () => {
   const dispatch = useDispatch();
   const cartItems = useSelector(state => state.cart.items);
 
-  const calculateTotal = () => {
-    return cartItems.reduce((sum, item) => {
-      const price = parseFloat(item.price);
-      return sum + price * item.quantity;
-    }, 0);
-  };
+//   const calculateTotal = () => {
+//     return cartItems.reduce((sum, item) => {
+//       const price = parseFloat(item.price);
+//       return sum + price * item.quantity;
+//     }, 0);
+//   };
 
   return (
     <div className="cart-wrapper">
@@ -33,8 +33,8 @@ const Cart = () => {
                         style={{ objectFit: 'cover', borderRadius: '6px' }}
                     />
                     <div className="flex-grow-1">
-                        <p className="mb-1 fw-semibold">{item.brand_name}</p>
-                        <p className="mb-1 text-muted small">{item.product_name}</p>
+                        <p className="mb-1 fw-semibold underline-expand">{item.brand}</p>
+                        <p className="mb-1 text-muted small">{item.productName}</p>
                         <div className="d-flex align-items-center justify-content-between">
                             <div className="btn-group btn-group-sm" role="group">
                                 <button
