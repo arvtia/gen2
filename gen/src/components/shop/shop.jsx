@@ -37,7 +37,7 @@ const FilterProducts = () => {
                                     <img 
                                     src={categoryItem.categoryImg} 
                                     alt={`Image for ${category}`} 
-                                    className="img-fluid w-100 rounded p-3"
+                                    className="img-fluid w-100 rounded p-3 very-soft-shadow"
                                     style={{ height: "300px", objectFit: "contain" }}
                                     />
                                 )}

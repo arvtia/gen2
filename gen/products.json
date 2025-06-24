@@ -12,72 +12,6 @@
       "id": "MTc1MDMxNzAwMzY5MzAucXQxd2g5dXQwYXA=",
       "items": [
         {
-          "id": "1749731637507",
-          "productName": "Sony WX-11000",
-          "price": "24999",
-          "color": "Black",
-          "discount": "2",
-          "size": "N/A",
-          "inStock": "1231",
-          "category": "TWS",
-          "categoryImg": "",
-          "subcategory": "Earbuds",
-          "brand": "Sony",
-          "specifications": [
-            "Bluetooth version: 5.3",
-            "Wireless range: 10 m",
-            "Battery life: 22 hr | Charging time: 3 hr",
-            "LONG BATTERY LIFE & QUICK CHARGING: Up to 11 hours of battery life (up to 22hrs with case) with quick charging (5 min charge for up to 1 hour of playback",
-            "MULTIPOINT CONNECTION: Quickly switch between two devices at once"
-          ],
-          "tags": [
-            "Smart Pick"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/wireless-earbuds-png-05252024-kc9avyod3gajdgoh.png",
-            "https://shopatsc.com/cdn/shop/files/5_dd2273e2-244f-4e45-9692-96efb36ad23f.jpg?v=1737011353",
-            "https://shopatsc.com/cdn/shop/files/2_2d532606-aa2c-4d5b-8760-df891a023273.jpg?v=1726814733",
-            "https://shopatsc.com/cdn/shop/files/7_6b79916d-1d26-4504-9a49-da9346b3fa76.jpg?v=1737011353"
-          ],
-          "description": "ALL DAY COMFORT: Light and compact to give you all-day comfort and designed for the ideal fit, for an exceptional all-round listening experience",
-          "quantity": 1
-        },
-        {
-          "id": "11",
-          "productId": "324231",
-          "productName": "Turbo Cable",
-          "price": 14.99,
-          "color": "Black",
-          "length": "1m",
-          "discount": 12,
-          "inStock": "1231",
-          "stockQuantity": 1,
-          "category": "Data Cables",
-          "categoryImg": "https://bestor.in/cdn/shop/products/charging-cable1-removebg-preview.png",
-          "subcategory": "Fast Charging Cables",
-          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Fast+Charging+Cables",
-          "brand": "QuickCharge",
-          "brandImg": "https://dummyimage.com/100x50/222/fff&text=QuickCharge",
-          "specifications": [
-            "USB-C to USB-A",
-            "Supports 18W Fast Charging",
-            "Durable Braided Cable"
-          ],
-          "tags": [
-            "Top Sellers"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/pink-u-s-b-lightning-cable-m7hxr6vdcxoj573x-m7hxr6vdcxoj573x.png",
-            "https://n4.sdlcdn.com/imgs/e/g/s/OnePlus-Type-C-Cable-Red-SDL235728691-1-bf130.jpg",
-            "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/o/n/oneplus-warp-charge-type-c-to-type-c-data-cable-1m3.jpg",
-            "https://th.bing.com/th/id/OIP.J1qYo9Tj_RNL0349w2WHpAHaHa?w=800&h=800&rs=1&pid=ImgDetMain"
-          ],
-          "size": [
-            "Medium"
-          ],
-          "quantity": 1
-        },
-        {
           "id": "1749708463758",
           "productName": "Nothing Ear",
           "price": "7998",
@@ -113,104 +47,40 @@
           "quantity": 1
         },
         {
-          "id": "10",
-          "productId": "212122",
-          "productName": "SoundMax BassLoop",
-          "price": 49.99,
+          "id": "1750675938843",
+          "productName": "Airwave Max 5",
+          "price": 12998,
           "color": "Black",
-          "size": "Standard",
-          "discount": 8,
-          "inStock": "12340",
-          "stockQuantity": 1,
-          "category": "Neckbands",
-          "categoryImg": "https://tinyurl.com/yusm22p3",
-          "subcategory": "Wireless Neckbands",
-          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Wireless+Neckbands",
-          "brand": "SoundMax",
-          "brandImg": "https://dummyimage.com/100x50/222/fff&text=SoundMax",
-          "specifications": [
-            "Bluetooth 5.0",
-            "Noise Isolation",
-            "12-hour battery life"
-          ],
-          "tags": [
-            "top pick",
-            "value"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/wireless-neckband-headphones-black-vj9dnkxkidzjgs9z-vj9dnkxkidzjgs9z.png",
-            "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701705180/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/275521_py92zk.png",
-            "https://blaupunktaudio.in/cdn/shop/files/be100-xtreme-neckband-with-ultra-long-playtime-blue-blaupunkt-india-1.jpg?v=1710497123",
-            "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
-          ],
-          "quantity": 1
-        },
-        {
-          "id": "1749793222373",
-          "productName": "ChargeMate",
-          "price": "2499",
-          "color": "Purple",
-          "discount": "11",
+          "discount": 12,
           "size": "Small",
-          "inStock": "2128",
-          "category": "Power Bank",
-          "categoryImg": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_N4XEMabH4-4tkrIfD__9sxH06iJX9PLTWjlbEXS4aR_YYoZ459qVKM_Esl9EGIYojM0OaFadlRM3uhEiAd9B9etgUat9smRxfBMoa-jhYTot6tRfinIy",
-          "subcategory": "Power Bank",
-          "brand": "Lifelong",
-          "specifications": [
-            "Connector Type – USB Type C, Micro USB, USB Type A",
-            "Quick Charge 3.0 & Power Delivery Technology – 22.5W Fast Charging Input",
-            "Sleek, Stylish & Compact - Supremely modish and handy design",
-            "Safe and Secure – The resilient outer body and 12 layers of advanced chipset protection offer a reliable charging experience.",
-            "High-Speed Charging - Advanced technology delivers fast and efficient charging for your devices"
-          ],
-          "tags": [
-            "Trending"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/usb-power-bank-png-06122024-odwy9qoh5abunxem.png",
-            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcToixaRgYp64Z8bfoh9MxTQnwnEm8aFJwFsG6MaxSjbIC1laNjPxGmyH8IljGokJxaJJqKBBtJalEvsd2jo1j_vT5_PhA-ojtQN3ZNGUKb8dQdPIzU3cbxa",
-            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTUdNll1mKDPVBzXqqQOtFdDWDtimBrhrwpU5vGIbOHNgPpz-RqoYoC5bLSDmZ1IjAimRPdhceOuHMow3J-uM2RhRwyAzzOziIDjJ2o6oj7",
-            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSyIxiOqNuf2t42Hi9eHIZX21J_22UjDEMir6TEXIuF8reovTJXoEhwAxZTiTCZZq0LJuQrFccprUG2v791Glhj7SKEsaagmvpOi3RAC-Ze",
-            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQOosESe-PrUhXcKmlZRKIf7N3alZVVhaxrN9bj5gTpc55sYgJtkVAc06ymX17W39y40MmTxvxEJFUeyTSBbzgu98aJmrzz9z8SO1j9wpDgx6vgXwA4dnmq2A",
-            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQeBz-24ocDxuxOc1amR_6lwuKNVYsZSdBJ204Yb1huvuiTEctHEre1Z6tYkqiW8RLI8_VPVj64s3rrKXAIxGw3PSenSYa68R3n7KC6ke_Godc6OdH9oIRcsA"
-          ],
-          "description": " Power-packed 10000mAh - Lithium Polymer 10000mAh capacity allows you to efficiently charge your devices multiple times. Suitable for Smartphones, tablets, Earbuds, and other electronic devices. The charger wirelessly charges your phone while the practical foldable stand props up your phone for easy viewing.",
-          "quantity": 1
-        },
-        {
-          "id": "1750671993299",
-          "productName": "Buds VS102 Elite",
-          "price": "1299",
-          "color": "Green",
-          "discount": "12",
-          "size": "Small",
-          "inStock": "1227",
-          "category": "TWS",
-          "categoryImg": "N/A",
-          "subcategory": "Earbuds",
+          "inStock": 214,
+          "category": "Headphones",
+          "categoryImg": "https://file.aiquickdraw.com/imgcompressed/img/compressed_898b69eec1f87b3333417334a9a40b28.webp",
+          "subcategory": "Wired Headphone",
           "brand": "Noise",
           "specifications": [
-            "Upto 50 hours playtime",
-            "Water resistant",
+            "Upto 80 hours playtime",
+            "Dual pairing",
             "Quad mic ENC",
-            "BT version"
+            "ANC",
+            "Spatial Audio",
+            "Low Latency"
           ],
           "tags": [
-            "Trending"
+            "Top Sellers"
           ],
           "imagesCollection": [
-            "https://www.gonoise.com/cdn/shop/files/1_0ba0fb4c-05d2-487e-a62e-3553b3998174.webp?v=1722313476",
-            "https://www.gonoise.com/cdn/shop/files/2_a9f7929b-deb7-4e9c-8d37-d7880cc23aaa.webp?v=1722313476",
-            "https://www.gonoise.com/cdn/shop/files/3_78da8955-36ed-4112-b44d-69a51da8468c.webp?v=1722313476",
-            "https://www.gonoise.com/cdn/shop/files/4_d488454f-9a9e-46c1-950e-48753739e845.webp?v=1722313476",
-            "https://www.gonoise.com/cdn/shop/files/5_18683ded-7530-46d8-9105-b2d3195251fe.webp?v=1722313476"
+            "https://www.gonoise.com/cdn/shop/files/Artboard_8_Am5.webp?v=1737632340",
+            "https://www.gonoise.com/cdn/shop/files/Artboard_7_Am5.webp?v=1737633813",
+            "https://www.gonoise.com/cdn/shop/files/Artboard_10_Am5.webp?v=1737633813",
+            "https://www.gonoise.com/cdn/shop/files/Artboard_11_Am5.webp?v=1737633813",
+            "https://www.gonoise.com/cdn/shop/files/Artboard_12_Am5.webp?v=1737633813",
+            "https://www.gonoise.com/cdn/shop/files/Artboard_9_Am5.webp?v=1737633813"
           ],
-          "description": "Noise earbuds, offered by the brand Noise, are a line of wireless earphones known for their variety of features and competitive pricing. They typically offer features like Bluetooth connectivity, long battery life (ranging from 20 to 120 hours depending on the model)",
           "quantity": 1
         }
       ],
-      "totalPrice": 36859.98
+      "totalPrice": 20996
     }
   ]
 }
