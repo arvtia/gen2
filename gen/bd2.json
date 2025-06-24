@@ -421,7 +421,6 @@
       "description": "The Xiaomi Power Bank 4i 10000mAh is a sleek, compact, and high-performance portable charger designed for users who need reliable power on the go. With its powerful 10000mAh lithium-ion battery, this power bank can efficiently charge your smartphone, tablet, earbuds, smartwatch, and other USB-powered devices multiple times throughout the day."
     },
     {
-      "id": 1750768723059,
       "productName": "boAt Party Pal 185  ",
       "price": 16999,
       "color": "Black",
@@ -439,7 +438,7 @@
         "5 presets EQ modes",
         "Multi-compatibility ",
         "6 Hours Non-Stop Playback  ",
-        "Weight 3.1kgs  Read more at: https://www.boat-lifestyle.com/products/party-pal-185-bluetooth-speaker?variant=40466951766114&country=IN¤cy=INR&srsltid=AfmBOorvFsH0fpBgRDf_7hiTDs2eW0EdHkPDXkZhVOGHTS9zCK7ibdKWNjs"
+        "Weight 3.1kgs  "
       ],
       "tags": [
         "Smart Pick"
@@ -451,7 +450,8 @@
         "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/PartyPal185_3_2250x.jpg?v=1698906196",
         "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/PartyPal185_4_2250x.jpg?v=1698906196"
       ],
-      "description": "boAt speakers are known for their portable, wireless design and are available in various models tailored for different needs, from party settings to everyday use. They often feature Bluetooth connectivity, long battery life, and water resistance, with some models also offering features like TWS (True Wireless Stereo) for enhanced sound and multiple EQ modes. "
+      "description": "boAt speakers are known for their portable, wireless design and are available in various models tailored for different needs, from party settings to everyday use. They often feature Bluetooth connectivity, long battery life, and water resistance, with some models also offering features like TWS (True Wireless Stereo) for enhanced sound and multiple EQ modes. ",
+      "id": "1750768723059"
     }
   ],
   "MainCatgory": [

@@ -45,7 +45,7 @@ const ProductCard = ({ product }) => {
                 <div className="mb-3 d-inline-flex flex-row align-items-baseline">
                     <p className="fs-6 text-secondary text-decoration-line-through mb-0">₹ {product.price}</p>
                     <div className="mx-2 d-flex flex-column">
-                        <span className="fs-4 fw-bold text-dark"><mark>₹ {FinalPrice}</mark></span>
+                        <span className="fs-4 fw-bold text-dark"><mark>₹ {(FinalPrice).toFixed(2)}</mark></span>
                     </div>
                     <span className="badge rounded-pill bg-danger ms-2 align-self-center" style={{ fontSize: '0.8rem' }}>
                         -{product.discount}% OFF
