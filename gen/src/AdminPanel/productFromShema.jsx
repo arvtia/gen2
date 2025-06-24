@@ -1,62 +1,62 @@
-export const productFormSchema = [
-  { key: "productName", label: "Product Name", type: "text" },
-  { key: "price", label: "Price", type: "number" },
-  {
-    key: "color",
-    label: "Color",
-    type: "datalist",
-    options: [
-      "Black", "White", "Gray", "Silver", "Blue", "Red", "Green",
-      "Yellow", "Gold", "Purple", "Pink", "Orange", "Transparent", "RGB / Multicolor"
-    ]
-  },
-  { key: "discount", label: "Discount (%)", type: "number" },
-  {
-    key: "size",
-    label: "Size",
-    type: "datalist",
-    options: ["Small", "Medium", "Large", "Ergonomic"]
-  },
-  { key: "inStock", label: "Stock Quantity", type: "number" },
-  {
-    key: "category",
-    label: "Category",
-    type: "datalist",
-    options: [
-      "TWS", "Neckbands", "Sound Bars", "Speakers", "Headphones", "wired earphone",
-      "bluetooth speaker", "Party Speaker", "Charger", "Data cables", "Power Bank", "Wireless car play"
-    ]
-  },
-  { key: "categoryImg", label: "Category Image URL", type: "text" },
-  {
-    key: "subcategory",
-    label: "Subcategory",
-    type: "datalist",
-    options: [
-      "Party Speaker", "Neck band", "Sound Bar", "Chargers",
-      "Wireless Earphones", "Bluetooth Speaker", "Earbuds"
-    ]
-  },
-  {
-    key: "brand",
-    label: "Brand",
-    type: "datalist",
-    options: [
-      "Sony", "Bose", "JBL", "Sennheiser", "Beats",
-      "Skullcandy", "Boat", "Zebronics", "Nothing"
-    ]
-  },
-  {
-    key: "tags",
-    label: "Tags",
-    type: "multiselect",
-    options: ["Smart Pick", "Zen-Gy Verified", "Trending", "Top Sellers"]
-  },
-  { key: "description", label: "Description", type: "text" },
-  { key: "specifications", label: "Specifications", type: "array" },
-  { key: "imagesCollection", label: "Image Collection", type: "array" }
-
-];
+export const productFormSchema = 
+    [
+        { key: "productName", label: "Product Name", type: "text" },
+        { key: "price", label: "Price", type: "number" },
+        {
+            key: "color",
+            label: "Color",
+            type: "datalist",
+            options: [
+            "Black", "White", "Gray", "Silver", "Blue", "Red", "Green",
+            "Yellow", "Gold", "Purple", "Pink", "Orange", "Transparent", "RGB / Multicolor"
+            ]
+        },
+        { key: "discount", label: "Discount (%)", type: "number" },
+        {
+            key: "size",
+            label: "Size",
+            type: "datalist",
+            options: ["Small", "Medium", "Large", "Ergonomic"]
+        },
+        { key: "inStock", label: "Stock Quantity", type: "number" },
+        {
+            key: "category",
+            label: "Category",
+            type: "datalist",
+            options: [
+            "TWS", "Neckbands", "Sound Bars", "Speakers", "Headphones", "wired earphone",
+            "bluetooth speaker", "Party Speaker", "Charger", "Data cables", "Power Bank", "Wireless car play"
+            ]
+        },
+        { key: "categoryImg", label: "Category Image URL", type: "text" },
+        {
+            key: "subcategory",
+            label: "Subcategory",
+            type: "datalist",
+            options: [
+            "Party Speaker", "Neck band", "Sound Bar", "Chargers",
+            "Wireless Earphones", "Bluetooth Speaker", "Earbuds"
+            ]
+        },
+        {
+            key: "brand",
+            label: "Brand",
+            type: "datalist",
+            options: [
+            "Sony", "Bose", "JBL", "Sennheiser", "Beats",
+            "Skullcandy", "Boat", "Zebronics", "Nothing"
+            ]
+        },
+        {
+            key: "tags",
+            label: "Tags",
+            type: "multiselect",
+            options: ["Smart Pick", "Zen-Gy Verified", "Trending", "Top Sellers"]
+        },
+        { key: "description", label: "Description", type: "text" },
+        { key: "specifications", label: "Specifications", type: "array" },
+        { key: "imagesCollection", label: "Image Collection", type: "array" }   
+    ];
 
 
 

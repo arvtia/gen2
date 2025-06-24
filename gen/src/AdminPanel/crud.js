@@ -20,6 +20,7 @@ const AdminProductList = () => {
         specifications: [],
         tags: [],
         imagesCollection: [],
+        description:""
     };
 
 
@@ -93,7 +94,6 @@ const AdminProductList = () => {
         onEdit={(product) => setSelectedProduct(product)}
         onDelete={handleDelete}
     />
-
 
       {selectedProduct && (
         <div className="mt-4 col-12 col-lg-9 col-xl-10 mx-auto p-4 border rounded bg-light">
