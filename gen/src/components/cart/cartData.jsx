@@ -14,7 +14,7 @@ const Cart = () => {
 //   };
 
   return (
-    <div className="cart-wrapper">
+    <div className="cart-wrapper soft-blur">
       {/* <h5 className="fw-bold mb-3">
         <i className="bi bi-bag me-2"></i> Your Cart
       </h5> */}
@@ -38,7 +38,7 @@ const Cart = () => {
                         <div className="d-flex align-items-center justify-content-between">
                             <div className="btn-group btn-group-sm" role="group">
                                 <button
-                                className="btn btn-outline-secondary"
+                                className="btn btn-outline-dark"
                                 onClick={() => dispatch(removeFromCart(item))}
                                 >
                                 -
@@ -47,7 +47,7 @@ const Cart = () => {
                                 {item.quantity}
                                 </button>
                                 <button
-                                className="btn btn-outline-secondary"
+                                className="btn btn-outline-dark"
                                 onClick={() => dispatch(addToCart(item))}
                                 >
                                 +

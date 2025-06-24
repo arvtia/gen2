@@ -195,16 +195,18 @@ const ProductSection = () => {
             key={index}
             className="col-6 col-md-3 col-lg-3 col-xl-3 position-relative justify-content-center text-center px-2"
           >
+            <Link to={`product/${item.id}`}>
             <img
-              src={item.imagesCollection[0]}
-              alt="Product"
-              className="img-fluid bg-secondary phone-view-product rounded"
-              style={{
-                objectFit: 'cover',
-                width: '290px',
-                height: '290px',
-              }}
+                src={item.imagesCollection[0]}
+                alt="Product"
+                className="img-fluid bg-secondary phone-view-product rounded"
+                style={{
+                    objectFit: 'cover',
+                    width: '290px',
+                    height: '290px',
+                }}
             />
+            </Link>
             <div className="py-1">
                 <Link to={`product/${item.id}`} className="text-decoration-none" ><div className="text-dark fw-bold text-start">{item.productName}</div></Link>                
             </div>

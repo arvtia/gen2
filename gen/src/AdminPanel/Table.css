@@ -45,3 +45,20 @@
     margin: auto;
     height: 68px;
 }
+
+
+.scroll-box {
+  max-height: 80px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  padding-right: 4px;
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}

@@ -163,7 +163,7 @@ const ContactUsFrom = () => {
               {commentError && <p className="text-danger">{commentError}</p>}
             </div>
 
-            <button className="btn btn-primary shadow-soft" type="submit">
+            <button className="btn btn-dark w-100 shadow-soft" type="submit">
               Submit
             </button>
           </form>

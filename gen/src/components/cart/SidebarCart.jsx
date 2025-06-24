@@ -23,7 +23,7 @@ const SidebarCart = () => {
       id="cartSidebar"
       aria-labelledby="cartSidebarLabel"
     >
-      <div className="offcanvas-header">
+      <div className="offcanvas-header very-soft-shadow">
         <h5 id="cartSidebarLabel">
             <i className="bi bi-bag me-2"></i> Your Order
         </h5>
@@ -37,7 +37,7 @@ const SidebarCart = () => {
             </button>
         </div>
       </div>
-      <div className="offcanvas-body">
+      <div className="offcanvas-body bg-light">
         {/* Cart contents go here */}
             <Cart/>
             <div className="mt-4">

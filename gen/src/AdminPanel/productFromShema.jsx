@@ -23,7 +23,7 @@ export const productFormSchema = [
     label: "Category",
     type: "datalist",
     options: [
-      "TWS", "Neckband", "Sound Bars", "Speakers", "Headphones", "wired earphone",
+      "TWS", "Neckbands", "Sound Bars", "Speakers", "Headphones", "wired earphone",
       "bluetooth speaker", "Party Speaker", "Charger", "Data cables", "Power Bank", "Wireless car play"
     ]
   },
@@ -52,8 +52,10 @@ export const productFormSchema = [
     type: "multiselect",
     options: ["Smart Pick", "Zen-Gy Verified", "Trending", "Top Sellers"]
   },
+  { key: "description", label: "Description", type: "text" },
   { key: "specifications", label: "Specifications", type: "array" },
   { key: "imagesCollection", label: "Image Collection", type: "array" }
+
 ];
 
 

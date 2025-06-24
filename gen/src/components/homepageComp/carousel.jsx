@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import './style.css';
+import { Link } from "react-router-dom";
+
 
 const CarouselLast = () => {
   const [products, setProducts] = useState([]);
@@ -73,12 +75,15 @@ const CarouselLast = () => {
           return (
             <div key={product.id || index} className="product-card card">
               <div className="card-content card-body">
+                
+                <Link to={`product/${product.category}/${product.id}`}>
                 <img
                   src={product.imagesCollection[0]}
                   alt={product.productName}
                   className="product-image img-fluid rounded-3"
                   style={{ width: "100%", height: "280px", objectFit: "cover" }}
                 />
+                </Link>
                 <div className="d-flex justify-content-between mt-2">
                   <h5 className="product-title fw-bold text-start ps-2">{product.productName}</h5>
                   <p className="fs-6 fw-bold">{product.price}</p>

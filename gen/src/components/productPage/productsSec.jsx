@@ -10,9 +10,10 @@ const ProductCard = ({ product }) => {
 
   const FinalPrice = product.price - (product.price * product.discount) / 100;
   
-    if (product.inStock !== 0 || product.inStock ==="Yes") {
-        product.inStock.style.color="green"
-    }
+
+//    can i do this ?
+
+    
   
 
   const handleAdd = () => setQuantity(prev => prev + 1);
@@ -31,15 +32,29 @@ const ProductCard = ({ product }) => {
                 <span><i className="bi bi-stars px-1 text-dark"></i></span>{product.brand}
                 </p>
                 <h3 className="text-secondary fw-bold">{product.productName}</h3>
-                <div className="mb-2 py-3">
-                    <span className="badge p-1 px-2 bg-secondary">{product.color}</span>
+                <div className="mb-2 py-3 d-flex me-auto align-items-center">
+                    <span className="badge p-1 px-2 bg-secondary me-2">{product.color}</span>  
+                    {
+                        Number(product.inStock) > 0 ? (
+                        <span className="badge bg-success text-white">In Stock</span>
+                        ) : (
+                        <span className="badge bg-danger text-white">Out of Stock</span>
+                        )
+                    }
                 </div>
-                <div className="mb-2 d-inline-flex flex-row align-items-baseline">
-                    <p className="fs-6 text-secondary text-decoration-line-through">₹ {product.price}</p>
-                    <span className="fs-4 fw-bold text-dark ms-2"><mark>₹ {FinalPrice}</mark></span>
+                <div className="mb-3 d-inline-flex flex-row align-items-baseline">
+                    <p className="fs-6 text-secondary text-decoration-line-through mb-0">₹ {product.price}</p>
+                    <div className="mx-2 d-flex flex-column">
+                        <span className="fs-4 fw-bold text-dark"><mark>₹ {FinalPrice}</mark></span>
+                    </div>
+                    <span className="badge rounded-pill bg-danger ms-2 align-self-center" style={{ fontSize: '0.8rem' }}>
+                        -{product.discount}% OFF
+                    </span>
                 </div>
 
-                <div className="d-inline-flex align-items-center mb-2">
+                        
+
+                <div className="d-inline-flex align-items-center mb-2 mt-5">
                     <div className="btn-group btn-group-sm me-2" role="group">
                         <button
                             type="button"
@@ -78,15 +93,13 @@ const ProductCard = ({ product }) => {
                     <div className="py-3 d-flex flex-wrap">
                         {
                             product.specifications && product.specifications.map((spec, index) => (
-                                <p key={index} className="fs-6 text-secondary badge fw-light bg-light me-2 very-soft-shadow " role="button"> {spec}</p>
+                                <p key={index} className="fs-6 text-secondary badge fw-light bg-light me-2 very-soft-shadow text-wrap" role="button"> {spec}</p>
                             ))
                         }
                     </div>
                 </div>
                 <div className="mb-3">
-                    <div className="py-3">
-                        <p className="fs-6 text-secondary underline-expand ">{product.description}</p>
-                    </div>
+                    <p className="fs-6 text-secondary fst-normal">{product.description}</p>
                 </div>
             </div>
         </div>

@@ -1,3 +1,4 @@
+import CarouselLast from "../components/homepageComp/carousel";
 import Breadcrumbs from "../components/productPage/breadcrumb";
 import MainProducts2 from "../components/productPage/mainProduct"
 
@@ -8,6 +9,7 @@ const MainProducts =() =>{
         <>
             <Breadcrumbs />
             <MainProducts2 />
+            <CarouselLast />
         </>
     )
 }
