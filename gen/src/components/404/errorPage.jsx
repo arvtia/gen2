@@ -8,7 +8,7 @@ const Error =() =>{
             <div className="py-5 mt-5">
                 <div className="text-center metalic-bg">
                     <p className="display-2">
-                        {"Oops! Page not found".split("").map((char, index) => (
+                        {"Oops! Page not Found".split("").map((char, index) => (
                         <span key={index} className="glass-letter">
                             {char}
                         </span>

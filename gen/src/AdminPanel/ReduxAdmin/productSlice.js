@@ -1,11 +1,13 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 
+// fetch karke lana product api se  
 export const fetchProducts = createAsyncThunk('products/fetchAll', async()=>{
     const response  = await fetch('http://localhost:3002/products');
     return await response.json();
 });
 
+// advance - POST method to add a new product - 
 export const addProduct = createAsyncThunk('products/add', async(product)=>{
     const response = await fetch("http://localhost:3002/products",{
         method: 'POST',
