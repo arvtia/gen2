@@ -4,9 +4,9 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
     items: [] // { id, product_name, price, quantity }
 }
-const initialProductState = {
-    products: []
-}
+// const initialProductState = {
+//     products: []
+// }
 
 
 
@@ -47,11 +47,11 @@ const cartSlice = createSlice({
         }
     },
 
-    name: 'Products',
-    initialProductState,
-    reducers:{
-        
-    }
+    // name: 'Products',
+    // initialProductState,
+    // reducers:{
+
+    // }
 
 })
 

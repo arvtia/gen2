@@ -21,42 +21,37 @@
       "id": "MTc1MDgyODQ4NjQ1NDAuNnJubTVhbW82aXU=",
       "items": [
         {
-          "id": "11",
-          "productId": "324231",
-          "productName": "Turbo Cable",
-          "price": 1499,
+          "id": "1750136688334",
+          "productName": "Quad Play- Wireless CarPlay",
+          "price": "9000",
           "color": "Black",
-          "length": "1m",
-          "discount": 12,
-          "inStock": "1231",
-          "stockQuantity": 1,
-          "category": "Data Cables",
-          "categoryImg": "https://bestor.in/cdn/shop/products/charging-cable1-removebg-preview.png",
-          "subcategory": "Fast Charging Cables",
-          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Fast+Charging+Cables",
-          "brand": "QuickCharge",
-          "brandImg": "https://dummyimage.com/100x50/222/fff&text=QuickCharge",
+          "discount": 23,
+          "size": "Small",
+          "inStock": "1214",
+          "category": "Wireless car play",
+          "categoryImg": "N/A",
+          "subcategory": "Wireless Car play",
+          "brand": "Quad Lock",
           "specifications": [
-            "USB-C to USB-A",
-            "Supports 18W Fast Charging",
-            "Durable Braided Cable"
+            "Input: 5V 1A (USB-C)",
+            "Output: 5V 1A (USB-A)",
+            "Power Consumption: 0.75W",
+            "Vehicle Display Resolution: Adaptive"
           ],
           "tags": [
             "Top Sellers"
           ],
           "imagesCollection": [
-            "https://wallpapers.com/images/high/pink-u-s-b-lightning-cable-m7hxr6vdcxoj573x-m7hxr6vdcxoj573x.png",
-            "https://n4.sdlcdn.com/imgs/e/g/s/OnePlus-Type-C-Cable-Red-SDL235728691-1-bf130.jpg",
-            "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/o/n/oneplus-warp-charge-type-c-to-type-c-data-cable-1m3.jpg",
-            "https://th.bing.com/th/id/OIP.J1qYo9Tj_RNL0349w2WHpAHaHa?w=800&h=800&rs=1&pid=ImgDetMain"
+            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799",
+            "https://cdn.shopify.com/s/files/1/2576/2754/files/2209-277_Car-Play-Adaptor_Tech_Specs_900x1200_2504c623-5a0b-44e6-a22b-fa58b95d152b.png?v=1664512537?auto=format",
+            "https://cdn.sanity.io/images/3azemr64/production/5c2916ffbb2559d2959f0a59068635ada93a9429-1024x768.jpg?auto=format&w=873&h=655&crop=center&fit=crop&q=90",
+            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799"
           ],
-          "size": [
-            "Medium"
-          ],
-          "quantity": 4
+          "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go.",
+          "quantity": 1
         }
       ],
-      "totalPrice": 5996
+      "totalPrice": 9000
     },
     {
       "id": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE=",
