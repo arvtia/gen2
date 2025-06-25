@@ -93,7 +93,7 @@
             "https://www.gonoise.com/cdn/shop/files/Artboard_9_Am5.webp?v=1737633813"
           ],
           "description": "Noise cancelling headphones are designed to reduce or eliminate unwanted background noise, allowing users to focus on their audio content. They achieve this through two main methods: active noise cancellation (ANC) and passive noise isolation. ANC headphones use microphones to detect ambient noise and generate an opposing sound wave to cancel it out, while passive noise isolation relies on physical barriers like padded earcups to block out sound",
-          "quantity": 1
+          "quantity": 3
         },
         {
           "id": "1750761466939",
@@ -131,7 +131,7 @@
           "quantity": 1
         }
       ],
-      "totalPrice": 15897
+      "totalPrice": 41893
     }
   ],
   "Reviews": [
@@ -157,22 +157,6 @@
         "easeOfUse": 5
       },
       "file": null,
-      "userId": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE="
-    },
-    {
-      "id": "a8f1",
-      "title": "I don't recomment",
-      "review": "package arrived open, and the product wasn't in the good condition. it felt like the package was opened before and tested- ",
-      "ratings": {
-        "delivery": 1,
-        "condition": 1,
-        "easeOfUse": 1
-      },
-      "mediaLinks": [
-        "https://preview.redd.it/my-package-arrived-already-opened-would-you-return-it-or-is-v0-vpf51gb2ngbc1.jpg?width=640&crop=smart&auto=webp&s=b5733188cdb6d4d9cdca83ce47e09f646856c8d5",
-        "https://community.sephora.com/t5/image/serverpage/image-id/2556258iDD761473FE096770/image-size/large?v=v2&px=999",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1CVWbil1gIHWzS3BvCLMTaCfG0lCOqjg5jA&s"
-      ],
       "userId": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE="
     },
     {
