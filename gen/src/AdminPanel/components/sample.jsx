@@ -1,11 +1,12 @@
+import EditReview from "./editReview";
 
 const Users = () =>{
     return(
         <div className="py-5 my-5">
-            <h1 className="text-center display-2">Users section</h1>
+            <h1 className="text-center display-2">Reviews Section</h1>
             <div className="row py-2">
                 <div className="col-12 col-lg-11 col-lx-11 justify-content-center">
-                
+                    <EditReview />
                 </div>
             </div>
             

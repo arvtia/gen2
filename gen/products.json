@@ -12,40 +12,55 @@
       "id": "MTc1MDMxNzAwMzY5MzAucXQxd2g5dXQwYXA=",
       "items": [
         {
-          "id": "1749708463758",
-          "productName": "Nothing Ear",
-          "price": "7998",
-          "color": "black",
-          "discount": "2",
-          "size": [
-            "Small"
-          ],
-          "inStock": "67686",
-          "category": "TWS",
-          "categoryImg": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/30348913/2025/4/28/25f137b8-0adb-44c2-801c-d5052c6a09d31745818182754-BOULT-AUDIO-Octave-TWS-Earbuds-with-60H-PlaytimeZen--ENC-Mic-1.jpg",
-          "subcategory": "Earbuds",
-          "brand": "Nothing",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": null
+    },
+    {
+      "id": "MTc1MDgyODQ4NjQ1NDAuNnJubTVhbW82aXU=",
+      "items": [
+        {
+          "id": "11",
+          "productId": "324231",
+          "productName": "Turbo Cable",
+          "price": 1499,
+          "color": "Black",
+          "length": "1m",
+          "discount": 12,
+          "inStock": "1231",
+          "stockQuantity": 1,
+          "category": "Data Cables",
+          "categoryImg": "https://bestor.in/cdn/shop/products/charging-cable1-removebg-preview.png",
+          "subcategory": "Fast Charging Cables",
+          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Fast+Charging+Cables",
+          "brand": "QuickCharge",
+          "brandImg": "https://dummyimage.com/100x50/222/fff&text=QuickCharge",
           "specifications": [
-            "Dimensions: Earbuds: 30.9 mm x 21.7 mm x 24.3 mm",
-            "Weight: Earbuds: 4.8g, Case: 39.6g",
-            "Water and Dust Resistance: IP54 earbuds, IPX2 case",
-            "Controls: Pinch controls, in-ear detection",
-            "Other Features: Google Fast Pair, Microsoft Swift Pair, Dual Connection, Clear Voice Technology, LED charging status, Low Lag Mode "
+            "USB-C to USB-A",
+            "Supports 18W Fast Charging",
+            "Durable Braided Cable"
           ],
           "tags": [
-            "Trending"
+            "Top Sellers"
           ],
           "imagesCollection": [
-            "https://cdn.shopify.com/s/files/1/0586/3270/0077/files/BA_360_ENTEI_030_blackBud_rgb_00_4fdaba7c-5568-4db0-aaa5-5129d524d8bd.png?v=1713169144&width=600&height=600&crop=center",
-            "https://rukminim1.flixcart.com/image/900/900/xif0q/headphone/j/e/y/-original-imahfqhnanzmxsfy.jpeg?q=90",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTLEUyOdEO9XoVuBjOyx_c1zmNKyllKBDhZzz4OEZSGTcKhmDweWBFXo-6C-OawNVad5o&usqp=CAU",
-            "https://www.tmt.my/data/editor/sc-product/4412/nothing_ear_2_black.jpg",
-            "https://cdn.shopifycdn.net/s/files/1/0692/5988/6904/files/ELEV_AZU_BL_050_230703_V001_1008.png?v=1688527646"
+            "https://wallpapers.com/images/high/pink-u-s-b-lightning-cable-m7hxr6vdcxoj573x-m7hxr6vdcxoj573x.png",
+            "https://n4.sdlcdn.com/imgs/e/g/s/OnePlus-Type-C-Cable-Red-SDL235728691-1-bf130.jpg",
+            "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/o/n/oneplus-warp-charge-type-c-to-type-c-data-cable-1m3.jpg",
+            "https://th.bing.com/th/id/OIP.J1qYo9Tj_RNL0349w2WHpAHaHa?w=800&h=800&rs=1&pid=ImgDetMain"
           ],
-          "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3",
-          "stock": "120",
-          "quantity": 1
-        },
+          "size": [
+            "Medium"
+          ],
+          "quantity": 4
+        }
+      ],
+      "totalPrice": 5996
+    },
+    {
+      "id": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE=",
+      "items": [
         {
           "id": "1750675938843",
           "productName": "Airwave Max 5",
@@ -77,106 +92,102 @@
             "https://www.gonoise.com/cdn/shop/files/Artboard_12_Am5.webp?v=1737633813",
             "https://www.gonoise.com/cdn/shop/files/Artboard_9_Am5.webp?v=1737633813"
           ],
+          "description": "Noise cancelling headphones are designed to reduce or eliminate unwanted background noise, allowing users to focus on their audio content. They achieve this through two main methods: active noise cancellation (ANC) and passive noise isolation. ANC headphones use microphones to detect ambient noise and generate an opposing sound wave to cancel it out, while passive noise isolation relies on physical barriers like padded earcups to block out sound",
           "quantity": 1
         },
         {
-          "id": "1749731637507",
-          "productName": "Sony WX-11000",
-          "price": "24999",
+          "id": "1750761466939",
+          "productName": "Rockerz",
+          "price": 2899,
           "color": "Black",
-          "discount": "2",
-          "size": "N/A",
-          "inStock": "1231",
-          "category": "TWS",
-          "categoryImg": "",
-          "subcategory": "Earbuds",
-          "brand": "Sony",
+          "discount": 11,
+          "size": "Small",
+          "inStock": 1230,
+          "category": "Neckbands",
+          "categoryImg": "N/A",
+          "subcategory": "Wireless Earphones",
+          "brand": "Boat",
           "specifications": [
-            "Bluetooth version: 5.3",
-            "🛜 Range: 10 m",
-            "Battery life: 22 hr ",
-            "Multiple Connection",
-            " Charging time: 3 hr"
-          ],
-          "tags": [
-            "Smart Pick"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/wireless-earbuds-png-05252024-kc9avyod3gajdgoh.png",
-            "https://shopatsc.com/cdn/shop/files/5_dd2273e2-244f-4e45-9692-96efb36ad23f.jpg?v=1737011353",
-            "https://shopatsc.com/cdn/shop/files/2_2d532606-aa2c-4d5b-8760-df891a023273.jpg?v=1726814733",
-            "https://shopatsc.com/cdn/shop/files/7_6b79916d-1d26-4504-9a49-da9346b3fa76.jpg?v=1737011353"
-          ],
-          "description": "ALL DAY COMFORT: Light and compact to give you all-day comfort and designed for the ideal fit, for an exceptional all-round listening experience",
-          "quantity": 1
-        },
-        {
-          "id": "1749811961183",
-          "productName": "JBL Party Speaker 800W",
-          "price": "23999",
-          "color": "Black",
-          "discount": "11",
-          "size": "Large",
-          "inStock": "11",
-          "category": "Speakers",
-          "categoryImg": "https://wallpapers.com/images/high/party-speaker-with-led-lights-png-05242024-v2jkvss0f8fkq9tu.png",
-          "subcategory": "Party Speaker",
-          "brand": "JBL",
-          "specifications": [
-            "800 Watt",
-            "Dynamic custom light show",
-            "JBL Partybox App",
-            "IPX4 PlashProof"
+            "Active Noise Cancellation up to 30dB",
+            "Spatial Audio ",
+            "AI-ENx Technology",
+            "40 Hours Playtime",
+            "Hall Switch ",
+            "Dual Pairing",
+            "Magnetic Power ON/OFF "
           ],
           "tags": [
             "Trending"
           ],
           "imagesCollection": [
-            "https://wallpapers.com/images/high/party-speaker-with-led-lights-png-05242024-v2jkvss0f8fkq9tu.png",
-            "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/61OQwaqoKhL._SL1500_.jpg",
-            "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71Q05OWQSvL._SL1500_.jpg",
-            "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71IyXC6IHpL._SL1500_.jpg",
-            "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oZ9cBSe4L._SL1500_.jpg",
-            "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oc8tB6S3L._SX569_.jpg"
+            "https://www.bbassets.com/media/uploads/p/l/40338184_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
+            "https://www.bbassets.com/media/uploads/p/l/40338184-2_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
+            "https://www.bbassets.com/media/uploads/p/l/40338184-3_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
+            "https://www.bbassets.com/media/uploads/p/l/40338184-4_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
+            "https://www.bbassets.com/media/uploads/p/l/40338184-5_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
+            "https://www.bbassets.com/media/uploads/p/l/40338184-7_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg"
           ],
-          "description": "800WATT RMS POWERFUL JBL PRO SOUND: Create an instant musical connection with 800 powerful watts of high-performance JBL Original Pro Sound from Partybox 710. The Dual 2.75\" tweeters and 8\" woofers paired with its tuned bass reflex port deliver detailed audio perfection for music so loud you can literally feel the beat.",
-          "quantity": 1
-        },
-        {
-          "id": 1750763781818,
-          "productName": "Xiaomi Power Bank 10000mAh",
-          "price": 2899,
-          "color": "Black",
-          "discount": 46,
-          "size": "Medium",
-          "inStock": 0,
-          "category": "Power Bank",
-          "categoryImg": "N/A",
-          "subcategory": "Powerbank",
-          "brand": "XioMi",
-          "specifications": [
-            "22.5W Fast Charging",
-            "Durable Steel Casing",
-            "1-Year Warranty ",
-            "PD & QC 3.0 Support",
-            "Smart Power Management ",
-            "USB Type C"
-          ],
-          "tags": [
-            "Smart Pick"
-          ],
-          "imagesCollection": [
-            "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529749.95166999.jpg?thumb=1&f=webp&q=85",
-            "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529772.60346632.jpg?thumb=1&f=webp&q=85",
-            "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529781.88968237.jpg?thumb=1&f=webp&q=85",
-            "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529768.24122877.jpg?thumb=1&f=webp&q=85",
-            "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529785.71166244.jpg?thumb=1&f=webp&q=85"
-          ],
-          "description": "The Xiaomi Power Bank 4i 10000mAh is a sleek, compact, and high-performance portable charger designed for users who need reliable power on the go. With its powerful 10000mAh lithium-ion battery, this power bank can efficiently charge your smartphone, tablet, earbuds, smartwatch, and other USB-powered devices multiple times throughout the day.",
+          "description": "boAt neckbands are wireless earphones designed for comfort and high-quality audio, often featuring Bluetooth connectivity, long battery life, and water resistance. They are designed to be worn around the neck, providing a secure and convenient fit for users. ",
           "quantity": 1
         }
       ],
-      "totalPrice": 72893
+      "totalPrice": 15897
+    }
+  ],
+  "Reviews": [
+    {
+      "id": "89f5",
+      "title": "Nice but don't recomment",
+      "review": "well everything worked perfect in the starting but later on it has become less responsive to the phone Bluetooth connection .",
+      "ratings": {
+        "delivery": 5,
+        "condition": 4,
+        "easeOfUse": 3
+      },
+      "file": {},
+      "userId": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE="
+    },
+    {
+      "id": "1830",
+      "title": "what a product i mean loved it",
+      "review": "sharing my thoughts on it , \ni was helpful and most needed item in my list- i am glad it turned out to be good.",
+      "ratings": {
+        "delivery": 5,
+        "condition": 5,
+        "easeOfUse": 5
+      },
+      "file": null,
+      "userId": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE="
+    },
+    {
+      "id": "a8f1",
+      "title": "I don't recomment",
+      "review": "package arrived open, and the product wasn't in the good condition. it felt like the package was opened before and tested- ",
+      "ratings": {
+        "delivery": 1,
+        "condition": 1,
+        "easeOfUse": 1
+      },
+      "mediaLinks": [
+        "https://preview.redd.it/my-package-arrived-already-opened-would-you-return-it-or-is-v0-vpf51gb2ngbc1.jpg?width=640&crop=smart&auto=webp&s=b5733188cdb6d4d9cdca83ce47e09f646856c8d5",
+        "https://community.sephora.com/t5/image/serverpage/image-id/2556258iDD761473FE096770/image-size/large?v=v2&px=999",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1CVWbil1gIHWzS3BvCLMTaCfG0lCOqjg5jA&s"
+      ],
+      "userId": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE="
+    },
+    {
+      "id": "6106",
+      "title": "Poor Delivery",
+      "review": "The package arrived damaged.",
+      "ratings": {
+        "delivery": 3,
+        "condition": 1,
+        "easeOfUse": 1
+      },
+      "mediaLinks": [
+        "https://images.unsplash.com/photo-1560340841-eefc7aa04432?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "userId": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE="
     }
   ]
 }
