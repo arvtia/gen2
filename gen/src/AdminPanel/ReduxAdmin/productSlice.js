@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 
+
 // fetch karke lana product api se  
 export const fetchProducts = createAsyncThunk('products/fetchAll', async()=>{
     const response  = await fetch('http://localhost:3002/products');
@@ -32,6 +33,7 @@ export const deleteProduct = createAsyncThunk('product/delete', async (id) =>{
     });
     return id;
 });
+
 
 
 const productSlice = createSlice({

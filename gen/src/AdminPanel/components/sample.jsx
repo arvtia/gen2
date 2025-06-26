@@ -1,4 +1,5 @@
 import EditReview from "./editReview";
+import SliderHome from "./slider/SliderHome";
 
 const Users = () =>{
     return(
@@ -17,7 +18,8 @@ const Users = () =>{
 const Settings =() =>{
     return(
         <div className="py-5 mt-5">
-            <p className="text-center display-2 fw-bold"> Settings </p>
+            <p className="text-center fw-bold"> Slider Images</p>
+            <SliderHome />
         </div>
     )
 }

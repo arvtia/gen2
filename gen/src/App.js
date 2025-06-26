@@ -25,51 +25,6 @@ import { getUserId, setUserId } from "./getUserId";
 import { useState } from "react";
 
 
-
-
-// function AppLayout() {
-//   const location = useLocation();
-//   const isAdminRoute = location.pathname.startsWith("/admin");
-
-//   return (
-//     <>
-//       {/* Show Client Navbar/Footer on non-admin routes */}
-//       {!isAdminRoute && <Navbar />}
-//       {isAdminRoute && <AdminNavbar />}
-
-//       {/* Main Routing Section */}
-//       <Routes>
-//         {/* Client Routes */}
-//         <Route path="/" element={<Home />} />
-//         <Route path="/about" element={<AboutUs />} />
-//         <Route path="/contactus" element={<ContactUs />} />
-//         <Route path="*" element={<ErrorPage />} />
-//         <Route path="/shop" element={ <ShopNow />} />
-//         <Route path="/category/:name" element={<CategoryPage />} />
-//         <Route path="/user" element = {<UserPanel />} />
-//         <Route path="/login" element={ <LoginPage />} />
-//         <Route path="/register" element={ <RegisterNew />} />
-//         <Route path="/category/:id/product/:id" element ={<MainProducts /> } />
-//         <Route path="/product/:id" element={<MainProducts /> } />
-
-    
-
-//         {/* Admin Routes */}
-//         <Route path="/admin" element={<AdminHome />}>
-//             <Route path="products" element={<AdminProductList />} />
-//             <Route path="users" element={<Users />} />
-//             <Route path="settings" element={<Settings />} />
-//         </Route>
-//       </Routes>
-
-//       {/* Show Client/Footer only when NOT in Admin Panel */}
-//       {!isAdminRoute && <Footer />}
-//       {isAdminRoute && <AdminFooter />}
-//     </>
-//   );
-// }
-
-
 function AppLayout() {
   const location = useLocation();
   const isAdminRoute = location.pathname.startsWith("/admin");

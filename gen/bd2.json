@@ -454,6 +454,23 @@
       ],
       "description": "boAt speakers are known for their portable, wireless design and are available in various models tailored for different needs, from party settings to everyday use. They often feature Bluetooth connectivity, long battery life, and water resistance, with some models also offering features like TWS (True Wireless Stereo) for enhanced sound and multiple EQ modes. ",
       "id": "1750768723059"
+    },
+    {
+      "id": "8d9d",
+      "productName": "",
+      "price": 0,
+      "color": "",
+      "discount": 0,
+      "size": "",
+      "inStock": "",
+      "category": "Charger",
+      "categoryImg": "https://png.pngtree.com/png-clipart/20250105/original/pngtree-white-mobile-charger-isolate-on-transparent-background-png-image_18741677.png",
+      "subcategory": "",
+      "brand": "",
+      "specifications": [],
+      "tags": [],
+      "imagesCollection": [],
+      "description": ""
     }
   ],
   "MainCatgory": [
@@ -746,6 +763,10 @@
     {
       "id": "6",
       "img": "https://tinyurl.com/3jpj2n6k"
+    },
+    {
+      "id": "d613",
+      "img": "https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
   ],
   "productShema": [
