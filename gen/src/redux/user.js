@@ -6,3 +6,5 @@ export const getUserId = () => {
   document.cookie = `userId=${newId}; path=/; max-age=31536000`; // 1 year
   return newId;
 };
+
+

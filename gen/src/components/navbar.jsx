@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import BrandNavbar from "./animated";
 import { useSelector } from 'react-redux'
 import SidebarCart from "./cart/SidebarCart";
+import MainSearch from "./SearchBar/MainSearch";
 
 
 const imgUser = [
@@ -153,43 +154,8 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Modal for Search */}
-      <div
-        className="modal fade"
-        id="staticBackdrop"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabIndex={-1}
-        aria-labelledby="staticBackdropLabel"
-        aria-hidden="true"
-      >
-        <div className="modal-dialog">
-          <div className="modal-content">
-            <div className="modal-header d-flex align-items-center justify-content-between">
-              <div className="input-group w-100">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Search..."
-                  aria-label="Search"
-                />
-                <button className="btn btn-outline-dark" type="button">
-                  <i className="bi bi-search"></i>
-                </button>
-              </div>
-              <button
-                type="button"
-                className="btn-close ms-2"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div className="modal-body py-1">
-              {/* Search results will appear here once integrated */}
-            </div>
-          </div>
-        </div>
-      </div>
+      {/* sarrch bar here the model thing  okay ?*/}
+      <MainSearch />
       <SidebarCart />
     </>
   );
