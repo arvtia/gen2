@@ -19,7 +19,7 @@ const FilterProducts = () => {
   const uniqueCategories = [...new Set(products.map(item => item.category))];
 
   return (
-    <div className="py-2 mt-2 bg-body-tertiary rounded-4">
+    <div id='CATEGORY_LIST' className="py-2 mt-2 bg-body-tertiary rounded-4 ">
       {/* <div className="mb-3 ps- py-3 mt-5 fs-5 fw-bold soft-blur text-dark ps-lg-5 ps-md-4 ps-4 pe-3 ">
             Shop by Categories 
       </div> */}
@@ -31,7 +31,7 @@ const FilterProducts = () => {
                     return (
                     <Link to={`/category/${encodeURIComponent(category)}`} className="col-12 col-sm-6 col-md-4 col-lg-3" key={category}>
 
-                        <div className="p-2 soft-blur">
+                        <div className="p-2 soft-blur ">
                             <div className="position-relative bg-white rounded">
                                 {categoryItem && (
                                     <img 

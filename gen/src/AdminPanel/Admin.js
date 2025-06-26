@@ -28,12 +28,17 @@ const AdminHome = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/admin/users">
-                  Users
+                  Reviews
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/admin/settings">
-                  Settings
+                  Slider 
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/admin/NavLinksAdmin">
+                  Navbar Links
                 </Link>
               </li>
             </ul>

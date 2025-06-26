@@ -5,6 +5,12 @@
       "email": "arvazmansuri@gmail.com",
       "phone": "8989889770",
       "password": "ZeroX.456#"
+    },
+    {
+      "id": "43be",
+      "email": "arvazanakuzhy@gmail.com",
+      "phone": "9909890089",
+      "password": "123#Arvaz"
     }
   ],
   "cart": [
@@ -210,6 +216,46 @@
         }
       ],
       "totalPrice": 9497
+    },
+    {
+      "id": "MTc1MDkyNjE3MTY5MjAuamxmcDc5YnQ5cA==",
+      "items": [
+        {
+          "id": "10",
+          "productId": "212122",
+          "productName": "SoundMax BassLoop",
+          "price": 899,
+          "color": "Black",
+          "size": "Standard",
+          "discount": 8,
+          "inStock": "12340",
+          "stockQuantity": 1,
+          "category": "Neckbands",
+          "categoryImg": "https://tinyurl.com/yusm22p3",
+          "subcategory": "Wireless Neckbands",
+          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Wireless+Neckbands",
+          "brand": "SoundMax",
+          "brandImg": "https://dummyimage.com/100x50/222/fff&text=SoundMax",
+          "specifications": [
+            "Bluetooth 5.0",
+            "Noise Isolation",
+            "12-hour battery life"
+          ],
+          "tags": [
+            "top pick",
+            "value"
+          ],
+          "imagesCollection": [
+            "https://wallpapers.com/images/high/wireless-neckband-headphones-black-vj9dnkxkidzjgs9z-vj9dnkxkidzjgs9z.png",
+            "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701705180/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/275521_py92zk.png",
+            "https://blaupunktaudio.in/cdn/shop/files/be100-xtreme-neckband-with-ultra-long-playtime-blue-blaupunkt-india-1.jpg?v=1710497123",
+            "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
+          ],
+          "description": "Noise wireless neckbands, like the Noise Flair and Noise Sense, are characterized by features such as long battery life, fast charging, and environmental noise cancellation for calls.",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 899
     }
   ],
   "Reviews": [

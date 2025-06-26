@@ -23,6 +23,7 @@ import { loadCart } from "./redux/cartActions";
 import MainProducts from "./pages/products";
 import { getUserId, setUserId } from "./getUserId";
 import { useState } from "react";
+import NavLinksAdmin from "./AdminPanel/components/navLinks/NavLinksAdmin";
 
 
 function AppLayout() {
@@ -86,6 +87,7 @@ function AppLayout() {
             <Route path="products" element={<AdminProductList />} />
             <Route path="users" element={<Users />} />
             <Route path="settings" element={<Settings />} />
+            <Route path="NavLinksAdmin" element={<NavLinksAdmin/>} />
         </Route>
       </Routes>
 

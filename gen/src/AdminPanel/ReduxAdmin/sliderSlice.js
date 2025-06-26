@@ -9,7 +9,7 @@ export const fetchImagesSlider = createAsyncThunk(
             throw new Error('Failed to fetch images');
         }
         const data = await response.json();
-        console.log('Fetched images:', data); // Log response for debugging
+        // console.log('Fetched images:', data); // Log response for debugging
         return data;
     }
 );
@@ -18,7 +18,7 @@ export const fetchImagesSlider = createAsyncThunk(
 export const addSliderImage = createAsyncThunk(
     'sliderImage/add',
     async (image) => {
-        console.log('Adding image:', image);  // Log image to add for debugging
+        // console.log('Adding image:', image);  // Log image to add for debugging
         const response = await fetch('http://localhost:3002/sliderImage', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -28,7 +28,7 @@ export const addSliderImage = createAsyncThunk(
             throw new Error('Failed to add image');
         }
         const data = await response.json();
-        console.log('Added image:', data); // Log added image for debugging
+        // console.log('Added image:', data); // Log added image for debugging
         return data;
     }
 );
@@ -40,7 +40,7 @@ export const deleteSliderImage = createAsyncThunk(
         await fetch(`http://localhost:3002/sliderImage/${id}`, {
             method: 'DELETE'
         });
-        console.log('Deleted image with ID:', id); // Log deletion for debugging
+        // console.log('Deleted image with ID:', id); // Log deletion for debugging
         return id;
     }
 );
@@ -49,7 +49,7 @@ export const deleteSliderImage = createAsyncThunk(
 export const updateSliderImage = createAsyncThunk(
     'sliderImage/update',
     async (image) => {
-        console.log('Updating image:', image);  // Log image to update for debugging
+        // console.log('Updating image:', image);  // Log image to update for debugging
         const response = await fetch(`http://localhost:3002/sliderImage/${image.id}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
@@ -59,7 +59,7 @@ export const updateSliderImage = createAsyncThunk(
             throw new Error('Failed to update image');
         }
         const data = await response.json();
-        console.log('Updated image:', data); // Log updated image for debugging
+        // console.log('Updated image:', data); // Log updated image for debugging
         return data;
     }
 );

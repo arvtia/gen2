@@ -1,4 +1,5 @@
 import EditReview from "./editReview";
+import NavLinksAdmin from "./navLinks/NavLinksAdmin";
 import SliderHome from "./slider/SliderHome";
 
 const Users = () =>{
@@ -24,5 +25,12 @@ const Settings =() =>{
     )
 }
 
+const NavBarLinks =() =>{
+    return(
+        <div className="py-4">
+            <NavLinksAdmin />
+        </div>
+    )
+}
 
-export  { Users, Settings};
+export  { Users, Settings, NavBarLinks};
