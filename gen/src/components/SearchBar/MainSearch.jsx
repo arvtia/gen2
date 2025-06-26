@@ -67,10 +67,14 @@ function MainSearch() {
                         {/* modal close btn */}
                         <button
                             type="button"
-                            className="btn-close ms-auto mb-2"
+                            className="btn btn-outline-dark rounded btn-sm ms-2"
                             data-bs-dismiss="modal"
                             aria-label="Close"
-                        ></button>
+                        >
+                            <span>
+                                <i className="bi bi-x"></i>
+                            </span>
+                        </button>
                     
                         </div>
                         <div className="modal-body py-1">
