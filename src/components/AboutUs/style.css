@@ -1,0 +1,47 @@
+.partner-marquee-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.partner-marquee-track {
+  animation: scrollLeft 25s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+.partner-card {
+  min-width: 140px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.partner-logo {
+  max-height: 60px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.partner-card:hover .partner-logo {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause marquee when hovered */
+.partner-marquee-wrapper:hover .partner-marquee-track {
+  animation-play-state: paused;
+}

@@ -1,0 +1,43 @@
+.glass-letter {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.2); /* translucent */
+  backdrop-filter: blur(8px); /* glass blur effect */
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.glass-letter:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+
+.metalic-bg{
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.soft-blur-2{
+    background: rgba( 255, 255, 255, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 19px );
+-webkit-backdrop-filter: blur( 19px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.left-shift-hover{
+    left: 0;
+    position: relative;
+    transition: all 0.3s linear;
+}
+
+.btn:hover .left-shift-hover{
+    left: 10px;
+
+}

@@ -1,0 +1,14 @@
+.cart-body-bg {
+    transition: background 2s linear;
+    background-color: white; /* fallback for older browsers */
+}
+
+.cart-body-bg:hover {
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* legacy webkit */
+}
+
+.custom-height{
+    height: 60vh;
+    overflow-y: scroll;
+}

@@ -1,0 +1,328 @@
+{
+  "users": [
+    {
+      "id": "55d2",
+      "email": "arvazmansuri@gmail.com",
+      "phone": "8989889770",
+      "password": "ZeroX.456#"
+    },
+    {
+      "id": "43be",
+      "email": "arvazanakuzhy@gmail.com",
+      "phone": "9909890089",
+      "password": "123#Arvaz"
+    },
+    {
+      "id": "e17c",
+      "email": "well@gmail.com",
+      "phone": "9999999999",
+      "password": "123#Salena"
+    }
+  ],
+  "cart": [
+    {
+      "id": "MTc1MDMxNzAwMzY5MzAucXQxd2g5dXQwYXA=",
+      "items": [
+        {
+          "quantity": 1
+        }
+      ],
+      "totalPrice": null
+    },
+    {
+      "id": "MTc1MDgyODQ4NjQ1NDAuNnJubTVhbW82aXU=",
+      "items": [
+        {
+          "id": "1750136688334",
+          "productName": "Quad Play- Wireless CarPlay",
+          "price": "9000",
+          "color": "Black",
+          "discount": 23,
+          "size": "Small",
+          "inStock": "1214",
+          "category": "Wireless car play",
+          "categoryImg": "N/A",
+          "subcategory": "Wireless Car play",
+          "brand": "Quad Lock",
+          "specifications": [
+            "Input: 5V 1A (USB-C)",
+            "Output: 5V 1A (USB-A)",
+            "Power Consumption: 0.75W",
+            "Vehicle Display Resolution: Adaptive"
+          ],
+          "tags": [
+            "Top Sellers"
+          ],
+          "imagesCollection": [
+            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799",
+            "https://cdn.shopify.com/s/files/1/2576/2754/files/2209-277_Car-Play-Adaptor_Tech_Specs_900x1200_2504c623-5a0b-44e6-a22b-fa58b95d152b.png?v=1664512537?auto=format",
+            "https://cdn.sanity.io/images/3azemr64/production/5c2916ffbb2559d2959f0a59068635ada93a9429-1024x768.jpg?auto=format&w=873&h=655&crop=center&fit=crop&q=90",
+            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799"
+          ],
+          "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go.",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 9000
+    },
+    {
+      "id": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE=",
+      "items": [
+        {
+          "id": "1750675938843",
+          "productName": "Airwave Max 5",
+          "price": 12998,
+          "color": "Black",
+          "discount": 12,
+          "size": "Small",
+          "inStock": 214,
+          "category": "Headphones",
+          "categoryImg": "https://file.aiquickdraw.com/imgcompressed/img/compressed_898b69eec1f87b3333417334a9a40b28.webp",
+          "subcategory": "Wired Headphone",
+          "brand": "Noise",
+          "specifications": [
+            "Upto 80 hours playtime",
+            "Dual pairing",
+            "Quad mic ENC",
+            "ANC",
+            "Spatial Audio",
+            "Low Latency"
+          ],
+          "tags": [
+            "Top Sellers"
+          ],
+          "imagesCollection": [
+            "https://www.gonoise.com/cdn/shop/files/Artboard_8_Am5.webp?v=1737632340",
+            "https://www.gonoise.com/cdn/shop/files/Artboard_7_Am5.webp?v=1737633813",
+            "https://www.gonoise.com/cdn/shop/files/Artboard_10_Am5.webp?v=1737633813",
+            "https://www.gonoise.com/cdn/shop/files/Artboard_11_Am5.webp?v=1737633813",
+            "https://www.gonoise.com/cdn/shop/files/Artboard_12_Am5.webp?v=1737633813",
+            "https://www.gonoise.com/cdn/shop/files/Artboard_9_Am5.webp?v=1737633813"
+          ],
+          "description": "Noise cancelling headphones are designed to reduce or eliminate unwanted background noise, allowing users to focus on their audio content. They achieve this through two main methods: active noise cancellation (ANC) and passive noise isolation. ANC headphones use microphones to detect ambient noise and generate an opposing sound wave to cancel it out, while passive noise isolation relies on physical barriers like padded earcups to block out sound",
+          "quantity": 1
+        },
+        {
+          "id": "1750761466939",
+          "productName": "Rockerz",
+          "price": 2899,
+          "color": "Black",
+          "discount": 11,
+          "size": "Small",
+          "inStock": 1230,
+          "category": "Neckbands",
+          "categoryImg": "N/A",
+          "subcategory": "Wireless Earphones",
+          "brand": "Boat",
+          "specifications": [
+            "Active Noise Cancellation up to 30dB",
+            "Spatial Audio ",
+            "AI-ENx Technology",
+            "40 Hours Playtime",
+            "Hall Switch ",
+            "Dual Pairing",
+            "Magnetic Power ON/OFF "
+          ],
+          "tags": [
+            "Trending"
+          ],
+          "imagesCollection": [
+            "https://www.bbassets.com/media/uploads/p/l/40338184_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
+            "https://www.bbassets.com/media/uploads/p/l/40338184-2_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
+            "https://www.bbassets.com/media/uploads/p/l/40338184-3_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
+            "https://www.bbassets.com/media/uploads/p/l/40338184-4_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
+            "https://www.bbassets.com/media/uploads/p/l/40338184-5_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
+            "https://www.bbassets.com/media/uploads/p/l/40338184-7_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg"
+          ],
+          "description": "boAt neckbands are wireless earphones designed for comfort and high-quality audio, often featuring Bluetooth connectivity, long battery life, and water resistance. They are designed to be worn around the neck, providing a secure and convenient fit for users. ",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 15897
+    },
+    {
+      "id": "MTc1MDkxNjU5Mjk3OTAucmNoMTQ0YmZqN20=",
+      "items": [
+        {
+          "id": "10",
+          "productId": "212122",
+          "productName": "SoundMax BassLoop",
+          "price": 899,
+          "color": "Black",
+          "size": "Standard",
+          "discount": 8,
+          "inStock": "12340",
+          "stockQuantity": 1,
+          "category": "Neckbands",
+          "categoryImg": "https://tinyurl.com/yusm22p3",
+          "subcategory": "Wireless Neckbands",
+          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Wireless+Neckbands",
+          "brand": "SoundMax",
+          "brandImg": "https://dummyimage.com/100x50/222/fff&text=SoundMax",
+          "specifications": [
+            "Bluetooth 5.0",
+            "Noise Isolation",
+            "12-hour battery life"
+          ],
+          "tags": [
+            "top pick",
+            "value"
+          ],
+          "imagesCollection": [
+            "https://wallpapers.com/images/high/wireless-neckband-headphones-black-vj9dnkxkidzjgs9z-vj9dnkxkidzjgs9z.png",
+            "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701705180/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/275521_py92zk.png",
+            "https://blaupunktaudio.in/cdn/shop/files/be100-xtreme-neckband-with-ultra-long-playtime-blue-blaupunkt-india-1.jpg?v=1710497123",
+            "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
+          ],
+          "description": "Noise wireless neckbands, like the Noise Flair and Noise Sense, are characterized by features such as long battery life, fast charging, and environmental noise cancellation for calls.",
+          "quantity": 1
+        },
+        {
+          "id": "1750136688334",
+          "productName": "Quad Play- Wireless CarPlay",
+          "price": "9000",
+          "color": "Black",
+          "discount": 23,
+          "size": "Small",
+          "inStock": "1214",
+          "category": "Wireless car play",
+          "categoryImg": "N/A",
+          "subcategory": "Wireless Car play",
+          "brand": "Quad Lock",
+          "specifications": [
+            "Input: 5V 1A (USB-C)",
+            "Output: 5V 1A (USB-A)",
+            "Power Consumption: 0.75W",
+            "Vehicle Display Resolution: Adaptive"
+          ],
+          "tags": [
+            "Top Sellers"
+          ],
+          "imagesCollection": [
+            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799",
+            "https://cdn.shopify.com/s/files/1/2576/2754/files/2209-277_Car-Play-Adaptor_Tech_Specs_900x1200_2504c623-5a0b-44e6-a22b-fa58b95d152b.png?v=1664512537?auto=format",
+            "https://cdn.sanity.io/images/3azemr64/production/5c2916ffbb2559d2959f0a59068635ada93a9429-1024x768.jpg?auto=format&w=873&h=655&crop=center&fit=crop&q=90",
+            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799"
+          ],
+          "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go.",
+          "quantity": 1
+        },
+        {
+          "id": "a167",
+          "productName": "120 watt Fast charging",
+          "price": 1299,
+          "color": "White",
+          "discount": 10,
+          "size": "Small",
+          "inStock": 24,
+          "category": "Charger",
+          "categoryImg": "https://m.media-amazon.com/images/I/41sYN0aQWRL._UF1000,1000_QL80_.jpg",
+          "subcategory": "Phone Charger",
+          "brand": "Tejas Communication",
+          "specifications": [
+            "USB Type C",
+            "Supervooc 120W Power Adapter",
+            "Ultra Fast Charger & CABLE",
+            "High Speed",
+            "Fast Charging Speeds",
+            "High-Quality Materials"
+          ],
+          "tags": [
+            "Smart Pick"
+          ],
+          "imagesCollection": [
+            "https://m.media-amazon.com/images/I/41B6VTBsnPL._UF1000,1000_QL80_.jpg",
+            "https://m.media-amazon.com/images/I/51r90bc1SzL.jpg",
+            "https://m.media-amazon.com/images/I/51xGHayVUjL.jpg",
+            "https://m.media-amazon.com/images/I/51LDMFWQPJL.jpg",
+            "https://m.media-amazon.com/images/I/51LDMFWQPJL.jpg",
+            "https://m.media-amazon.com/images/I/51Dh9as6zpL._UF350,350_QL80_.jpg"
+          ],
+          "description": "120W Fast Charing Adaptor & Cable Combo Compatible with OnePlus, Samsung, Realme, Xiaomi, Oppo, Vivo & Other Smartphones, Type C Charger Dash, Warp,",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 11198
+    },
+    {
+      "id": "MTc1MDkyNjE3MTY5MjAuamxmcDc5YnQ5cA==",
+      "items": [
+        {
+          "id": "10",
+          "productId": "212122",
+          "productName": "SoundMax BassLoop",
+          "price": 899,
+          "color": "Black",
+          "size": "Standard",
+          "discount": 8,
+          "inStock": "12340",
+          "stockQuantity": 1,
+          "category": "Neckbands",
+          "categoryImg": "https://tinyurl.com/yusm22p3",
+          "subcategory": "Wireless Neckbands",
+          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Wireless+Neckbands",
+          "brand": "SoundMax",
+          "brandImg": "https://dummyimage.com/100x50/222/fff&text=SoundMax",
+          "specifications": [
+            "Bluetooth 5.0",
+            "Noise Isolation",
+            "12-hour battery life"
+          ],
+          "tags": [
+            "top pick",
+            "value"
+          ],
+          "imagesCollection": [
+            "https://wallpapers.com/images/high/wireless-neckband-headphones-black-vj9dnkxkidzjgs9z-vj9dnkxkidzjgs9z.png",
+            "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701705180/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/275521_py92zk.png",
+            "https://blaupunktaudio.in/cdn/shop/files/be100-xtreme-neckband-with-ultra-long-playtime-blue-blaupunkt-india-1.jpg?v=1710497123",
+            "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
+          ],
+          "description": "Noise wireless neckbands, like the Noise Flair and Noise Sense, are characterized by features such as long battery life, fast charging, and environmental noise cancellation for calls.",
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 899
+    }
+  ],
+  "Reviews": [
+    {
+      "id": "89f5",
+      "title": "Nice but don't recomment",
+      "review": "well everything worked perfect in the starting but later on it has become less responsive to the phone Bluetooth connection .",
+      "ratings": {
+        "delivery": 5,
+        "condition": 4,
+        "easeOfUse": 3
+      },
+      "file": {},
+      "userId": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE="
+    },
+    {
+      "id": "1830",
+      "title": "what a product i mean loved it",
+      "review": "sharing my thoughts on it , \ni was helpful and most needed item in my list- i am glad it turned out to be good.",
+      "ratings": {
+        "delivery": 5,
+        "condition": 5,
+        "easeOfUse": 5
+      },
+      "file": null,
+      "userId": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE="
+    },
+    {
+      "id": "6106",
+      "title": "Poor Delivery",
+      "review": "The package arrived damaged.",
+      "ratings": {
+        "delivery": 3,
+        "condition": 1,
+        "easeOfUse": 1
+      },
+      "mediaLinks": [
+        "https://images.unsplash.com/photo-1560340841-eefc7aa04432?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "userId": "MTc1MDgyODY5MTUzMjAud2NqbXZyMHVvZmE="
+    }
+  ]
+}

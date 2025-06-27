@@ -1,0 +1,30 @@
+.sidebar {
+    min-width: 200px;
+    max-width: 200px;
+    transition: all 0.3s ease;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.sidebar.collapsed {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.sidebar .nav-link {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.sidebar.collapsed .nav-link span {
+    display: none;
+}
+
+.sidebar-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-link.active {
+    background-color: #dee2e6;
+    font-weight: 500;
+}

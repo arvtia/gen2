@@ -1,0 +1,20 @@
+/* Default: Show 3 cards */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  overflow: hidden;
+}
+
+/* On Mobile: Show Only 1 Card */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,448 @@
+{
+    "Products": [
+        {
+        "id": "TWS001",
+        "brand_name": "AudioTech",
+        "product_name": "AirSound Pro",
+        "price": "$59.99",
+        "image": "https://png.pngtree.com/png-vector/20231213/ourmid/pngtree-headphones-white-ai-three-dimensional-buckle-free-pattern-material-png-image_11327484.png",
+        "specifications": [
+            "Bluetooth 5.2",
+            "Noise Cancellation",
+            "20h Battery Life",
+            "IPX4 Water Resistant"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "TWS002",
+        "brand_name": "BassBoost",
+        "product_name": "DeepBass X",
+        "price": "$49.99",
+        "image": "https://dummyimage.com/200x200/111/fff&text=BassBoost+DeepBass+X",
+        "specifications": [
+            "Bluetooth 5.1",
+            "Extra Bass Mode",
+            "18h Battery Life",
+            "IPX5 Sweatproof"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "TWS003",
+        "brand_name": "SoundWave",
+        "product_name": "CrystalPods",
+        "price": "$79.99",
+        "image": "https://dummyimage.com/200x200/222/fff&text=SoundWave+CrystalPods",
+        "specifications": [
+            "Bluetooth 5.3",
+            "Clear Voice Calls",
+            "24h Battery Life",
+            "Wireless Charging Case"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "TWS004",
+        "brand_name": "EliteAudio",
+        "product_name": "EliteTune",
+        "price": "$69.99",
+        "image": "https://dummyimage.com/200x200/333/fff&text=EliteAudio+EliteTune",
+        "specifications": [
+            "Bluetooth 5.0",
+            "Adaptive Noise Cancelling",
+            "22h Battery Life",
+            "Touch Controls"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "TWS005",
+        "brand_name": "SonicPlay",
+        "product_name": "EchoBuds Max",
+        "price": "$89.99",
+        "image": "https://dummyimage.com/200x200/444/fff&text=SonicPlay+EchoBuds+Max",
+        "specifications": [
+            "Bluetooth 5.2",
+            "3D Surround Sound",
+            "25h Battery Life",
+            "USB-C Fast Charging"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "": "TWS006",
+        "brand_name": "HyperSound",
+        "product_name": "HyperBeat",
+        "price": "$39.99",
+        "image": "https://dummyimage.com/200x200/555/fff&text=HyperSound+HyperBeat",
+        "specifications": [
+            "Bluetooth 5.0",
+            "Punchy Bass",
+            "15h Battery Life",
+            "Dual Mics"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "TWS007",
+        "brand_name": "FusionAudio",
+        "product_name": "FusionPods",
+        "price": "$74.99",
+        "image": "https://dummyimage.com/200x200/666/fff&text=FusionAudio+FusionPods",
+        "specifications": [
+            "Bluetooth 5.1",
+            "Auto Pairing",
+            "20h Battery Life",
+            "Lightweight Design"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "TWS008",
+        "brand_name": "TuneMate",
+        "product_name": "TunePro X",
+        "price": "$54.99",
+        "image": "https://dummyimage.com/200x200/777/fff&text=TuneMate+TunePro+X",
+        "specifications": [
+            "Bluetooth 5.2",
+            "Dynamic Audio",
+            "19h Battery Life",
+            "Water Resistant"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "TWS009",
+        "brand_name": "NextGen Audio",
+        "product_name": "SonicFlow",
+        "price": "$99.99",
+        "image": "https://dummyimage.com/200x200/888/fff&text=NextGen+SonicFlow",
+        "specifications": [
+            "Bluetooth 5.3",
+            "Advanced Noise Cancelling",
+            "30h Battery Life",
+            "Premium Build"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "TWS010",
+        "brand_name": "BassSync",
+        "product_name": "BassVibes",
+        "price": "$44.99",
+        "image": "https://dummyimage.com/200x200/999/fff&text=BassSync+BassVibes",
+        "specifications": [
+            "Bluetooth 5.0",
+            "Powerful Bass",
+            "16h Battery Life",
+            "Ergonomic Fit"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "TWS011",
+        "brand_name": "UltraSound",
+        "product_name": "UltraPods 2",
+        "price": "$79.99",
+        "image": "https://dummyimage.com/200x200/aaa/fff&text=UltraSound+UltraPods+2",
+        "specifications": [
+            "Bluetooth 5.1",
+            "Smart Assistant Support",
+            "23h Battery Life",
+            "Auto Pause & Play"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "TWS012",
+        "brand_name": "EpicAudio",
+        "product_name": "EpicTune Z",
+        "price": "$69.99",
+        "image": "https://dummyimage.com/200x200/bbb/fff&text=EpicAudio+EpicTune+Z",
+        "specifications": [
+            "Bluetooth 5.2",
+            "Immersive Sound",
+            "21h Battery Life",
+            "Customizable EQ"
+        ],
+        "catergory": "Music",
+        "review": "2.1k reviews"
+        },
+        {
+        "id": "ae6d",
+        "product_id": "12",
+        "brand_name": "Joystick",
+        "product_name": "Wireless earpod",
+        "price": "899",
+        "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTkjujXf6feNM081FNTFRY_oMiFyMJQefJTh53NDtObc0D2X4N1x9ywSgXztljKsqN7oJ2icThw-S6FitTlJLA2yrc2UfNak1O0fj5RZHD6kngBQpV0JacyhQ",
+        "specifications": [
+            "Talk time/music time 3 Hours per bud"
+        ],
+        "catergory": "earbuds",
+        "review": "199 ratings"
+        }
+    ],
+    "NavList": [
+            {
+                "name": "Products",
+                "id": "products",
+                "subItems": [
+                        "TWS",
+                        "Collar / Neck Band",
+                        "Smart Watch",
+                        "Feature Phones",
+                        "Sound Phones",
+                        "Speakers",
+                        "Sound Bars",
+                        "Mouse",
+                        "Keyboards",
+                        "USB and Connectors",
+                        "RAM",
+                        "SSD",
+                        "Chargers",
+                        "Tripod and Lights",
+                        "Phone Case",
+                        "Tempered Glass"
+                    ]
+                },
+            {
+                "name": "Sub Category",
+                "id": "sub-category",
+                    "subItems": [
+                        "Gen-gy verified",
+                        "Smart Pick",
+                        "Top Sellers",
+                        "Trending"
+                    ]
+                },
+            {
+            "name": "Sort",
+            "id": "sort",
+                "subItems": [
+                    "from 1k- 5k",
+                    "from 5k - 10k",
+                    "from 10k - 25k"
+                ]
+            }
+        ],
+
+    "AboutUsPage": [
+        {
+        "id": "koimilgaya",
+        "background": "https://plus.unsplash.com/premium_photo-1673483585794-cbcfe1451f6a?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "text": "About us",
+        "sub-title": "look alike a journey from the far est and most of the norther american platues",
+        "ourStorytitle": "Our Story",
+        "ourStory": "At Gen-gy, we believe shopping should be effortless, exciting, and tailored to your needs. What started as a small idea has grown into a hub for the latest gadgets, accessories, and essentials—all curated to elevate your lifestyle. With a passion for innovation and quality, we bring you the best tech, fashion, and everyday must-haves at unbeatable prices. Whether you're upgrading your setup, styling your look, or finding that perfect gift, we're here to make it happen. Welcome to a smarter way to shop!",
+        "ourStoryImage": "https://images.unsplash.com/photo-1525164321265-4ac01cd348c6?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "ourstoryimagetitle": "imageTitle",
+        "imageCaption": "early days office",
+        "ourTeams": [
+            {
+            "id": "1",
+            "name": "Alice Johnson",
+            "position": "Project Manager",
+            "img":"https://plus.unsplash.com/premium_photo-1664203067979-47448934fd97?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "links": [
+                {
+                "facebook": "https://facebook.com/alice.j",
+                "insta": "https://instagram.com/alice.j",
+                "linkdin": "https://linkedin.com/in/alicejohnson",
+                "email": "alice.johnson@example.com"
+                }
+            ]
+            },
+            {
+            "id": "2",
+            "name": "Brian Smith",
+            "img":"https://images.unsplash.com/photo-1601412436009-d964bd02edbc?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "position": "Lead Developer",
+            "links": [
+                {
+                "facebook": "https://facebook.com/brian.smith",
+                "insta": "https://instagram.com/briansmithdev",
+                "linkdin": "https://linkedin.com/in/briansmith",
+                "email": "brian.smith@example.com"
+                }
+            ]
+            },
+            {
+            "id": "3",
+            "name": "Cynthia Lee",
+            "img":"https://plus.unsplash.com/premium_photo-1683121691192-ac9741a5a029?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "position": "UX Designer",
+            "links": [
+                {
+                "facebook": "https://facebook.com/cynthia.lee",
+                "insta": "https://instagram.com/designbycynthia",
+                "linkdin": "https://linkedin.com/in/cynthialee",
+                "email": "cynthia.lee@example.com"
+                }
+            ]
+            },
+            {
+            "id": "4",
+            "name": "David Kim",
+            "position": "Data Analyst",
+            "img":"https://images.unsplash.com/photo-1517598024396-46c53fb391a1?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "links": [
+                {
+                "facebook": "https://facebook.com/david.kim",
+                "insta": "https://instagram.com/analyticsbydave",
+                "linkdin": "https://linkedin.com/in/davidkim",
+                "email": "david.kim@example.com"
+                }
+            ]
+            },
+            {
+            "id": "5",
+            "name": "Eva Martinez",
+            "img":"https://images.unsplash.com/photo-1648407431359-9d35c43c5d28?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "position": "Marketing Specialist",
+            "links": [
+                {
+                "facebook": "https://facebook.com/eva.m",
+                "insta": "https://instagram.com/evamarkets",
+                "linkdin": "https://linkedin.com/in/evamartinez",
+                "email": "eva.martinez@example.com"
+                }
+            ]
+            }
+        ],
+        "ourClient": [
+            {
+                "id": "1",
+                "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+            },
+            {
+                "id": "2",
+                "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+            },
+            {
+                "id": "3",
+                "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+            },
+            {
+                "id": "4",
+                "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+            },
+            {
+                "id": "5",
+                "logoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Boat_Logo.webp/1200px-Boat_Logo.webp.png"
+            }
+        ]
+        }
+
+    ],
+
+    "testimonials": [
+        {
+            "id": 1,
+            "stars": 5,
+            "name": "Sophia Patel",
+            "product": "Smart Watch",
+            "comment": "Absolutely love this smartwatch! The battery life is impressive, and the fitness tracking features keep me motivated. A must-have for staying active!",
+            "icons": "ph-watch"
+        },
+        {
+            "id": 2,
+            "stars": 4,
+            "name": "Daniel Thompson",
+            "product": "Sound Bar",
+            "comment": "Great sound quality with deep bass! It transformed my home theater experience. Only wish the remote had a few more control options.",
+            "icons": "ph-speaker-simple-high"
+        },
+        {
+            "id": 3,
+            "stars": 5,
+            "name": "Aisha Reddy",
+            "product": "Tripod and Lights",
+            "comment": "Perfect for my photography setup! Sturdy tripod and the adjustable lights make capturing professional shots easy. Definitely worth it!",
+            "icons": "ph-camera"
+        },
+        {
+            "id": 4,
+            "stars": 4,
+            "name": "Marcus Evans",
+            "product": "SSD",
+            "comment": "Super fast performance! My laptop runs much smoother, and file transfers are instant. Just wish it came with installation instructions.",
+            "icons": "ph-hard-drive"
+        },
+        {
+            "id": 5,
+            "stars": 5,
+            "name": "Priya Sharma",
+            "product": "Tempered Glass",
+            "comment": "Crystal clear and ultra-protective! My phone screen feels brand new with this tempered glass. No bubbles, easy application, and strong durability!",
+            "icons": "ph-cell-signal-high"
+        }
+    ],
+    "navLinks": [
+        { 
+            "id": 1, "name": "Home", "path": "/", "icon": "bi-house"
+        },
+        { 
+            "id": 2, "name": "Shop", "path": "/admin", "icon": "bi-bag"
+        },
+        { 
+            "id": 4, "name": "Contact", "path": "/contactus", "icon": "bi-telephone" 
+        }
+    ],
+    "ContactUs":[
+        {
+            "section1":[
+                {
+                    "img":"https://images.unsplash.com/photo-1517598024396-46c53fb391a1?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                    "text":"Get In Touch With Us!",
+                    "smallText":"Have any question in your mind? feel free to talk with us with just one mail"
+                }
+
+            ]
+        }
+    ],
+
+    "SocialLinks": [
+        {
+            "id": "",
+            "link": "https://facebook.com",
+            "name": "facebook",
+            "icon": "bi bi-facebook"
+        },
+        {
+            "id": "",
+            "link": "https://instagram.com",
+            "name": "Instagram",
+            "icon": "bi bi-instagram"
+        },
+        {
+            "id": "",
+            "link": "https://shopify.com",
+            "name": "Shopify",
+            "icon": "bi bi-shop"
+        },
+        {
+            "id": "",
+            "link": "https://email.com",
+            "name": "Email",
+            "icon": "bi bi-envelope"
+        },
+        {
+            "id": "",
+            "link": "https://x.com",
+            "name": "Twitter-X",
+            "icon": "bi bi-twitter-x"
+        }
+    ]
+}

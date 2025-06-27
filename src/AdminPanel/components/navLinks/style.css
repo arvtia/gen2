@@ -1,0 +1,10 @@
+
+
+input::placeholder {
+  color: #6c757d;
+}
+
+form {
+  transition: box-shadow 0.3s ease;
+}
+

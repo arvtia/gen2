@@ -1,0 +1,282 @@
+.soft-blur{
+    background: rgba( 255, 255, 255, 0.05 ) !important;
+    backdrop-filter: blur( 12.5px ) !important;
+    -webkit-backdrop-filter: blur( 12.5px ) !important;
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.dark-gradient{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.soft-box{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.simple-box{
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.soft-vilot{
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+@media (max-width:768px) {
+    .hidden-sm{
+        display: none;
+    }
+}
+@media (max-width:450px) {
+    .search-sm-res{
+        max-width: 167px;
+        min-width: none;
+    }
+    .circular-text{
+        max-height: 50px;
+        max-width: 50px;
+    }
+    .iphone-view{
+        margin-top: -297px !important;
+    }
+}
+
+@media (max-width:390px) {
+    .iphone-view{
+        margin-top: -190px !important;
+    }
+}
+
+
+.circular-text {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 60px;
+  position: relative;
+  height: 60px;
+  font-weight: bold;
+  color: #333;
+  font-weight:400;
+  text-align: center;
+  cursor: pointer;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+.circular-text span {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 7px;
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+}
+
+.mySwiper{
+    height: 80vh;
+    width: 100%;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    color: rgba(222, 216, 216, 0.381);
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    
+    color: rgba(222, 216, 216, 0.381);
+}
+
+/*  background colors notable  */
+.bg-moor{
+    background-color: #616161;
+}
+.bg-the-blue{
+    background-color: blue;
+}
+.font-1{
+    font-size: 10px;
+}
+.simple-shadow{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.font-2{
+    font-size: 15px;
+}
+
+.animated-label {
+    display: block;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width:450px) {
+    .img-user-phone{
+        width: 35px !important;
+        height: 35px !important;
+    }
+}
+
+
+/* =========================================================== */
+/* product list section css dump */
+
+.custom-btn {
+    border-radius: 25px !important;
+    background-color: black !important ;
+    color: white;
+    min-width: 96px;
+    margin-left: -97px;
+    z-index: 7 !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.box-shd{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+/* Style the dropdown menu */
+.custom-dropdown {
+    position: relative;
+    padding-left: 20px; /* Space for vertical line */
+}
+
+/* Vertical Line */
+.custom-dropdown::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #ccc;
+}
+
+/* Dropdown items */
+.custom-dropdown-item {
+    position: relative;
+    padding-left: 20px; /* Align items properly */
+}
+
+@media (max-width:600px) {
+    .phone-view-product{
+            width: 155px !important;
+            height: 155px !important;
+    }
+}
+
+/*  carousel css only */
+
+
+
+/* about us page  css*/
+.this-content {
+  position: sticky;
+  top: 150px; /* Adjust as needed */
+  z-index: 100;
+}
+
+.img-bwht {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all filter 0.5s ease-in-out;
+}
+
+.img-bwht:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.img-hover-black {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+/* Outer animated soft glow */
+.img-hover-black::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  /* background: conic-gradient(from 0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.05), rgba(0,0,0,0.4)); */
+  background: transparent;
+  border-radius: inherit;
+  filter: blur(12px);
+  opacity: 0.6;
+  z-index: -1;
+  animation: rotateGlow 6s linear infinite;
+}
+
+/* Optional hover scaling (gentle interaction) */
+.img-hover-black:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+
+}
+
+.lookwhat{
+    transition: all 0.3s linear;
+}
+
+.lookwhat:hover {
+    background: rgba( 255, 255, 255, 0.05 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.img-hover-black:hover .img-bwht {
+  transform: scale(0.98); /* Slight zoom in */
+}
+
+/*  underline animation -  */
+
+.underline-expand {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit; /* Keeps original text color */
+}
+
+.underline-expand::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: currentColor; /* Matches text color */
+  transition: width 0.3s ease;
+}
+
+.underline-expand:hover::after {
+  width: 100%;
+}
+
+.text-un-none{
+    text-decoration: none;
+    color: black;
+}
+.very-soft-shadow{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.very-soft-shadow:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
