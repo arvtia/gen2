@@ -178,36 +178,6 @@
           "quantity": 1
         },
         {
-          "id": "1750136688334",
-          "productName": "Quad Play- Wireless CarPlay",
-          "price": "9000",
-          "color": "Black",
-          "discount": 23,
-          "size": "Small",
-          "inStock": "1214",
-          "category": "Wireless car play",
-          "categoryImg": "N/A",
-          "subcategory": "Wireless Car play",
-          "brand": "Quad Lock",
-          "specifications": [
-            "Input: 5V 1A (USB-C)",
-            "Output: 5V 1A (USB-A)",
-            "Power Consumption: 0.75W",
-            "Vehicle Display Resolution: Adaptive"
-          ],
-          "tags": [
-            "Top Sellers"
-          ],
-          "imagesCollection": [
-            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799",
-            "https://cdn.shopify.com/s/files/1/2576/2754/files/2209-277_Car-Play-Adaptor_Tech_Specs_900x1200_2504c623-5a0b-44e6-a22b-fa58b95d152b.png?v=1664512537?auto=format",
-            "https://cdn.sanity.io/images/3azemr64/production/5c2916ffbb2559d2959f0a59068635ada93a9429-1024x768.jpg?auto=format&w=873&h=655&crop=center&fit=crop&q=90",
-            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799"
-          ],
-          "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go.",
-          "quantity": 1
-        },
-        {
           "id": "a167",
           "productName": "120 watt Fast charging",
           "price": 1299,
@@ -242,7 +212,7 @@
           "quantity": 1
         }
       ],
-      "totalPrice": 11198
+      "totalPrice": 2198
     },
     {
       "id": "MTc1MDkyNjE3MTY5MjAuamxmcDc5YnQ5cA==",

@@ -84,6 +84,9 @@ function AppLayout() {
         <Route path="/resetPassword" element={<ResetPassword />} />
         {/* ------------------------------------------------------- */}
 
+
+
+
         <Route path="/category/:id/product/:id" element ={<MainProducts /> } />
         <Route path="/product/:id" element={<MainProducts /> } />
 
