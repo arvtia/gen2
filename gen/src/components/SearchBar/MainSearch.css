@@ -1,0 +1,95 @@
+/* Base Styles */
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.modal-body {
+  height: 30vh;
+  transition: height 0.4s ease-out;
+  overflow: auto;
+}
+
+.modal-body.expanded {
+  height: 70vh;
+}
+
+
+/* Category Card */
+.category-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 1.5rem;
+}
+
+/* Category Title */
+.category-header {
+    margin-bottom: 15px;
+}
+
+.category-title {
+    color: #333; /* Dark Text */
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+/* Product List */
+.product-list {
+    padding-left: 1.5rem;
+}
+
+.product-card {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.product-card .arrow {
+    position: absolute;
+    left: -16px;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+    transform: rotate(45deg);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Product Content */
+.product-content {
+    display: flex;
+    align-items: center;
+}
+
+.product-name {
+    color: #555;
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.product-name:hover {
+    color: #007bff; /* Blue hover effect */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .category-card {
+        padding: 15px;
+    }
+
+    .product-list {
+        padding-left: 1rem;
+    }
+
+    .product-name {
+        font-size: 0.95rem;
+    }
+}
