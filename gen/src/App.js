@@ -24,6 +24,8 @@ import MainProducts from "./pages/products";
 import { getUserId, setUserId } from "./getUserId";
 import { useState } from "react";
 import NavLinksAdmin from "./AdminPanel/components/navLinks/NavLinksAdmin";
+import ForgotPassword from "./components/userPageClient/forgotPassword";
+import ResetPassword from "./components/userPageClient/ResetPassword";
 
 
 function AppLayout() {
@@ -74,9 +76,14 @@ function AppLayout() {
         <Route path="*" element={<ErrorPage />} />
         <Route path="/shop" element={ <ShopNow />} />
         <Route path="/category/:name" element={<CategoryPage />} />
+        {/* user login / register  */}
         <Route path="/user" element = {<UserPanel />} />
         <Route path="/login" element={ <LoginPage />} />
         <Route path="/register" element={ <RegisterNew />} />
+        <Route path="/forgotPassword" element={ <ForgotPassword />} />
+        <Route path="/resetPassword" element={<ResetPassword />} />
+        {/* ------------------------------------------------------- */}
+
         <Route path="/category/:id/product/:id" element ={<MainProducts /> } />
         <Route path="/product/:id" element={<MainProducts /> } />
 

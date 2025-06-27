@@ -10,12 +10,6 @@ const ProductCard = ({ product }) => {
 
   const FinalPrice = product.price - (product.price * product.discount) / 100;
   
-
-//    can i do this ?
-
-    
-  
-
   const handleAdd = () => setQuantity(prev => prev + 1);
   const handleRemove = () => {
     if (quantity > 1) setQuantity(prev => prev - 1);
@@ -50,9 +44,7 @@ const ProductCard = ({ product }) => {
                     <span className="badge rounded-pill bg-danger ms-2 align-self-center" style={{ fontSize: '0.8rem' }}>
                         -{product.discount}% OFF
                     </span>
-                </div>
-
-                        
+                </div>        
 
                 <div className="d-inline-flex align-items-center mb-2 mt-5">
                     <div className="btn-group btn-group-sm me-2" role="group">

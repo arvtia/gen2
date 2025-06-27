@@ -11,6 +11,12 @@
       "email": "arvazanakuzhy@gmail.com",
       "phone": "9909890089",
       "password": "123#Arvaz"
+    },
+    {
+      "id": "e17c",
+      "email": "well@gmail.com",
+      "phone": "9999999999",
+      "password": "123#Salena"
     }
   ],
   "cart": [
@@ -138,114 +144,6 @@
       "id": "MTc1MDkxNjU5Mjk3OTAucmNoMTQ0YmZqN20=",
       "items": [
         {
-          "id": "11",
-          "productId": "324231",
-          "productName": "Turbo Cable",
-          "price": 1499,
-          "color": "Black",
-          "length": "1m",
-          "discount": 12,
-          "inStock": "1231",
-          "stockQuantity": 1,
-          "category": "Data Cables",
-          "categoryImg": "https://bestor.in/cdn/shop/products/charging-cable1-removebg-preview.png",
-          "subcategory": "Fast Charging Cables",
-          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Fast+Charging+Cables",
-          "brand": "QuickCharge",
-          "brandImg": "https://dummyimage.com/100x50/222/fff&text=QuickCharge",
-          "specifications": [
-            "USB-C to USB-A",
-            "Supports 18W Fast Charging",
-            "Durable Braided Cable"
-          ],
-          "tags": [
-            "Top Sellers"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/pink-u-s-b-lightning-cable-m7hxr6vdcxoj573x-m7hxr6vdcxoj573x.png",
-            "https://n4.sdlcdn.com/imgs/e/g/s/OnePlus-Type-C-Cable-Red-SDL235728691-1-bf130.jpg",
-            "https://storage.googleapis.com/pickaboo-prod/media/catalog/product/cache/90e3b9f4120fc209bf60003e3b0e1323/o/n/oneplus-warp-charge-type-c-to-type-c-data-cable-1m3.jpg",
-            "https://th.bing.com/th/id/OIP.J1qYo9Tj_RNL0349w2WHpAHaHa?w=800&h=800&rs=1&pid=ImgDetMain"
-          ],
-          "size": [
-            "Medium"
-          ],
-          "description": "This is a durable and reliable product, made of nylon material and plastic. The ultra dart turbo sonic is a fast adaptive usb charger, which can charge your device up to 6 times faster than a standard charger. This compact design is lightweight and easy to carry around with you when you're on the go.",
-          "quantity": 4
-        },
-        {
-          "id": "1749708463758",
-          "productName": "Nothing Ear",
-          "price": "7998",
-          "color": "black",
-          "discount": "2",
-          "size": [
-            "Small"
-          ],
-          "inStock": "67686",
-          "category": "TWS",
-          "categoryImg": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/30348913/2025/4/28/25f137b8-0adb-44c2-801c-d5052c6a09d31745818182754-BOULT-AUDIO-Octave-TWS-Earbuds-with-60H-PlaytimeZen--ENC-Mic-1.jpg",
-          "subcategory": "Earbuds",
-          "brand": "Nothing",
-          "specifications": [
-            "Earbuds: 30.9 mm x 21.7 mm x 24.3 mm",
-            "Earbuds: 4.8g, Case: 39.6g ",
-            "Water and Dust Resistance",
-            " Pinch controls",
-            "Google Fast Pair ",
-            " in-ear detection",
-            "Microsoft Swift Pair",
-            "Dual Connection",
-            "Clear Voice Technology",
-            "LED charging status",
-            "Low Lag Mode "
-          ],
-          "tags": [
-            "Trending"
-          ],
-          "imagesCollection": [
-            "https://cdn.shopify.com/s/files/1/0586/3270/0077/files/BA_360_ENTEI_030_blackBud_rgb_00_4fdaba7c-5568-4db0-aaa5-5129d524d8bd.png?v=1713169144&width=600&height=600&crop=center",
-            "https://rukminim1.flixcart.com/image/900/900/xif0q/headphone/j/e/y/-original-imahfqhnanzmxsfy.jpeg?q=90",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTLEUyOdEO9XoVuBjOyx_c1zmNKyllKBDhZzz4OEZSGTcKhmDweWBFXo-6C-OawNVad5o&usqp=CAU",
-            "https://www.tmt.my/data/editor/sc-product/4412/nothing_ear_2_black.jpg",
-            "https://cdn.shopifycdn.net/s/files/1/0692/5988/6904/files/ELEV_AZU_BL_050_230703_V001_1008.png?v=1688527646"
-          ],
-          "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3",
-          "stock": "120",
-          "quantity": 2
-        },
-        {
-          "id": "1749731637507",
-          "productName": "Sony WX-11000",
-          "price": "24999",
-          "color": "Black",
-          "discount": "2",
-          "size": "N/A",
-          "inStock": "1231",
-          "category": "TWS",
-          "categoryImg": "",
-          "subcategory": "Earbuds",
-          "brand": "Sony",
-          "specifications": [
-            "Bluetooth version: 5.3",
-            "🛜 Range: 10 m",
-            "Battery life: 22 hr ",
-            "Multiple Connection",
-            " Charging time: 3 hr"
-          ],
-          "tags": [
-            "Smart Pick"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/wireless-earbuds-png-05252024-kc9avyod3gajdgoh.png",
-            "https://shopatsc.com/cdn/shop/files/5_dd2273e2-244f-4e45-9692-96efb36ad23f.jpg?v=1737011353",
-            "https://shopatsc.com/cdn/shop/files/2_2d532606-aa2c-4d5b-8760-df891a023273.jpg?v=1726814733",
-            "https://shopatsc.com/cdn/shop/files/7_6b79916d-1d26-4504-9a49-da9346b3fa76.jpg?v=1737011353"
-          ],
-          "description": "ALL DAY COMFORT: Light and compact to give you all-day comfort and designed for the ideal fit, for an exceptional all-round listening experience",
-          "quantity": 3
-        },
-        {
           "id": "10",
           "productId": "212122",
           "productName": "SoundMax BassLoop",
@@ -277,10 +175,74 @@
             "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
           ],
           "description": "Noise wireless neckbands, like the Noise Flair and Noise Sense, are characterized by features such as long battery life, fast charging, and environmental noise cancellation for calls.",
-          "quantity": 2
+          "quantity": 1
+        },
+        {
+          "id": "1750136688334",
+          "productName": "Quad Play- Wireless CarPlay",
+          "price": "9000",
+          "color": "Black",
+          "discount": 23,
+          "size": "Small",
+          "inStock": "1214",
+          "category": "Wireless car play",
+          "categoryImg": "N/A",
+          "subcategory": "Wireless Car play",
+          "brand": "Quad Lock",
+          "specifications": [
+            "Input: 5V 1A (USB-C)",
+            "Output: 5V 1A (USB-A)",
+            "Power Consumption: 0.75W",
+            "Vehicle Display Resolution: Adaptive"
+          ],
+          "tags": [
+            "Top Sellers"
+          ],
+          "imagesCollection": [
+            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799",
+            "https://cdn.shopify.com/s/files/1/2576/2754/files/2209-277_Car-Play-Adaptor_Tech_Specs_900x1200_2504c623-5a0b-44e6-a22b-fa58b95d152b.png?v=1664512537?auto=format",
+            "https://cdn.sanity.io/images/3azemr64/production/5c2916ffbb2559d2959f0a59068635ada93a9429-1024x768.jpg?auto=format&w=873&h=655&crop=center&fit=crop&q=90",
+            "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799"
+          ],
+          "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go.",
+          "quantity": 1
+        },
+        {
+          "id": "a167",
+          "productName": "120 watt Fast charging",
+          "price": 1299,
+          "color": "White",
+          "discount": 10,
+          "size": "Small",
+          "inStock": 24,
+          "category": "Charger",
+          "categoryImg": "https://m.media-amazon.com/images/I/41sYN0aQWRL._UF1000,1000_QL80_.jpg",
+          "subcategory": "Phone Charger",
+          "brand": "Tejas Communication",
+          "specifications": [
+            "USB Type C",
+            "Supervooc 120W Power Adapter",
+            "Ultra Fast Charger & CABLE",
+            "High Speed",
+            "Fast Charging Speeds",
+            "High-Quality Materials"
+          ],
+          "tags": [
+            "Smart Pick"
+          ],
+          "imagesCollection": [
+            "https://m.media-amazon.com/images/I/41B6VTBsnPL._UF1000,1000_QL80_.jpg",
+            "https://m.media-amazon.com/images/I/51r90bc1SzL.jpg",
+            "https://m.media-amazon.com/images/I/51xGHayVUjL.jpg",
+            "https://m.media-amazon.com/images/I/51LDMFWQPJL.jpg",
+            "https://m.media-amazon.com/images/I/51LDMFWQPJL.jpg",
+            "https://m.media-amazon.com/images/I/51Dh9as6zpL._UF350,350_QL80_.jpg"
+          ],
+          "description": "120W Fast Charing Adaptor & Cable Combo Compatible with OnePlus, Samsung, Realme, Xiaomi, Oppo, Vivo & Other Smartphones, Type C Charger Dash, Warp,",
+          "quantity": 1
         }
       ],
-      "totalPrice": 98787
+      "totalPrice": 11198
     },
     {
       "id": "MTc1MDkyNjE3MTY5MjAuamxmcDc5YnQ5cA==",

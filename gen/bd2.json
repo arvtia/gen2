@@ -471,6 +471,39 @@
       "tags": [],
       "imagesCollection": [],
       "description": ""
+    },
+    {
+      "id": "a167",
+      "productName": "120 watt Fast charging",
+      "price": 1299,
+      "color": "White",
+      "discount": 10,
+      "size": "Small",
+      "inStock": 24,
+      "category": "Charger",
+      "categoryImg": "https://m.media-amazon.com/images/I/41sYN0aQWRL._UF1000,1000_QL80_.jpg",
+      "subcategory": "Phone Charger",
+      "brand": "Tejas Communication",
+      "specifications": [
+        "USB Type C",
+        "Supervooc 120W Power Adapter",
+        "Ultra Fast Charger & CABLE",
+        "High Speed",
+        "Fast Charging Speeds",
+        "High-Quality Materials"
+      ],
+      "tags": [
+        "Smart Pick"
+      ],
+      "imagesCollection": [
+        "https://m.media-amazon.com/images/I/41B6VTBsnPL._UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/51r90bc1SzL.jpg",
+        "https://m.media-amazon.com/images/I/51xGHayVUjL.jpg",
+        "https://m.media-amazon.com/images/I/51LDMFWQPJL.jpg",
+        "https://m.media-amazon.com/images/I/51LDMFWQPJL.jpg",
+        "https://m.media-amazon.com/images/I/51Dh9as6zpL._UF350,350_QL80_.jpg"
+      ],
+      "description": "120W Fast Charing Adaptor & Cable Combo Compatible with OnePlus, Samsung, Realme, Xiaomi, Oppo, Vivo & Other Smartphones, Type C Charger Dash, Warp,"
     }
   ],
   "MainCatgory": [

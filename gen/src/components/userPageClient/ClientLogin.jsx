@@ -93,11 +93,22 @@ const LoginForm = () => {
                         </button>
                     </form>
 
-                    <Link to="/register">
-                            <p className="fs-6 text-center text-info text-underline mt-2">
-                                Don't have an account? Create a new account.
+                    <div className="d-flex justify-content-center">
+                        <Link to="/register" className="ms-2 me-2 text-decoration-none">
+                            <p className="fs-6 text-center text-info  mt-2">
+                                Create a new account.
                             </p>
-                    </Link>
+                        </Link>
+                        <p className="fs-6 text-center text-dark  mt-2">
+                             or
+                        </p>
+                        <Link to={"/forgotPassword"} className="ms-2 me-2 text-decoration-none"> 
+                            <p className="fs-6 text-center text-info  mt-2">
+                                Forgot Passowrd? 😕
+                            </p>
+                        </Link>
+                    </div>
+
                 </div>
             </div>
         </div>
