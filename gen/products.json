@@ -171,7 +171,7 @@
             "Medium"
           ],
           "description": "This is a durable and reliable product, made of nylon material and plastic. The ultra dart turbo sonic is a fast adaptive usb charger, which can charge your device up to 6 times faster than a standard charger. This compact design is lightweight and easy to carry around with you when you're on the go.",
-          "quantity": 1
+          "quantity": 4
         },
         {
           "id": "1749708463758",
@@ -212,10 +212,75 @@
           ],
           "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3",
           "stock": "120",
-          "quantity": 1
+          "quantity": 2
+        },
+        {
+          "id": "1749731637507",
+          "productName": "Sony WX-11000",
+          "price": "24999",
+          "color": "Black",
+          "discount": "2",
+          "size": "N/A",
+          "inStock": "1231",
+          "category": "TWS",
+          "categoryImg": "",
+          "subcategory": "Earbuds",
+          "brand": "Sony",
+          "specifications": [
+            "Bluetooth version: 5.3",
+            "🛜 Range: 10 m",
+            "Battery life: 22 hr ",
+            "Multiple Connection",
+            " Charging time: 3 hr"
+          ],
+          "tags": [
+            "Smart Pick"
+          ],
+          "imagesCollection": [
+            "https://wallpapers.com/images/high/wireless-earbuds-png-05252024-kc9avyod3gajdgoh.png",
+            "https://shopatsc.com/cdn/shop/files/5_dd2273e2-244f-4e45-9692-96efb36ad23f.jpg?v=1737011353",
+            "https://shopatsc.com/cdn/shop/files/2_2d532606-aa2c-4d5b-8760-df891a023273.jpg?v=1726814733",
+            "https://shopatsc.com/cdn/shop/files/7_6b79916d-1d26-4504-9a49-da9346b3fa76.jpg?v=1737011353"
+          ],
+          "description": "ALL DAY COMFORT: Light and compact to give you all-day comfort and designed for the ideal fit, for an exceptional all-round listening experience",
+          "quantity": 3
+        },
+        {
+          "id": "10",
+          "productId": "212122",
+          "productName": "SoundMax BassLoop",
+          "price": 899,
+          "color": "Black",
+          "size": "Standard",
+          "discount": 8,
+          "inStock": "12340",
+          "stockQuantity": 1,
+          "category": "Neckbands",
+          "categoryImg": "https://tinyurl.com/yusm22p3",
+          "subcategory": "Wireless Neckbands",
+          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Wireless+Neckbands",
+          "brand": "SoundMax",
+          "brandImg": "https://dummyimage.com/100x50/222/fff&text=SoundMax",
+          "specifications": [
+            "Bluetooth 5.0",
+            "Noise Isolation",
+            "12-hour battery life"
+          ],
+          "tags": [
+            "top pick",
+            "value"
+          ],
+          "imagesCollection": [
+            "https://wallpapers.com/images/high/wireless-neckband-headphones-black-vj9dnkxkidzjgs9z-vj9dnkxkidzjgs9z.png",
+            "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701705180/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/275521_py92zk.png",
+            "https://blaupunktaudio.in/cdn/shop/files/be100-xtreme-neckband-with-ultra-long-playtime-blue-blaupunkt-india-1.jpg?v=1710497123",
+            "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
+          ],
+          "description": "Noise wireless neckbands, like the Noise Flair and Noise Sense, are characterized by features such as long battery life, fast charging, and environmental noise cancellation for calls.",
+          "quantity": 2
         }
       ],
-      "totalPrice": 9497
+      "totalPrice": 98787
     },
     {
       "id": "MTc1MDkyNjE3MTY5MjAuamxmcDc5YnQ5cA==",

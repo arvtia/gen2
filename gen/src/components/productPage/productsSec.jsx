@@ -82,7 +82,15 @@ const ProductCard = ({ product }) => {
                         </button>
                     </div>
 
-                    <div className="btn rounded bg-dark text-white w-100" onClick={handleAddToCart}>
+                    <div 
+                        // button database-target - sidebar - means cart--
+                        className="btn rounded bg-dark text-white w-100"
+                        onClick={handleAddToCart}
+                        
+                         data-bs-toggle="offcanvas"
+                        data-bs-target="#cartSidebar"
+                        aria-controls="cartSidebar"
+                        >
                         Add to Cart 
                         <span>
                         <i className="bi bi-bag-check ms-2"></i>
