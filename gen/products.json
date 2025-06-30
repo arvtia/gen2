@@ -177,40 +177,6 @@
           "quantity": 1
         },
         {
-          "id": "10",
-          "productId": "212122",
-          "productName": "SoundMax BassLoop",
-          "price": 899,
-          "color": "Black",
-          "size": "Standard",
-          "discount": 8,
-          "inStock": "12340",
-          "stockQuantity": 1,
-          "category": "Neckbands",
-          "categoryImg": "https://tinyurl.com/yusm22p3",
-          "subcategory": "Wireless Neckbands",
-          "subcategoryImg": "https://dummyimage.com/200x200/111/fff&text=Wireless+Neckbands",
-          "brand": "SoundMax",
-          "brandImg": "https://dummyimage.com/100x50/222/fff&text=SoundMax",
-          "specifications": [
-            "Bluetooth 5.0",
-            "Noise Isolation",
-            "12-hour battery life"
-          ],
-          "tags": [
-            "top pick",
-            "value"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/wireless-neckband-headphones-black-vj9dnkxkidzjgs9z-vj9dnkxkidzjgs9z.png",
-            "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701705180/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/275521_py92zk.png",
-            "https://blaupunktaudio.in/cdn/shop/files/be100-xtreme-neckband-with-ultra-long-playtime-blue-blaupunkt-india-1.jpg?v=1710497123",
-            "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
-          ],
-          "description": "Noise wireless neckbands, like the Noise Flair and Noise Sense, are characterized by features such as long battery life, fast charging, and environmental noise cancellation for calls.",
-          "quantity": 1
-        },
-        {
           "id": "1750761466939",
           "productName": "Rockerz",
           "price": 2899,
@@ -312,9 +278,42 @@
           ],
           "description": "This is a durable and reliable product, made of nylon material and plastic. The ultra dart turbo sonic is a fast adaptive usb charger, which can charge your device up to 6 times faster than a standard charger. This compact design is lightweight and easy to carry around with you when you're on the go.",
           "quantity": 1
+        },
+        {
+          "id": "1750763781818",
+          "productName": "Xiaomi Power Bank 10000mAh",
+          "price": 2899,
+          "color": "Black",
+          "discount": 46,
+          "size": "Medium",
+          "inStock": 0,
+          "category": "Power Bank",
+          "categoryImg": "N/A",
+          "subcategory": "Powerbank",
+          "brand": "XioMi",
+          "specifications": [
+            "22.5W Fast Charging",
+            "Durable Steel Casing",
+            "1-Year Warranty ",
+            "PD & QC 3.0 Support",
+            "Smart Power Management ",
+            "USB Type C"
+          ],
+          "tags": [
+            "Smart Pick"
+          ],
+          "imagesCollection": [
+            "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529749.95166999.jpg?thumb=1&f=webp&q=85",
+            "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529772.60346632.jpg?thumb=1&f=webp&q=85",
+            "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529781.88968237.jpg?thumb=1&f=webp&q=85",
+            "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529768.24122877.jpg?thumb=1&f=webp&q=85",
+            "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529785.71166244.jpg?thumb=1&f=webp&q=85"
+          ],
+          "description": "The Xiaomi Power Bank 4i 10000mAh is a sleek, compact, and high-performance portable charger designed for users who need reliable power on the go. With its powerful 10000mAh lithium-ion battery, this power bank can efficiently charge your smartphone, tablet, earbuds, smartwatch, and other USB-powered devices multiple times throughout the day.",
+          "quantity": 1
         }
       ],
-      "totalPrice": 39299
+      "totalPrice": 41299
     },
     {
       "id": "MTc1MDkyNjE3MTY5MjAuamxmcDc5YnQ5cA==",

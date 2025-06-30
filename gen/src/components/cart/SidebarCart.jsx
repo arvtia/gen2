@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import Cart from "./cartData";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 // SidebarCart.js
 
@@ -50,7 +51,7 @@ const SidebarCart = () => {
                     })}
                 </span>
                 </h6>
-                <button className="btn btn-dark w-100 mt-2">Proceed to Checkout</button>
+                <Link to={"/checkout"}><button className="btn btn-dark w-100 mt-2">Proceed to Checkout</button></Link>
             </div>
       </div>
     </div>

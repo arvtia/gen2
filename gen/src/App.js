@@ -26,6 +26,7 @@ import { useState } from "react";
 import NavLinksAdmin from "./AdminPanel/components/navLinks/NavLinksAdmin";
 import ForgotPassword from "./components/userPageClient/forgotPassword";
 import ResetPassword from "./components/userPageClient/ResetPassword";
+import CheckOutPage from "./pages/checkout";
 
 
 function AppLayout() {
@@ -87,7 +88,8 @@ function AppLayout() {
         <Route path="/category/:id/product/:id" element ={<MainProducts /> } />
         <Route path="/product/:id" element={<MainProducts /> } />
 
-    
+        {/* check out Page */}
+        <Route path="/checkout" element ={<CheckOutPage />} />
 
         {/* Admin Routes */}
         <Route path="/admin" element={<AdminHome />}>
@@ -110,7 +112,9 @@ export default function App() {
     const dispatch = useDispatch();
         useEffect(() => {
             dispatch(loadCart());
+            
         }, [dispatch]);
+        
   return (
     <BrowserRouter future={{
         v7_startTransition: true, }} >
