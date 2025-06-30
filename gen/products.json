@@ -311,9 +311,40 @@
           ],
           "description": "The Xiaomi Power Bank 4i 10000mAh is a sleek, compact, and high-performance portable charger designed for users who need reliable power on the go. With its powerful 10000mAh lithium-ion battery, this power bank can efficiently charge your smartphone, tablet, earbuds, smartwatch, and other USB-powered devices multiple times throughout the day.",
           "quantity": 1
+        },
+        {
+          "id": "1749731637507",
+          "productName": "Sony WX-11000",
+          "price": "24999",
+          "color": "Black",
+          "discount": "2",
+          "size": "N/A",
+          "inStock": "1231",
+          "category": "TWS",
+          "categoryImg": "",
+          "subcategory": "Earbuds",
+          "brand": "Sony",
+          "specifications": [
+            "Bluetooth version: 5.3",
+            "🛜 Range: 10 m",
+            "Battery life: 22 hr ",
+            "Multiple Connection",
+            " Charging time: 3 hr"
+          ],
+          "tags": [
+            "Smart Pick"
+          ],
+          "imagesCollection": [
+            "https://wallpapers.com/images/high/wireless-earbuds-png-05252024-kc9avyod3gajdgoh.png",
+            "https://shopatsc.com/cdn/shop/files/5_dd2273e2-244f-4e45-9692-96efb36ad23f.jpg?v=1737011353",
+            "https://shopatsc.com/cdn/shop/files/2_2d532606-aa2c-4d5b-8760-df891a023273.jpg?v=1726814733",
+            "https://shopatsc.com/cdn/shop/files/7_6b79916d-1d26-4504-9a49-da9346b3fa76.jpg?v=1737011353"
+          ],
+          "description": "ALL DAY COMFORT: Light and compact to give you all-day comfort and designed for the ideal fit, for an exceptional all-round listening experience",
+          "quantity": 1
         }
       ],
-      "totalPrice": 41299
+      "totalPrice": 66298
     },
     {
       "id": "MTc1MDkyNjE3MTY5MjAuamxmcDc5YnQ5cA==",
