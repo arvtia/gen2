@@ -47,12 +47,6 @@ const cartSlice = createSlice({
         }
     },
 
-    // name: 'Products',
-    // initialProductState,
-    // reducers:{
-
-    // }
-
 })
 
 export const { addToCart, removeFromCart, setCart, deleteFromCart } = cartSlice.actions

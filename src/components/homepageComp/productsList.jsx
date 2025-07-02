@@ -134,13 +134,17 @@ const ProductSection = () => {
       setCurrentPage((prev) => prev - 1);
     }
   };
+    // repearting products - skipping products which don't have product name and price 
+  const validProducts = currentProducts.filter(
+    (p) => p.productName && p.price
+  );
 
   if (loading) return <p>Loading products...</p>;
 
   return (
     <div className="py-2">
       <div className="row d-flex flex-wrap">
-        {currentProducts.map((item, index) => (
+        {validProducts.map((item, index) => (
           <div
             key={index}
             className="col-6 col-md-3 col-lg-3 col-xl-3 position-relative justify-content-center text-center px-2"
@@ -185,16 +189,7 @@ const ProductSection = () => {
                                  Add to Cart
                         </button>
                     </div>
-                    {/* <div className="align-items-center">
-                        <button className="btn px-2 py-0 bg-body-tertiary soft-box" style={{ borderRadius: '30px' }}>
-                            <p className="font-2 my-auto py-2 px-1"><i className="bi bi-bag"></i></p>
-                        </button>
-                    </div>
-                    <div className="align-items-center">
-                        <button className="btn bg-dark text-white px-2 py-0" style={{ borderRadius: '30px' }}>
-                            <p className="font-2 my-auto py-2 px-1">Buy Now</p>
-                        </button>
-                    </div> */}
+                    {/* can be some btns here hehe */}
                 </div>
               </div>
             </div>

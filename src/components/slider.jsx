@@ -18,7 +18,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import { useState } from "react";
 import axios from "axios";
 import { useEffect } from "react";
-import { data } from "react-router";
+
 
 const Slider =()=> {
 
