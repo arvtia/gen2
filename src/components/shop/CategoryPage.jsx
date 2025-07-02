@@ -196,6 +196,16 @@ const CategoryPage = () => {
           paginatedProducts.map((product) => {
             if (!product.productName || !product.price) return null;
 
+            /*
+            **
+            ***
+            ****
+            prodcut section - controls the visiblility of the products - and cards -
+            ****
+            ***
+            */
+            // This 0- is the products section - in the category section where products are shown according to their category amd other filter properties. 
+
             return (
               <div className="col-sm-6 col-md-4 col-lg-3 mb-3 " id="CATEGORY/PRODUCTS/FILTER" key={product.id}>
                 <div className="p-1 soft-blur">

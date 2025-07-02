@@ -432,7 +432,7 @@
         "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529785.71166244.jpg?thumb=1&f=webp&q=85"
       ],
       "description": "The Xiaomi Power Bank 4i 10000mAh is a sleek, compact, and high-performance portable charger designed for users who need reliable power on the go. With its powerful 10000mAh lithium-ion battery, this power bank can efficiently charge your smartphone, tablet, earbuds, smartwatch, and other USB-powered devices multiple times throughout the day.",
-      "visible": false
+      "visible": true
     },
     {
       "productName": "boAt Party Pal 185  ",

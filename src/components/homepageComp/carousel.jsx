@@ -2,17 +2,25 @@ import { useState, useEffect } from "react";
 import './style.css';
 import { Link } from "react-router-dom";
 
-
 const CarouselLast = () => {
   const [products, setProducts] = useState([]);
   const [visibleCards, setVisibleCards] = useState([0, 1, 2]);
   const [cardsToShow, setCardsToShow] = useState(3); // Default is 3 cards
 
-  // Fetch data
+  // Fetch and filter products with required fields
   useEffect(() => {
     fetch('http://localhost:3002/products')
       .then((res) => res.json())
-      .then((data) => setProducts(data))
+      .then((data) => {
+        const validProducts = data.filter(
+          (p) =>
+            p.productName &&
+            p.price &&
+            Array.isArray(p.imagesCollection) &&
+            p.imagesCollection[0]
+        );
+        setProducts(validProducts);
+      })
       .catch((err) => {
         console.error('Failed to fetch products:', err);
       });
@@ -24,16 +32,12 @@ const CarouselLast = () => {
       const newCardsToShow = window.innerWidth <= 768 ? 1 : 3;
       setCardsToShow(newCardsToShow);
 
-      // Reset visibleCards when screen size changes
-      const newVisible = [];
-      for (let i = 0; i < newCardsToShow; i++) {
-        newVisible.push(i);
-      }
+      const newVisible = Array.from({ length: newCardsToShow }, (_, i) => i);
       setVisibleCards(newVisible);
     };
 
     window.addEventListener("resize", updateVisibleCards);
-    updateVisibleCards(); // Initial check
+    updateVisibleCards();
 
     return () => window.removeEventListener("resize", updateVisibleCards);
   }, []);
@@ -41,15 +45,13 @@ const CarouselLast = () => {
   const handleNext = () => {
     const lastIndex = visibleCards[visibleCards.length - 1];
     if (lastIndex < products.length - 1) {
-      const newVisible = visibleCards.map((i) => i + 1);
-      setVisibleCards(newVisible);
+      setVisibleCards(visibleCards.map((i) => i + 1));
     }
   };
 
   const handlePrev = () => {
     if (visibleCards[0] > 0) {
-      const newVisible = visibleCards.map((i) => i - 1);
-      setVisibleCards(newVisible);
+      setVisibleCards(visibleCards.map((i) => i - 1));
     }
   };
 
@@ -72,17 +74,17 @@ const CarouselLast = () => {
         {visibleCards.slice(0, cardsToShow).map((index) => {
           const product = products[index];
           if (!product) return null;
+
           return (
             <div key={product.id || index} className="product-card card">
               <div className="card-content card-body">
-                
                 <Link to={`product/${product.category}/${product.id}`}>
-                <img
-                  src={product.imagesCollection[0]}
-                  alt={product.productName}
-                  className="product-image img-fluid rounded-3"
-                  style={{ width: "100%", height: "280px", objectFit: "cover" }}
-                />
+                  <img
+                    src={product.imagesCollection[0]}
+                    alt={product.productName}
+                    className="product-image img-fluid rounded-3"
+                    style={{ width: "100%", height: "280px", objectFit: "cover" }}
+                  />
                 </Link>
                 <div className="d-flex justify-content-between mt-2">
                   <h5 className="product-title fw-bold text-start ps-2">{product.productName}</h5>

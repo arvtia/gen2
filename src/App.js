@@ -27,6 +27,7 @@ import NavLinksAdmin from "./AdminPanel/components/navLinks/NavLinksAdmin";
 import ForgotPassword from "./components/userPageClient/forgotPassword";
 import ResetPassword from "./components/userPageClient/ResetPassword";
 import CheckOutPage from "./pages/checkout"; 
+import CategoryTab from "./AdminPanel/components/CategoryDecide/CategoryTab";
 
 
 function AppLayout() {
@@ -97,6 +98,7 @@ function AppLayout() {
             <Route path="users" element={<Users />} />
             <Route path="settings" element={<Settings />} />
             <Route path="NavLinksAdmin" element={<NavLinksAdmin/>} />
+            <Route path="categoryTweek" element={<CategoryTab/>} />
         </Route>
       </Routes>
 
