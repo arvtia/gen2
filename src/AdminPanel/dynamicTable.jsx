@@ -95,10 +95,11 @@ const DynamicProductTable = ({ productList, onEdit, onDelete }) => {
                 <table className="table table-bordered table-striped table-hover">
                     <thead className="thead-dark">
                         <tr>
-                        {columns.map((col) => (
-                            <th key={col.key}>{col.label}</th>
-                        ))}
-                        <th>Actions</th>
+                            {columns.map((col) => (
+                                <th key={col.key}>{col.label}</th>
+                            ))}
+                            <th>Actions</th>
+                            <th>Visibility</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -107,19 +108,26 @@ const DynamicProductTable = ({ productList, onEdit, onDelete }) => {
                                 {columns.map((col) => (
                                 <td key={col.key}>{renderCell(product, col.key)}</td>
                                 ))}
-                                <td className="cupid-case d-flex align-items-center">
-                                <button
-                                    className="btn bg-primary text-white me-2"
-                                    onClick={() => onEdit(product)}
-                                >
-                                    Edit
-                                </button>
-                                <button
-                                    className="btn text-white bg-danger bg-hover-dark"
-                                    onClick={() => onDelete(product.id)}
-                                >
-                                    Delete
-                                </button>
+                                <td className="cupid-case d-flex align-items-center overflow-auto">
+                                    <button
+                                        className="btn bg-primary text-white me-2"
+                                        onClick={() => onEdit(product)}
+                                    >
+                                        Edit
+                                    </button>
+                                    <button
+                                        className="btn text-white bg-danger bg-hover-dark"
+                                        onClick={() => onDelete(product.id)}
+                                    >
+                                        Delete
+                                    </button>
+
+                                </td>
+                                    {/* visibility hide or show products */}
+                                <td className="align-items-center">
+                                    <span className={`badge ${product.visible ? "bg-success" : "bg-secondary"}`}>
+                                        {product.visible ? "Visible" : "Hidden"}
+                                    </span>
                                 </td>
                             </tr>
                         ))}

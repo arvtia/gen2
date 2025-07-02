@@ -55,7 +55,11 @@ export const productFormSchema =
         },
         { key: "description", label: "Description", type: "text" },
         { key: "specifications", label: "Specifications", type: "array" },
-        { key: "imagesCollection", label: "Image Collection", type: "array" }   
+        { key: "imagesCollection", label: "Image Collection", type: "array" }, 
+        // i have added a new input for make products visible or hidden
+       { key: "visible", label: "Visible on Storefront", type: "checkbox" }
+       
+        // { key: "visible", label: "Visible on Storefront", type: "checkbox" } 
     ];
 
 
@@ -68,7 +72,9 @@ const DynamicProductForm = ({
   submitLabel = "Submit"
 }) => {
   const handleChange = (key, value, type) => {
-    const newValue = type === "number" ? parseFloat(value) : value;
+    let newValue = value;
+    if (type === "number") newValue = parseFloat(value);
+    if (key === "visible") newValue = value === "true" || value === true;
     setProduct({ ...product, [key]: newValue });
   };
 
@@ -140,6 +146,25 @@ const DynamicProductForm = ({
                   </option>
                 ))}
               </select>
+            </div>
+          );
+        }
+
+        if (type === "checkbox") {
+          return (
+            <div className="form-check mb-3" key={key}>
+              <input
+                type="checkbox"
+                className="form-check-input"
+                id={key}
+                checked={value}
+                onChange={(e) =>
+                  setProduct({ ...product, [key]: e.target.checked })
+                }
+              />
+              <label className="form-check-label" htmlFor={key}>
+                {label}
+              </label>
             </div>
           );
         }

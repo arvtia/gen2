@@ -28,7 +28,9 @@ const AdminProductList = () => {
         specifications: [],
         tags: [],
         imagesCollection: [],
-        description: ""
+        description: "",
+        visible: true
+        
     };
 
     const [selectedProduct, setSelectedProduct] = useState(null);

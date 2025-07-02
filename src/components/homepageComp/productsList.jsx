@@ -136,13 +136,13 @@ const ProductSection = () => {
   };
     // repearting products - skipping products which don't have product name and price 
   const validProducts = currentProducts.filter(
-    (p) => p.productName && p.price
-  );
+  (p) => p.productName && p.price && p.visible === true
+);
 
   if (loading) return <p>Loading products...</p>;
 
   return (
-    <div className="py-2">
+    <div className="py-2" id="PRODUCTS_LIST_CARD_HOMEPAGE">
       <div className="row d-flex flex-wrap">
         {validProducts.map((item, index) => (
           <div

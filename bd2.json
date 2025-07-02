@@ -30,7 +30,8 @@
         "https://blaupunktaudio.in/cdn/shop/files/be100-xtreme-neckband-with-ultra-long-playtime-blue-blaupunkt-india-1.jpg?v=1710497123",
         "https://nandilathgmart.com/wp-content/uploads/2025/01/boAt-Rockerz-109.jpg"
       ],
-      "description": "Noise wireless neckbands, like the Noise Flair and Noise Sense, are characterized by features such as long battery life, fast charging, and environmental noise cancellation for calls."
+      "description": "Noise wireless neckbands, like the Noise Flair and Noise Sense, are characterized by features such as long battery life, fast charging, and environmental noise cancellation for calls.",
+      "visible": true
     },
     {
       "id": "11",
@@ -65,7 +66,8 @@
       "size": [
         "Medium"
       ],
-      "description": "This is a durable and reliable product, made of nylon material and plastic. The ultra dart turbo sonic is a fast adaptive usb charger, which can charge your device up to 6 times faster than a standard charger. This compact design is lightweight and easy to carry around with you when you're on the go."
+      "description": "This is a durable and reliable product, made of nylon material and plastic. The ultra dart turbo sonic is a fast adaptive usb charger, which can charge your device up to 6 times faster than a standard charger. This compact design is lightweight and easy to carry around with you when you're on the go.",
+      "visible": true
     },
     {
       "id": "1749708463758",
@@ -105,7 +107,8 @@
         "https://cdn.shopifycdn.net/s/files/1/0692/5988/6904/files/ELEV_AZU_BL_050_230703_V001_1008.png?v=1688527646"
       ],
       "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3",
-      "stock": "120"
+      "stock": "120",
+      "visible": true
     },
     {
       "id": "1749731637507",
@@ -135,7 +138,8 @@
         "https://shopatsc.com/cdn/shop/files/2_2d532606-aa2c-4d5b-8760-df891a023273.jpg?v=1726814733",
         "https://shopatsc.com/cdn/shop/files/7_6b79916d-1d26-4504-9a49-da9346b3fa76.jpg?v=1737011353"
       ],
-      "description": "ALL DAY COMFORT: Light and compact to give you all-day comfort and designed for the ideal fit, for an exceptional all-round listening experience"
+      "description": "ALL DAY COMFORT: Light and compact to give you all-day comfort and designed for the ideal fit, for an exceptional all-round listening experience",
+      "visible": true
     },
     {
       "id": "1749793222373",
@@ -169,7 +173,8 @@
         "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQOosESe-PrUhXcKmlZRKIf7N3alZVVhaxrN9bj5gTpc55sYgJtkVAc06ymX17W39y40MmTxvxEJFUeyTSBbzgu98aJmrzz9z8SO1j9wpDgx6vgXwA4dnmq2A",
         "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQeBz-24ocDxuxOc1amR_6lwuKNVYsZSdBJ204Yb1huvuiTEctHEre1Z6tYkqiW8RLI8_VPVj64s3rrKXAIxGw3PSenSYa68R3n7KC6ke_Godc6OdH9oIRcsA"
       ],
-      "description": " Power-packed 10000mAh - Lithium Polymer 10000mAh capacity allows you to efficiently charge your devices multiple times. Suitable for Smartphones, tablets, Earbuds, and other electronic devices. The charger wirelessly charges your phone while the practical foldable stand props up your phone for easy viewing."
+      "description": " Power-packed 10000mAh - Lithium Polymer 10000mAh capacity allows you to efficiently charge your devices multiple times. Suitable for Smartphones, tablets, Earbuds, and other electronic devices. The charger wirelessly charges your phone while the practical foldable stand props up your phone for easy viewing.",
+      "visible": true
     },
     {
       "id": "1749810970438",
@@ -201,7 +206,8 @@
         "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-home-theater-soundbar-.0.1.jpg?v=1743490814",
         "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-home-theater-soundbar-.0.2.jpg?v=1743490814"
       ],
-      "description": "Surround Soundbar with Rear Satellites I 300W RMS with 20.32cm Subwoofer I HDMI (ARC) I Optical I BT I AUX I USB I Remote Control"
+      "description": "Surround Soundbar with Rear Satellites I 300W RMS with 20.32cm Subwoofer I HDMI (ARC) I Optical I BT I AUX I USB I Remote Control",
+      "visible": true
     },
     {
       "id": "1749811961183",
@@ -232,7 +238,8 @@
         "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oZ9cBSe4L._SL1500_.jpg",
         "https://m.media-amazon.com/images/W/MEDIAX_1215821-T2/images/I/71oc8tB6S3L._SX569_.jpg"
       ],
-      "description": "800WATT RMS POWERFUL JBL PRO SOUND: Create an instant musical connection with 800 powerful watts of high-performance JBL Original Pro Sound from Partybox 710. The Dual 2.75\" tweeters and 8\" woofers paired with its tuned bass reflex port deliver detailed audio perfection for music so loud you can literally feel the beat."
+      "description": "800WATT RMS POWERFUL JBL PRO SOUND: Create an instant musical connection with 800 powerful watts of high-performance JBL Original Pro Sound from Partybox 710. The Dual 2.75\" tweeters and 8\" woofers paired with its tuned bass reflex port deliver detailed audio perfection for music so loud you can literally feel the beat.",
+      "visible": true
     },
     {
       "id": "1750066498917",
@@ -261,7 +268,8 @@
         "https://m.media-amazon.com/images/I/713YkUbSECL._SL1500_.jpg",
         "https://m.media-amazon.com/images/I/71m2G1HzQmL._SL1500_.jpg"
       ],
-      "description": "Carlinkit 5.0 Wireless CarPlay Adapter seamlessly integrates with both Wireless CarPlay and Wireless Android Auto, eliminating the need for physical cables and enhancing user convenience. Note: it does not support video streaming apps like YouTube, Netflix, or Disney+. Not for Tesla and BMW."
+      "description": "Carlinkit 5.0 Wireless CarPlay Adapter seamlessly integrates with both Wireless CarPlay and Wireless Android Auto, eliminating the need for physical cables and enhancing user convenience. Note: it does not support video streaming apps like YouTube, Netflix, or Disney+. Not for Tesla and BMW.",
+      "visible": true
     },
     {
       "id": "1750136688334",
@@ -290,7 +298,8 @@
         "https://cdn.sanity.io/images/3azemr64/production/5c2916ffbb2559d2959f0a59068635ada93a9429-1024x768.jpg?auto=format&w=873&h=655&crop=center&fit=crop&q=90",
         "https://www.quadlockcase.com/cdn/shop/products/Car-Play-Adaptor-Thumbnail_2209-277.png?v=1664830799"
       ],
-      "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go."
+      "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go.",
+      "visible": true
     },
     {
       "id": "1750671993299",
@@ -320,7 +329,8 @@
         "https://www.gonoise.com/cdn/shop/files/4_d488454f-9a9e-46c1-950e-48753739e845.webp?v=1722313476",
         "https://www.gonoise.com/cdn/shop/files/5_18683ded-7530-46d8-9105-b2d3195251fe.webp?v=1722313476"
       ],
-      "description": "Noise earbuds, offered by the brand Noise, are a line of wireless earphones known for their variety of features and competitive pricing. They typically offer features like Bluetooth connectivity, long battery life (ranging from 20 to 120 hours depending on the model)"
+      "description": "Noise earbuds, offered by the brand Noise, are a line of wireless earphones known for their variety of features and competitive pricing. They typically offer features like Bluetooth connectivity, long battery life (ranging from 20 to 120 hours depending on the model)",
+      "visible": true
     },
     {
       "id": "1750675938843",
@@ -353,7 +363,8 @@
         "https://www.gonoise.com/cdn/shop/files/Artboard_12_Am5.webp?v=1737633813",
         "https://www.gonoise.com/cdn/shop/files/Artboard_9_Am5.webp?v=1737633813"
       ],
-      "description": "Noise cancelling headphones are designed to reduce or eliminate unwanted background noise, allowing users to focus on their audio content. They achieve this through two main methods: active noise cancellation (ANC) and passive noise isolation. ANC headphones use microphones to detect ambient noise and generate an opposing sound wave to cancel it out, while passive noise isolation relies on physical barriers like padded earcups to block out sound"
+      "description": "Noise cancelling headphones are designed to reduce or eliminate unwanted background noise, allowing users to focus on their audio content. They achieve this through two main methods: active noise cancellation (ANC) and passive noise isolation. ANC headphones use microphones to detect ambient noise and generate an opposing sound wave to cancel it out, while passive noise isolation relies on physical barriers like padded earcups to block out sound",
+      "visible": true
     },
     {
       "id": "1750761466939",
@@ -387,7 +398,8 @@
         "https://www.bbassets.com/media/uploads/p/l/40338184-5_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg",
         "https://www.bbassets.com/media/uploads/p/l/40338184-7_1-boat-active-noise-cancellation-upto-30db-boat-spatial-audio-ai-enx-technology-40-hours-playtime-hall-switch-magnetic-power-onoff-dual-pairing-asap-charge-10-min-charge-10-hours-playback-13mm-drivers.jpg"
       ],
-      "description": "boAt neckbands are wireless earphones designed for comfort and high-quality audio, often featuring Bluetooth connectivity, long battery life, and water resistance. They are designed to be worn around the neck, providing a secure and convenient fit for users. "
+      "description": "boAt neckbands are wireless earphones designed for comfort and high-quality audio, often featuring Bluetooth connectivity, long battery life, and water resistance. They are designed to be worn around the neck, providing a secure and convenient fit for users. ",
+      "visible": true
     },
     {
       "id": "1750763781818",
@@ -419,7 +431,8 @@
         "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529768.24122877.jpg?thumb=1&f=webp&q=85",
         "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1622529785.71166244.jpg?thumb=1&f=webp&q=85"
       ],
-      "description": "The Xiaomi Power Bank 4i 10000mAh is a sleek, compact, and high-performance portable charger designed for users who need reliable power on the go. With its powerful 10000mAh lithium-ion battery, this power bank can efficiently charge your smartphone, tablet, earbuds, smartwatch, and other USB-powered devices multiple times throughout the day."
+      "description": "The Xiaomi Power Bank 4i 10000mAh is a sleek, compact, and high-performance portable charger designed for users who need reliable power on the go. With its powerful 10000mAh lithium-ion battery, this power bank can efficiently charge your smartphone, tablet, earbuds, smartwatch, and other USB-powered devices multiple times throughout the day.",
+      "visible": false
     },
     {
       "productName": "boAt Party Pal 185  ",
@@ -452,7 +465,8 @@
         "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/PartyPal185_4_2250x.jpg?v=1698906196"
       ],
       "description": "boAt speakers are known for their portable, wireless design and are available in various models tailored for different needs, from party settings to everyday use. They often feature Bluetooth connectivity, long battery life, and water resistance, with some models also offering features like TWS (True Wireless Stereo) for enhanced sound and multiple EQ modes. ",
-      "id": "1750768723059"
+      "id": "1750768723059",
+      "visible": true
     },
     {
       "id": "8d9d",
@@ -469,7 +483,8 @@
       "specifications": [],
       "tags": [],
       "imagesCollection": [],
-      "description": ""
+      "description": "",
+      "visible": false
     },
     {
       "id": "a167",
@@ -502,7 +517,8 @@
         "https://m.media-amazon.com/images/I/51LDMFWQPJL.jpg",
         "https://m.media-amazon.com/images/I/51Dh9as6zpL._UF350,350_QL80_.jpg"
       ],
-      "description": "120W Fast Charing Adaptor & Cable Combo Compatible with OnePlus, Samsung, Realme, Xiaomi, Oppo, Vivo & Other Smartphones, Type C Charger Dash, Warp,"
+      "description": "120W Fast Charing Adaptor & Cable Combo Compatible with OnePlus, Samsung, Realme, Xiaomi, Oppo, Vivo & Other Smartphones, Type C Charger Dash, Warp,",
+      "visible": true
     }
   ],
   "MainCatgory": [
