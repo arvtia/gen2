@@ -422,37 +422,6 @@
       ],
       "description": "120W Fast Charing Adaptor & Cable Combo Compatible with OnePlus, Samsung, Realme, Xiaomi, Oppo, Vivo & Other Smartphones, Type C Charger Dash, Warp,",
       "visible": true
-    },
-    {
-      "id": "a5b9",
-      "productName": "Product_testing",
-      "price": 1999,
-      "color": "black",
-      "discount": 9,
-      "size": "Ergonomic",
-      "inStock": 33,
-      "category": "TWS",
-      "categoryImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG5GH5qHSyUUa9vMPLhoVpgCaXdjP2TWtk1w&s",
-      "subcategory": "Wireless Earphones",
-      "brand": "tussi na jao",
-      "specifications": [
-        "1 image",
-        "2 image",
-        "3 image",
-        "4 image"
-      ],
-      "tags": [
-        "Trending"
-      ],
-      "imagesCollection": [
-        "tws005.jpg",
-        "tws006.jpg",
-        "tws007.jpg",
-        "tws008.jpg",
-        "tws009.jpg"
-      ],
-      "description": "this is just for testing the availabiliy of the image - if got catched or not- ",
-      "visible": true
     }
   ],
   "MainCatgory": [
