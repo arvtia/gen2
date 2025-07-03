@@ -1,12 +1,21 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addSliderImage, deleteSliderImage, fetchImagesSlider, updateSliderImage } from "../../ReduxAdmin/sliderSlice";
+import {
+  addSliderImage,
+  deleteSliderImage,
+  fetchImagesSlider,
+  updateSliderImage,
+} from "../../ReduxAdmin/sliderSlice";
+import "./style.css";
 
 function SliderHome() {
   const dispatch = useDispatch();
   const slides = useSelector((state) => state.sliderImage.items);
-  const error = useSelector((state) => state.sliderImage.error); // Error from Redux state
+  const error = useSelector((state) => state.sliderImage.error);
+
   const [inputImg, setInputImg] = useState("");
+  const [editingItem, setEditingItem] = useState(null);
+  const [editedFile, setEditedFile] = useState(null);
 
   useEffect(() => {
     dispatch(fetchImagesSlider());
@@ -14,9 +23,8 @@ function SliderHome() {
 
   const handleAddImage = (e) => {
     e.preventDefault();
-    if (inputImg.trim()) {
+    if (inputImg) {
       dispatch(addSliderImage({ img: inputImg }));
-      setInputImg("");
     }
   };
 
@@ -25,81 +33,143 @@ function SliderHome() {
   };
 
   const handleEdit = (item) => {
-    const newImg = prompt("New image URL:", item.img);
-    if (newImg) {
-      dispatch(updateSliderImage({ ...item, img: newImg }));
+    setEditingItem(item); // just store the item, actual update happens in modal submit
+  };
+
+  const handleSubmitEdit = () => {
+    if (editingItem && editedFile) {
+      dispatch(
+        updateSliderImage({
+          ...editingItem,
+          img: editedFile.name, // Assuming backend uses file name from public/assets/slider
+        })
+      );
+      setEditingItem(null);
+      setEditedFile(null);
     }
   };
 
   return (
-    <div className="container py-3">
-      {error && <p className="text-danger">Error: {error}</p>} {/* Display error message */}
-      <div className="py-2">
-        <div className="col-12 col-md-6 col-lg-4 col-xl-4 me-auto">
-          <form onSubmit={handleAddImage}>
-            <label htmlFor="imagenext" className="label">
-              Paste the Link of the image you wanna add:
-            </label>
+    <div className="container-fluid mx-auto py-3">
+      {error && <p className="text-danger">Error: {error}</p>}
+
+      <div className="py-2 px-2 px-lg-4">
+        <div className="col-12 col-md-6 col-lg-4 col-xl-4 ms-auto">
+          <form onSubmit={handleAddImage} className="d-flex">
             <input
-              type="text"
-              className="form-control"
+              type="file"
+              className="form-control very-soft-shadow"
               id="imagenext"
-              value={inputImg}
-              onChange={(e) => setInputImg(e.target.value)}
+              onChange={(e) => {
+                const file = e.target.files[0];
+                if (file) setInputImg(file.name);
+              }}
             />
-            <button className="btn btn-outline-dark mt-2" type="submit">
+            <button className="btn very-soft-shadow ms-2" type="submit">
               Submit
             </button>
           </form>
         </div>
       </div>
 
-      <div className="table-responsive mt-4">
+      <div className="py-3">
         {slides.length > 0 ? (
-          <table className="table table-bordered table-hover text-center align-middle">
-            <thead className="table-dark">
-              <tr>
-                <th>No</th>
-                <th>Image</th>
-                <th>Actions</th>
-              </tr>
-            </thead>
-            <tbody>
-              {slides.map((item, index) => (
-                <tr key={item.id}>
-                  <td>{index + 1}</td>
-                  <td>
-                    <img
-                      src={item.img}
-                      alt={`slide-${index}`}
-                      className="img-thumbnail"
-                      style={{ maxHeight: "100px" }}
-                    />
-                  </td>
-                  <td>
-                    <div className="d-flex justify-content-center gap-2">
-                      <button
-                        className="btn  btn-outline-dark"
-                        onClick={() => handleEdit(item)}
-                      >
-                        <i className="bi bi-pencil-square"></i>
-                      </button>
-                      <button
-                        className="btn  btn--outline-danger"
-                        onClick={() => handleDelete(item.id)}
-                      >
-                        <i className="bi bi-eraser"></i>
-                      </button>
-                    </div>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <div className="d-flex flex-wrap gap-3 justify-content-center">
+            {slides.map((item, index) => (
+              <div
+                className="position-relative border rounded shadow-sm overflow-auto very-soft-shadow"
+                style={{ width: "180px", height: "180px" }}
+                key={index}
+              >
+                <div
+                  className="position-absolute top-0 end-0 p-1 d-flex gap-1"
+                  style={{ zIndex: 1 }}
+                >
+                  <button
+                    className="btn btn-sm soft-blur text-white"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                    onClick={() => handleEdit(item)}
+                  >
+                    <i className="bi bi-pencil"></i>
+                  </button>
+                  <button
+                    className="btn btn-sm soft-blur text-white"
+                    onClick={() => handleDelete(item.id)}
+                  >
+                    <i className="bi bi-trash"></i>
+                  </button>
+                </div>
+
+                <img
+                  src={`/assests/slider/${item.img}`}
+                  alt={`Image ${index}`}
+                  className="w-100 h-100 object-fit-cover"
+                />
+              </div>
+            ))}
+          </div>
         ) : (
-          <p className="text-center">No slides to display.</p>
+          <div>
+            <p>no images in the slider</p>
+          </div>
         )}
       </div>
+
+      {/* Modal structure preserved as requested */}
+      <>
+        <div
+          className="modal fade soft-blur"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex={-1}
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                />
+              </div>
+
+              <div className="modal-footer">
+                <input
+                  type="file"
+                  className="form-control very-soft-shadow"
+                  onChange={(e) => {
+                    const file = e.target.files[0];
+                    if (file) {
+                      setEditedFile(file);
+                    }
+                  }}
+                />
+                <button
+                  type="button"
+                  className="btn very-soft-shadow"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button
+                  type="button"
+                  className="btn very-soft-shadow"
+                  data-bs-dismiss="modal"
+                  onClick={handleSubmitEdit}
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </>
     </div>
   );
 }

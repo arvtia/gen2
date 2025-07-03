@@ -18,8 +18,7 @@ const Users = () =>{
 
 const Settings =() =>{
     return(
-        <div className="py-5 mt-5">
-            <p className="text-center fw-bold"> Slider Images</p>
+        <div className="py-5 mt-3">
             <SliderHome />
         </div>
     )

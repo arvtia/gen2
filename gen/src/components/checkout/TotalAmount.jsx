@@ -54,7 +54,7 @@ function TotalAmount() {
                             <span title="Total - GST">Subtotal</span>
                         </td>
                         <td className="text-end fw-semibold">
-                            ₹{Subtotal}
+                            ₹{Subtotal.toFixed(2)}
                         </td>
                     </tr>
                 </tbody>

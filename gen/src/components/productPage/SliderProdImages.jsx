@@ -20,7 +20,7 @@ const ProductImageSlider = ({ images }) => {
       {/* Main image with Bootstrap icon controls */}
       <div style={{ position: "relative", textAlign: "center", marginBottom: "1rem" }}>
         <img
-          src={images[currentIndex]}
+          src={`/assests/images/${images[currentIndex]}`}
           alt={`Slide ${currentIndex}`}
           style={{
             width: "100%",
@@ -49,7 +49,7 @@ const ProductImageSlider = ({ images }) => {
         {images.map((imgUrl, index) => (
           <img
             key={index}
-            src={imgUrl}
+            src={`/assests/images/${imgUrl}`}
             alt={`Thumbnail ${index}`}
             onClick={() => handleThumbnailClick(index)}
             style={{

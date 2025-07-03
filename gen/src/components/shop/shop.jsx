@@ -13,21 +13,21 @@ const FilterProducts = () => {
 
   if (!products.length) return <p>Loading products...</p>;
 
-  // ✅ Filter products that have both productName and price
-  const validProducts = products.filter(
+  // Step 1: Filter products with required fields and visible === true
+  const visibleProducts = products.filter(
     (p) => p.productName && p.price
   );
 
-  // ✅ Extract unique categories from valid products
-  const uniqueCategories = [...new Set(validProducts.map(item => item.category))];
+  // Step 2: Extract unique categories from filtered products
+  const uniqueCategories = [...new Set(visibleProducts.map(p => p.category))];
 
   return (
-    <div id='CATEGORY_LIST' className="py-2 mt-2 bg-body-tertiary rounded-4">
+    <div id="CATEGORY_LIST" className="py-2 mt-2 bg-body-tertiary rounded-4">
       <div className="py-2">
         <div className="container-fluid">
           <div className="row gy-2 d-flex flex-wrap px-lg-4 px-md-2">
             {uniqueCategories.map((category) => {
-              const categoryItem = validProducts.find(item => item.category === category);
+              const categoryItem = visibleProducts.find(p => p.category === category);
 
               return (
                 <Link

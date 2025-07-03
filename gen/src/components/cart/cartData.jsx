@@ -26,7 +26,7 @@ const Cart = () => {
             {cartItems.map(item => (
                 <div key={item.id} className="d-flex align-items-center gap-3 cart-body-bg pb-2 rounded px-2">
                     <img
-                        src={item.imagesCollection[0]}
+                        src={`/assests/images/${item.imagesCollection[0]}`}
                         alt={item.product_name}
                         width={60}
                         height={60}

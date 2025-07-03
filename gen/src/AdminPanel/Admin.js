@@ -41,6 +41,11 @@ const AdminHome = () => {
                   Navbar Links
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/admin/categoryTweek">
+                  Category
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

@@ -26,7 +26,9 @@ import { useState } from "react";
 import NavLinksAdmin from "./AdminPanel/components/navLinks/NavLinksAdmin";
 import ForgotPassword from "./components/userPageClient/forgotPassword";
 import ResetPassword from "./components/userPageClient/ResetPassword";
-import CheckOutPage from "./pages/checkout";
+import CheckOutPage from "./pages/checkout"; 
+import CategoryTab from "./AdminPanel/components/CategoryDecide/CategoryTab";
+import Testing from "./pages/TestinComp";
 
 
 function AppLayout() {
@@ -69,36 +71,40 @@ function AppLayout() {
       )}
 
      {/* Main Routing Section */}
-      <Routes>
-        {/* Client Routes */}
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/contactus" element={<ContactUs />} />
-        <Route path="*" element={<ErrorPage />} />
-        <Route path="/shop" element={ <ShopNow />} />
-        <Route path="/category/:name" element={<CategoryPage />} />
-        {/* user login / register  */}
-        <Route path="/user" element = {<UserPanel />} />
-        <Route path="/login" element={ <LoginPage />} />
-        <Route path="/register" element={ <RegisterNew />} />
-        <Route path="/forgotPassword" element={ <ForgotPassword />} />
-        <Route path="/resetPassword" element={<ResetPassword />} />
-        {/* ------------------------------------------------------- */}
+        <Routes>
+            {/* Client Routes */}
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/contactus" element={<ContactUs />} />
+            <Route path="*" element={<ErrorPage />} />
+            <Route path="/shop" element={ <ShopNow />} />
+            <Route path="/category/:name" element={<CategoryPage />} />
+            {/* user login / register  */}
+            <Route path="/user" element = {<UserPanel />} />
+            <Route path="/login" element={ <LoginPage />} />
+            <Route path="/register" element={ <RegisterNew />} />
+            <Route path="/forgotPassword" element={ <ForgotPassword />} />
+            <Route path="/resetPassword" element={<ResetPassword />} />
+            {/* ------------------------------------------------------- */}
 
-        <Route path="/category/:id/product/:id" element ={<MainProducts /> } />
-        <Route path="/product/:id" element={<MainProducts /> } />
+            <Route path="/category/:id/product/:id" element ={<MainProducts /> } />
+            <Route path="/product/:id" element={<MainProducts /> } />
 
-        {/* check out Page */}
-        <Route path="/checkout" element ={<CheckOutPage />} />
+            {/* check out Page */}
+            <Route path="/checkout" element ={<CheckOutPage />} />
 
-        {/* Admin Routes */}
-        <Route path="/admin" element={<AdminHome />}>
-            <Route path="products" element={<AdminProductList />} />
-            <Route path="users" element={<Users />} />
-            <Route path="settings" element={<Settings />} />
-            <Route path="NavLinksAdmin" element={<NavLinksAdmin/>} />
-        </Route>
-      </Routes>
+            {/* Admin Routes */}
+            <Route path="/admin" element={<AdminHome />}>
+                <Route path="products" element={<AdminProductList />} />
+                <Route path="users" element={<Users />} />
+                <Route path="settings" element={<Settings />} />
+                <Route path="NavLinksAdmin" element={<NavLinksAdmin/>} />
+                <Route path="categoryTweek" element={<CategoryTab/>} />
+            </Route>
+
+            {/* Testing Routes for components */}
+            <Route path="/Testing" element={<Testing/>} />
+        </Routes>
 
       {!isAdminRoute && <Footer />}
       {isAdminRoute && <AdminFooter />}
