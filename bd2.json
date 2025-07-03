@@ -422,6 +422,37 @@
       ],
       "description": "120W Fast Charing Adaptor & Cable Combo Compatible with OnePlus, Samsung, Realme, Xiaomi, Oppo, Vivo & Other Smartphones, Type C Charger Dash, Warp,",
       "visible": true
+    },
+    {
+      "id": "83fd",
+      "productName": "Rockerz 110",
+      "price": 1999,
+      "color": "Black",
+      "discount": 34,
+      "size": "Medium",
+      "inStock": 44,
+      "category": "Neckbands",
+      "categoryImg": "N/A",
+      "subcategory": "Wireless Earphones",
+      "brand": "Boat",
+      "specifications": [
+        "40 hours Playtime",
+        "Dual Device Pairing",
+        "ENx Technology",
+        "boAt Signature Sound",
+        "ASAP Charge"
+      ],
+      "tags": [
+        "Trending"
+      ],
+      "imagesCollection": [
+        "BOATN006.jpg",
+        "BOATN003.jpg",
+        "BOATN004.jpg",
+        "BOATN005.jpg"
+      ],
+      "description": "40 hours Playtime: Stay engrossed in non-stop music with boAt Rockerz 110 Neckband Earphones. The vast playback of about 40 hours is all you need to tick off your watchlist and disconnect from your surroundings.",
+      "visible": true
     }
   ],
   "MainCatgory": [
@@ -680,40 +711,56 @@
   ],
   "sliderImage": [
     {
-      "id": "1",
-      "img": "https://tinyurl.com/3jpj2n6k"
+      "id": "703b",
+      "img": "SLIDER-0001.jpg"
     },
     {
-      "id": "5",
-      "img": "https://tinyurl.com/3jpj2n6k"
+      "id": "97ca",
+      "img": "SLIDER-0001.jpg"
     },
     {
-      "id": "6",
-      "img": "https://tinyurl.com/3jpj2n6k"
+      "id": "2e0e",
+      "img": "SLIDER-0001.jpg"
     },
     {
-      "id": "d613",
-      "img": "https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "id": "ee50",
+      "img": "SLIDER-0001.jpg"
     },
     {
-      "id": "e1bb",
-      "img": "https://tinyurl.com/3jpj2n6k"
+      "id": "e73e",
+      "img": "SLIDER-0001.jpg"
     },
     {
-      "id": "8622",
-      "img": "https://tinyurl.com/3jpj2n6k"
+      "id": "d009",
+      "img": "SLIDER-0001.jpg"
     },
     {
-      "id": "41ff",
-      "img": "https://tinyurl.com/3jpj2n6k"
+      "id": "0853",
+      "img": "SLIDER-0001.jpg"
     },
     {
-      "id": "8134",
-      "img": "https://tinyurl.com/3jpj2n6k"
+      "id": "7b94",
+      "img": "SLIDER-0001.jpg"
     },
     {
-      "id": "2244",
-      "img": "https://tinyurl.com/3jpj2n6k"
+      "id": "654b",
+      "img": "SLIDER-0001.jpg"
+    },
+    {
+      "id": "67dd",
+      "img": "SLIDER-0001.jpg"
+    },
+    {
+      "id": "e25b",
+      "img": "well001.jpg"
+    },
+    {
+      "id": "f3f9",
+      "img": "well001.jpg"
+    },
+    {
+      "id": "7d48",
+      "img": "well001.jpg"
     }
   ],
   "productShema": [

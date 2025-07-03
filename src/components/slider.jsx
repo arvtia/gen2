@@ -46,7 +46,7 @@ const Slider =()=> {
         {/* <SwiperSlide><img src="https://tinyurl.com/3jpj2n6k" alt="image" className="img-fluid" style={{objectFit:"cover", height:"80vh", width:"100%"}} /></SwiperSlide> */}
         {
             picture.map((item, index)=>(
-                <SwiperSlide><img src={item.img} key={index} alt="image" className="img-fluid" style={{objectFit:"cover", height:"80vh", width:"100%"}} /></SwiperSlide>
+                <SwiperSlide><img src={`/assests/slider/${item.img}`} key={index} alt="image" className="img-fluid" style={{objectFit:"cover", height:"80vh", width:"100%"}} /></SwiperSlide>
             ))
         }
       </Swiper>

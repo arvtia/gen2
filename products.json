@@ -150,38 +150,6 @@
       "id": "MTc1MDkxNjU5Mjk3OTAucmNoMTQ0YmZqN20=",
       "items": [
         {
-          "id": "a5b9",
-          "productName": "Product_testing",
-          "price": 1999,
-          "color": "black",
-          "discount": 9,
-          "size": "Ergonomic",
-          "inStock": 33,
-          "category": "TWS",
-          "categoryImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG5GH5qHSyUUa9vMPLhoVpgCaXdjP2TWtk1w&s",
-          "subcategory": "Wireless Earphones",
-          "brand": "tussi na jao",
-          "specifications": [
-            "1 image",
-            "2 image",
-            "3 image",
-            "4 image"
-          ],
-          "tags": [
-            "Trending"
-          ],
-          "imagesCollection": [
-            "tws005.jpg",
-            "tws006.jpg",
-            "tws007.jpg",
-            "tws008.jpg",
-            "tws009.jpg"
-          ],
-          "description": "this is just for testing the availabiliy of the image - if got catched or not- ",
-          "visible": true,
-          "quantity": 1
-        },
-        {
           "id": "1749708463758",
           "productName": "Nothing Ear",
           "price": "7998",
@@ -256,9 +224,72 @@
           "description": "120W Fast Charing Adaptor & Cable Combo Compatible with OnePlus, Samsung, Realme, Xiaomi, Oppo, Vivo & Other Smartphones, Type C Charger Dash, Warp,",
           "visible": true,
           "quantity": 1
+        },
+        {
+          "id": "1749811961183",
+          "productName": "JBL Party Speaker 800W",
+          "price": "23999",
+          "color": "Black",
+          "discount": "11",
+          "size": "Large",
+          "inStock": "11",
+          "category": "Speakers",
+          "categoryImg": "https://wallpapers.com/images/high/party-speaker-with-led-lights-png-05242024-v2jkvss0f8fkq9tu.png",
+          "subcategory": "Party Speaker",
+          "brand": "JBL",
+          "specifications": [
+            "800 Watt",
+            "Dynamic custom light show",
+            "JBL Partybox App",
+            "IPX4 PlashProof"
+          ],
+          "tags": [
+            "Trending"
+          ],
+          "imagesCollection": [
+            "PARTY-JBL-001.png",
+            "PARTY-JBL-002.png",
+            "PARTY-JBL-003.png",
+            "PARTY-JBL-004.png",
+            "PARTY-JBL-005.png"
+          ],
+          "description": "800WATT RMS POWERFUL JBL PRO SOUND: Create an instant musical connection with 800 powerful watts of high-performance JBL Original Pro Sound from Partybox 710. The Dual 2.75\" tweeters and 8\" woofers paired with its tuned bass reflex port deliver detailed audio perfection for music so loud you can literally feel the beat.",
+          "visible": true,
+          "quantity": 3
+        },
+        {
+          "id": "1750066498917",
+          "productName": "Wireless CarPlay",
+          "price": "4999",
+          "color": "Black",
+          "discount": "9",
+          "size": "Small",
+          "inStock": "1233",
+          "category": "Wireless car play",
+          "categoryImg": "https://omo-oss-image.thefastimg.com/portal-saas/new2022022514431712318/cms/image/e1e91d2e-5b81-4e9d-98df-2d9e2618abdf.png",
+          "subcategory": "Wireless CarPlay",
+          "brand": "CarlinkKit",
+          "specifications": [
+            "iPhone & Android Compatibility",
+            "iPhones (iOS 10+ from 6th generation)",
+            "Effortless Installation and Mobility",
+            "Supports Over-The-Air (OTA) "
+          ],
+          "tags": [
+            "Trending"
+          ],
+          "imagesCollection": [
+            "WIRELESS-CAR-PLAY-001.png",
+            "WIRELESS-CAR-PLAY-002.jpg",
+            "WIRELESS-CAR-PLAY-003.jpg",
+            "WIRELESS-CAR-PLAY-004.jpg"
+          ],
+          "description": "Carlinkit 5.0 Wireless CarPlay Adapter seamlessly integrates with both Wireless CarPlay and Wireless Android Auto, eliminating the need for physical cables and enhancing user convenience. Note: it does not support video streaming apps like YouTube, Netflix, or Disney+. Not for Tesla and BMW.",
+          "visible": true,
+          "quantity": 1
         }
       ],
-      "totalPrice": 11296
+      "totalPrice": 86293
     },
     {
       "id": "MTc1MDkyNjE3MTY5MjAuamxmcDc5YnQ5cA==",
