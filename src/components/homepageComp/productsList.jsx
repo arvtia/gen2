@@ -151,7 +151,7 @@ const ProductSection = () => {
           >
             <Link to={`product/${item.id}`}>
             <img
-                src={item.imagesCollection[0]}
+                src={`/assests/images/${item.imagesCollection[0]}`}
                 alt="Product"
                 className="img-fluid bg-secondary phone-view-product rounded"
                 style={{

@@ -80,7 +80,7 @@ const CarouselLast = () => {
               <div className="card-content card-body">
                 <Link to={`product/${product.category}/${product.id}`}>
                   <img
-                    src={product.imagesCollection[0]}
+                    src={`/assests/images/${product.imagesCollection[0]}`}
                     alt={product.productName}
                     className="product-image img-fluid rounded-3"
                     style={{ width: "100%", height: "280px", objectFit: "cover" }}

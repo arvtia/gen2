@@ -213,7 +213,7 @@ const CategoryPage = () => {
                     <Link to={`product/${product.id}`}>
                       <div className="p-1 position-relative soft-blur">
                         <img
-                          src={product.imagesCollection?.[0]}
+                          src={`/assests/images/${product.imagesCollection?.[0]}`}
                           alt={product.productName}
                           className="card-img-top img-fluid rounded-3"
                           style={{ height: "auto", objectFit: "cover" }}

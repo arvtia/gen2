@@ -260,36 +260,6 @@
       "visible": true
     },
     {
-      "id": "1750136688334",
-      "productName": "Quad Play- Wireless CarPlay",
-      "price": "9000",
-      "color": "Black",
-      "discount": 23,
-      "size": "Small",
-      "inStock": "1214",
-      "category": "Wireless car play",
-      "categoryImg": "N/A",
-      "subcategory": "Wireless Car play",
-      "brand": "Quad Lock",
-      "specifications": [
-        "Input: 5V 1A (USB-C)",
-        "Output: 5V 1A (USB-A)",
-        "Power Consumption: 0.75W",
-        "Vehicle Display Resolution: Adaptive"
-      ],
-      "tags": [
-        "Top Sellers"
-      ],
-      "imagesCollection": [
-        "WIRELESS-CAR-PLAY-001.png",
-        "WIRELESS-CAR-PLAY-002.jpg",
-        "WIRELESS-CAR-PLAY-003.jpg",
-        "WIRELESS-CAR-PLAY-004.jpg"
-      ],
-      "description": "Connect to Apple CarPlay cord-free with the Quad Lock® Wireless CarPlay Adaptor.\n\nEASY TO SET UP\nSimply plug the Wireless CarPlay Adaptor into your car’s USB port using the supplied cable, pair your iPhone, and go.",
-      "visible": true
-    },
-    {
       "id": "1750671993299",
       "productName": "Buds VS102 Elite",
       "price": "1299",
@@ -419,24 +389,6 @@
       "description": "boAt speakers are known for their portable, wireless design and are available in various models tailored for different needs, from party settings to everyday use. They often feature Bluetooth connectivity, long battery life, and water resistance, with some models also offering features like TWS (True Wireless Stereo) for enhanced sound and multiple EQ modes. ",
       "id": "1750768723059",
       "visible": true
-    },
-    {
-      "id": "8d9d",
-      "productName": "",
-      "price": 0,
-      "color": "",
-      "discount": 0,
-      "size": "",
-      "inStock": "",
-      "category": "Charger",
-      "categoryImg": "https://png.pngtree.com/png-clipart/20250105/original/pngtree-white-mobile-charger-isolate-on-transparent-background-png-image_18741677.png",
-      "subcategory": "",
-      "brand": "",
-      "specifications": [],
-      "tags": [],
-      "imagesCollection": [],
-      "description": "",
-      "visible": false
     },
     {
       "id": "a167",

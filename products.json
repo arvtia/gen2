@@ -150,6 +150,38 @@
       "id": "MTc1MDkxNjU5Mjk3OTAucmNoMTQ0YmZqN20=",
       "items": [
         {
+          "id": "a5b9",
+          "productName": "Product_testing",
+          "price": 1999,
+          "color": "black",
+          "discount": 9,
+          "size": "Ergonomic",
+          "inStock": 33,
+          "category": "TWS",
+          "categoryImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG5GH5qHSyUUa9vMPLhoVpgCaXdjP2TWtk1w&s",
+          "subcategory": "Wireless Earphones",
+          "brand": "tussi na jao",
+          "specifications": [
+            "1 image",
+            "2 image",
+            "3 image",
+            "4 image"
+          ],
+          "tags": [
+            "Trending"
+          ],
+          "imagesCollection": [
+            "tws005.jpg",
+            "tws006.jpg",
+            "tws007.jpg",
+            "tws008.jpg",
+            "tws009.jpg"
+          ],
+          "description": "this is just for testing the availabiliy of the image - if got catched or not- ",
+          "visible": true,
+          "quantity": 1
+        },
+        {
           "id": "1749708463758",
           "productName": "Nothing Ear",
           "price": "7998",
@@ -180,11 +212,11 @@
             "Trending"
           ],
           "imagesCollection": [
-            "https://cdn.shopify.com/s/files/1/0586/3270/0077/files/BA_360_ENTEI_030_blackBud_rgb_00_4fdaba7c-5568-4db0-aaa5-5129d524d8bd.png?v=1713169144&width=600&height=600&crop=center",
-            "https://rukminim1.flixcart.com/image/900/900/xif0q/headphone/j/e/y/-original-imahfqhnanzmxsfy.jpeg?q=90",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTLEUyOdEO9XoVuBjOyx_c1zmNKyllKBDhZzz4OEZSGTcKhmDweWBFXo-6C-OawNVad5o&usqp=CAU",
-            "https://www.tmt.my/data/editor/sc-product/4412/nothing_ear_2_black.jpg",
-            "https://cdn.shopifycdn.net/s/files/1/0692/5988/6904/files/ELEV_AZU_BL_050_230703_V001_1008.png?v=1688527646"
+            "EN001.webp",
+            "EN002.webp",
+            "EN003.jpg",
+            "EN004.webp",
+            "EN005.jpg"
           ],
           "description": "The Nothing Ear (a) TWS earbuds feature an 11mm dynamic driver, IP54 water and dust resistance, pinch controls, and in-ear detection. They offer Active Noise Cancellation, a 40.5-hour total battery life with fast charging, and connect via Bluetooth 5.3",
           "stock": "120",
@@ -192,7 +224,7 @@
           "quantity": 1
         }
       ],
-      "totalPrice": 7998
+      "totalPrice": 9997
     },
     {
       "id": "MTc1MDkyNjE3MTY5MjAuamxmcDc5YnQ5cA==",

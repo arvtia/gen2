@@ -72,7 +72,7 @@ const renderCell = (product, key) => {
                 img ? (
                 <img
                     key={i}
-                    src={img}
+                    src={`/assests/images/${img}`}
                     alt={`product-img-${i}`}
                     style={{ width: "50px", height: "50px", objectFit: "cover" }}
                 />
