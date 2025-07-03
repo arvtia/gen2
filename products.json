@@ -190,43 +190,9 @@
           "stock": "120",
           "visible": true,
           "quantity": 1
-        },
-        {
-          "id": "1749810970438",
-          "productName": "Sony WXXX-1 Soundbar",
-          "price": "10003",
-          "color": "black",
-          "discount": "0",
-          "size": "Ergonimic",
-          "inStock": "1240",
-          "category": "Sound Bars",
-          "categoryImg": "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-300w-home-theater-soundbar-blaupunkt-india-1.png?v=1710496861",
-          "subcategory": "Sound Bar",
-          "brand": "Sony",
-          "specifications": [
-            "5.1 Surround Sound",
-            "8Inch Big Woofer",
-            "RMS 300W",
-            "360 Degree Sourround Sound",
-            "Remote Control",
-            "HDMI ARC"
-          ],
-          "tags": [
-            "Zen-Gy Verified"
-          ],
-          "imagesCollection": [
-            "https://wallpapers.com/images/high/sound-bar-equipment-png-yrv-h347q37bc6yy9gpe.png",
-            "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-300w-home-theater-soundbar-blaupunkt-india-4.jpg?v=1743490814",
-            "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-300w-home-theater-soundbar-blaupunkt-india-6.jpg?v=1743490814",
-            "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-home-theater-soundbar-.0.1.jpg?v=1743490814",
-            "https://blaupunktaudio.in/cdn/shop/files/sbw550-5-1-home-theater-soundbar-.0.2.jpg?v=1743490814"
-          ],
-          "description": "Surround Soundbar with Rear Satellites I 300W RMS with 20.32cm Subwoofer I HDMI (ARC) I Optical I BT I AUX I USB I Remote Control",
-          "visible": true,
-          "quantity": 1
         }
       ],
-      "totalPrice": 18001
+      "totalPrice": 7998
     },
     {
       "id": "MTc1MDkyNjE3MTY5MjAuamxmcDc5YnQ5cA==",

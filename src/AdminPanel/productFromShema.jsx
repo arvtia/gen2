@@ -55,7 +55,7 @@ export const productFormSchema =
         },
         { key: "description", label: "Description", type: "text" },
         { key: "specifications", label: "Specifications", type: "array" },
-        { key: "imagesCollection", label: "Image Collection", type: "array" }, 
+        { key: "imagesCollection", label: "Image Collection", type: "file", multiple: true }, 
         // i have added a new input for make products visible or hidden
        { key: "visible", label: "Visible on Storefront", type: "checkbox" }
        
@@ -188,6 +188,65 @@ const DynamicProductForm = ({
           );
         }
 
+        // type file - 
+        if (type === "file") {
+  return (
+    <div className="mb-3" key={key}>
+      <label className="form-label">{label}</label>
+      
+      <input
+        type="file"
+        className="form-control"
+        accept="image/*"
+        multiple={field.multiple}
+        onChange={(e) => {
+          const files = Array.from(e.target.files);
+          const fileNames = files.map(file => file.name);
+          setProduct({ ...product, [key]: fileNames });
+        }}
+      />
+
+        {/* Preview and remove selected images */}
+            <div className="d-flex flex-wrap mt-3 gap-2">
+                {Array.isArray(product[key]) &&
+                product[key].map((fileName, index) => (
+                    <div key={index} style={{ position: "relative" }}>
+                    <img
+                        src={`/assests/images/${fileName}`} // or "/assets/images/" based on folder
+                        alt={`preview-${fileName}`}
+                        style={{
+                        width:100,
+                        height: 100,
+                        objectFit: "cover",
+                        border: "1px solid #ccc",
+                        borderRadius: 4,
+                        }}
+                    />
+                    <button
+                        type="button"
+                        className="btn btn-sm btn-danger"
+                        style={{
+                        position: "absolute",
+                        top: -5,
+                        right: -5,
+                        padding: "2px 6px",
+                        borderRadius: "50%",
+                        fontSize: 12
+                        }}
+                        onClick={() => {
+                        const updated = product[key].filter((_, i) => i !== index);
+                        setProduct({ ...product, [key]: updated });
+                        }}
+                    >
+                        ×
+                    </button>
+                    </div>
+                ))}
+            </div>
+        </div>
+        );
+        }
+
         return (
           <div className="mb-3" key={key}>
             <label className="form-label">{label}</label>
@@ -199,7 +258,8 @@ const DynamicProductForm = ({
             />
           </div>
         );
-      })}
+      })
+      }
 
       <button type="submit" className="btn btn-success w-100">
         {submitLabel}
