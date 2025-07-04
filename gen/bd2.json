@@ -711,14 +711,6 @@
   ],
   "sliderImage": [
     {
-      "id": "703b",
-      "img": "SLIDER-0001.jpg"
-    },
-    {
-      "id": "97ca",
-      "img": "SLIDER-0001.jpg"
-    },
-    {
       "id": "2e0e",
       "img": "SLIDER-0001.jpg"
     },
@@ -756,10 +748,6 @@
     },
     {
       "id": "f3f9",
-      "img": "well001.jpg"
-    },
-    {
-      "id": "7d48",
       "img": "well001.jpg"
     }
   ],

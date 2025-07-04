@@ -17,7 +17,7 @@
     "express": "^5.1.0",
     "framer-motion": "^12.16.0",
     "gsap": "^3.13.0",
-    "mongoose": "^8.15.1",
+    "mongoose": "^8.16.1",
     "path-browserify": "^1.0.1",
     "react": "^19.1.0",
     "react-bits": "^1.0.5",
@@ -63,5 +63,13 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvtia/gen2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arvtia/gen2/issues"
+  },
+  "homepage": "https://github.com/arvtia/gen2#readme"
 }

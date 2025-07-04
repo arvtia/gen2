@@ -11,7 +11,6 @@ const Users = () =>{
                     <EditReview />
                 </div>
             </div>
-            
         </div>
     )
 }

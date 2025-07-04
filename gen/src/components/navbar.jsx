@@ -9,7 +9,7 @@ import MainSearch from "./SearchBar/MainSearch";
 const imgUser = [
   {
     id: 1,
-    img: "https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg",
+    icon: "bi bi-person-fill",
   },
 ];
 
@@ -122,16 +122,7 @@ const Navbar = () => {
                   onClick={handleUserNavigation}
                   className="btn p-0 border-0 bg-transparent"
                 >
-                  <img
-                    src={item.img}
-                    alt="user"
-                    className="img-fluid img-user-phone"
-                    style={{
-                      height: "40px",
-                      width: "40px",
-                      borderRadius: "50%",
-                    }}
-                  />
+                  <i className={item.icon}> </i>
                 </button>
               ))}
             </div>
